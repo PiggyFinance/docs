@@ -1,0 +1,43 @@
+{
+    "title": "区块链技术开发团队",
+    "description": "用于管理区块链技术开发团队、技术的分享与交流",
+    "language": "zh-hans",
+    "styles":{
+        "website": "styles/website.css"
+    },
+    "plugins": [
+        "-lunr",
+        "-search",
+        "atoc",
+        "katex",
+        "anchors",
+        "splitter",
+        "search-pro",
+        "pageview-count",
+        "tbfed-pagefooter",
+        "back-to-top-button",
+        "expandable-chapters"
+    ],
+    "pluginsConfig": {
+        "atoc": {
+            "addClass": true,
+            "className": "atoc"
+        },
+        "tbfed-pagefooter": {
+          "copyright":"&copy 区块链技术开发团队",
+          "modify_label": "修订时间：",
+          "modify_format": "YYYY-MM-DD HH:mm:ss"
+        },
+        "sharing": {
+            "weibo": false,
+            "facebook": false,
+            "twitter": false,
+            "google": false,
+            "instapaper": false,
+            "vk": false,
+            "all": [
+                "facebook", "google", "twitter", "weibo", "instapaper"
+            ]
+        }
+    }
+}
