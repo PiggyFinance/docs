@@ -1,36 +1,34 @@
-name: deploy
-on:
-  push:
-    branches:
-      - master
+name: Gitbook Build & Deploy to gh-pages
+
+on: [workflow_dispatch]
+
 jobs:
-  deploy-web:
-    name: Deploy Web Site
+  build-and-publish:
+    name: Build and Deploy Gitbook
     runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        node-version: [10.9.0]
     steps:
-      - uses: actions/checkout@v2
-        with:
-          ref: master
-          token: ${{secrets.GITHUB_TOKEN }}
-      - name: npm install gitbook
+      - name: Checkout the source code from GitHub
+        uses: actions/checkout@v2
+        with: { fetch-depth: 0 }
+      - name: Install Node.js (version 10, not higher!)
+        uses: actions/setup-node@v2
+        with: { node-version: '10' }
+      - name: Install Gitbook CLI client (gitbook-cli)
+        run: npm install -g gitbook-cli
+      - name: Install Gitbook plugins (git install)
+        run: gitbook install
+      - name: Build the book to the `_book` folder (git build)
+        run: gitbook build . --log=debug --debug
+      - name: Checkout the `gh-pages` branch into the `_gh-pages` folder
+        run: git worktree add ./_gh-pages gh-pages
+      - name: Copy the compiled book files to `_gh-pages`
+        run: cp -R ./_book/* ./_gh-pages
+      - name: Commit and push the changed book files in the `gh-pages` branch
         run: |
-          npm install -g gitbook-cli
-      - name: Install
-        uses: borales/actions-yarn@master
-        with:
-          cmd: install
-      - name: Build
-        uses: borales/actions-yarn@master
-        with:
-          cmd: build
-      - name: Deploy
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          personal_token: ${{ secrets.GITHUB_TOKEN  }}
-          publish_dir: ./_book
-          user_name: jerrylib
-          user_email: js_bin@163.com
-          publish_branch: gh-pages
+          cd _gh-pages
+          git add .
+          git status
+          git config --local user.name "github-actions-gitbook-bot"
+          git config --local user.email "github-actions-gitbook-bot@users.noreply.github.com"
+          git commit -m "Book web site deployment"
+          git push
