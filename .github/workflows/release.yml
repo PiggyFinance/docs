@@ -15,6 +15,9 @@ jobs:
         with:
           ref: master
           token: ${{secrets.GITHUB_TOKEN }}
+      - name: npm install gitbook
+        run: |
+          npm install -g gitbook-cli
       - name: Install
         uses: borales/actions-yarn@master
         with:
