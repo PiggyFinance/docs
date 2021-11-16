@@ -16,6 +16,7 @@
     "gitbook-plugin-back-to-top-button": "^0.1.4",
     "gitbook-plugin-expandable-chapters": "^0.2.0",
     "gitbook-plugin-katex": "^1.1.4",
+    "gitbook-plugin-livereload": "^0.0.1",
     "gitbook-plugin-pageview-count": "^1.0.1",
     "gitbook-plugin-search-pro": "^2.0.2",
     "gitbook-plugin-splitter": "0.0.8",

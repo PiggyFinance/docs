@@ -1182,6 +1182,11 @@ gitbook-plugin-katex@^1.1.4:
   dependencies:
     katex "0.7.1"
 
+gitbook-plugin-livereload@^0.0.1:
+  version "0.0.1"
+  resolved "https://registry.yarnpkg.com/gitbook-plugin-livereload/-/gitbook-plugin-livereload-0.0.1.tgz#c0c9dc6f55f82fc24f97532b25287abbbb416b96"
+  integrity sha1-wMncb1X4L8JPl1MrJSh6u7tBa5Y=
+
 gitbook-plugin-pageview-count@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/gitbook-plugin-pageview-count/-/gitbook-plugin-pageview-count-1.0.1.tgz#dfc5b4bb9290f503005f28559d0711425d6f94c1"
