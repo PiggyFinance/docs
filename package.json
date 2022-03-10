@@ -23,6 +23,6 @@
     "gitbook-plugin-tbfed-pagefooter": "0.0.1"
   },
   "devDependencies": {
-    "gitbook-cli": "^2.3.2"
+    "gitbook-cli": "2.1.2"
   }
 }
