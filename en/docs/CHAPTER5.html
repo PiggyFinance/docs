@@ -1,0 +1,833 @@
+
+<!DOCTYPE HTML>
+<html lang="en" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>How-to use BOC (User Guide) · BOC technology development team</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-atoc/atoc.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-katex/katex.min.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-anchors/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-splitter/splitter.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-search-pro/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-pageview-count/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-tbfed-pagefooter/footer.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-back-to-top-button/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-expandable-chapters/expandable-chapters.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="CHAPTER5.html" />
+    
+    
+    <link rel="prev" href="CHAPTER4.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="CHAPTER1.html">
+            
+                <a href="CHAPTER1.html">
+            
+                    
+                    WHAT IS BOC
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="CHAPTER2.html">
+            
+                <a href="CHAPTER2.html">
+            
+                    
+                    Protocol Design
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="CHAPTER2.html">
+            
+                <a href="CHAPTER2.html#strategy-development-flowchart-策略开发流程">
+            
+                    
+                    Strategy Development Flowchart 策略开发流程
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2" data-path="CHAPTER2.html">
+            
+                <a href="CHAPTER2.html#fund-redistribution---the-calculation-and-processing">
+            
+                    
+                    Fund Redistribution - the calculation and processing
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3" data-path="CHAPTER2.html">
+            
+                <a href="CHAPTER2.html#qa-问题求解">
+            
+                    
+                    Q&A 问题求解：
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="CHAPTER3.html">
+            
+                <a href="CHAPTER3.html">
+            
+                    
+                    Selection criteria for implemented Blockchains (Eth, polygon, BnB chain)
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1" data-path="CHAPTER3.html">
+            
+                <a href="CHAPTER3.html#incorporated-protocols-and-specific-yield-generating-pools">
+            
+                    
+                    Incorporated protocols and specific yield generating pools
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2" data-path="CHAPTER3.html">
+            
+                <a href="CHAPTER3.html#incorporated-stablecoins">
+            
+                    
+                    Incorporated Stablecoins
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.2.1" data-path="CHAPTER3.html">
+            
+                <a href="CHAPTER3.html#dai">
+            
+                    
+                    DAI
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2.2" data-path="CHAPTER3.html">
+            
+                <a href="CHAPTER3.html#usdc">
+            
+                    
+                    USDC
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2.3" data-path="CHAPTER3.html">
+            
+                <a href="CHAPTER3.html#usdt">
+            
+                    
+                    USDT
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2.4" data-path="CHAPTER3.html">
+            
+                <a href="CHAPTER3.html#busd">
+            
+                    
+                    BUSD
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2.5" data-path="CHAPTER3.html">
+            
+                <a href="CHAPTER3.html#usdp">
+            
+                    
+                    USDP
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2.6" data-path="CHAPTER3.html">
+            
+                <a href="CHAPTER3.html#tusd">
+            
+                    
+                    TUSD
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2.7" data-path="CHAPTER3.html">
+            
+                <a href="CHAPTER3.html#lusd">
+            
+                    
+                    LUSD
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="CHAPTER4.html">
+            
+                <a href="CHAPTER4.html">
+            
+                    
+                    Future Development
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.1" data-path="CHAPTER4.html">
+            
+                <a href="CHAPTER4.html#dao-development">
+            
+                    
+                    DAO Development
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.2" data-path="CHAPTER4.html">
+            
+                <a href="CHAPTER4.html#audit">
+            
+                    
+                    Audit
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.3" data-path="CHAPTER4.html">
+            
+                <a href="CHAPTER4.html#bug-bounty-program">
+            
+                    
+                    Bug Bounty program
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.6" data-path="CHAPTER5.html">
+            
+                <a href="CHAPTER5.html">
+            
+                    
+                    How-to use BOC (User Guide)
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.6.1" data-path="CHAPTER5.html">
+            
+                <a href="CHAPTER5.html#version-15-main-process-flow-diagram">
+            
+                    
+                    Version 1.5 main process flow diagram:
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.2" data-path="CHAPTER5.html">
+            
+                <a href="CHAPTER5.html#wallet-and-the-connection-with-boc">
+            
+                    
+                    Wallet and the Connection with BOC
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.3" data-path="CHAPTER5.html">
+            
+                <a href="CHAPTER5.html#parameters-setup-blockchain-networks-and-blockchain-bridges">
+            
+                    
+                    Parameters Setup (Blockchain Networks and Blockchain Bridges)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.4" data-path="CHAPTER5.html">
+            
+                <a href="CHAPTER5.html#deposit-and-withdrawal-overview">
+            
+                    
+                    Deposit and Withdrawal Overview
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.5" data-path="CHAPTER5.html">
+            
+                <a href="CHAPTER5.html#how-to-understand-your-investment-earning">
+            
+                    
+                    How to understand your investment earning
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.6" data-path="CHAPTER5.html">
+            
+                <a href="CHAPTER5.html#understand-dashboard-apy-calculation">
+            
+                    
+                    Understand dashboard: APY calculation
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" data-path="CHAPTER6.html">
+            
+                <a href="CHAPTER6.html">
+            
+                    
+                    Governance
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8" data-path="CHAPTER7.html">
+            
+                <a href="CHAPTER7.html">
+            
+                    
+                    Security & Risk
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.8.1" data-path="CHAPTER7.html">
+            
+                <a href="CHAPTER7.html#yield-dilution-risk">
+            
+                    
+                    Yield Dilution Risk
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.2" data-path="CHAPTER7.html">
+            
+                <a href="CHAPTER7.html#smart-contract-risk">
+            
+                    
+                    Smart Contract Risk
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.3" data-path="CHAPTER7.html">
+            
+                <a href="CHAPTER7.html#market-risk">
+            
+                    
+                    Market Risk
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9" data-path="CHAPTER8.html">
+            
+                <a href="CHAPTER8.html">
+            
+                    
+                    FAQ
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10" data-path="CHAPTER9.html">
+            
+                <a href="CHAPTER9.html">
+            
+                    
+                    Glossary
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.10.1" data-path="CHAPTER9.html">
+            
+                <a href="CHAPTER9.html#amm">
+            
+                    
+                    AMM
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.11" data-path="CHAPTER10.html">
+            
+                <a href="CHAPTER10.html">
+            
+                    
+                    Reference Material
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >How-to use BOC (User Guide)</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="how-to-use-boc-user-guide"><a name="how-to-use-boc-user-guide" class="plugin-anchor" href="#how-to-use-boc-user-guide"><i class="fa fa-link" aria-hidden="true"></i></a>How-to use BOC (User Guide)</h1>
+<p>The following diagram serves as a basic understanding of how BOC works and how users can interact with BOC.</p>
+<h2 id="version-15-main-process-flow-diagram"><a name="version-15-main-process-flow-diagram" class="plugin-anchor" href="#version-15-main-process-flow-diagram"><i class="fa fa-link" aria-hidden="true"></i></a>Version 1.5 main process flow diagram:</h2>
+<p><img src="https://lh4.googleusercontent.com/dsCE5gXdjR_TSKb81VS11YAeMAMezkqKjPC2NQ8XF-kQdZZB0TJ1JWPUs6WiiZViyYYT_AE-zT_PVt6i5uY0fgltCerZQfd1yNxOJvwV3hmNeYTCNtq-dGNSVyr_hgo4EVHPYfdd" alt=""></p>
+<p>Note:</p>
+<ul>
+<li>User Deposit and Withdrawal amount are USD estimated value, without SharePrice concept.</li>
+<li>Default 0.025% withdrawal fee will be collected.</li>
+<li>Strategy Withdrawal amount will be send to Harvester for combined sales into USDT, and deposit into vault.</li>
+<li>Strategy value are estimated in the unit of USD.</li>
+<li>Actual Strategy APY are required to include gas fee value.</li>
+<li>USDi increase in vault is triggered by rebase.</li>
+<li>Profit sharing receiving time are revised to rebase().</li>
+</ul>
+<h2 id="wallet-and-the-connection-with-boc"><a name="wallet-and-the-connection-with-boc" class="plugin-anchor" href="#wallet-and-the-connection-with-boc"><i class="fa fa-link" aria-hidden="true"></i></a>Wallet and the Connection with BOC</h2>
+<p>A wallet allows users to interact and perform investment transactions with BOC.  The first step for user to connect a wallet is to enter the &#x201C;CONNECT WALLET&#x201D; button as seen on the front page of the BOC website.</p>
+<p><img src="https://lh4.googleusercontent.com/jRu4Khc-F53bnQbucpgKYRfpCKRKliz70T0ALiZBRQuBZbnQWllLI_WKTfj14e0fjfC5AcQ2HMnuRcHE4WH-nMaHYjuzWgnWMSD2zQQSLK6XvhUbFritZXqYOp3nkxbxSwgPRZ-8" alt=""></p>
+<p>Users can connect a wallet using the Metamask Browser extension, or via WalletConnect.  User can also acquire corresponding USD-pegged crypto assets in the following ways:</p>
+<ul>
+<li>Minting USD-pegged crypto assets by depositing USD into the underlying Blockchain and receiving USD-pegged crypto assets in return. For instance the example of FUSD on Fantom.</li>
+<li>Using BlockBank Application to exchange supported USD stable coin assets, stable coin exchange uses 1Inch and Paraswap aggregators to reduce slippage.</li>
+<li>Purchasing stable coins on the decentralized exchanges directly: Paraswap &amp; 1inch</li>
+</ul>
+<p>Once the wallet are connected, the crypto asset values should automatically displayed as a connected wallet where LP can now begin to start the parameters setup as well as the yield farming process.</p>
+<p><img src="https://lh4.googleusercontent.com/YRLNx9K3EQE1GdDwOJ2QrOxSwrT9XbbXzSYFa24irGYR5wL5xGQwo_hux_YqSqrKCIvSpLvFPUkcDZB0dAAWfg0346YmyQEiYcpnR0_50EGuZjYBN5CD0lScuBzYpxOmjrKEkBgB" alt=""></p>
+<h2 id="parameters-setup-blockchain-networks-and-blockchain-bridges"><a name="parameters-setup-blockchain-networks-and-blockchain-bridges" class="plugin-anchor" href="#parameters-setup-blockchain-networks-and-blockchain-bridges"><i class="fa fa-link" aria-hidden="true"></i></a>Parameters Setup (Blockchain Networks and Blockchain Bridges)</h2>
+<p>With a valid Wallet connection, the following parameters can be set:</p>
+<p>Blockchain Bridge Selection</p>
+<p>When users need to move crypto tokens from one blockchain to another, the blockchain bridge is the method to allow the transfer of assets.  In BOC, you can select the related bridge type for your action.</p>
+<p><img src="https://lh6.googleusercontent.com/_u-HOOWPipEnUjLcfqgUWc6tfPd5q03HlgYeIXHXZjEPnE587DD7W-Boq1Pr6U61_JVg9Y9_okIKynyKIVu2vfNS9i-oyvNY8ZkkoOG6QgTBemXICeJ56TkfNk2zW0oaBgrqA1lL" alt=""></p>
+<p>Blockchain Main Chain Selection</p>
+<p>Users can select which main chain is the operation to focus on by selecting the chain from the related drop-down list.</p>
+<p><img src="https://lh5.googleusercontent.com/gj3l-PgLUfDwdmiR_VGPy2GIGt0XGu9tji3egerYdHH0E_iXNDB9mxmGnbY1Hpp6d64P2b0fFsbXq91zZNEqyvrDo_JvOP5981n0DUv6gtCoYN5NlSTRCvahwOSpecHN8rRGJUYZ" alt=""></p>
+<h2 id="deposit-and-withdrawal-overview"><a name="deposit-and-withdrawal-overview" class="plugin-anchor" href="#deposit-and-withdrawal-overview"><i class="fa fa-link" aria-hidden="true"></i></a>Deposit and Withdrawal Overview</h2>
+<p>Deposit Asset - once the user has successfully connected the wallet with BOC, he/she may start the investment process by selecting the deposit amount into the intended vault.  Choose the amount to deposit or select &#x201C;Max&#x201D; for full deposit.</p>
+<p><img src="https://lh4.googleusercontent.com/WBBsIuguDIqjhcCF2_4DBwt6lMYantNEYsrzkC9vIS7XNVKAm7R4A2rousAfOkEaDC4hQGjZ6D9TwMRD2xKewVf8olGyMab0U7tO313WezyrHQhI-PnWF-Rxk83msv5fOddfthsq" alt=""></p>
+<p>Withdrawal</p>
+<p>Withdraw Asset - once the user has successfully invested with the wallet by deposit on BOC, he/she may start the withdrawal process at any time by selecting the withdrawal amount from the intended vault.  Choose the amount to withdrawal or select &#x201C;Max&#x201D; for full withdrawal from the selected vault.</p>
+<p><img src="https://lh4.googleusercontent.com/D9P6Sv2dzfM1WFnDJxsKDxQDM6ZiT9iI2uQB33GNYinBJDvGvnt7KhR7WlIAeuskUfymWUx8rn1GlshxbC-r831wSykqYbqLFQ0msLrCeej7ACg068vgt1mIIeCg_Okl1xr6vNVT" alt=""></p>
+<h2 id="how-to-understand-your-investment-earning"><a name="how-to-understand-your-investment-earning" class="plugin-anchor" href="#how-to-understand-your-investment-earning"><i class="fa fa-link" aria-hidden="true"></i></a>How to understand your investment earning</h2>
+<p>About the actual APY calculator, please refer to the APY section for the details.  Users can see their immediate withdrawal amount or the estimated amount on the withdrawal screen.</p>
+<p><img src="https://lh3.googleusercontent.com/DwQiR1vYoONN8PTsLBlRinJximhpnYYhzHua-ReBE9fnMOXsrvjMgbCnYHypwhbmBuxIF8qHHKhGTBPa7bepZfUxpGlDtlu5-cbZN6EciggHrKbc4NgdFG-6zzJ0yWnPJyPOu05d" alt=""></p>
+<p>Historical performance data can be found from the BOC Dashboard.</p>
+<p><a href="https://dashboard.bankofchain.io/#/" target="_blank">https://dashboard.bankofchain.io/#/</a></p>
+<p><img src="https://lh6.googleusercontent.com/hlXmvODZjpYg8-NAVU91_xn_QW9uzQ_ejUoSFjhQBl3SIEpxfstGcp4y3X4ftxBtk4H6kxsurV806LhRbuTwUo7n6NimYJYP-QHp1HqFxxt7lV0j09_qOdJP2kkHtklIUZ9n7GXV" alt=""></p>
+<h2 id="understand-dashboard-apy-calculation"><a name="understand-dashboard-apy-calculation" class="plugin-anchor" href="#understand-dashboard-apy-calculation"><i class="fa fa-link" aria-hidden="true"></i></a>Understand dashboard: APY calculation</h2>
+<p>(Work in Progress / Pending for final Design Document)</p>
+<p>Off-chain APY Calculation &#x94FE;&#x5916;APY&#x8BA1;&#x7B97;<br>Sources of third party APY inquiry &#x5982;&#x679C;&#x4F7F;&#x7528;&#x7B2C;&#x4E09;&#x65B9;APY&#x67E5;&#x8BE2;&#xFF0C;&#x6765;&#x6E90;&#x6709;&#xFF1A;<br>&#x2003;&#x2003;vfat.tools<br>&#x2003;&#x2003;coingecko<br>&#x2003;&#x2003;zapper<br>&#x2003;&#x2003;Official APY<br>&#x2003;&#x2003;Apy.vision Fee</p>
+<p>Harvest APY Calculation / Harvest APY&#x8BA1;&#x7B97;&#x8BF4;&#x660E;&#xFF1A;
+<a href="https://github.com/harvest-finance/harvest-api/blob/f24dd6dcf59c1fe143ae34acf1e260379c5eed87
+/docs/apr-and-apy.md" target="_blank">https://github.com/harvest-finance/harvest-api/blob/f24dd6dcf59c1fe143ae34acf1e260379c5eed87
+/docs/apr-and-apy.md</a></p>
+<p>SNX Pool: For a fixed period of time, a fixed number of tokens are allocated. Harvest is the 
+kind of SNX Pool with APY calculated on a weekly basis, 52 weeks a year<br>SNX Pool: &#x56FA;&#x5B9A;&#x65F6;&#x6BB5;&#xFF0C;&#x5206;&#x914D;&#x56FA;&#x5B9A;&#x6570;&#x91CF;&#x4EE3;&#x5E01;&#x3002;Harvest&#x90FD;&#x662F;&#x8FD9;&#x7C7B;SNX Pool&#xFF0C;&#x6309;&#x5468;&#x8BA1;&#x7B97;APY&#xFF0C;&#x4E00;&#x5E74;52&#x5468;</p>
+<p>For currency pair pools with transaction fees, similar to uniswap and sushi, they borrow from 
+the interface of apy.vision<br>&#x5BF9;&#x4E8E;&#x6709;&#x4EA4;&#x6613;&#x624B;&#x7EED;&#x8D39;&#x7684;&#x5E01;&#x5BF9;&#x6C60;&#xFF0C;&#x7C7B;&#x4F3C;uniswap&#xFF0C;sushi&#xFF0C;&#x4ED6;&#x4EEC;&#x501F;&#x7528;apy.vision&#x7684;&#x63A5;&#x53E3;</p>
+<p>For curve, there are CRV apy (the official website has a calculation method, and the display is 
+consistent with the official website) and pool apy+lend apy (with an interface)<br>&#x5BF9;&#x4E8E;curve&#xFF0C;&#x6709;CRV apy&#xFF08;&#x5B98;&#x7F51;&#x6709;&#x8BA1;&#x7B97;&#x65B9;&#x5F0F;&#xFF0C;&#x4E14;&#x548C;&#x5B98;&#x7F51;&#x663E;&#x793A;&#x4E00;&#x81F4;&#xFF09;&#x548C;pool apy+lend apy&#xFF08;&#x6709;&#x63A5;&#x53E3;&#xFF09;</p>
+<p>APR formula: <code>the number of mining coins issued in one year * the price of mining coins in USD / 
+the total share of LP corresponding to the mining pool / the USD price of LP</code><br>APR&#x8BA1;&#x7B97;&#x516C;&#x5F0F;&#xFF1A;<code>&#x4E00;&#x5E74;&#x53D1;&#x653E;&#x7684;&#x77FF;&#x5E01;&#x6570;&#x91CF;*&#x77FF;&#x5E01;USD&#x4EF7;&#x683C;/&#x77FF;&#x5E01;&#x6C60;&#x5BF9;&#x5E94;&#x7684;LP&#x603B;&#x4EFD;&#x989D;/LP&#x7684;USD&#x4EF7;&#x683C;</code></p>
+<p>Mining token APY, due to the requirement of withdrawn and reinvested, the weekly apr is 
+displayed, assuming that the user will claim FARM every week, and then reinvest, <code>weklyCompound
+(apr) = (1 + (apr% / 52 / 100%)^52 - 1) * 100%</code><br>&#x77FF;&#x5E01;APY&#xFF0C;&#x56E0;&#x4E3A;&#x9700;&#x8981;&#x53D6;&#x51FA;&#x6765;&#x590D;&#x6295;&#xFF0C;&#x5C55;&#x793A;&#x7684;&#x662F;weekly apr&#xFF0C;&#x5047;&#x8BBE;&#x662F;&#x7528;&#x6237;&#x6BCF;&#x5468;&#x4F1A;claim FARM&#xFF0C;&#x7136;&#x540E;&#x590D;&#x6295;&#xFF0C;<code>weklyCompound(apr) = (1 + (apr% / 52 / 100%)^52 - 1) * 100%</code></p>
+<p>aave APY calculation official website description: <a href="https://docs.aave.
+com/developers/guides/apy-and-apr" target="_blank">https://docs.aave.
+com/developers/guides/apy-and-apr</a><br>aave APY&#x8BA1;&#x7B97;&#x5B98;&#x7F51;&#x8BF4;&#x660E;&#xFF1A;<a href="https://docs.aave.com/developers/guides/apy-and-apr" target="_blank">https://docs.aave.com/developers/guides/apy-and-apr</a></p>
+<p>Code Reference &#x4EE3;&#x7801;&#x53C2;&#x8003;&#xFF1A;<br>Pickle APY reference pickle&#x7684;apy&#x8BA1;&#x7B97;&#x53C2;&#x8003;&#xFF1A;
+<a href="https://github.com/pickle-finance/pf-core/tree/main/src/behavior/impl" target="_blank">https://github.com/pickle-finance/pf-core/tree/main/src/behavior/impl</a><br>Harvest APY reference harvest&#x7684;apy&#x8BA1;&#x7B97;&#x53C2;&#x8003;&#xFF1A;
+<a href="https://github.com/harvest-finance/harvest-api/tree/master/src/vaults/apys/implementations" target="_blank">https://github.com/harvest-finance/harvest-api/tree/master/src/vaults/apys/implementations</a></p>
+<script type="text/javascript">var className='atoc';</script> 
+
+<footer class="page-footer"><span class="copyright">&#xA9; BOC Technical Team all right reserved&#xFF0C;powered by Gitbook</span><span class="footer-modification">update time&#xFF1A;
+2022-03-23 06:11:30
+</span></footer>
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="CHAPTER4.html#bug-bounty-program" class="navigation navigation-prev " aria-label="Previous page: Bug Bounty program">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="CHAPTER5.html#version-15-main-process-flow-diagram" class="navigation navigation-next " aria-label="Next page: Version 1.5 main process flow diagram:">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"How-to use BOC (User Guide)","level":"1.6","depth":1,"next":{"title":"Version 1.5 main process flow diagram:","level":"1.6.1","depth":2,"anchor":"#version-15-main-process-flow-diagram","path":"docs/CHAPTER5.md","ref":"./docs/CHAPTER5.md#version-15-main-process-flow-diagram","articles":[]},"previous":{"title":"Bug Bounty program","level":"1.5.3","depth":2,"anchor":"#bug-bounty-program","path":"docs/CHAPTER4.md","ref":"./docs/CHAPTER4.md#bug-bounty-program","articles":[]},"dir":"ltr"},"config":{"plugins":["-lunr","-search","atoc","katex","anchors","splitter","search-pro","pageview-count","tbfed-pagefooter","back-to-top-button","expandable-chapters"],"styles":{"website":"styles/website.css"},"pluginsConfig":{"tbfed-pagefooter":{"copyright":"&copy BOC Technical Team","modify_label":"update time：","modify_format":"YYYY-MM-DD HH:mm:ss"},"atoc":{"addClass":true,"className":"atoc"},"splitter":{},"search-pro":{},"katex":{},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"back-to-top-button":{},"pageview-count":{},"sharing":{"facebook":false,"twitter":false,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"anchors":{},"expandable-chapters":{}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"BOC technology development team","language":"en","gitbook":"*","description":"To manage BOC technology development team, technology sharing and communication"},"file":{"path":"docs/CHAPTER5.md","mtime":"2022-03-23T06:11:30.065Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2022-03-23T06:12:32.420Z"},"basePath":"..","book":{"language":"en"}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../../gitbook/gitbook.js"></script>
+    <script src="../../gitbook/theme.js"></script>
+    
+        
+        <script src="../../gitbook/gitbook-plugin-atoc/atoc.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-splitter/splitter.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search-pro/jquery.mark.min.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search-pro/search.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-pageview-count/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-back-to-top-button/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-expandable-chapters/expandable-chapters.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
