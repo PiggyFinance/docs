@@ -15,6 +15,8 @@
     "gitbook-plugin-atoc": "^1.0.3",
     "gitbook-plugin-back-to-top-button": "^0.1.4",
     "gitbook-plugin-expandable-chapters": "^0.2.0",
+    "gitbook-plugin-hide-element": "^0.0.4",
+    "gitbook-plugin-insert-logo-link": "^1.0.1",
     "gitbook-plugin-katex": "^1.1.4",
     "gitbook-plugin-livereload": "^0.0.1",
     "gitbook-plugin-pageview-count": "^1.0.1",

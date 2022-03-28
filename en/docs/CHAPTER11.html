@@ -17,6 +17,10 @@
     
             
                 
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-insert-logo-link/plugin.css">
+                
+            
+                
                 <link rel="stylesheet" href="../../gitbook/gitbook-plugin-atoc/atoc.css">
                 
             
@@ -591,12 +595,12 @@
                                 
                                 <h1 id="user-handbook"><a name="user-handbook" class="plugin-anchor" href="#user-handbook"><i class="fa fa-link" aria-hidden="true"></i></a>User Handbook</h1>
 <h2 id="wallet-and-the-connection-with-boc"><a name="wallet-and-the-connection-with-boc" class="plugin-anchor" href="#wallet-and-the-connection-with-boc"><i class="fa fa-link" aria-hidden="true"></i></a>Wallet and the Connection with BOC</h2>
-<p>A wallet allows users to interact and perform investment transactions with BOC.  The first step for user to connect a wallet is to enter the &#x201C;CONNECT WALLET&#x201D; button as seen on the front page of the BOC website.</p>
+<p>A wallet allows user to interact and perform investment transactions with BOC.  The first step for user to connect a wallet is to enter the &#x201C;CONNECT WALLET&#x201D; button as seen on the front page of the BOC website.</p>
 <p><img src="../../images/pic-3.png" alt="pic-3"></p>
 <p>Users can connect a wallet using the Metamask Browser extension, or via WalletConnect.  User can also acquire corresponding USD-pegged crypto assets in the following ways:</p>
 <ul>
 <li>Minting USD-pegged crypto assets by depositing USD into the underlying Blockchain and receiving USD-pegged crypto assets in return. For instance the example of FUSD on Fantom.</li>
-<li>Using BlockBank Application to exchange supported USD stable coin assets, stable coin exchange uses 1Inch and Paraswap aggregators to reduce slippage.</li>
+<li>Using BOC Application to exchange supported USD stable coin assets, stable coin exchange uses 1Inch and Paraswap aggregators to reduce slippage.</li>
 <li>Purchasing stable coins on the decentralized exchanges directly: Paraswap &amp; 1inch</li>
 </ul>
 <p>Once the wallet are connected, the crypto asset values should automatically displayed as a connected wallet where LP can now begin to start the parameters setup as well as the yield farming process.</p>
@@ -604,10 +608,10 @@
 <h2 id="parameters-setup-blockchain-networks-and-blockchain-bridges"><a name="parameters-setup-blockchain-networks-and-blockchain-bridges" class="plugin-anchor" href="#parameters-setup-blockchain-networks-and-blockchain-bridges"><i class="fa fa-link" aria-hidden="true"></i></a>Parameters Setup (Blockchain Networks and Blockchain Bridges)</h2>
 <p>With a valid Wallet connection, the following parameters can be set:
 Blockchain Bridge Selection
-When users need to move crypto tokens from one blockchain to another, the blockchain bridge is the method to allow the transfer of assets.  In BOC, user can select the related bridge type for user&apos;s action.</p>
+When users need to move crypto tokens from one blockchain to another, the blockchain bridge is the method to allow the transfer of assets.  In BOC, user can select the related bridge type for their action needs.</p>
 <p><img src="../../images/pic-5.png" alt="pic-5"></p>
 <p>Blockchain Main Chain Selection
-Users can select which main chain is the operation to focus on by selecting the chain from the related drop-down list.</p>
+Users can select which main chain for the operation to focus on by selecting the chain from the related drop-down list.</p>
 <p><img src="../../images/pic-6.png" alt="pic-6"></p>
 <h2 id="deposit-and-withdrawal-overview"><a name="deposit-and-withdrawal-overview" class="plugin-anchor" href="#deposit-and-withdrawal-overview"><i class="fa fa-link" aria-hidden="true"></i></a>Deposit and Withdrawal Overview</h2>
 <p>Deposit Asset - once the user has successfully connected the wallet with BOC, he/she may start the investment process by selecting the deposit amount into the intended vault.  Choose the amount to deposit or select &#x201C;Max&#x201D; for full deposit.</p>
@@ -615,8 +619,8 @@ Users can select which main chain is the operation to focus on by selecting the 
 <p>Withdrawal</p>
 <p>Withdraw Asset - once the user has successfully invested with the wallet by deposit on BOC, he/she may start the withdrawal process at any time by selecting the withdrawal amount from the intended vault.  Choose the amount to withdrawal or select &#x201C;Max&#x201D; for full withdrawal from the selected vault.</p>
 <p><img src="../../images/pic-8.png" alt="pic-8"></p>
-<h2 id="how-to-understand-users-investment-earning"><a name="how-to-understand-users-investment-earning" class="plugin-anchor" href="#how-to-understand-users-investment-earning"><i class="fa fa-link" aria-hidden="true"></i></a>How to understand user&apos;s investment earning</h2>
-<p>About the actual APY calculator, please refer to the APY section for the details.  Users can see their immediate withdrawal amount or the estimated amount on the withdrawal screen.</p>
+<h2 id="how-to-understand-investment-earning"><a name="how-to-understand-investment-earning" class="plugin-anchor" href="#how-to-understand-investment-earning"><i class="fa fa-link" aria-hidden="true"></i></a>How to understand investment earning</h2>
+<p>About the actual APY calculator, please refer to the APY section for the details.  LP can see their immediate withdrawal amount or the estimated amount on the withdrawal screen.</p>
 <p><img src="../../images/pic-9.png" alt="pic-9"></p>
 <p>Historical performance data can be found from the BOC Dashboard.</p>
 <p><a href="https://dashboard.bankofchain.io/#/" target="_blank">https://dashboard.bankofchain.io/#/</a></p>
@@ -633,7 +637,7 @@ Sources of third party APY inquiry&#xFF1A;</p>
 <li>Apy.vision Fee</li>
 </ul>
 <p>farming APY Calculation&#xFF1A;<a href="https://github.com/farming-finance/farming-api/blob/f24dd6dcf59c1fe143ae34acf1e260379c5eed87/docs/apr-and-apy.md" target="_blank">https://github.com/farming-finance/farming-api/blob/f24dd6dcf59c1fe143ae34acf1e260379c5eed87/docs/apr-and-apy.md</a></p>
-<p>SNX Pool: For a fixed period of time, a fixed number of tokens are allocated. farming is the kind of SNX Pool with APY calculated on a weekly basis, 52 weeks a year</p>
+<p>SNX Pool: For a fixed period of time, a fixed number of tokens are allocated. Farming is the kind of SNX Pool with APY calculated on a weekly basis, 52 weeks a year</p>
 <p>For currency pair pools with transaction fees, similar to uniswap and sushi, they borrow from the interface of apy.vision</p>
 <p>For curve, there are CRV apy (the official website has a calculation method, and the display is consistent with the official website) and pool apy+lend apy (with an interface)</p>
 <p>APR formula: the number of mining coins issued in one year * the price of mining coins in USD / the total share of LP corresponding to the mining pool / the USD price of LP</p>
@@ -642,12 +646,12 @@ aave APY calculation official website description: <a href="https://docs.aave.co
 <p>Code Reference &#xFF1A;</p>
 <p>Pickle APY reference&#xFF1A;
 <a href="https://github.com/pickle-finance/pf-core/tree/main/src/behavior/impl" target="_blank">https://github.com/pickle-finance/pf-core/tree/main/src/behavior/impl</a></p>
-<p>farming APY reference&#xFF1A;
+<p>Farming APY reference&#xFF1A;
 <a href="https://github.com/farming-finance/farming-api/tree/master/src/vaults/apys/implementations" target="_blank">https://github.com/farming-finance/farming-api/tree/master/src/vaults/apys/implementations</a></p>
 <script type="text/javascript">var className='atoc';</script> 
 
 <footer class="page-footer"><span class="copyright">&#xA9; BOC Technical Team all right reserved&#xFF0C;powered by Gitbook</span><span class="footer-modification">update time&#xFF1A;
-2022-03-27 15:31:56
+2022-03-28 05:38:19
 </span></footer>
                                 
                                 </section>
@@ -691,7 +695,7 @@ aave APY calculation official website description: <a href="https://docs.aave.co
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"User Handbook","level":"1.5","depth":1,"next":{"title":"Parameters Setup (Blockchain Networks and Blockchain Bridges)","level":"1.5.1","depth":2,"anchor":"#parameters-setup-blockchain-networks-and-blockchain-bridges","path":"docs/CHAPTER11.md","ref":"./docs/CHAPTER11.md#parameters-setup-blockchain-networks-and-blockchain-bridges","articles":[]},"previous":{"title":"APY Calculation Formula","level":"1.4.5","depth":2,"anchor":"#apy-calculation-formula","path":"docs/CHAPTER5.md","ref":"./docs/CHAPTER5.md#apy-calculation-formula","articles":[]},"dir":"ltr"},"config":{"plugins":["-lunr","-search","atoc","katex","anchors","splitter","search-pro","pageview-count","tbfed-pagefooter","back-to-top-button","expandable-chapters"],"styles":{"website":"styles/website.css"},"pluginsConfig":{"tbfed-pagefooter":{"copyright":"&copy BOC Technical Team","modify_label":"update time：","modify_format":"YYYY-MM-DD HH:mm:ss"},"atoc":{"addClass":true,"className":"atoc"},"splitter":{},"search-pro":{},"katex":{},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"back-to-top-button":{},"pageview-count":{},"sharing":{"facebook":false,"twitter":false,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"anchors":{},"expandable-chapters":{}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"BOC technology development team","language":"en","gitbook":"*","description":"To manage BOC technology development team, technology sharing and communication"},"file":{"path":"docs/CHAPTER11.md","mtime":"2022-03-27T15:31:56.734Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2022-03-27T15:33:05.884Z"},"basePath":"..","book":{"language":"en"}});
+            gitbook.page.hasChanged({"page":{"title":"User Handbook","level":"1.5","depth":1,"next":{"title":"Parameters Setup (Blockchain Networks and Blockchain Bridges)","level":"1.5.1","depth":2,"anchor":"#parameters-setup-blockchain-networks-and-blockchain-bridges","path":"docs/CHAPTER11.md","ref":"./docs/CHAPTER11.md#parameters-setup-blockchain-networks-and-blockchain-bridges","articles":[]},"previous":{"title":"APY Calculation Formula","level":"1.4.5","depth":2,"anchor":"#apy-calculation-formula","path":"docs/CHAPTER5.md","ref":"./docs/CHAPTER5.md#apy-calculation-formula","articles":[]},"dir":"ltr"},"config":{"plugins":["hide-element","insert-logo-link","-lunr","-search","atoc","katex","anchors","splitter","search-pro","pageview-count","tbfed-pagefooter","back-to-top-button","expandable-chapters"],"styles":{"website":"styles/website.css"},"pluginsConfig":{"tbfed-pagefooter":{"copyright":"&copy BOC Technical Team","modify_label":"update time：","modify_format":"YYYY-MM-DD HH:mm:ss"},"atoc":{"addClass":true,"className":"atoc"},"splitter":{},"insert-logo-link":{"src":"https://bankofchain.io/logo.png","url":"https://bankofchain.io/logo.png"},"search-pro":{},"hide-element":{"elements":[".gitbook-link"]},"katex":{},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"back-to-top-button":{},"pageview-count":{},"sharing":{"facebook":false,"twitter":false,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"anchors":{},"expandable-chapters":{}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"BOC technology development team","language":"en","gitbook":"*","description":"To manage BOC technology development team, technology sharing and communication"},"file":{"path":"docs/CHAPTER11.md","mtime":"2022-03-28T05:38:19.791Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2022-03-28T05:39:07.773Z"},"basePath":"..","book":{"language":"en"}});
         });
     </script>
 </div>
@@ -699,6 +703,14 @@ aave APY calculation official website description: <a href="https://docs.aave.co
         
     <script src="../../gitbook/gitbook.js"></script>
     <script src="../../gitbook/theme.js"></script>
+    
+        
+        <script src="../../gitbook/gitbook-plugin-hide-element/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-insert-logo-link/plugin.js"></script>
+        
     
         
         <script src="../../gitbook/gitbook-plugin-atoc/atoc.js"></script>
