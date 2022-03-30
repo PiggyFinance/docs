@@ -4,6 +4,6 @@
 
 > deadline: 【3月18号】
 
-## understand dashboard: apy calculation
+## understand dashboard: APY calculation
 
 > deadline: 【3月18号】
