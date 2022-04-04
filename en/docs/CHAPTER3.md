@@ -22,7 +22,7 @@ The stablecoin exchanges are 1Inch and paraswap aggregators in order to reduce s
 
 Ethereum
 
-Ethereum is open access to digital money and data-friendly services for everyone – no matter your background or location. It's a community-built technology behind the cryptocurrency ether (ETH) and thousands of applications you can use today.
+Ethereum is open access to digital money and data-friendly services for everyone – no matter your background or location. It's a community-built technology behind the cryptocurrency ether (Ethereum) and thousands of applications you can use today.
 
 An Open-source development is currently underway for a major upgrade to Ethereum known as Ethereum 2.0 or Eth2.[54] The main purpose of the upgrade is to increase transaction throughput for the network from the current of about 15 transactions per second to up to tens of thousands of transactions per second.
 

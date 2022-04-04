@@ -664,12 +664,12 @@
             
         </li>
     
-        <li class="chapter " data-level="1.9" data-path="未来发展.html">
+        <li class="chapter " data-level="1.9" data-path="../zh/docs/开发规划.md">
             
-                <a href="未来发展.html">
+                <span>
             
                     
-                    未来发展
+                    开发规划
             
                 </a>
             
@@ -678,9 +678,22 @@
             <ul class="articles">
                 
     
-        <li class="chapter " data-level="1.9.1" data-path="未来发展.html">
+        <li class="chapter " data-level="1.9.1" data-path="../zh/docs/开发规划.md">
             
-                <a href="未来发展.html#算法优化">
+                <span>
+            
+                    
+                    开发路线
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.2" data-path="../zh/docs/开发规划.md">
+            
+                <span>
             
                     
                     算法优化
@@ -691,9 +704,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.9.2" data-path="未来发展.html">
+        <li class="chapter " data-level="1.9.3" data-path="../zh/docs/开发规划.md">
             
-                <a href="未来发展.html#支持更多主流区块链">
+                <span>
             
                     
                     支持更多主流区块链
@@ -704,9 +717,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.9.3" data-path="未来发展.html">
+        <li class="chapter " data-level="1.9.4" data-path="../zh/docs/开发规划.md">
             
-                <a href="未来发展.html#支持更多协议策略接入">
+                <span>
             
                     
                     支持更多协议策略接入
@@ -717,9 +730,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.9.4" data-path="未来发展.html">
+        <li class="chapter " data-level="1.9.5" data-path="../zh/docs/开发规划.md">
             
-                <a href="未来发展.html#支持借贷协议">
+                <span>
             
                     
                     支持借贷协议
@@ -730,9 +743,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.9.5" data-path="未来发展.html">
+        <li class="chapter " data-level="1.9.6" data-path="../zh/docs/开发规划.md">
             
-                <a href="未来发展.html#支持法币入金渠道">
+                <span>
             
                     
                     支持法币入金渠道
@@ -743,25 +756,12 @@
             
         </li>
     
-        <li class="chapter " data-level="1.9.6" data-path="未来发展.html">
+        <li class="chapter " data-level="1.9.7" data-path="../zh/docs/开发规划.md">
             
-                <a href="未来发展.html#支持非稳定币理财">
+                <span>
             
                     
                     支持非稳定币理财
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="1.9.7" data-path="未来发展.html">
-            
-                <a href="未来发展.html#Roadmap">
-            
-                    
-                    Roadmap
             
                 </a>
             
@@ -860,7 +860,7 @@
 </li>
 <li><p>&#x6839;&#x636E;&#x8BA1;&#x7B97;&#x51FA;&#x6765;&#x7684;&#x4EF7;&#x503C;&#xFF0C;<code>mint/burn</code>&#x94F8;&#x9020;/&#x9500;&#x6BC1;&#x7B49;&#x91CF;&#x4EF7;&#x503C;&#x7684;USDi&#x3002;</p>
 </li>
-<li><p>keeper&#x6A21;&#x5757;&#x5230;&#x8FBE;<code>doHardWork</code>&#x89E6;&#x53D1;&#x6761;&#x4EF6;&#xFF0C;&#x89E6;&#x53D1;<code>doHardWork</code>&#x3002;</p>
+<li><p>Keeper&#x6A21;&#x5757;&#x5230;&#x8FBE;<code>doHardWork</code>&#x89E6;&#x53D1;&#x6761;&#x4EF6;&#xFF0C;&#x89E6;&#x53D1;<code>doHardWork</code>&#x3002;</p>
 </li>
 <li><p>Vault&#x8C03;&#x7528;&#x805A;&#x5408;&#x5151;&#x6362;&#x6A21;&#x5757;<code>swapTokenToWants</code>&#x3002;</p>
 </li>
@@ -872,7 +872,7 @@
 </li>
 <li><p>&#x7B56;&#x7565;&#x5C06;&#x7A33;&#x5B9A;&#x5E01;<code>deposit</code>&#x6295;&#x5165;&#x5230;&#x7B2C;&#x4E09;&#x65B9;&#x534F;&#x8BAE;&#x3002;</p>
 </li>
-<li><p>keeper&#x6A21;&#x5757;&#x5230;&#x8FBE;<code>harvest</code>&#x89E6;&#x53D1;&#x6761;&#x4EF6;&#xFF0C;&#x89E6;&#x53D1;<code>harvest</code>&#x3002;</p>
+<li><p>Keeper&#x6A21;&#x5757;&#x5230;&#x8FBE;<code>harvest</code>&#x89E6;&#x53D1;&#x6761;&#x4EF6;&#xFF0C;&#x89E6;&#x53D1;<code>harvest</code>&#x3002;</p>
 </li>
 <li><p>Harvester&#x89E6;&#x53D1;&#x5404;&#x4E2A;&#x7B56;&#x7565;&#x6267;&#x884C;<code>harvest</code>&#x3002;</p>
 </li>
@@ -894,25 +894,27 @@
 </li>
 </ol>
 <h2 id="harvest"><a name="harvest" class="plugin-anchor" href="#harvest"><i class="fa fa-link" aria-hidden="true"></i></a>harvest</h2>
-<p>keeper&#x6BCF;&#x65E5;&#x90FD;&#x4F1A;&#x89E6;&#x53D1;<code>harvestTrigger</code>&#xFF0C;&#x5224;&#x65AD;&#x662F;&#x5426;&#x8FBE;&#x5230;<code>harvest</code>&#x6761;&#x4EF6;&#x3002;</p>
-<ul>
-<li><p><strong>&#x8D85;&#x8FC7;&#x6700;&#x5927;&#x65F6;&#x95F4;&#x95F4;&#x9694;</strong>&#x3002;</p>
+<p>Keeper&#x6BCF;&#x65E5;&#x90FD;&#x4F1A;&#x89E6;&#x53D1;<code>harvestTrigger</code>&#xFF0C;&#x5224;&#x65AD;&#x662F;&#x5426;&#x8FBE;&#x5230;<code>harvest</code>&#x6761;&#x4EF6;&#xFF0C;&#x4EE5;&#x4E0B;&#x662F;2&#x4E2A;<code>harvest</code>&#x6761;&#x4EF6;&#xFF1A;</p>
+<ol>
+<li><p><strong>&#x8D85;&#x8FC7;&#x6700;&#x5927;&#x65F6;&#x95F4;&#x95F4;&#x9694;</strong>&#xFF1B;</p>
 </li>
-<li><p><strong>&#x6536;&#x76CA;*20%&gt;<code>harvest</code>&#x6210;&#x672C;</strong>&#x3002;</p>
-<p>&#x6EE1;&#x8DB3;&#x4EE5;&#x4E0A;&#x4EFB;&#x610F;&#x4E00;&#x4E2A;&#x6761;&#x4EF6;&#x5373;&#x53EF;&#x505A;<code>harvest</code>&#x5DE5;&#x4F5C;&#xFF0C;&#x5185;&#x5BB9;&#x5305;&#x62EC;&#xFF1A;</p>
+<li><p><strong>&#x6536;&#x76CA;*20%&gt;<code>harvest</code>&#x6210;&#x672C;</strong>&#xFF1B;</p>
 </li>
+</ol>
+<p>&#x6EE1;&#x8DB3;&#x4EE5;&#x4E0A;&#x4EFB;&#x610F;&#x4E00;&#x4E2A;&#x6761;&#x4EF6;&#x5373;&#x53EF;&#x505A;<code>harvest</code>&#x5DE5;&#x4F5C;&#xFF0C;&#x5185;&#x5BB9;&#x5305;&#x62EC;2&#x9879;&#xFF1A;</p>
+<ol>
 <li><p>&#x6267;&#x884C;&#x6536;&#x77FF;&#x8F6C;&#x79FB;Harvester&#xFF08;&#x5BF9;&#x4E8E;&#x6709;&#x4EA7;&#x77FF;&#x7684;&#x7B56;&#x7565;&#x800C;&#x8A00;&#x4E14;&#x8FBE;&#x5230;&#x5356;&#x77FF;&#x9608;&#x503C;&#xFF09;&#xFF1B;</p>
 </li>
 <li><p>&#x4E0A;&#x62A5;&#x5F53;&#x524D;&#x7B56;&#x7565;&#x8D44;&#x4EA7;&#x3002;</p>
 </li>
-</ul>
+</ol>
 <table>
 <thead>
 <tr>
 <th>&#x8BBE;&#x7F6E;&#x53C2;&#x6570;</th>
-<th>ETH</th>
+<th>Ethereum</th>
 <th>BNB Chain</th>
-<th>POLYGON</th>
+<th>Polygon</th>
 </tr>
 </thead>
 <tbody>
@@ -924,9 +926,9 @@
 </tr>
 <tr>
 <td>&#x89E6;&#x53D1;&#x7B56;&#x7565;<code>harvest</code>&#x6700;&#x5927;&#x65F6;&#x95F4;&#x95F4;&#x9694; &#xFF08;&#x82E5;&#x5F53;&#x524D;<code>harvest</code>&#x4E0E;&#x4E0A;&#x6B21;<code>harvest</code>&#x95F4;&#x9694;&#x5927;&#x4E8E;&#x6B64;&#x503C;&#xFF0C;&#x5FC5;&#x987B;&#x505A;<code>harvest</code>&#xFF09;</td>
-<td>2.5&#x5929;</td>
-<td>2.5&#x5929;</td>
-<td>2.5&#x5929;</td>
+<td>1.5&#x5929;</td>
+<td>1.5&#x5929;</td>
+<td>1.5&#x5929;</td>
 </tr>
 <tr>
 <td>&#x89E6;&#x53D1;&#x7B56;&#x7565;<code>harvest</code>&#x7684;&#x6536;&#x76CA;&#x6210;&#x672C;&#x6BD4;&#x4F8B;&#x7CFB;&#x6570;X &#xFF08;<code>harvest</code>&#x6536;&#x76CA;&gt;=&#x6210;&#x672C;*X&#xFF0C;&#x5219;&#x53EF;&#x505A;<code>harvest</code>&#xFF09;</td>
@@ -945,9 +947,9 @@
 <thead>
 <tr>
 <th>&#x8BBE;&#x7F6E;&#x53C2;&#x6570;</th>
-<th>ETH</th>
+<th>Ethereum</th>
 <th>BNB Chain</th>
-<th>POLYGON</th>
+<th>Polygon</th>
 </tr>
 </thead>
 <tbody>
@@ -966,14 +968,14 @@
 </tbody>
 </table>
 <h3 id="allocation"><a name="allocation" class="plugin-anchor" href="#allocation"><i class="fa fa-link" aria-hidden="true"></i></a>allocation</h3>
-<p>&#x4E0E;<code>doHardWork</code>&#x76F8;&#x6BD4;&#xFF0C;<code>allocation</code>&#x591A;&#x505A;&#x4E86;&#x4E00;&#x6B65;&#xFF1A;&#x5C06;&#x4F4E;APY&#x7B56;&#x7565;&#x7684;&#x8D44;&#x91D1;&#x53D6;&#x51FA;&#xFF0C;&#x7136;&#x540E;&#x518D;&#x5C06;&#x7B2C;&#x4E09;&#x65B9;&#x534F;&#x8BAE;&#x5B98;&#x65B9;APY&#x3001;&#x6BCF;&#x4E2A;&#x7B56;&#x7565;&#x6295;&#x8D44;/&#x8D4E;&#x56DE;&#x6240;&#x9700;&#x8981;&#x7684;gas&#x3001;&#x5151;&#x6362;&#x6ED1;&#x70B9;&#x9650;&#x5236;&#x3001;<a href="zh/docs/BOC&#x4ECB;&#x7ECD;.md#&#x8D44;&#x91D1;&#x5206;&#x914D;&#x89C4;&#x5219;">&#x8D44;&#x91D1;&#x8C03;&#x914D;&#x89C4;&#x5219;</a>&#x7B49;&#x4F5C;&#x4E3A;&#x8C03;&#x4ED3;&#x7B97;&#x6CD5;&#x5165;&#x53C2;&#xFF0C;&#x8F93;&#x51FA;&#x5F85;&#x6295;&#x8D44;&#x91D1;&#x5E94;&#x6295;&#x8D44;&#x7684;&#x7B56;&#x7565;&#x4EE5;&#x53CA;&#x91D1;&#x989D;&#x3002;</p>
+<p>&#x4E0E;<code>doHardWork</code>&#x76F8;&#x6BD4;&#xFF0C;<code>allocation</code>&#x591A;&#x505A;&#x4E86;&#x4E00;&#x6B65;&#xFF1A;&#x5C06;&#x4F4E;APY&#x7B56;&#x7565;&#x7684;&#x8D44;&#x91D1;&#x53D6;&#x51FA;&#xFF0C;&#x7136;&#x540E;&#x518D;&#x5C06;&#x7B2C;&#x4E09;&#x65B9;&#x534F;&#x8BAE;&#x5B98;&#x65B9;APY&#x3001;&#x6BCF;&#x4E2A;&#x7B56;&#x7565;&#x6295;&#x8D44;/&#x8D4E;&#x56DE;&#x6240;&#x9700;&#x8981;&#x7684;gas&#x3001;&#x5151;&#x6362;&#x6ED1;&#x70B9;&#x9650;&#x5236;&#x3001;<a href="zh/docs/BOC&#x4ECB;&#x7ECD;.md#&#x8D44;&#x91D1;&#x5206;&#x914D;&#x89C4;&#x5219;">&#x8D44;&#x91D1;&#x8C03;&#x914D;&#x89C4;&#x5219;</a>&#x7B49;&#x4F5C;&#x4E3A;&#x8C03;&#x4ED3;&#x7B97;&#x6CD5;&#x5165;&#x53C2;&#xFF0C;&#x8F93;&#x51FA;&#x5E94;&#x6295;&#x8D44;&#x7684;&#x7B56;&#x7565;&#x4EE5;&#x53CA;&#x5F85;&#x6295;&#x91D1;&#x989D;&#x3002;</p>
 <table>
 <thead>
 <tr>
 <th>&#x8BBE;&#x7F6E;&#x53C2;&#x6570;</th>
-<th>ETH</th>
+<th>Ethereum</th>
 <th>BNB Chain</th>
-<th>POLYGON</th>
+<th>Polygon</th>
 </tr>
 </thead>
 <tbody>
@@ -1120,13 +1122,13 @@ profitChange=\max\sum_{i=1}^m(\frac{deltaAsset_i \times (poolAsset_i-asset_i) \t
 &#x8BE5;&#x516C;&#x5F0F;&#x4E2D;&#xFF0C;&#x552F;&#x4E00;&#x7684;&#x53D8;&#x91CF;&#x4E3A;&#x6BCF;&#x4E2A;&#x7B56;&#x7565;&#x7684;deltaAsset&#x3002;&#x540C;&#x65F6;&#x6C42;&#x89E3;&#x8FD8;&#x9700;&#x8981;&#x53D7;&#x9650;&#x4E8E;</p>
 <p><strong>&#x7EA6;&#x675F;&#x6761;&#x4EF6;</strong></p>
 <ol>
-<li>&#x540C;&#x534F;&#x8BAE;&#x7B56;&#x7565;&#xFF08;&#x591A;&#x4E2A;&#x7EA6;&#x675F;&#xFF09;&#x8D44;&#x91D1;&#x4E0D;&#x8D85;&#x8FC7;&#x603B;&#x8D44;&#x91D1;&#x7684;30%&#x3002;</li>
-<li>&#x6240;&#x6709;&#x8D44;&#x4EA7;&#x53D8;&#x66F4;&#x8FDB;&#x51FA;&#x603B;&#x548C;&#x4E3A;0&#x3002;</li>
+<li>&#x540C;&#x534F;&#x8BAE;&#x7B56;&#x7565;&#xFF08;&#x591A;&#x4E2A;&#x7EA6;&#x675F;&#xFF09;&#x8D44;&#x91D1;&#x4E0D;&#x8D85;&#x8FC7;&#x603B;&#x8D44;&#x91D1;&#x7684;30%&#xFF1B;</li>
+<li>&#x6240;&#x6709;&#x8D44;&#x4EA7;&#x53D8;&#x66F4;&#x8FDB;&#x51FA;&#x603B;&#x548C;&#x4E3A;0&#xFF1B;</li>
 </ol>
 <p><strong>&#x8FB9;&#x754C;&#x6761;&#x4EF6;</strong></p>
 <ol>
-<li>&#x7B56;&#x7565;&#x8D44;&#x4EA7;&#x4E0D;&#x80FD;&#x8D85;&#x8FC7;&#x603B;&#x8D44;&#x4EA7;20%&#x3002;</li>
-<li>&#x7B56;&#x7565;&#x8D44;&#x91D1;&#x4E0D;&#x80FD;&#x8D85;&#x8FC7;&#x76EE;&#x6807;&#x6C60;&#x5B50;&#x8D44;&#x4EA7;&#x7684;50%&#x3002;</li>
+<li>&#x7B56;&#x7565;&#x8D44;&#x4EA7;&#x4E0D;&#x80FD;&#x8D85;&#x8FC7;&#x603B;&#x8D44;&#x4EA7;20%&#xFF1B;</li>
+<li>&#x7B56;&#x7565;&#x8D44;&#x91D1;&#x4E0D;&#x80FD;&#x8D85;&#x8FC7;&#x76EE;&#x6807;&#x6C60;&#x5B50;&#x8D44;&#x4EA7;&#x7684;50%&#xFF1B;</li>
 </ol>
 <p>&#x4F7F;&#x7528;python scipy&#x7684;<code>optimize.minimize</code>&#x6C42;&#x5F97;&#x5F53;&#x524D;&#x6700;&#x4F73;&#x8C03;&#x4ED3;&#x65B9;&#x6848;&#x3002;</p>
 <h2 id="&#x516C;&#x5171;&#x53C2;&#x6570;&#x914D;&#x7F6E;"><a name="&#x516C;&#x5171;&#x53C2;&#x6570;&#x914D;&#x7F6E;" class="plugin-anchor" href="#&#x516C;&#x5171;&#x53C2;&#x6570;&#x914D;&#x7F6E;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x516C;&#x5171;&#x53C2;&#x6570;&#x914D;&#x7F6E;</h2>
@@ -1134,9 +1136,9 @@ profitChange=\max\sum_{i=1}^m(\frac{deltaAsset_i \times (poolAsset_i-asset_i) \t
 <thead>
 <tr>
 <th>&#x8BBE;&#x7F6E;&#x53C2;&#x6570;</th>
-<th>ETH</th>
+<th>Ethereum</th>
 <th>BNB Chain</th>
-<th>POLYGON</th>
+<th>Polygon</th>
 </tr>
 </thead>
 <tbody>
@@ -1195,13 +1197,13 @@ profitChange=\max\sum_{i=1}^m(\frac{deltaAsset_i \times (poolAsset_i-asset_i) \t
 <span class="katex-display"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>A</mi><mi>P</mi><mi>Y</mi><mo>=</mo><mo>(</mo><mn>1</mn><mo>+</mo><mi>A</mi><mi>P</mi><mi>R</mi><msup><mo>)</mo><mrow><mi>p</mi><mi>e</mi><mi>r</mi><mi>i</mi><mi>o</mi><mi>d</mi><mi>s</mi></mrow></msup><mo>&#x2212;</mo><mn>1</mn></mrow><annotation encoding="application/x-tex">
 APY=(1+APR)^{periods}-1
 </annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="strut" style="height:0.899108em;"></span><span class="strut bottom" style="height:1.149108em;vertical-align:-0.25em;"></span><span class="base displaystyle textstyle uncramped"><span class="mord mathit">A</span><span class="mord mathit" style="margin-right:0.13889em;">P</span><span class="mord mathit" style="margin-right:0.22222em;">Y</span><span class="mrel">=</span><span class="mopen">(</span><span class="mord mathrm">1</span><span class="mbin">+</span><span class="mord mathit">A</span><span class="mord mathit" style="margin-right:0.13889em;">P</span><span class="mord mathit" style="margin-right:0.00773em;">R</span><span class="mclose"><span class="mclose">)</span><span class="msupsub"><span class="vlist"><span style="top:-0.41300000000000003em;margin-right:0.05em;"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">&#x200B;</span></span><span class="reset-textstyle scriptstyle uncramped mtight"><span class="mord scriptstyle uncramped mtight"><span class="mord mathit mtight">p</span><span class="mord mathit mtight">e</span><span class="mord mathit mtight" style="margin-right:0.02778em;">r</span><span class="mord mathit mtight">i</span><span class="mord mathit mtight">o</span><span class="mord mathit mtight">d</span><span class="mord mathit mtight">s</span></span></span></span><span class="baseline-fix"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">&#x200B;</span></span>&#x200B;</span></span></span></span><span class="mbin">&#x2212;</span><span class="mord mathrm">1</span></span></span></span></span></p>
-<p>&#x5176;&#x4E2D;period&#x53C2;&#x6570;&#x662F;&#x5229;&#x606F;&#x53D1;&#x653E;&#x5468;&#x671F;&#x3002;</p>
+<p>&#x5176;&#x4E2D;periods&#x53C2;&#x6570;&#x662F;&#x5229;&#x606F;&#x53D1;&#x653E;&#x5468;&#x671F;&#x3002;</p>
 <h2 id="&#x7B56;&#x7565;&#x5B9E;&#x9645;apy&#x8BA1;&#x7B97;&#x89C4;&#x5219;"><a name="&#x7B56;&#x7565;&#x5B9E;&#x9645;apy&#x8BA1;&#x7B97;&#x89C4;&#x5219;" class="plugin-anchor" href="#&#x7B56;&#x7565;&#x5B9E;&#x9645;apy&#x8BA1;&#x7B97;&#x89C4;&#x5219;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x7B56;&#x7565;&#x5B9E;&#x9645;APY&#x8BA1;&#x7B97;&#x89C4;&#x5219;</h2>
 <p>&#x7B56;&#x7565;&#x5B9E;&#x9645;APY&#x662F;&#x4EE5;&#x7B56;&#x7565;&#x5E01;&#x672C;&#x4F4D;&#x6536;&#x76CA;&#x8FDB;&#x884C;&#x8BA1;&#x7B97;&#x3002;</p>
 <script type="text/javascript">var className='atoc';</script> 
 
 <footer class="page-footer"><span class="copyright">&#xA9; BOC Technical Team all right reserved&#xFF0C;powered by Gitbook</span><span class="footer-modification">update time&#xFF1A;
-2022-04-02 13:05:02
+2022-04-04 16:29:50
 </span></footer>
                                 
                                 </section>
@@ -1245,7 +1247,7 @@ APY=(1+APR)^{periods}-1
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"协议算法设计","level":"1.5","depth":1,"next":{"title":"总体流程说明","level":"1.5.1","depth":2,"anchor":"#总体流程说明","path":"docs/协议算法设计.md","ref":"./docs/协议算法设计.md#总体流程说明","articles":[]},"previous":{"title":"对接的第三方协议","level":"1.4.5","depth":2,"anchor":"#对接的第三方协议","path":"docs/协议模块.md","ref":"./docs/协议模块.md#对接的第三方协议","articles":[]},"dir":"ltr"},"config":{"plugins":["hide-element","insert-logo-link","-lunr","-search","atoc","katex","anchors","splitter","search-pro","pageview-count","tbfed-pagefooter","back-to-top-button","expandable-chapters"],"styles":{"website":"styles/website.css"},"pluginsConfig":{"tbfed-pagefooter":{"copyright":"&copy BOC Technical Team","modify_label":"update time：","modify_format":"YYYY-MM-DD HH:mm:ss"},"atoc":{"addClass":true,"className":"atoc"},"splitter":{},"insert-logo-link":{"src":"https://bankofchain.io/logo.png","url":"https://bankofchain.io/logo.png"},"search-pro":{},"hide-element":{"elements":[".gitbook-link"]},"katex":{},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"back-to-top-button":{},"pageview-count":{},"sharing":{"facebook":false,"twitter":false,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"anchors":{},"expandable-chapters":{}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"BOC technology development team","language":"zh","gitbook":"*","description":"To manage BOC technology development team, technology sharing and communication"},"file":{"path":"docs/协议算法设计.md","mtime":"2022-04-02T13:05:02.176Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2022-04-02T13:05:58.029Z"},"basePath":"..","book":{"language":"zh"}});
+            gitbook.page.hasChanged({"page":{"title":"协议算法设计","level":"1.5","depth":1,"next":{"title":"总体流程说明","level":"1.5.1","depth":2,"anchor":"#总体流程说明","path":"docs/协议算法设计.md","ref":"./docs/协议算法设计.md#总体流程说明","articles":[]},"previous":{"title":"对接的第三方协议","level":"1.4.5","depth":2,"anchor":"#对接的第三方协议","path":"docs/协议模块.md","ref":"./docs/协议模块.md#对接的第三方协议","articles":[]},"dir":"ltr"},"config":{"plugins":["hide-element","insert-logo-link","-lunr","-search","atoc","katex","anchors","splitter","search-pro","pageview-count","tbfed-pagefooter","back-to-top-button","expandable-chapters"],"styles":{"website":"styles/website.css"},"pluginsConfig":{"tbfed-pagefooter":{"copyright":"&copy BOC Technical Team","modify_label":"update time：","modify_format":"YYYY-MM-DD HH:mm:ss"},"atoc":{"addClass":true,"className":"atoc"},"splitter":{},"insert-logo-link":{"src":"https://bankofchain.io/logo.png","url":"https://bankofchain.io/logo.png"},"search-pro":{},"hide-element":{"elements":[".gitbook-link"]},"katex":{},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"back-to-top-button":{},"pageview-count":{},"sharing":{"facebook":false,"twitter":false,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"anchors":{},"expandable-chapters":{}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"BOC technology development team","language":"zh","gitbook":"*","description":"To manage BOC technology development team, technology sharing and communication"},"file":{"path":"docs/协议算法设计.md","mtime":"2022-04-04T16:29:50.447Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2022-04-04T16:30:42.068Z"},"basePath":"..","book":{"language":"zh"}});
         });
     </script>
 </div>

@@ -11,6 +11,7 @@
   "license": "ISC",
   "dependencies": {
     "@jeff-tian/gitbook-plugin-katex": "^1.1.9",
+    "gitbook": "^2.6.9",
     "gitbook-plugin-anchors": "^0.7.1",
     "gitbook-plugin-atoc": "^1.0.3",
     "gitbook-plugin-back-to-top-button": "^0.1.4",
@@ -22,7 +23,8 @@
     "gitbook-plugin-pageview-count": "^1.0.1",
     "gitbook-plugin-search-pro": "^2.0.2",
     "gitbook-plugin-splitter": "0.0.8",
-    "gitbook-plugin-tbfed-pagefooter": "0.0.1"
+    "gitbook-plugin-tbfed-pagefooter": "0.0.1",
+    "gitbook-plugin-todo": "^0.1.3"
   },
   "devDependencies": {
     "gitbook-cli": "2.1.2"

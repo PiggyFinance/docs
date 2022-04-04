@@ -1,6 +1,6 @@
 # Glossary
 
-## Defi
+## DeFi
 Decentralized finance (DeFi) is an emerging financial technology based on secure distributed ledgers similar to those used by cryptocurrencies. The system removes the control banks and institutions have on money, financial products, and financial services.
 
 ## AMM

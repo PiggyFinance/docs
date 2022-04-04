@@ -603,13 +603,13 @@
 <li>Deposit - The BOC protocol supports users to deposit the three major stablecoins (USDT, USDC, DAI) in any combination and in any amount, and mint USDi of corresponding value to return to the user. Withdrawal - Users can exchange USDi back to the three major stablecoins at any time through the BOC protocol. By default, they will be returned according to the proportion of the three major stablecoins in the Vault at that time, or they can specify a certain currency to be returned.</li>
 <li>After Vault receives the stablecoin, it queries the price of the user&apos;s transfer of the stablecoin through an external oracle. l (When the price returned by the oracle machine is higher than 1 USD, it is calculated as 1 USD, and when it is lower than 1 USD, it is calculated as the price of the oracle machine)</li>
 <li>According to the calculated value, USDi of the same value is minted and given to the user.</li>
-<li>The keeper module reaches the doHardWork trigger condition and triggers doHardWork.</li>
+<li>The Keeper module reaches the doHardWork trigger condition and triggers doHardWork.</li>
 <li>Vault calls the aggregate redemption module.</li>
 <li>The aggregated exchange module completes the exchange.</li>
 <li>The aggregate exchange module transfers the target currency to the Vault.</li>
 <li>Vault puts stablecoins into the strategy according to the currency required by the strategy.</li>
 <li>Strategies to invest stablecoins into third-party protocols.</li>
-<li>The keeper module reaches the farming trigger condition and triggers the farming.</li>
+<li>The Keeper module reaches the farming trigger condition and triggers the farming.</li>
 <li>Harvester triggers each strategy to execute farming.</li>
 <li>Each strategy implements mining.</li>
 <li>Strategies move coins to Haverster.</li>
@@ -639,7 +639,7 @@
 <td>Set parameters</td>
 <td>ETH</td>
 <td>BNB Chain</td>
-<td>POLYGON</td>
+<td>Polygon</td>
 </tr>
 <tr>
 <td>Scheduled task trigger cycle</td>
@@ -668,7 +668,7 @@
 <td>Set parameters</td>
 <td>ETH</td>
 <td>BNB Chain</td>
-<td>POLYGON</td>
+<td>Polygon</td>
 </tr>
 <tr>
 <td>Scheduled task trigger cycle</td>
@@ -696,7 +696,7 @@ Compared with doHardWork, allocation has done one more step: take out the funds 
 <th>Set parameters</th>
 <th>ETH</th>
 <th>BNB Chain</th>
-<th>POLYGON</th>
+<th>Polygon</th>
 </tr>
 </thead>
 <tbody>
@@ -860,7 +860,7 @@ The strategic funds cannot exceed 50% of the target pool assets</li>
 <th>Set parameters</th>
 <th>ETH</th>
 <th>BNB Chain</th>
-<th>POLYGON</th>
+<th>Polygon</th>
 </tr>
 </thead>
 <tbody>
@@ -925,7 +925,7 @@ APY=(1+APR)^{periods}-1
 <script type="text/javascript">var className='atoc';</script> 
 
 <footer class="page-footer"><span class="copyright">&#xA9; BOC Technical Team all right reserved&#xFF0C;powered by Gitbook</span><span class="footer-modification">update time&#xFF1A;
-2022-04-02 13:05:02
+2022-04-04 16:29:50
 </span></footer>
                                 
                                 </section>
@@ -969,7 +969,7 @@ APY=(1+APR)^{periods}-1
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Protocol Algorithm Design","level":"1.4","depth":1,"next":{"title":"Flow","level":"1.4.1","depth":2,"anchor":"#flow","path":"docs/CHAPTER5.md","ref":"./docs/CHAPTER5.md#flow","articles":[]},"previous":{"title":"Protocol Contract Address","level":"1.3.4.2","depth":3,"anchor":"#protocol-contract-address","path":"docs/CHAPTER2.md","ref":"./docs/CHAPTER2.md#protocol-contract-address","articles":[]},"dir":"ltr"},"config":{"plugins":["hide-element","insert-logo-link","-lunr","-search","atoc","katex","anchors","splitter","search-pro","pageview-count","tbfed-pagefooter","back-to-top-button","expandable-chapters"],"styles":{"website":"styles/website.css"},"pluginsConfig":{"tbfed-pagefooter":{"copyright":"&copy BOC Technical Team","modify_label":"update time：","modify_format":"YYYY-MM-DD HH:mm:ss"},"atoc":{"addClass":true,"className":"atoc"},"splitter":{},"insert-logo-link":{"src":"https://bankofchain.io/logo.png","url":"https://bankofchain.io/logo.png"},"search-pro":{},"hide-element":{"elements":[".gitbook-link"]},"katex":{},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"back-to-top-button":{},"pageview-count":{},"sharing":{"facebook":false,"twitter":false,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"anchors":{},"expandable-chapters":{}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"BOC technology development team","language":"en","gitbook":"*","description":"To manage BOC technology development team, technology sharing and communication"},"file":{"path":"docs/CHAPTER5.md","mtime":"2022-04-02T13:05:02.132Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2022-04-02T13:05:58.029Z"},"basePath":"..","book":{"language":"en"}});
+            gitbook.page.hasChanged({"page":{"title":"Protocol Algorithm Design","level":"1.4","depth":1,"next":{"title":"Flow","level":"1.4.1","depth":2,"anchor":"#flow","path":"docs/CHAPTER5.md","ref":"./docs/CHAPTER5.md#flow","articles":[]},"previous":{"title":"Protocol Contract Address","level":"1.3.4.2","depth":3,"anchor":"#protocol-contract-address","path":"docs/CHAPTER2.md","ref":"./docs/CHAPTER2.md#protocol-contract-address","articles":[]},"dir":"ltr"},"config":{"plugins":["hide-element","insert-logo-link","-lunr","-search","atoc","katex","anchors","splitter","search-pro","pageview-count","tbfed-pagefooter","back-to-top-button","expandable-chapters"],"styles":{"website":"styles/website.css"},"pluginsConfig":{"tbfed-pagefooter":{"copyright":"&copy BOC Technical Team","modify_label":"update time：","modify_format":"YYYY-MM-DD HH:mm:ss"},"atoc":{"addClass":true,"className":"atoc"},"splitter":{},"insert-logo-link":{"src":"https://bankofchain.io/logo.png","url":"https://bankofchain.io/logo.png"},"search-pro":{},"hide-element":{"elements":[".gitbook-link"]},"katex":{},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"back-to-top-button":{},"pageview-count":{},"sharing":{"facebook":false,"twitter":false,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"anchors":{},"expandable-chapters":{}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"BOC technology development team","language":"en","gitbook":"*","description":"To manage BOC technology development team, technology sharing and communication"},"file":{"path":"docs/CHAPTER5.md","mtime":"2022-04-04T16:29:50.403Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2022-04-04T16:30:42.068Z"},"basePath":"..","book":{"language":"en"}});
         });
     </script>
 </div>
