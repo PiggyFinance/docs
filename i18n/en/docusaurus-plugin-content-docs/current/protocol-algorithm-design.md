@@ -8,26 +8,25 @@ sidebar_position: 4
 
 ![pic-2](/images/pic-2.png)
 
-* “Deposit” - The BOC protocol supports users to deposit the three major stablecoins (USDT, USDC, DAI) in any combination and in any amount, and mint USDi of corresponding value to return to the user.
-* “Withdrawal” - Users can exchange USDi back to the three major stablecoins at any time through the BOC protocol. By default, they will be returned according to the proportion of the three major stablecoins in the Vault at that time, or they can specify a certain currency to be returned.
-After Vault receives the stablecoin, “queryTokenPrice” queries the price of the user's transfer of the stablecoin through an external oracle. l (When the price returned by the oracle machine is higher than 1 USD, it is calculated as 1 USD, and when it is lower than 1 USD, it is calculated as the price of the oracle machine)
-* Based on the calculated value, “mint/burn” will mint/burn an equivalent value of USDi.
-* The Keeper module reaches the trigger condition of “doHardWork” and triggers “doHardWork”.
-* Vault calls the aggregate exchange module “swapTokenToWants”.
-* The aggregated exchange module “swapTokens” completes the exchange.
-* Vault receives the target currency exchanged by the aggregate exchange module.
-* Vault puts stablecoin “deposits” into the strategy according to the currency required by the strategy.
-* The strategy invests stablecoin “deposits” into third-party protocols.
-* The Keeper module reaches the “harvest” trigger condition and triggers the “harvest”.
-* Harvester triggers each strategy to execute “harvest”.
-* Each strategy executes “claimRewards” to collect mining.
-* Each strategy transfers mining coins “transferRewards” to Harvester.
-* Harvester sells miner “sellRewards” into stablecoins through aggregated exchange.
-* Harvester “sendProfitToVault” transfers stablecoins into Vault.
-* The Keeper module reaches the “rebase” trigger condition and triggers the “rebase”.
-* Vault calls “changeTotalSupply” to issue additional USDi.
-* Vault collects a portion of the proceeds, which is transferred to the treasury called “Treasury”.
-* The treasury will benefit users from using “buyback” to repurchase the BOC governance token.
+1. “Deposit” - The BOC protocol supports users to deposit the three major stablecoins (USDT, USDC, DAI) in any combination and in any amount, and mint USDi of corresponding value to return to the user.<br />“Withdrawal” - Users can exchange USDi back to the three major stablecoins at any time through the BOC protocol. By default, they will be returned according to the proportion of the three major stablecoins in the Vault at that time, or they can specify a certain currency to be returned.
+2. After Vault receives the stablecoin, “queryTokenPrice” queries the price of the user's transfer of the stablecoin through an external oracle. l (When the price returned by the oracle machine is higher than 1 USD, it is calculated as 1 USD, and when it is lower than 1 USD, it is calculated as the price of the oracle machine)
+3. Based on the calculated value, “mint/burn” will mint/burn an equivalent value of USDi.
+4. The Keeper module reaches the trigger condition of “doHardWork” and triggers “doHardWork”.
+5. Vault calls the aggregate exchange module “swapTokenToWants”.
+6. The aggregated exchange module “swapTokens” completes the exchange.
+7. Vault receives the target currency exchanged by the aggregate exchange module.
+8. Vault puts stablecoin “deposits” into the strategy according to the currency required by the strategy.
+9. The strategy invests stablecoin “deposits” into third-party protocols.
+10. The Keeper module reaches the “harvest” trigger condition and triggers the “harvest”.
+11. Harvester triggers each strategy to execute “harvest”.
+12. Each strategy executes “claimRewards” to collect mining.
+13. Each strategy transfers mining coins “transferRewards” to Harvester.
+14. Harvester sells miner “sellRewards” into stablecoins through aggregated exchange.
+15. Harvester “sendProfitToVault” transfers stablecoins into Vault.
+16. The Keeper module reaches the “rebase” trigger condition and triggers the “rebase”.
+17. Vault calls “changeTotalSupply” to issue additional USDi.
+18. Vault collects a portion of the proceeds, which is transferred to the treasury called “Treasury”.
+19. The treasury will benefit users from using “buyback” to repurchase the BOC governance token.
 
 ## harvest
 
