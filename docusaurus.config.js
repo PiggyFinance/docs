@@ -30,7 +30,7 @@ const config = {
           routeBasePath: '/',
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
-          editUrl: 'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          editUrl: undefined,
           remarkPlugins: [math],
           rehypePlugins: [katex],
         },
@@ -55,7 +55,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'BOC',
+        title: 'BOC Docs',
         logo: {
           alt: 'bank of chain',
           src: 'img/logo256.png',
@@ -81,7 +81,7 @@ const config = {
       },
       footer: {
         style: 'dark',
-        copyright: `Copyright © ${new Date().getFullYear()} BOC Technical Team all right reserved. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} BOC Technical Team all right reserved.`,
       },
       prism: {
         theme: lightCodeTheme,
