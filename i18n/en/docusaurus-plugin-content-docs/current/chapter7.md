@@ -1,8 +1,12 @@
+---
+sidebar_position: 7
+---
 # Security & Risk
 
 The DeFi ecosystem is a new financial ecosystem. Before entering DeFi, users must understand project and smart contract risks. This section focuses on the risks associated with BOC.
 
 The following is a non-exhaustive list of security properties that were implemented.
+
 1. In order to avoid losses caused by code vulnerabilities, all protocols shall be audited by reputable auditors.
 2. In order to reduce the risk of oracle attack, the quotation of the stable coin must be based on the Chain Link rather than the protocol itself.
 3. In order to avoid the chained system risks caused by nested tokens and Lego blocks, access to the BOC Ecosystem requires long-term safe operation records and community voting permission.

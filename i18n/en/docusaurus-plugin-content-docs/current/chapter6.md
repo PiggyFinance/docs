@@ -1,3 +1,6 @@
+---
+sidebar_position: 6
+---
 # Governance
 
 BOC is a disruptive blockchain innovation that aims to change the ecosystem around the crypto investment industry. It will serve as a bridge between fund lenders and investment operators. BOC will be applied to a wider range of fields, thereby creating a truly new, connected world of crypto investing.
@@ -15,20 +18,20 @@ The maximum supply of BOC tokens is 1 billion. TokenHolder will receive a BOC ma
 
 ![](/images/pic-en-6-1.png)
 
-| **Team (10% in the first year, 20% in the second year, 30% in the third year, 40% in the fourth year)** | **20.00%** | **200M** | 
+| **Team (10% in the first year, 20% in the second year, 30% in the third year, 40% in the fourth year)** | **20.00%** | **200M** |
 | --- | --- | --- |
-| Technology Team | 10.00% | 100M | 
-| Sales | 2.00% | 20M | 
-| Founders | 8% | 80M | 
-| **Investors (10% in the first year, 20% in the second year, 30% in the third year, 40% in the fourth year)** | **20.00%** | **200M** | 
-| **Community** | **20.00%** | **200M** | 
-| Liquidity (USD trading on Balancer for 12 months) | 5.00% | 50M | 
-| Mining (increased returns for investors in the early stage, for a period of 12 months) | 15.00% | 150M | 
-| **Reserve** | **40.00%** | **40M** | 
-| Team (recruit new team members in the future) | 3.00% | 30M | 
-| Consultants (important and influential people in the industry) | 2.00% | 20M | 
-| Mining (undecided user acquisition plan + new fundraising round) | 35.00% | 350M | 
-| **Total** | **100.00%** | **1B** | 
+| Technology Team | 10.00% | 100M |
+| Sales | 2.00% | 20M |
+| Founders | 8% | 80M |
+| **Investors (10% in the first year, 20% in the second year, 30% in the third year, 40% in the fourth year)** | **20.00%** | **200M** |
+| **Community** | **20.00%** | **200M** |
+| Liquidity (USD trading on Balancer for 12 months) | 5.00% | 50M |
+| Mining (increased returns for investors in the early stage, for a period of 12 months) | 15.00% | 150M |
+| **Reserve** | **40.00%** | **40M** |
+| Team (recruit new team members in the future) | 3.00% | 30M |
+| Consultants (important and influential people in the industry) | 2.00% | 20M |
+| Mining (undecided user acquisition plan + new fundraising round) | 35.00% | 350M |
+| **Total** | **100.00%** | **1B** |
 
 ## Audit
 

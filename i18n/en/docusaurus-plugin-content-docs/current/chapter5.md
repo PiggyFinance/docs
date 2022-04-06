@@ -43,7 +43,7 @@ After successfully connecting the wallet, users can complete the withdrawal by s
 
 ![pic8](/images/pic-8.png)
 
-#### Withdrawal Advanced Parameters
+### Withdrawal Advanced Parameters
 
 ![advancesetting](/images/advancesetting.png)
 There are 3 advanced setup parameters:
