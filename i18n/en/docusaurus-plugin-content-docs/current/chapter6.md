@@ -16,7 +16,7 @@ At present, the governance of BOC is to achieve co-management through Gnosis mul
 
 The maximum supply of BOC tokens is 1 billion. TokenHolder will receive a BOC management fee according to the holding ratio. After the tokens are locked, they can participate in governance and share the benefits. The specific tokens are planned to be distributed in the following 4 parts: team, investors, community and reserved part.
 
-![](/images/pic-en-6-1.png)
+![pic-en-6-1](/images/pic-en-6-1.png)
 
 | **Team (10% in the first year, 20% in the second year, 30% in the third year, 40% in the fourth year)** | **20.00%** | **200M** |
 | --- | --- | --- |

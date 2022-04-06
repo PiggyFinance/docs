@@ -25,7 +25,7 @@ The centralized timer developed by the BOC project is used for timing triggering
 
 Annual Yield (APY)  
 Annual percentage yield is a way of measuring how much money an investment account makes in a year, a way of measuring the rise in interest over time. The basic calculation formula is  
-![](/images/pic-en-10-1.png)  
+![pic-en-10-1](/images/pic-en-10-1.png)  
 Parameter “periods” is the interest payment periods.
 
 Protocol  
@@ -36,19 +36,21 @@ Strategy refers to smart contracts that interface with third-party agreements. B
 
 ## Acronym
 
-AMM   Automated market makers  
-API   Application Programming Interface  
-APY    Annual percentage yield  
-BOC   Bank Of Chain  
-DAPP / dApp  Decentralized Application  
-Defi    Decentralized finance  
-DEX   Decentralized Exchange  
-EVM   Ethereum Virtual Machine  
-FX   Foreign Exchange  
-KYC   Know Your Customer  
-LP   Liquidity Provider  
-PoS   Proof of Stake  
-PoSA   Proof of Stake Authority  
-PoW   Proof of Work  
-TVL   Total Value Locked  
-Tx   Transaction  
+| word        | description                       |
+| :---------- | :-------------------------------- |
+| AMM         | Automated market makers           |
+| API         | Application Programming Interface |
+| APY         | Annual percentage yield           |
+| BOC         | Bank Of Chain                     |
+| DAPP / dApp | Decentralized Application         |
+| Defi        | Decentralized finance             |
+| DEX         | Decentralized Exchange            |
+| EVM         | Ethereum Virtual Machine          |
+| FX          | Foreign Exchange                  |
+| KYC         | Know Your Customer                |
+| LP          | Liquidity Provider                |
+| PoS         | Proof of Stake                    |
+| PoSA        | Proof of Stake Authority          |
+| PoW         | Proof of Work                     |
+| TVL         | Total Value Locked                |
+| Tx          | Transaction                       |

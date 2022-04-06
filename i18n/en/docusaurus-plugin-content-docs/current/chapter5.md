@@ -70,9 +70,12 @@ Each data is described as follows:
 8. Vault operation records, displayed with the blockchain browser.
 
 BOC subgraph:
-ETH: <https://api.thegraph.com/subgraphs/name/bankofchain/boc-subgraph-eth>
-BNB: <https://api.thegraph.com/subgraphs/name/bankofchain/boc-subgraph-bsc>
-POLYGON: <https://api.thegraph.com/subgraphs/name/bankofchain/boc-subgraph-matic>
+
+- ETH: <https://api.thegraph.com/subgraphs/name/bankofchain/boc-subgraph-eth>
+
+- BNB: <https://api.thegraph.com/subgraphs/name/bankofchain/boc-subgraph-bsc>
+
+- POLYGON: <https://api.thegraph.com/subgraphs/name/bankofchain/boc-subgraph-matic>
 
 ## Policy Details
 

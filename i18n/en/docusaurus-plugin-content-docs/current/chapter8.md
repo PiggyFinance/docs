@@ -7,12 +7,12 @@ sidebar_position: 8
 
 1. [x] Friend & Family Testing was launched on March 4, 2022. In the internal testing phase of the project, the capital scale was small, and the final verification before the product was publicized was mainly carried out.
 2. BOC 1.5 version will be publicly released after passing the overseas audit on May 15, 2022.
-2.1 [x] Logo design completed on March 4, 2022.
-2.2 [x] Formulation of token issuance rules completed on March 10, 2022.
-2.3 [ ] White paper will be completed on April 15, 2022.
-2.4 [ ] AWS server leasing and deployment will be completed on April 15, 2022.
-2.5 [ ] Code development and testing will be completed on May 10, 2022.
-2.6 [ ] Security audit will be completed on May 15, 2022.
+    1. [x] Logo design completed on March 4, 2022.
+    2. [x] Formulation of token issuance rules completed on March 10, 2022.
+    3. [ ] White paper will be completed on April 15, 2022.
+    4. [ ] AWS server leasing and deployment will be completed on April 15, 2022.
+    5. [ ] Code development and testing will be completed on May 10, 2022.
+    6. [ ] Security audit will be completed on May 15, 2022.
 3. [ ] Leveraging services will be provided by July 15, 2022 and publicly issued BOC Version 2.0 thereafter.
 
 ## Future Planning
