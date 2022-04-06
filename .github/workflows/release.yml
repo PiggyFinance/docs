@@ -13,7 +13,7 @@ jobs:
       - name: Checkout the source code from GitHub
         uses: actions/checkout@v2
         with: { fetch-depth: 0 }
-      - name: Install Node.js (version 10, not higher!)
+      - name: Install Node.js (version 16, not higher!)
         uses: actions/setup-node@v2
         with: { node-version: "16" }
       - name: Install Gitbook CLI client (gitbook-cli)
