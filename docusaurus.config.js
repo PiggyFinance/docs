@@ -30,7 +30,7 @@ const config = {
           routeBasePath: '/',
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
-          editUrl: undefined,
+          editUrl: 'https://github.com/PiggyFinance/docs/blob/master/',
           remarkPlugins: [math],
           rehypePlugins: [katex],
         },
