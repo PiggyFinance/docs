@@ -73,7 +73,7 @@ When the total assets of the Vault are greater than the total issuance of USDi, 
 
 ### doHardWork
 
-The official APY of the third-party agreement, the GAS required for investment/redemption of each strategy, the exchange slippage limit, and the fund allocation rules are input into the position adjustment algorithm.  The strategy and amount of the funds to be invested should also be output.
+The official APY of the third-party agreement, the gas required for investment/redemption of each strategy, the exchange slippage limit, and the fund allocation rules are input into the position adjustment algorithm.  The strategy and amount of the funds to be invested should also be output.
 
 <table>
 <tr>
@@ -98,7 +98,7 @@ The official APY of the third-party agreement, the GAS required for investment/r
 
 ### allocation
 
-Compared with “dohardwork”, “allocation” has done one more step: take out the funds of the low APY strategy, and then use the official APY of the third-party agreement, the GAS required for investment/redemption of each strategy, the exchange slippage limit, fund allocation rules, the position adjustment algorithm as an input, and output the strategy and the amount of the awaiting investment funds.
+Compared with “dohardwork”, “allocation” has done one more step: take out the funds of the low APY strategy, and then use the official APY of the third-party agreement, the gas required for investment/redemption of each strategy, the exchange slippage limit, fund allocation rules, the position adjustment algorithm as an input, and output the strategy and the amount of the awaiting investment funds.
 
 | Set parameters                                                                                            | ETH               | BNB Chain         | Polygon           |
 | --------------------------------------------------------------------------------------------------------- | ----------------- | ----------------- | ----------------- |
@@ -210,7 +210,7 @@ Use python scipy's “optimize.minimize” to find the current optimal rebalanci
 | Set parameters                                                                                | ETH        | BNB Chain  | Polygon    |
 | --------------------------------------------------------------------------------------------- | ---------- | ---------- | ---------- |
 | Fund allocation calculation Exchange slippage settings                                        | 0.25%      | 0.25%      | 0.25%      |
-| Gas configuration (including strategy deposit and withdrawal Gas, exchange Gas, harvest cost) | Actual GAS | Actual GAS | Actual GAS |
+| Gas configuration (including strategy deposit and withdrawal Gas, exchange Gas, harvest cost) | Actual Gas | Actual Gas | Actual Gas |
 
 ### Official APY Calculation Rules
 
