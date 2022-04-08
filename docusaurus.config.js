@@ -30,7 +30,10 @@ const config = {
           routeBasePath: '/',
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
-          editUrl: 'https://github.com/PiggyFinance/docs/blob/master/',
+          editUrl: ({locale, docPath}) => {
+            return `https://github.com/PiggyFinance/docs/blob/master/i18n/${locale}/docusaurus-plugin-content-docs/current/${docPath}`;
+          },
+          
           remarkPlugins: [math],
           rehypePlugins: [katex],
         },
