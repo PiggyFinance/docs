@@ -4,7 +4,7 @@ sidebar_position: 2
 
 # Introduction to BOC
 
-## WHAT IS BOC
+## What is BOC?
 
 BOC (Bank Of Chain) is a decentralized financial protocol that helps ordinary investors to obtain a "risk-free" capital-guaranteed wealth management tool on blockchain.
 
