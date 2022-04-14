@@ -4,17 +4,21 @@ sidebar_position: 2
 
 # Introduction to BOC
 
+[//]: # (What is BOC: DONE)
+
 ## What is BOC
 
 BOC (Bank Of Chain) is a new and innovative way to interact with decentralized financial (DeFi) protocols. It helps ordinary investors to obtain a "risk-free" capital-guaranteed wealth management tool on blockchain.
 
-The BOC platform connects carefully selected protocols within the crypto ecosystem, including Automatic Market Makers (AMMs), lending protocols, yield aggregators, etc. (see <https://dashboard.bankofchain.io/#/> for details). By accessing high-quality protocol strategies, BOC can be 300-500 basis points (3-5%) higher than other similar USD managed funds. 
+The BOC platform connects carefully selected protocols within the crypto ecosystem, including Automatic Market Makers (AMMs), lending protocols, yield aggregators, etc. (see <https://dashboard.bankofchain.io/#/> for details). 
+
+By accessing high-quality protocol strategies, BOC can be 300-500 basis points (3-5%) higher than other similar USD managed funds. 
 
 For newcomers to the crypto industry, this is the best way to enter the DeFi ecosystem. As a one-click protocol BOC will bring a new revolution to the DeFi industry, attracting hundreds of millions of dollars of investment.
 
 ## BOC Source of Yield
 
-BOC is a Defi protocol that provides the best long-term high ‘low-risk return and it’s source of Yield includes:
+BOC is a Defi protocol that provides the best long-term high "low-risk" return and it’s source of Yield includes:
 
 - Market-making fee
 - Interest from over-collateralized lending
