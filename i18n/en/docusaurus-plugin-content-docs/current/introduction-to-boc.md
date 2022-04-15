@@ -4,11 +4,9 @@ sidebar_position: 2
 
 # Introduction to BOC
 
-[//]: # (What is BOC: DONE)
-
 ## What is BOC
 
-BOC (Bank Of Chain) is a new and innovative way to interact with decentralized financial (DeFi) protocols. It helps ordinary investors to obtain a "risk-free" capital-guaranteed wealth management tool on blockchain.
+BOC (Bank Of Chain) is a new and innovative way to interact with decentralized financial (DeFi) protocols. It helps ordinary investors to obtain a "low-risk" capital-guaranteed wealth management tool on blockchain.
 
 The BOC platform connects carefully selected protocols within the crypto ecosystem, including Automatic Market Makers (AMMs), lending protocols, yield aggregators, etc. (see <https://dashboard.bankofchain.io/#/> for details). 
 
@@ -18,64 +16,70 @@ For newcomers to the crypto industry, this is the best way to enter the DeFi eco
 
 ## BOC Source of Yield
 
-BOC is a Defi protocol that provides the best long-term high "low-risk" return and it’s source of Yield includes:
+BOC is a DeFi protocol that provides the higher long-term "low-risk" return, and it’s source of Yield includes:
 
-- Market-making fee
-- Interest from over-collateralized lending
+- The transaction fee charged for providing market-making funds for DEX. 
+
+- The interest charged on funds borrowed for over-collateralized lending.
+
 - Governance token rewards
 
 ## Fund Allocation Rules
 
-- Priority is allocated to high-yield capital pools
-- The investment capital of a single capital pool cannot exceed 20% of the total investment assets
-- The investment of a single fund pool cannot exceed 50% of its existing lock-up amount
-- The investment funds of multiple fund pools in the same agreement cannot exceed 30% of the total investment assets
-- Regular evaluation apply for profit review, and optimize the allocation of funds when the profit from position adjustment is greater than the cost of position adjustment
+- Priority is on the higher yield capital pools
+- The investment capital of a single capital pool cannot exceed 20% of the total investment assets.
+- The funds of a single capital pool cannot exceed 50% of its existing lock-up amount
+- Multiple capital pools in the same agreement cannot exceed 30% of the total investment assets
+- There is a regular automatic evaluation for profit review. With the goal of optimize the allocation of funds when the profit from position adjustment is greater than the cost.
 
-## Why BOC is built
+## Why BOC existence
 
 The existing DeFi protocols have the following problems:
 
-- There are cases of irrecoverable / irredeemable losses in decentralized exchanges from market making. In 2021, UniswapV3’s market-making revenue is only about $200 million, but those pools have suffered impermanent losses of $260 million, resulting in a total net loss of $60 million.
-- Some revenue aggregators suffer from circular dependencies.
-- Some agreements have high investment thresholds. Some revenue aggregator products have multiple machine gun pools, and users need a relatively higher level of knowledge to choose which underlying protocols to invest in. At the same time, many DeFi products need to invest in a variety of different currencies, and users need to convert them into the currency required by the product.
+- There are cases of several impermanent losses in decentralized exchanges from market making. In 2021, UniswapV3’s market-making revenue is only about $200 million, but those pools have suffered impermanent losses of $260 million, resulting in a total net loss of $60 million. (<https://cointelegraph.com/news/half-of-uniswap-v3-liquidity-providers-are-losing-money-new-research>)
+- Is usual that revenue aggregators suffer from circular dependencies.
+- Many agreements have high investment thresholds. 
+- In general DeFi protocols have multiple pools, and users need a relatively higher level of knowledge to choose which underlying protocols to invest in. At the same time, many of them products need to invest in a variety of different currencies, and users need to convert them into the currency required by the product.
 - The investment process is complicated. In the process of investment rebalancing, users need to implement complex operations such as withdrawal, currency exchange and investment.
 
 ## What makes BOC Different
 
-BOC is an open platform that realizes decentralized investment by connecting many protocols in the encrypted ecosystem, creating long-term stable income to avoid most risks.  Below is the characteristic of BOC to make it a competitive product:
+BOC is an open platform that realizes decentralized investment by doing a mix of carefully selected DeFi protocols, creating long-term stable income avoiding most risks.
 
-BOC is easy to use
+The main characteristic that make BOC a unique product are:
 
-1. Users shall deposit and withdraw directly without the complexity to implement and bear the cost of complex operations such as farming, exchange, and reallocation.
+BOC is easy to use:
+
+1. Users shall deposit and withdraw directly without thinking to implement and bear the cost of complex operations such as farming, exchange, and reallocation. BOC makes the best selection for them.
 2. Profits are automatically reinvested with an immediate deposit and withdrawal process.
 3. Historical and dynamic returns are intuitively visible.
 
-The investment in BOC is safe:
+The investment in BOC is incredible safe:
 
 1. The market cap of qualified stablecoins exceeds 1 billion dollars.
 2. The TVL of qualified Blockchains exceeds 5 billion dollars.
-3. BOC has third party auditing in place.
+3. It has third party auditing in place.
 4. BOC does not use unofficial third-party cross-chain bridges for transactions.
-5. BOC price quotation relies on Chainlink, a market-leading oracle.
+5. The price quotation relies on Chainlink, a market-leading oracle.
 
 BOC has a reliable risk control procedure:
 
-1. Minimizing the de-anchoring risk of stablecoins: no algorithmic stablecoin, no partially collateralized stablecoin, no stablecoin collateralized by long-tail assets.
-2. Minimizing the risk of impermanent loss: market-making for stablecoin pairs only.
-3. Minimizing the systemic risk: very selective wrapped tokens and yield aggregators.
-4. Minimizing the long-tail risk: no yield are generated from risk servicing business, such as insurance underwriting, sell call options.
-5. No risk in leveraging: no leverage function is provided.
+1. It minimizes the de-anchoring risk of stablecoins.
+2. It plays down the risk of impermanent loss, BOC use market-making for stablecoin pairs only.
+3. The systemic risk is optimized by the very selective wrapped tokens and yield aggregators.
+4. The long-tail risk is really low, any yield are generated from risk servicing business, such as insurance underwriting, sell call options.
+5. There is no risk in leveraging, any leverage function is provided.
 
-BOC is a smart-based product:
+BOC is a smart contract-based product:
 
-1. BOC regularly calibrates the yield, weighing the cost and reward for funds reallocation.
-2. BOC searches for the best rate throughexchange aggregators.
+1. Yields are regularly calibrated, weighing the cost and reward for funds reallocation.
+2. It makes continues searches for the best rate through exchange aggregators.
 3. BOC performs FX interest swap, adjusting FX synthesis based on exchange rate and yield.
-4. BOC automatically sets parameters for market-making and lending strategy.
+4. Parameters are automatically set for market-making and lending strategy.
 
-In summary, the BOC Platform investment model is the missing catalyst that will revolutionize the industry and generate new market growth compared to other similar products in the market:
+In summary, BOC Platform is the missing catalyst that will revolutionize the industry generating a new way to interact with the DeFi Ecosystem, making it a safe path for newcomers. This will lead to a new market growth compared to other similar products in the market:
 
+[//]: # (marker)
 <table>
    <tr>
     <td>Comparing Product</td>
@@ -104,13 +108,13 @@ In summary, the BOC Platform investment model is the missing catalyst that will 
    <tr>
     <td>Details</td>
     <td>BOC is a DeFi protocol that provides the best long-term risk-free return</td>
-    <td>Yearn Finance is a suite of products in Decentralized Finance (DeFi) that provides yield generation, lending aggregation, and more on the blockchain. The protocol is maintained by various independent developers and is governed by YFI holders.</td>
+    <td>Yearn Finance is a suite of products in Decentralized Finance (DeFi) that provides yield generation, lending aggregation, and more on the blockchain. </td>
     <td>Origin Dollar (OUSD) is a new stablecoin that was initially launched on the Ethereum network. Its design is superior to existing stablecoins because OUSD captures competitive yields while being passively held in wallets.</td>
-    <td>AladdinDAO is a decentralized network to shift crypto investments from venture capitalists to wisdom of crowds through collective value discovery. At AladdinDAO, a group of world class experts in DeFi known as the AladdinDAO Boule identifies the most promising DeFi projects and enables AladdinDAO community members to enjoy the returns of their liquidity mining programs. As a result, the protocol will help to reduce information asymmetry and optimize asset allocations for the DeFi space overall.</td>
+    <td>AladdinDAO is a decentralized network to shift crypto investments from venture capitalists to wisdom of crowds through collective value discovery.</td>
     <td>Fast &amp; cost-effective way to build, scale and monetize investment strategies.Fast &amp; cost-effective way to build, scale and monetize investment strategies.</td>
     <td>Harvest Finance is a yield farming protocol that lets users put their assets to work in high-producing farming opportunities.</td>
     <td>Beefy Finance is a Decentralized, Multi-Chain Yield Optimizer that allows its users to earn compound interest on their crypto holdings. Beefy earns you the highest APYs with safety and efficiency in mind.</td>
-    <td>Alpha Finance Lab is an ecosystem of cross-chain DeFi products that focus on capturing unaddressed demand in an innovative and user friendly way. Alpha Homora, the first product, is a leveraged yield farming and leveraged liquidity providing protocol where Ethereum lenders can earn high lending interest rate and leveraged yield farmers/liquidity providers can increase the APY.</td>
+    <td>Alpha Finance Lab is an ecosystem of cross-chain DeFi products that focus on capturing unaddressed demand in an innovative and user friendly way.</td>
     <td>Your Digital Wealth Partner
  Discover the easiest way to earn on your digital assets</td>
    </tr>
@@ -199,7 +203,7 @@ In summary, the BOC Platform investment model is the missing catalyst that will 
     <td>N</td>
    </tr>
    <tr>
-    <td>"Stablecoin actual return (without considering token incentives and subsidies)<br />Note: The rate of return of the corresponding competing product needs to be confirmed twice, and currently it only reflects the official display rate of the product"</td>
+    <td>"Stablecoin actual return*</td>
     <td></td>
     <td>5.46%</td>
     <td>8.97%</td>
@@ -331,3 +335,5 @@ In summary, the BOC Platform investment model is the missing catalyst that will 
     <td>Commission</td>
    </tr>
 </table>
+
+* (without considering token incentives and subsidies)<br />Note: The rate of return of the corresponding competing product needs to be confirmed twice, and currently it only reflects the official display rate of the product"
