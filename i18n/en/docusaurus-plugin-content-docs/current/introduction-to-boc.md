@@ -126,7 +126,7 @@ In summary, BOC Platform is the missing catalyst that will revolutionize the ind
     <td>ETH</td>
     <td>ETH</td>
     <td>ETH<br />BNB Chain<br />Polygon</td>
-    <td>BNB Chain、Polygon、Arbitrum、Fantom、Avalanche、Harmony, etc...</td>
+    <td>BNB Chain<br />Polygon<br />Arbitrum<br />Fantom<br />Avalanche<br />Harmony</td>
     <td>ETH<br />BNB Chain<br />Avalanche</td>
     <td>ETH<br />V2 支持BNB Chain</td>
    </tr>
@@ -236,7 +236,7 @@ In summary, BOC Platform is the missing catalyst that will revolutionize the ind
     <td>Y</td>
     <td>N</td>
     <td>N</td>
-    <td>unknown</td>
+    <td>Unknown</td>
    </tr>
    <tr>
     <td>Support automatic fund allocation</td>
@@ -248,7 +248,7 @@ In summary, BOC Platform is the missing catalyst that will revolutionize the ind
     <td>No, a quota needs to be set</td>
     <td>N</td>
     <td>N</td>
-    <td>unknown</td>
+    <td>Unknown</td>
    </tr>
    <tr>
     <td>Exchange will occur in pool investment</td>
@@ -260,19 +260,19 @@ In summary, BOC Platform is the missing catalyst that will revolutionize the ind
     <td>N</td>
     <td>N</td>
     <td>N</td>
-    <td>unknown</td>
+    <td>Unknown</td>
    </tr>
    <tr>
     <td>Strategy selection</td>
     <td>For the time being, it is strictly selected by the project party</td>
     <td>Community</td>
-    <td>selected by the project party</td>
+    <td>Selected by the project party</td>
     <td>Community</td>
-    <td>selected by the fund manager</td>
+    <td>Selected by the fund manager</td>
     <td>Community</td>
     <td>Community</td>
     <td>Community</td>
-    <td>selected by the project party</td>
+    <td>Selected by the project party</td>
    </tr>
    <tr>
     <td>Consider the spread of funds</td>
@@ -325,12 +325,12 @@ In summary, BOC Platform is the missing catalyst that will revolutionize the ind
    <tr>
     <td>Fee collection</td>
     <td>Commission</td>
-    <td>Commission / Management fee</td>
-    <td>Commission / Withdrawal Fee</td>
+    <td>Commission<br />Management</td>
+    <td>Commission<br />Withdrawal</td>
     <td>Commission</td>
-    <td>Commission / Entrance Fee / Management Fee</td>
+    <td>Commission<br />Entrance<br />Management</td>
     <td>Commission</td>
-    <td>Commission / Management Fee</td>
+    <td>Commission<br />Management</td>
     <td>Commission</td>
     <td>Commission</td>
    </tr>
