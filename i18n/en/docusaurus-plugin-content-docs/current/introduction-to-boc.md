@@ -203,7 +203,7 @@ In summary, BOC Platform is the missing catalyst that will revolutionize the ind
     <td>N</td>
    </tr>
    <tr>
-    <td>"Stablecoin actual return*</td>
+    <td>Stablecoin actual return*</td>
     <td></td>
     <td>5.46%</td>
     <td>8.97%</td>
@@ -336,4 +336,4 @@ In summary, BOC Platform is the missing catalyst that will revolutionize the ind
    </tr>
 </table>
 
-* (without considering token incentives and subsidies)<br />Note: The rate of return of the corresponding competing product needs to be confirmed twice, and currently it only reflects the official display rate of the product"
+* *Note: The rate of return of the corresponding competing product needs to be confirmed twice, and currently it only reflects the official display rate of the product. Is not consider token incentives and subsidies
