@@ -109,7 +109,7 @@ In summary, BOC Platform is the missing catalyst that will revolutionize the ind
     <td>Details</td>
     <td>BOC is a DeFi protocol that provides the best long-term risk-free return</td>
     <td>Yearn Finance is a suite of products in Decentralized Finance (DeFi) that provides yield generation, lending aggregation, and more on the blockchain. </td>
-    <td>Origin Dollar (OUSD) is a new stablecoin that was initially launched on the Ethereum network. Its design is superior to existing stablecoins because OUSD captures competitive yields while being passively held in wallets.</td>
+    <td>Origin Dollar (OUSD) is a new stablecoin that was initially launched on the Ethereum network. </td>
     <td>AladdinDAO is a decentralized network to shift crypto investments from venture capitalists to wisdom of crowds through collective value discovery.</td>
     <td>Fast &amp; cost-effective way to build, scale and monetize investment strategies.Fast &amp; cost-effective way to build, scale and monetize investment strategies.</td>
     <td>Harvest Finance is a yield farming protocol that lets users put their assets to work in high-producing farming opportunities.</td>
@@ -263,7 +263,7 @@ In summary, BOC Platform is the missing catalyst that will revolutionize the ind
     <td>unknown</td>
    </tr>
    <tr>
-    <td>strategy selection</td>
+    <td>Strategy selection</td>
     <td>For the time being, it is strictly selected by the project party</td>
     <td>Community</td>
     <td>selected by the project party</td>
@@ -300,8 +300,8 @@ In summary, BOC Platform is the missing catalyst that will revolutionize the ind
    </tr>
    <tr>
     <td>Support leveraged lending and investment</td>
-    <td>nil</td>
-    <td>nil. Removed</td>
+    <td>None</td>
+    <td>None</td>
     <td>N</td>
     <td>N</td>
     <td>N</td>
@@ -323,7 +323,7 @@ In summary, BOC Platform is the missing catalyst that will revolutionize the ind
     <td>Y</td>
    </tr>
    <tr>
-    <td>fee collection</td>
+    <td>Fee collection</td>
     <td>Commission</td>
     <td>Commission / Management fee</td>
     <td>Commission / Withdrawal Fee</td>
