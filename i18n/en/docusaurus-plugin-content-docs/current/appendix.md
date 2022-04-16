@@ -5,17 +5,39 @@ sidebar_position: 9
 
 ## Glossary
 
-### Decentralized Finance (Defi)  
+### Decentralized Finance (DeFi)  
 
-Decentralized finance (commonly known as DeFi) is a kind of finance created on the blockchain. It does not rely on financial institutions such as brokerages, exchanges or banks to provide financial tools, but uses smart contracts on the blockchain ( such as Ethereum) for financial activities. DeFi platforms allow people to lend or borrow funds to others, trade cryptocurrencies, and earn interest in savings-like accounts.
+Decentralized finance (commonly known as DeFi) is a kind of finance created on the blockchain. It does not rely on financial institutions such as brokerages, exchanges or banks to provide financial tools, but uses smart contracts on the blockchain (such as Ethereum) for financial activities. DeFi platforms allow people to lend or borrow funds to others, trade cryptocurrencies, and earn interest in savings-like accounts.
 
-### Automated Market Maker (AMM)  
+### Rebase
+
+### Burn/Mint
+
+### Vesting
+
+### Backing
+
+### Runway
+
+### Impermanent loss
+
+### Slippage
+
+### Automated Market Maker (AMM)
 
 An Automated Market Maker (AMM) is an autonomous trading mechanism that eliminates the need for centralized trading and related market making techniques. It encourages users to become liquidity providers in exchange for a portion of transaction fees and free tokens.
 
+### Proactive Market Maker (PMM)
+
 ### Lending Protocol  
 
-Lending Protocol is a platform composed of lenders and borrowers. On the one hand, it allows lenders to borrow cryptocurrencies from the platform and pay interest, and on the other hand, it allows depositors to deposit cryptocurrencies to the platform to earn interest. Defi lending protocols can often offer much higher interest rates compared to bank deposit accounts.
+Lending Protocol is a platform composed of lenders and borrowers. On the one hand, it allows lenders to borrow cryptocurrencies from the platform and pay interest, and on the other hand, it allows depositors to deposit cryptocurrencies to the platform to earn interest. DeFi lending protocols can often offer much higher interest rates compared to bank deposit accounts.
+
+### Collateral
+
+### Volume
+
+### Liquidity
 
 ### Yield Aggregators  
 
@@ -43,6 +65,42 @@ Protocol is a set of codes or requirements that regulate how a blockchain works.
 
 Strategy refers to smart contracts that interface with third-party agreements. BOC Vault has multiple policies, and the policy is one-to-one with external third-party agreements.
 
+### Stablecoin
+
+### Nested Tokens
+
+### Lego Combination
+
+### Treasury
+
+### Smart contract
+
+### Governance Toker
+
+### Oracle
+
+### Circular dependencies
+
+### aToken
+
+### cToken
+
+### Basis points
+
+### DEX
+
+### Capital pool
+
+### Wallet
+
+### Bridge
+
+### Blockchain Network
+
+### Dashboard
+
+### Collateral
+
 ## Acronym
 
 | word        | description                       |
@@ -52,7 +110,7 @@ Strategy refers to smart contracts that interface with third-party agreements. B
 | APY         | Annual percentage yield           |
 | BOC         | Bank Of Chain                     |
 | DAPP / dApp | Decentralized Application         |
-| Defi        | Decentralized finance             |
+| DeFi        | Decentralized Finance             |
 | DEX         | Decentralized Exchange            |
 | EVM         | Ethereum Virtual Machine          |
 | FX          | Foreign Exchange                  |

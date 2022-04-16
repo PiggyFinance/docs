@@ -4,3 +4,7 @@ stablecoins
 Chainlink
 de-anchoring
 stablecoin
+Vitalik
+Buterin
+Binance
+PoSA
