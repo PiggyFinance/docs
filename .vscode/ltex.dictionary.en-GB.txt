@@ -129,3 +129,4 @@ iBUSD
 iDAI
 iUSDC
 iUSDT
+stablecoin-driven

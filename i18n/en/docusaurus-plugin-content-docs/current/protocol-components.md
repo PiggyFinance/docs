@@ -139,7 +139,7 @@ As a revenue aggregator on the Ethereum chain, Convex aims to use the CVX token 
 
 ### dForce
 
-**[dForce](https://dforce.network/)** is committed to building an integrated and interoperable matrix of open financial protocols and currency protocols, including lending protocols (global liquidity pools, interest-earning markets), asset-based protocols (multi-currency stablecoins, synthetic assets, etc.) liquidity protocols (transactions) Aggregators, automatic market makers three categories. As of March 30, 2022, dForce's total lock-up volume of funds was approximately US$15,400, and DeFi applications ranked 69th in lock-up volume.
+**[dForce](https://dforce.network/)** is committed to building an integrated and interoperable matrix of open financial protocols and currency protocols, including lending protocols (global liquidity pools, interest-earning markets), asset-based protocols (multi-currency stablecoins, synthetic assets, etc.), liquidity aggregators, automatic market makers, etc. As of March 30, 2022, dForce's total lock-up volume of funds was approximately US$15,400, and DeFi applications ranked 69th in lock-up volume.
 
 ### Synapse
 
@@ -149,7 +149,7 @@ Synapse adopts cross-chain multi-party computation (MPC) validator and threshold
 
 ### Venus
 
-**[Venus](https://app.venus.io/dashboard)** is a synthetic stablecoin - driven decentralized currency market system on the BNB Chain, providing users with cryptocurrency lending solutions without the need for any third-party custody of funds or centralized entities to exercise more control over the protocol.
+**[Venus](https://app.venus.io/dashboard)** is a synthetic stablecoin-driven decentralized currency market system on the BNB Chain, providing users with cryptocurrency lending solutions without the need for any third-party custody of funds or centralized entities to exercise more control over the protocol.
 
 Borrowers on Venus can get instant loans in stablecoins after holding cryptocurrency. This enables users to obtain additional funds without having to sell their non-stablecoin digital assets. On the other hand, lenders can deposit stablecoins (and other different cryptocurrencies) on the platform to earn passive income. What makes Venus unique is how it promotes its own synthetic stablecoin within the cryptocurrency ecosystem. The synthetic stablecoins can maintain stable long-term value without holding the real-world assets they are pegged to (such as through algorithms, ecosystem incentive schemes, or using other forms of collateral).
 
