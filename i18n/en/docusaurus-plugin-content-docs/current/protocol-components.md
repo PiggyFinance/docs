@@ -26,8 +26,6 @@ On February 15, 2022, the cryptocurrency exchange Binance announced that the ori
 
 **Polygon** is a protocol for building and interconnecting Ethereum-compatible blockchain networks. The project was launched in India in 2017 under the original name Matic Network. In February 2021, the project name was changed to Polygon. The cryptocurrency of the Polygon project is MATIC, one of the top 20 cryptocurrencies by market cap traded on major exchanges.
 
-[//]: # (marker)
-
 ## Incorporated Stablecoins
 
 In order to avoid the psychological fear caused by the fluctuations of digital currency value and the losses of market-making funds, the BOC protocol has selected only stable currency assets, and is only limited to those with full collateral provided by legal currency or by stablecoins. 
