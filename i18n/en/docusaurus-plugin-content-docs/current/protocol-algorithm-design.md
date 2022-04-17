@@ -9,7 +9,7 @@ sidebar_position: 4
 ![pic-2](/images/pic-2.png)
 
 1. “Deposit” - The BOC protocol supports users to deposit the three major stablecoins (USDT, USDC, DAI) in any combination and in any amount, and mint USDi of corresponding value to return to the user.<br />“Withdrawal” - Users can exchange USDi back to the three major stablecoins at any time through the BOC protocol. By default, they will be returned according to the proportion of the three major stablecoins in the Vault at that time, or they can specify a certain currency to be returned.
-2. After Vault receives the stablecoin, “queryTokenPrice” queries the price of the user's transfer of the stablecoin through an external oracle. l (When the price returned by the oracle machine is higher than 1 USD, it is calculated as 1 USD, and when it is lower than 1 USD, it is calculated as the price of the oracle machine)
+2. After Vault receives the stablecoin, “queryTokenPrice” queries the price of the user's transfer of the stablecoin through an external oracle. When the price returned by the oracle machine is higher than 1 USD, it is calculated as 1 USD, and when it is lower than 1 USD, it is calculated as the price of the oracle machine.
 3. Based on the calculated value, “mint/burn” will mint/burn an equivalent value of USDi.
 4. The Keeper module reaches the trigger condition of “doHardWork” and triggers “doHardWork”.
 5. Vault calls the aggregate exchange module “swapTokenToWants”.
@@ -28,7 +28,7 @@ sidebar_position: 4
 18. Vault collects a portion of the proceeds, which is transferred to the treasury called “Treasury”.
 19. The treasury will benefit users from using “buyback” to repurchase the BOC governance token.
 
-## harvest
+## Harvest
 
 The “harvestTrigger'' is triggered every day to determine whether the “harvest” condition is met.
 
@@ -65,7 +65,7 @@ The “harvestTrigger'' is triggered every day to determine whether the “harve
 </tr>
 </table>
 
-## rebase
+## Rebase
 
 When the total assets of the Vault are greater than the total issuance of USDi, it means that new income has been generated. At this time, the value of USDi compared with the US dollar will be revised, and the number of USDi will be increased, so that the total value of USDi is consistent with the total value of Vault assets, ensuring 1 USDi is anchored at 1USD. At the same time, 20% of the additional USDi will be transferred to the national treasury as a management fee.
 
@@ -96,9 +96,9 @@ The official APY of the third-party agreement, the gas required for investment/r
 </tr>
 </table>
 
-### allocation
+### Allocation
 
-Compared with “dohardwork”, “allocation” has done one more step: take out the funds of the low APY strategy, and then use the official APY of the third-party agreement, the gas required for investment/redemption of each strategy, the exchange slippage limit, fund allocation rules, the position adjustment algorithm as an input, and output the strategy and the amount of the awaiting investment funds.
+Compared with "doHardWork", “allocation” has done one more step: take out the funds of the low APY strategy, and then use the official APY of the third-party agreement, the gas required for investment/redemption of each strategy, the exchange slippage limit, fund allocation rules, the position adjustment algorithm as an input, and output the strategy and the amount of the awaiting investment funds.
 
 | Set parameters                                                                                            | ETH               | BNB Chain         | Polygon           |
 | --------------------------------------------------------------------------------------------------------- | ----------------- | ----------------- | ----------------- |
