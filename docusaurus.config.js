@@ -31,7 +31,7 @@ const config = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           editUrl: ({locale, docPath}) => {
-            return `https://github.com/PiggyFinance/docs/blob/master/i18n/${locale}/docusaurus-plugin-content-docs/current/${docPath}`;
+            return `https://github.com/Francisco-Rua/docs/blob/master/i18n/${locale}/docusaurus-plugin-content-docs/current/${docPath}`;
           },
           
           remarkPlugins: [math],
