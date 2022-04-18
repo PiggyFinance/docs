@@ -40,8 +40,8 @@ $$
 
 If any of the above conditions are met, user can do `harvest` work:
 
-1. Execute the ore transfer Harvester (for the strategy with ore production and reach the ore selling threshold);
-2. Report the current strategy asset.
+1. Execute the yield transfer Harvester (for the strategy with yield production and reach the yield selling threshold);
+2. Report the current asset from the strategy.
 
 <table>
 <tr>
@@ -72,13 +72,13 @@ If any of the above conditions are met, user can do `harvest` work:
 
 ## Rebase
 
-When the total assets of the Vault are greater than the total issuance of USDi, it means that new income has been generated. At this time, the value of USDi compared with the US dollar will be revised, and the number of USDi will be increased, so that the total value of USDi is consistent with the total value of Vault assets, ensuring 1 USDi is anchored at 1USD. At the same time, 20% of the additional USDi will be transferred to the national treasury as a management fee.
+USDi is a token designed in a way that the circulating supply adjusts automatically according to price fluctuations, this process it's call rebase. Similar to stablecoins, rebase tokens are usually pegged to another asset. But instead of using reserves to maintain the peg, rebase tokens automatically burn tokens in circulation or mint new tokens. When the total assets of the Vault are higher than the total issuance of USDi, means that new income has been generated. After this, the value of USDi compared with the US dollar will be revised. When the number of USDi increase, the total value of USDi is consistent with the total value of Vault assets, ensuring 1 USDi is anchored at 1USD. At the same time, 20% of the additional USDi will be transferred to the treasury as a management fee.
 
 ## Fund Allocation
 
 ### doHardWork
 
-The official APY of the third-party agreement, the gas required for investment/redemption of each strategy, the exchange slippage limit, and the fund allocation rules are input into the position adjustment algorithm.  The strategy and amount of the funds to be invested should also be output.
+The input into the position adjustment of the algorithm are the official APY of the third-party protocol, the gas required for investment of each strategy, the limit of exchange slippage, and the [rules of fund allocation](#introduction-to-boc#fund-allocation-rules), and the strategy and amount of the funds to be invested sare the output.
 
 <table>
 <tr>
@@ -103,7 +103,7 @@ The official APY of the third-party agreement, the gas required for investment/r
 
 ### Allocation
 
-Compared with `doHardWork`, `allocation` has done one more step: take out the funds of the low APY strategy, and then use the official APY of the third-party agreement, the gas required for investment/redemption of each strategy, the exchange slippage limit, fund allocation rules, the position adjustment algorithm as an input, and output the strategy and the amount of the awaiting investment funds.
+Compared with `doHardWork`, `allocation` has done one more step: take out the funds of the low APY strategy, and then use the official APY of the third-party agreement, the gas required for investment of each strategy, the exchange slippage limit, fund allocation rules, the position adjustment algorithm as an input, and the output is the strategy and the amount of the awaiting investment funds.
 
 | Set parameters                                                                                            | ETH               | BNB Chain         | Polygon           |
 | --------------------------------------------------------------------------------------------------------- | ----------------- | ----------------- | ----------------- |
@@ -192,7 +192,11 @@ profitChange=MAX\sum_{i=1}^m(deltaGain_i -withdrawFee_i-lendFee_i - exchangeLoss
 $$
 
 $$
-profitChange=MAX\sum_{i=1}^m(\frac{deltaAsset_i \times (poolAsset_i-asset_i) \times apr_i * durationDays_i}{(poolAsset_i+deltaAsset_i-exchangeLoss_i) \times yearDays_i} - operateFee_i - exchangeLoss_i - harvestFee_i)
+profitChange=MAX\sum_{i=1}^m(\frac{deltaAsset_i \times (poolAsset_i-asset_i) \times apr_i * durationDays_i}{(poolAsset_i+deltaAsset_i-exchangeLoss_i) \times yearDays_i} 
+$$
+
+$$
+- operateFee_i - exchangeLoss_i - harvestFee_i)
 $$
 
 Total Change Profit ProfitChange

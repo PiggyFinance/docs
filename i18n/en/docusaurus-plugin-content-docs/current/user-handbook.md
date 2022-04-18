@@ -4,14 +4,14 @@ sidebar_position: 5
 
 # User Handbook
 
-This is a quick guide for the user to get to know the functions and services available on the BOC platform, and how to invest in it.
+Here is a quick guide to interact and invest with the BOC platform.
 First, to complete the investment in BOC the user needs to start on the user investment page. If the user is landing on the home page, he should click the "LAUNCH APP" button.
 
 ![launchapp](/images/launchapp.png)
 
 ## Wallet Connection
 
-The User can interact with BOC through MetaMask and WalletConnect, by clicking on the "CONNECT WALLET" button.
+The User can interact with BOC through [MetaMask](https://metamask.io/) and WalletConnect, by clicking on the "CONNECT WALLET" button.
 
 ![connectwallet](/images/connectwallet.png)
 

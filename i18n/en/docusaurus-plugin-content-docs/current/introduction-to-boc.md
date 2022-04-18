@@ -22,14 +22,14 @@ BOC is a DeFi protocol that provides the higher long-term "free-risk" return, an
 
 - The interest charged on funds borrowed for over-collateralized lending.
 
-- Governance token rewards
+- Governance token rewards.
 
 ## Fund Allocation Rules
 
 - Priority is on the higher yield capital pools
 - The investment capital of a single capital pool cannot exceed 20% of the total investment assets.
-- The funds of a single capital pool cannot exceed 50% of its existing lock-up amount
-- Multiple capital pools in the same agreement cannot exceed 30% of the total investment assets
+- The funds of a single capital pool cannot exceed 50% of its existing lock-up amount.
+- Multiple capital pools in the same agreement cannot exceed 30% of the total investment assets.
 - There is a regular automatic evaluation for profit review. With the goal of optimize the allocation of funds when the profit from position adjustment is greater than the cost.
 
 ## Why BOC existence
@@ -106,9 +106,9 @@ In summary, BOC Platform is the missing catalyst that will revolutionize the ind
    </tr>
    <tr>
     <td>Details</td>
-    <td>BOC is a DeFi protocol that provides the best long-term risk-free return</td>
+    <td>BOC is a DeFi protocol that provides the best long-term risk-free return.</td>
     <td>Yearn Finance is a suite of products in Decentralized Finance (DeFi) that provides yield generation, lending aggregation, and more on the blockchain. </td>
-    <td>Origin Dollar (OUSD) is a new stablecoin that was initially launched on the Ethereum network. </td>
+    <td>Origin Dollar (OUSD) is a new stablecoin that was initially launched on the Ethereum network.</td>
     <td>AladdinDAO is a decentralized network to shift crypto investments from venture capitalists to wisdom of crowds through collective value discovery.</td>
     <td>Fast &amp; cost-effective way to build, scale and monetize investment strategies.Fast &amp; cost-effective way to build, scale and monetize investment strategies.</td>
     <td>Harvest Finance is a yield farming protocol that lets users put their assets to work in high-producing farming opportunities.</td>
@@ -263,15 +263,15 @@ In summary, BOC Platform is the missing catalyst that will revolutionize the ind
    </tr>
    <tr>
     <td>Strategy selection</td>
-    <td>For the time being, it is strictly selected by the project party</td>
+    <td>For the time being, it is strictly selected by the team</td>
     <td>Community</td>
-    <td>Selected by the project party</td>
+    <td>Selected by the team</td>
     <td>Community</td>
     <td>Selected by the fund manager</td>
     <td>Community</td>
     <td>Community</td>
     <td>Community</td>
-    <td>Selected by the project party</td>
+    <td>Selected by the team</td>
    </tr>
    <tr>
     <td>Consider the spread of funds</td>
