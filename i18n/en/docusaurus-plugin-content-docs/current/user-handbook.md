@@ -5,41 +5,41 @@ sidebar_position: 5
 # User Handbook
 
 Here is a quick guide to interact and invest with the BOC platform.
-First, to complete the investment in BOC the user needs to start on the user investment page. If the user is landing on the home page, he should click the "LAUNCH APP" button.
+First, to complete the investment in BOC we need to start on the user investment page. We go to the [landing home page](https://bankofchain.io/#/) and click on `LAUNCH APP` button.
 
 ![launchapp](/images/launchapp.png)
 
 ## Wallet Connection
 
-The User can interact with BOC through [MetaMask](https://metamask.io/) and WalletConnect, by clicking on the "CONNECT WALLET" button.
+We can interact with BOC through [MetaMask](https://metamask.io/) and [WalletConnect](https://walletconnect.com/), by clicking on the `CONNECT WALLET` button.
 
 ![connectwallet](/images/connectwallet.png)
 
-After connecting the wallet, the user can see the USDT balance in the user account.
+After connecting the wallet, we can see the USDT balance in the our account.
 ![pic4](/images/pic-4.png)
 
 ## Parameter Settings
 
 ### Cross-chain Bridge
 
-BOC provides cross-chain bridge options, in case the user needs to implement cross-chain crypto assets.
+BOC provides cross-chain bridge options, in case we need to implement cross-chain crypto assets.
 ![chainbridge](/images/chainbridge.png)
 
 ### Switch Chain
 
-At the present, BOC has implemented Ethereum, BNB Chain and Polygon. If users need to switch chains, they can do it through "NETWORKS".
+At the present, BOC works on Ethereum, BNB Chain and Polygon. If we need to switch chains, they can do it through "NETWORKS".
 ![networkchange](/images/networkchange.png)
 
 ## Investment and Redemption
 
 ### Deposit
 
- Once the wallet has been successfully connected, users can complete the deposit by selecting the desired amount or selecting the "Max" balance, and then clicking on "DEPOSIT".
+ Once the wallet has been successfully connected, we can complete the deposit by selecting the desired amount or selecting the "Max" balance, and then clicking on `DEPOSIT`.
 ![pic7](/images/pic-7.png)
 
 ### Withdrawal
 
-After successfully connecting the wallet, users can complete the withdrawal by selecting the desired share or selecting the "maximum" share and clicking "WITHDRAW".
+After successfully connecting the wallet, we can complete the withdrawal by selecting the desired share or selecting the "maximum" share and clicking `WITHDRAW`.
 
 ![pic8](/images/pic-8.png)
 
