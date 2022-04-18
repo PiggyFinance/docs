@@ -27,7 +27,7 @@ BOC provides cross-chain bridge options, in case we need to implement cross-chai
 
 ### Switch Chain
 
-At the present, BOC works on Ethereum, BNB Chain and Polygon. If we need to switch chains, they can do it through "NETWORKS".
+At the present, BOC works on Ethereum, BNB Chain and Polygon. If we need to switch chains, they can do it through `NETWORKS`.
 ![networkchange](/images/networkchange.png)
 
 ## Investment and Redemption
@@ -48,9 +48,9 @@ After successfully connecting the wallet, we can complete the withdrawal by sele
 ![advancesetting](/images/advancesetting.png)
 There are 3 advanced setup parameters:
 
-1. **Exchanged**: Exchange function enablement. Each strategy in the BOC uses different stablecoins. When users withdraw money, they will do it according to the strategy APY from low to high. If a non-USDT strategy is obtained, the stable currency of the corresponding strategy will be returned, e.g. if Yearn LUSD is obtained, LUSD will be returned and if the exchange is closed, the corresponding value of LUSD will be returned to the user account. If redemption is enabled, the Slippage parameter needs to be set.
-2. **Max Loss**: The maximum loss on withdrawals. When the user specifies the withdrawal share, the total assets at the current net value will be displayed, but these are not the funds the user can finally get, and losses may occur during the withdrawal process, including exchange slippage losses. If the user's total assets are estimated to be $1000 at this time, and the user chooses Max Loss=0.3%, then the user will get no less than $997.
-3. **Slippage**: Slippage between different currencies. After enabling Exchanged, users need to specify the slippage they accept.
+1. **Exchanged**: Exchange function enablement. Each strategy in the BOC uses different stablecoins. When we withdraw money, we will do it according to the strategy APY from low to high. If a non-USDT strategy is obtained, the stable currency of the corresponding strategy will be returned, e.g. if Yearn LUSD is obtained, LUSD will be returned and if the exchange is closed, the corresponding value of LUSD will be returned to our account. If redemption is enabled, the Slippage parameter needs to be set.
+2. **Max Loss**: The maximum loss on withdrawals. When we specify the withdrawal share, the total assets at the current net value will be displayed, but these are not the funds we can finally get, and losses may occur during the withdrawal process, including exchange slippage losses. If our total assets are estimated to be $1000 at this time, and we choose Max Loss=0.3%, then we will get no less than $997.
+3. **Slippage**: Slippage between different currencies. After enabling Exchanged, we need to specify the slippage that we accept.
 
 ## Dashboard
 
@@ -67,7 +67,8 @@ Each data is described as follows:
 5. The total assets of each strategy, read the contract interface.
 6. Official APY, regularly pulled every morning.
 7. Currency standard weekly profit, weekly APY.
-8. Vault operation records, displayed with the blockchain browser.
+8. Strategy Address.
+9. Vault operation records, displayed with the blockchain browser.
 
 BOC subgraph:
 

@@ -78,7 +78,7 @@ USDi is a token designed in a way that the circulating supply adjusts automatica
 
 ### doHardWork
 
-The input into the position adjustment of the algorithm are the official APY of the third-party protocol, the gas required for investment of each strategy, the limit of exchange slippage, and the [rules of fund allocation](#introduction-to-boc#fund-allocation-rules), and the strategy and amount of the funds to be invested sare the output.
+The input into the position adjustment of the algorithm are the official APY of the third-party protocol, the gas required for investment of each strategy, the limit of exchange slippage, and the [rules of fund allocation](#introduction-to-boc#fund-allocation-rules), and the strategy and amount of the funds to be invested are the output.
 
 <table>
 <tr>
