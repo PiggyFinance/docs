@@ -20,9 +20,10 @@ Blockchain makes cryptos possible. It's what manage cryptocurrency. There is sev
 
 ## DeFi FAQs
 
-### Decentralized Finance (DeFi)  
+### What are Decentralized Finances? 
 
 Decentralized finance (commonly known as DeFi) is a kind of real world finance but is created on the blockchain. It uses smart contracts on the blockchain (such as Ethereum) for financial activities. DeFi platforms allow people to lend or borrow funds to others, trade cryptocurrencies, and earn interest in savings-like accounts, all this without a centralized institution.
 
-### Why DeFi is Secure? 
+### Why BOC is secure? 
 
+BOC ensure it's safety because does not use unofficial third-party cross-chain bridges for transactions. It has third party auditing in place. At the same time, BOC does not use unofficial third-party cross-chain bridges for transactions, using always the price quotation relies on Chainlink, a market-leading oracle.

@@ -11,18 +11,18 @@ First, to complete the investment in BOC we need to start on the user investment
 
 ## Wallet Connection
 
-We can interact with BOC through [MetaMask](https://metamask.io/) and [WalletConnect](https://walletconnect.com/), by clicking on the `CONNECT WALLET` button.
+We can interact with BOC through [wallets](appendix#wallet), the APP is compatible [MetaMask](https://metamask.io/) and [WalletConnect](https://walletconnect.com/), by clicking on the `CONNECT WALLET` button.
 
 ![connectwallet](/images/connectwallet.png)
 
-After connecting the wallet, we can see the USDT balance in the our account.
+After connecting the wallet, we can see the USDT balance in our account.
 ![pic4](/images/pic-4.png)
 
 ## Parameter Settings
 
 ### Cross-chain Bridge
 
-BOC provides cross-chain bridge options, in case we need to implement cross-chain crypto assets.
+BOC provides [cross-chain bridge](appendix#bridge) options, in case we need to implement cross-chain crypto assets.
 ![chainbridge](/images/chainbridge.png)
 
 ### Switch Chain
@@ -50,9 +50,11 @@ There are 3 advanced setup parameters:
 
 1. **Exchanged**: Exchange function enablement. Each strategy in the BOC uses different stablecoins. When we withdraw money, we will do it according to the strategy APY from low to high. If a non-USDT strategy is obtained, the stable currency of the corresponding strategy will be returned, e.g. if Yearn LUSD is obtained, LUSD will be returned and if the exchange is closed, the corresponding value of LUSD will be returned to our account. If redemption is enabled, the Slippage parameter needs to be set.
 2. **Max Loss**: The maximum loss on withdrawals. When we specify the withdrawal share, the total assets at the current net value will be displayed, but these are not the funds we can finally get, and losses may occur during the withdrawal process, including exchange slippage losses. If our total assets are estimated to be $1000 at this time, and we choose Max Loss=0.3%, then we will get no less than $997.
-3. **Slippage**: Slippage between different currencies. After enabling Exchanged, we need to specify the slippage that we accept.
+3. **Slippage**: [Slippage](appendix#slippage) between different currencies. After enabling Exchanged, we need to specify the slippage that we accept.
 
 ## Dashboard
+
+From the [dashboard](appendix#dashboard) we can get the next relevant information about our assets and protocols that interact with them.
 
 <https://dashboard.bankofchain.io>
 
@@ -110,7 +112,7 @@ Each data is described as follows:
 
 1. Personal investment total asset valuation (calculated in USDT).
 2. Acquired BOC share.
-3. Pass 30 days APY.
+3. Pass 30 days [APY](appendix#annual-yield-apy).
 4. Unwithdrawn earnings (calculated in USDT).
 5. Withdrawn earnings (calculated in USDT).
 6. Historical personal total assets.

@@ -6,19 +6,19 @@ sidebar_position: 2
 
 ## What is BOC
 
-BOC (Bank Of Chain) is a new and innovative way to interact with decentralized financial ([DeFi](appendix#decentralized-finance-defi)) [protocols](appendix#protocol). It helps ordinary investors to obtain a "free-risk" capital-guaranteed wealth management tool on blockchain.
+BOC (Bank Of Chain) is a new and innovative way to interact with decentralized financial ([DeFi](appendix#decentralized-finance-defi)) [protocols](appendix#protocol). It helps ordinary investors to obtain a "free-risk" capital-guaranteed wealth management tool on [blockchain](appendix#blockchain-network).
 
-The BOC platform connects carefully selected protocols within the crypto ecosystem, including [Automatic Market Makers (AMMs)](appendix#automated-market-maker-amm-), lending protocols, yield aggregators, etc. (see <https://dashboard.bankofchain.io/#/> for details). 
+The BOC platform connects carefully selected protocols within the crypto ecosystem, including [Automatic Market Makers (AMMs)](appendix#automated-market-maker-amm), [lending protocols](appendix#lending-protocol), [yield aggregators](ppendix#yield-aggregators), etc. (see <https://dashboard.bankofchain.io/#/> for details). 
 
-By accessing high-quality protocol strategies, BOC can be 300-500 basis points (3-5%) higher than other similar USD managed funds. 
+By accessing high-quality [protocol](appendix#protocol) [strategies](appendix#strategy), BOC can be 300-500 basis points (3-5%) higher than other similar USD managed funds. 
 
 For newcomers to the crypto industry, this is the best way to enter the DeFi ecosystem. As a one-click protocol BOC will bring a new revolution to the DeFi industry, attracting hundreds of millions of dollars of investment.
 
 ## BOC Source of Yield
 
-BOC is a DeFi protocol that provides the higher long-term "free-risk" return, and it’s source of Yield includes:
+BOC is a DeFi protocol that provides the best long-term "free-risk" return, and it’s source of Yield includes:
 
-- The transaction fee charged for providing market-making funds for DEX. 
+- The transaction fee charged for providing market-making funds for decentralized exchange (DEX). 
 
 - The interest charged on funds borrowed for over-collateralized lending.
 
@@ -26,7 +26,7 @@ BOC is a DeFi protocol that provides the higher long-term "free-risk" return, an
 
 ## Fund Allocation Rules
 
-- Priority is on the higher yield capital pools
+- Priority is on the higher yield [capital pools](appendix#liquidity-pool-or-capital-pool).
 - The investment capital of a single capital pool cannot exceed 20% of the total investment assets.
 - The funds of a single capital pool cannot exceed 50% of its existing lock-up amount.
 - Multiple capital pools in the same agreement cannot exceed 30% of the total investment assets.
@@ -36,7 +36,7 @@ BOC is a DeFi protocol that provides the higher long-term "free-risk" return, an
 
 The existing DeFi protocols have the following problems:
 
-- There are cases of several impermanent losses in decentralized exchanges from market making. In 2021, UniswapV3’s market-making revenue is only about $200 million, but those pools have suffered impermanent losses of $260 million, resulting in a total net loss of $60 million. (<https://cointelegraph.com/news/half-of-uniswap-v3-liquidity-providers-are-losing-money-new-research>)
+- There are cases of several [impermanent losses](appendix#impermanent-loss) in decentralized exchanges from market making. In 2021, UniswapV3’s market-making revenue is only about $200 million, but [those pools have suffered impermanent losses of $260 million](https://cointelegraph.com/news/half-of-uniswap-v3-liquidity-providers-are-losing-money-new-research), resulting in a total net loss of $60 million. 
 - Is usual that revenue aggregators suffer from circular dependencies.
 - Many agreements have high investment thresholds. 
 - In general DeFi protocols have multiple pools, and users need a relatively higher level of knowledge to choose which underlying protocols to invest in. At the same time, many of them products need to invest in a variety of different currencies, and users need to convert them into the currency required by the product.
@@ -65,8 +65,8 @@ Safety:
 Risk control:
 
 1. It minimizes the de-anchoring risk of stablecoins.
-2. It plays down the risk of impermanent loss, BOC use market-making for stablecoin pairs only.
-3. The systemic risk is optimized by the very selective wrapped tokens and yield aggregators.
+2. It plays down the risk of impermanent loss, BOC use market-making for [stablecoin](appendix#stablecoin) pairs only.
+3. The systemic risk is optimized by the very selective wrapped [tokens](appendix#token and yield aggregators.
 4. The long-tail risk is really low, any yield are generated from risk servicing business, such as insurance underwriting, sell call options.
 5. There is no risk in leveraging, any leverage function is provided.
 

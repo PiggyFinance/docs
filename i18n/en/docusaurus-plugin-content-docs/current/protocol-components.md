@@ -6,11 +6,11 @@ sidebar_position: 3
 
 ## Incorporated Blockchains
 
-BOC selected blockchains are compatible with Ethereum Virtual Machine (EVM), actually BOC is connected with Ethereum, BNB Chain and Polygon chain.
+BOC selected [blockchain](appendix#blockchain-network) are compatible with [Ethereum Virtual Machine (EVM)](appendix#ethereum-virtual-machine-evm), actually BOC is connected with Ethereum, BNB Chain and Polygon chain.
 
 ### Ethereum
 
-**Ethereum** is a decentralized open source blockchain platform with smart contract functions, whose native cryptocurrency is ETH. In December 2021, Ethereum became the second most valuable cryptocurrency by market capitalization after Bitcoin, and the most widely used blockchain.
+**Ethereum** is a decentralized open source blockchain platform with [smart contract](appendix#smart-contract) functions, whose native [cryptocurrency](appendix#cryptocurrency) is ETH. In December 2021, Ethereum became the second most valuable cryptocurrency by market capitalization after Bitcoin, and the most widely used blockchain.
 
 The concept of Ethereum was first proposed between 2013 and 2014 by the programmer Vitalik Buterin after being inspired by Bitcoin as "the next generation of cryptocurrency and decentralized application platform". Ethereum's development started through ICO crowdfunding in 2014.
 
@@ -28,7 +28,7 @@ On February 15, 2022, the cryptocurrency exchange Binance announced that the ori
 
 ## Incorporated Stablecoins
 
-In order to avoid the psychological fear caused by the fluctuations of digital currency value and the losses of market-making funds, the BOC protocol has selected only stable currency assets, and is only limited to those with full collateral provided by legal currency or by stablecoins. 
+In order to avoid the psychological fear caused by the fluctuations of digital currency value and the losses of market-making funds, the BOC protocol has selected only [stable currency assets](appendix#stablecoin), and is only limited to those with full [collateral](appendix#collateral) provided by legal currency or by stablecoins. 
 
 Stablecoins need to meet the following conditions:
 

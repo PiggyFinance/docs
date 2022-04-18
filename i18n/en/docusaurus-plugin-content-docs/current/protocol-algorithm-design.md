@@ -8,15 +8,15 @@ sidebar_position: 4
 
 ![pic-2](/images/pic-2.png)
 
-1. “Deposit” - The BOC protocol supports users to `deposit` the three major stablecoins (USDT, USDC, DAI) in any combination and in any amount, and mint USDi of corresponding value to return to the user.<br />“Withdraw” - Users can `withdraw` USDi all the three major stablecoins at any time through the BOC protocol. By default, they will be returned according to the proportion of the three major stablecoins in the Vault at that time, or they can specify a certain currency to be returned.
-2. After Vault receives the stablecoin, `queryTokenPrice` queries the price of the user's transfer of the stablecoin through an external oracle. When the price returned by the oracle machine is higher than 1 USD, it is calculated at 1 USD, and when it is lower than 1 USD, it is calculated at the price of the oracle machine.
-3. Based on the calculated value, `mint/burn` will mint/burn an equivalent value of USDi.
-4. The Keeper module reaches the trigger condition of `doHardWork` and triggers `doHardWork`.
+1. “Deposit” - The BOC protocol supports users to `deposit` the three major stablecoins (USDT, USDC, DAI) in any combination and in any amount, and mint USDi of corresponding value to return to the user.<br />“Withdraw” - Users can `withdraw` USDi all the three major stablecoins at any time through the BOC protocol. By default, they will be returned according to the proportion of the three major stablecoins in the [Vault](appendix#vaults) at that time, or they can specify a certain currency to be returned.
+2. After Vault receives the stablecoin, `queryTokenPrice` queries the price of the user's transfer of the [stablecoin](appendix#stablecoin) through an external oracle. When the price returned by the [oracle](appendix#oracle) is higher than 1 USD, it is calculated at 1 USD, and when it is lower than 1 USD, it is calculated at the price of the [oracle](appendix#oracle).
+3. Based on the calculated value, `mint/burn` will [mint/burn](appendix#burnmint) an equivalent value of USDi.
+4. The [Keeper](appendix#keeper) module reaches the trigger condition of `doHardWork` and triggers `doHardWork`.
 5. Vault calls the aggregate exchange module `swapTokenToWants`.
 6. The aggregated exchange module `swapTokens` completes the exchange.
 7. Vault receives the target currency exchanged by the aggregate exchange module.
 8. Vault puts stablecoin `deposits` into the strategy according to the currency required by the strategy.
-9. The strategy invests stablecoin `deposits` into third-party protocols.
+9. The [strategy](appendix#strategy) invests stablecoin `deposits` into third-party protocols.
 10. The Keeper module reaches the `harvest` trigger condition and triggers the `harvest`.
 11. Harvester triggers each strategy to execute `harvest`.
 12. Each strategy executes `claimRewards` to collect mining.
@@ -26,7 +26,7 @@ sidebar_position: 4
 16. The Keeper module reaches the `rebase` trigger condition and triggers the `rebase`.
 17. Vault calls `changeTotalSupply` to issue additional USDi.
 18. Vault collects a portion of the proceeds, which is transferred to the treasury called `Treasury`.
-19. The treasury will benefit users from using `buyback` to repurchase the BOC governance token.
+19. The [treasury](appendix#daos-treasury) will benefit users from using `buyback` to repurchase the BOC governance token.
 
 ## Harvest
 
@@ -72,13 +72,13 @@ If any of the above conditions are met, user can do `harvest` work:
 
 ## Rebase
 
-USDi is a token designed in a way that the circulating supply adjusts automatically according to price fluctuations, this process it's call rebase. Similar to stablecoins, rebase tokens are usually pegged to another asset. But instead of using reserves to maintain the peg, rebase tokens automatically burn tokens in circulation or mint new tokens. When the total assets of the Vault are higher than the total issuance of USDi, means that new income has been generated. After this, the value of USDi compared with the US dollar will be revised. When the number of USDi increase, the total value of USDi is consistent with the total value of Vault assets, ensuring 1 USDi is anchored at 1USD. At the same time, 20% of the additional USDi will be transferred to the treasury as a management fee.
+USDi is a token designed in a way that the circulating supply adjusts automatically according to price fluctuations, this process it's call [rebase](appendix#rebase). Similar to stablecoins, rebase tokens are usually pegged to another asset. But instead of using reserves to maintain the peg, rebase tokens automatically [burn](appendix#burnmint) tokens in circulation or [mint](appendix#burnmint) new tokens. When the total assets of the Vault are higher than the total issuance of USDi, means that new income has been generated. After this, the value of USDi compared with the US dollar will be revised. When the number of USDi increase, the total value of USDi is consistent with the total value of Vault assets, ensuring 1 USDi is anchored at 1USD. At the same time, 20% of the additional USDi will be transferred to the treasury as a management fee.
 
 ## Fund Allocation
 
 ### doHardWork
 
-The input into the position adjustment of the algorithm are the official APY of the third-party protocol, the gas required for investment of each strategy, the limit of exchange slippage, and the [rules of fund allocation](#introduction-to-boc#fund-allocation-rules), and the strategy and amount of the funds to be invested are the output.
+The input into the position adjustment of the algorithm are the official [APY](appendix#annual-yield-apy) of the third-party protocol, the gas required for investment of each strategy, the limit of exchange [slippage](appendix#slippage), and the [rules of fund allocation](#introduction-to-boc#fund-allocation-rules), and the strategy and amount of the funds to be invested are the output.
 
 <table>
 <tr>

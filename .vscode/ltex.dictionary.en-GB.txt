@@ -173,3 +173,4 @@ Fantom
 Arbitrum
 Non-stablecoin
 tokenholders
+DAOs
