@@ -8,35 +8,40 @@ sidebar_position: 4
 
 ![pic-2](/images/pic-2.png)
 
-1. “Deposit” - The BOC protocol supports users to deposit the three major stablecoins (USDT, USDC, DAI) in any combination and in any amount, and mint USDi of corresponding value to return to the user.<br />“Withdrawal” - Users can exchange USDi back to the three major stablecoins at any time through the BOC protocol. By default, they will be returned according to the proportion of the three major stablecoins in the Vault at that time, or they can specify a certain currency to be returned.
-2. After Vault receives the stablecoin, “queryTokenPrice” queries the price of the user's transfer of the stablecoin through an external oracle. When the price returned by the oracle machine is higher than 1 USD, it is calculated as 1 USD, and when it is lower than 1 USD, it is calculated as the price of the oracle machine.
-3. Based on the calculated value, “mint/burn” will mint/burn an equivalent value of USDi.
-4. The Keeper module reaches the trigger condition of “doHardWork” and triggers “doHardWork”.
-5. Vault calls the aggregate exchange module “swapTokenToWants”.
-6. The aggregated exchange module “swapTokens” completes the exchange.
+1. “Deposit” - The BOC protocol supports users to `deposit` the three major stablecoins (USDT, USDC, DAI) in any combination and in any amount, and mint USDi of corresponding value to return to the user.<br />“Withdraw” - Users can `withdraw` USDi all the three major stablecoins at any time through the BOC protocol. By default, they will be returned according to the proportion of the three major stablecoins in the Vault at that time, or they can specify a certain currency to be returned.
+2. After Vault receives the stablecoin, `queryTokenPrice` queries the price of the user's transfer of the stablecoin through an external oracle. When the price returned by the oracle machine is higher than 1 USD, it is calculated at 1 USD, and when it is lower than 1 USD, it is calculated at the price of the oracle machine.
+3. Based on the calculated value, `mint/burn` will mint/burn an equivalent value of USDi.
+4. The Keeper module reaches the trigger condition of `doHardWork` and triggers `doHardWork`.
+5. Vault calls the aggregate exchange module `swapTokenToWants`.
+6. The aggregated exchange module `swapTokens` completes the exchange.
 7. Vault receives the target currency exchanged by the aggregate exchange module.
-8. Vault puts stablecoin “deposits” into the strategy according to the currency required by the strategy.
-9. The strategy invests stablecoin “deposits” into third-party protocols.
-10. The Keeper module reaches the “harvest” trigger condition and triggers the “harvest”.
-11. Harvester triggers each strategy to execute “harvest”.
-12. Each strategy executes “claimRewards” to collect mining.
-13. Each strategy transfers mining coins “transferRewards” to Harvester.
-14. Harvester sells miner “sellRewards” into stablecoins through aggregated exchange.
-15. Harvester “sendProfitToVault” transfers stablecoins into Vault.
-16. The Keeper module reaches the “rebase” trigger condition and triggers the “rebase”.
-17. Vault calls “changeTotalSupply” to issue additional USDi.
-18. Vault collects a portion of the proceeds, which is transferred to the treasury called “Treasury”.
-19. The treasury will benefit users from using “buyback” to repurchase the BOC governance token.
+8. Vault puts stablecoin `deposits` into the strategy according to the currency required by the strategy.
+9. The strategy invests stablecoin `deposits` into third-party protocols.
+10. The Keeper module reaches the `harvest` trigger condition and triggers the `harvest`.
+11. Harvester triggers each strategy to execute `harvest`.
+12. Each strategy executes `claimRewards` to collect mining.
+13. Each strategy transfers mining coins `transferRewards` to Harvester.
+14. Harvester sells miner `sellRewards` into stablecoins through aggregated exchange.
+15. Harvester `sendProfitToVault` transfers stablecoins into Vault.
+16. The Keeper module reaches the `rebase` trigger condition and triggers the `rebase`.
+17. Vault calls `changeTotalSupply` to issue additional USDi.
+18. Vault collects a portion of the proceeds, which is transferred to the treasury called `Treasury`.
+19. The treasury will benefit users from using `buyback` to repurchase the BOC governance token.
 
 ## Harvest
 
-The “harvestTrigger'' is triggered every day to determine whether the “harvest” condition is met.
+The `harvestTrigger` is triggered every day to determine whether the `harvest` condition is met. The two harvest conditions are:
 
-* Exceeded maximum time interval
-* Profit*20%>“harvest” cost
-* If any of the above conditions are met, user can do “harvest” work:
-* Execute the ore transfer Harvester (for the strategy with ore production and reach the ore selling threshold);
-* Report the current strategy asset.
+1. Maximum time interval is exceeded.
+2. The harvest rule met:
+$$
+Profit \times 20\%  > harvest cost
+$$
+
+If any of the above conditions are met, user can do `harvest` work:
+
+1. Execute the ore transfer Harvester (for the strategy with ore production and reach the ore selling threshold);
+2. Report the current strategy asset.
 
 <table>
 <tr>
@@ -98,7 +103,7 @@ The official APY of the third-party agreement, the gas required for investment/r
 
 ### Allocation
 
-Compared with "doHardWork", “allocation” has done one more step: take out the funds of the low APY strategy, and then use the official APY of the third-party agreement, the gas required for investment/redemption of each strategy, the exchange slippage limit, fund allocation rules, the position adjustment algorithm as an input, and output the strategy and the amount of the awaiting investment funds.
+Compared with `doHardWork`, `allocation` has done one more step: take out the funds of the low APY strategy, and then use the official APY of the third-party agreement, the gas required for investment/redemption of each strategy, the exchange slippage limit, fund allocation rules, the position adjustment algorithm as an input, and output the strategy and the amount of the awaiting investment funds.
 
 | Set parameters                                                                                            | ETH               | BNB Chain         | Polygon           |
 | --------------------------------------------------------------------------------------------------------- | ----------------- | ----------------- | ----------------- |
@@ -203,7 +208,7 @@ Boundary conditions
 1. Strategic assets cannot exceed 20% of total assets
 2. The strategic funds cannot exceed 50% of the target pool assets
 
-Use python scipy's “optimize.minimize” to find the current optimal rebalancing scheme.
+Use python scipy's `optimize.minimize` to find the current optimal rebalancing scheme.
 
 ### Public Parameter Configuration
 

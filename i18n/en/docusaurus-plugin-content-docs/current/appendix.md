@@ -101,6 +101,12 @@ Strategy refers to smart contracts that interface with third-party agreements. B
 
 ### Collateral
 
+### DAO
+
+### Gnosis
+
+### 
+
 ## Acronym
 
 | word        | description                       |

@@ -6,7 +6,7 @@ sidebar_position: 2
 
 ## What is BOC
 
-BOC (Bank Of Chain) is a new and innovative way to interact with decentralized financial ([DeFi](appendix#decentralized-finance-defi)) [protocols](appendix#protocol). It helps ordinary investors to obtain a "low-risk" capital-guaranteed wealth management tool on blockchain.
+BOC (Bank Of Chain) is a new and innovative way to interact with decentralized financial ([DeFi](appendix#decentralized-finance-defi)) [protocols](appendix#protocol). It helps ordinary investors to obtain a "free-risk" capital-guaranteed wealth management tool on blockchain.
 
 The BOC platform connects carefully selected protocols within the crypto ecosystem, including [Automatic Market Makers (AMMs)](appendix#automated-market-maker-amm-), lending protocols, yield aggregators, etc. (see <https://dashboard.bankofchain.io/#/> for details). 
 
@@ -16,7 +16,7 @@ For newcomers to the crypto industry, this is the best way to enter the DeFi eco
 
 ## BOC Source of Yield
 
-BOC is a DeFi protocol that provides the higher long-term "low-risk" return, and it’s source of Yield includes:
+BOC is a DeFi protocol that provides the higher long-term "free-risk" return, and it’s source of Yield includes:
 
 - The transaction fee charged for providing market-making funds for DEX. 
 
@@ -48,13 +48,13 @@ BOC is an open platform that realizes decentralized investment by doing a mix of
 
 The main characteristic that make BOC a unique product are:
 
-BOC is easy to use:
+User-friendliness:
 
 1. Users shall deposit and withdraw directly without thinking to implement and bear the cost of complex operations such as farming, exchange, and reallocation. BOC makes the best selection for them.
 2. Profits are automatically reinvested with an immediate deposit and withdrawal process.
 3. Historical and dynamic returns are intuitively visible.
 
-The investment in BOC is incredible safe:
+Safety:
 
 1. The market cap of qualified stablecoins exceeds 1 billion dollars.
 2. The TVL of qualified Blockchains exceeds 5 billion dollars.
@@ -62,7 +62,7 @@ The investment in BOC is incredible safe:
 4. BOC does not use unofficial third-party cross-chain bridges for transactions.
 5. The price quotation relies on Chainlink, a market-leading oracle.
 
-BOC has a reliable risk control procedure:
+Risk control:
 
 1. It minimizes the de-anchoring risk of stablecoins.
 2. It plays down the risk of impermanent loss, BOC use market-making for stablecoin pairs only.
@@ -70,7 +70,7 @@ BOC has a reliable risk control procedure:
 4. The long-tail risk is really low, any yield are generated from risk servicing business, such as insurance underwriting, sell call options.
 5. There is no risk in leveraging, any leverage function is provided.
 
-BOC is a smart contract-based product:
+Smart algorithm:
 
 1. Yields are regularly calibrated, weighing the cost and reward for funds reallocation.
 2. It makes continues searches for the best rate through exchange aggregators.
@@ -127,7 +127,7 @@ In summary, BOC Platform is the missing catalyst that will revolutionize the ind
     <td>ETH<br />BNB Chain<br />Polygon</td>
     <td>BNB Chain<br />Polygon<br />Arbitrum<br />Fantom<br />Avalanche<br />Harmony</td>
     <td>ETH<br />BNB Chain<br />Avalanche</td>
-    <td>ETH<br />V2 支持BNB Chain</td>
+    <td>ETH<br />V2 BNB Chain</td>
    </tr>
    <tr>
     <td>Locked Asset（USD）<br />2022/3/8</td>
@@ -322,17 +322,17 @@ In summary, BOC Platform is the missing catalyst that will revolutionize the ind
     <td>Y</td>
    </tr>
    <tr>
-    <td>Fee collection</td>
-    <td>Commission</td>
-    <td>Commission<br />Management</td>
-    <td>Commission<br />Withdrawal</td>
-    <td>Commission</td>
-    <td>Commission<br />Entrance<br />Management</td>
-    <td>Commission</td>
-    <td>Commission<br />Management</td>
-    <td>Commission</td>
-    <td>Commission</td>
+    <td>Fee Scheme</td>
+    <td>Performance fee</td>
+    <td>Performance fee<br/>Management fee</td>
+    <td>Performance fee<br/>Withdrawal fee</td>
+    <td>Performance fee</td>
+    <td>Performance fee<br/>Entrance fee<br/>Management fee</td>
+    <td>Performance fee</td>
+    <td>Performance fee<br/>Management fee</td>
+    <td>Performance fee</td>
+    <td>Performance fee</td>
    </tr>
 </table>
 
-*Note: The rate of return of the corresponding competing product needs to be confirmed twice, and currently it only reflects the official display rate of the product. Is not consider token incentives and subsidies
+*Note: The rate of return of the corresponding competing product needs to be confirmed twice, and currently it only reflects the official display rate of the product. Is not consider token incentives and subsidies.
