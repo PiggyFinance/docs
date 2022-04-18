@@ -174,3 +174,4 @@ Arbitrum
 Non-stablecoin
 tokenholders
 DAOs
+DApps

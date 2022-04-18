@@ -66,7 +66,7 @@ Risk control:
 
 1. It minimizes the de-anchoring risk of stablecoins.
 2. It plays down the risk of impermanent loss, BOC use market-making for [stablecoin](appendix#stablecoin) pairs only.
-3. The systemic risk is optimized by the very selective wrapped [tokens](appendix#token and yield aggregators.
+3. The systemic risk is optimized by the very selective wrapped [tokens](appendix#token) and yield aggregators.
 4. The long-tail risk is really low, any yield are generated from risk servicing business, such as insurance underwriting, sell call options.
 5. There is no risk in leveraging, any leverage function is provided.
 
