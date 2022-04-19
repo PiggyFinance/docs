@@ -26,3 +26,7 @@ Blockchains
 Chainlink
 desanclaje
 FX
+criptoinversiones
+DAO
+tokenholders
+multifirma

@@ -1,47 +1,51 @@
 ---
 sidebar_position: 6
 ---
-# Governance
+# Gobernancia
 
-BOC is a disruptive innovation that aims to change the DeFi ecosystem. It will serve as a bridge between fund lenders and investment operators. BOC will be a gate to newcomers on the crypto investing world, creating a new way to interact with the DeFi Ecosystem.
+BOC es una innovación disruptiva que tiene como objetivo cambiar el ecosistema DeFi. Servirá como puente entre los prestamistas de fondos y los operadores de inversión. BOC será una puerta para los recién llegados al mundo de las criptoinversiones, creando una nueva forma de interactuar con el ecosistema DeFi.
 
-## DAO Development
+## Desarrollo DAO
 
-By the moment, the governance of BOC is to achieve co-management of the tokenholders through Gnosis multi-signature. In the future, governance rights will be transferred to DAO. 
+Por el momento, la gobernanza de BOC es lograr la co-gestión de los dueños de los tokens(tokenholders) de gobernanza a través de la multi-firma de Gnosis. En el futuro, los derechos de gobernanza se transferirán a la DAO.
 
-The DAO program will:
+El programa DAO:
 
-* Execute proposals by on-chain smart contracts.
-* Use snapshots for off-chain voting
-* Finish the development of Governance tokens.
+* Ejecutar propuestas mediante contratos inteligentes en cadena.
+* Use instantáneas para votar fuera de la cadena
+* Finalizar el desarrollo de tokens de Gobernanza.
 
-## Tokenomics
+Por el momento, la gobernanza de BOC es lograr la cogestión de los tokenholders a través de la multifirma de Gnosis. En el futuro, los derechos de gobernanza se transferirán a DAO.
 
-The maximum supply of BOC tokens is 1 billion. Tokenholders will receive a BOC management fee according to the holding ratio. After the tokens are locked, they can participate in governance and share the benefits. The specific tokens are planned to be distributed in the following 4 parts: team, investors, community and reserved part.
+## Tokenómica
+
+El suministro máximo de tokens BOC es de mil millones. Los tenedores de tokens recibirán una tarifa de administración de BOC de acuerdo con la proporción de tenencia. Una vez que los 
+tokens están bloqueados, pueden participar en la gobernanza y compartir los beneficios. Está previsto que los tokens específicos se distribuyan en las siguientes 4 partes: equipo, inversores, comunidad y parte reservada.
 
 ![pic-en-6-1](/images/pic-en-6-1.png)
 
-| **Team* ** | **20.00%** | **200M** |
+| **Equipo* ** | **20.00%** | **200M** |
 | --- | --- | --- |
-| Technology Team | 10.00% | 100M |
-| Sales | 2.00% | 20M |
-| Founders | 8% | 80M |
-| **Investors*** | **20.00%** | **200M** |
-| **Community ** | **20.00%** | **200M** |
-| Liquidity (USD trading on Balancer for 12 months) | 5.00% | 50M |
-| Mining (increased returns for investors in the early stage, for a period of 12 months) | 15.00% | 150M |
-| **Reserve ** | **40.00%** | **40M** |
-| Team (recruit new team members in the future) | 3.00% | 30M |
-| Consultants (important and influential people in the industry) | 2.00% | 20M |
-| Mining (undecided user acquisition plan + new fundraising round) | 35.00% | 350M |
+| Equipo de dasarollo | 10.00% | 100M |
+| Ventas | 2.00% | 20M |
+| Fundadores | 8% | 80M |
+| **Inversores*** | **20.00%** | **200M** |
+| **Comunidad ** | **20.00%** | **200M** |
+| Liquidez (negociación de USD en Balancer durante 12 meses) | 5.00% | 50M |
+| Minería (mayores retornos para inversionistas en etapa temprana, por un período de 12 meses) | 15.00% | 150M |
+| **Reserva ** | **40.00%** | **40M** |
+| Equipo (reclutamiento de nuevos miembros en el futuro) | 3.00% | 30M |
+| Consultores (personas importantes e influyentes en la industria) | 2.00% | 20M |
+| Minado (plan de adquisición de usuarios indecisos + nueva ronda de recaudación de fondos) | 35.00% | 350M |
 | **Total ** | **100.00%** | **1B** |
 
-*Note: The total percentage will be the 10% the first year, 20% the second year, 30% the third year, 40% the fourth year
+*Nota: El porcentaje total será distribuido: el 10% el primer año, 20% el segundo año, 30% el tercer año, 40% el cuarto año
 
-## Audit
 
-All BOC smart contracts are audited by independent labs like SlowMist among others.
+## Auditoria
 
-## Bug Bounty Program
+Todos los contratos inteligentes de BOC son auditados por laboratorios independientes como SlowMist, entre otros.
 
-By collaborating with third parties, BOC will establish a way in which the community will help to improve the quality of the smart contracts used. Potential third-party organisations includes the premier bug bounty platform and the DeFi Project. In those organisations, security researchers review code, disclose vulnerabilities, get paid, and make BOC's smart contracts more secure.
+## Programa de recompensas por errores
+
+Al colaborar con terceros, BOC establecerá una forma en que la comunidad ayudará a mejorar la calidad de los contratos inteligentes utilizados. Las posibles organizaciones de terceros incluyen la principal plataforma de recompensas por errores y el Proyecto DeFi. En esas organizaciones, los investigadores de seguridad revisan el código, revelan vulnerabilidades, cobran y hacen que los contratos inteligentes de BOC sean más seguros.
