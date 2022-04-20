@@ -2,68 +2,68 @@
 sidebar_position: 4
 ---
 
-# Protocol Algorithm Design
+# Diseño del algoritmo del protocolo
 
-## Process Description
+## Descripción del proceso
 
 ![pic-2](/images/pic-2.png)
 
-1. “Deposit” - The BOC protocol supports users to `deposit` the three major stablecoins (USDT, USDC, DAI) in any combination and in any amount, and mint USDi of corresponding value to return to the user.<br />“Withdraw” - Users can `withdraw` USDi all the three major stablecoins at any time through the BOC protocol. By default, they will be returned according to the proportion of the three major stablecoins in the [Vault](appendix#vaults) at that time, or they can specify a certain currency to be returned.
-2. After Vault receives the stablecoin, `queryTokenPrice` queries the price of the user's transfer of the [stablecoin](appendix#stablecoin) through an external oracle. When the price returned by the [oracle](appendix#oracle) is higher than 1 USD, it is calculated at 1 USD, and when it is lower than 1 USD, it is calculated at the price of the [oracle](appendix#oracle).
-3. Based on the calculated value, `mint/burn` will [mint/burn](appendix#burnmint) an equivalent value of USDi.
-4. The [Keeper](appendix#keeper) module reaches the trigger condition of `doHardWork` and triggers `doHardWork`.
-5. Vault calls the aggregate exchange module `swapTokenToWants`.
-6. The aggregated exchange module `swapTokens` completes the exchange.
-7. Vault receives the target currency exchanged by the aggregate exchange module.
-8. Vault puts stablecoin `deposits` into the strategy according to the currency required by the strategy.
-9. The [strategy](appendix#strategy) invests stablecoin `deposits` into third-party protocols.
-10. The Keeper module reaches the `harvest` trigger condition and triggers the `harvest`.
-11. Harvester triggers each strategy to execute `harvest`.
-12. Each strategy executes `claimRewards` to collect mining.
-13. Each strategy transfers mining coins `transferRewards` to Harvester.
-14. Harvester sells miner `sellRewards` into stablecoins through aggregated exchange.
-15. Harvester `sendProfitToVault` transfers stablecoins into Vault.
-16. The Keeper module reaches the `rebase` trigger condition and triggers the `rebase`.
-17. Vault calls `changeTotalSupply` to issue additional USDi.
-18. Vault collects a portion of the proceeds, which is transferred to the treasury called `Treasury`.
-19. The [treasury](appendix#daos-treasury) will benefit users from using `buyback` to repurchase the BOC governance token.
+1. "Depositar" - El protocolo BOC permite a los usuarios `depositar` las tres principales stablecoins (USDT, USDC, DAI) en cualquier combinación y en cualquier cantidad, y acuñar USDi de valor correspondiente para devolver al usuario.<br />"Retirar" - Los usuarios pueden `retirar` USDi las tres principales stablecoins en cualquier momento a través del protocolo BOC. Por defecto, se devolverán según la proporción de las tres principales stablecoins en la [Bóveda](appendix#vault) en ese momento, o pueden especificar una determinada moneda a devolver.
+2. Después de que Vault reciba la stablecoin, `queryTokenPrice` consulta el precio de la transferencia del usuario de la [stablecoin](appendix#stablecoin) a través de un oráculo externo. When the price returned by the [oracle](appendix#oracle) is higher than 1 USD, it is calculated at 1 USD, and when it is lower than 1 USD, it is calculated at the price of the [oracle](appendix#oracle).
+3. Basado en el valor calculado, `mint/burn` [mint/burn](appendix#burnmint) un valor equivalente a USDi.
+4. El módulo [Keeper](appendix#keeper) alcanza la condición de activación de `doHardWork` y activa `doHardWork`.
+5. Vault llama al módulo de intercambio agregado `swapTokenToWants`.
+6. El módulo de intercambio agregado `swapTokens` completa el intercambio.
+7. Vault recibe la moneda de destino intercambiada por el módulo de intercambio agregado.
+8. Vault coloca los `depósitos` de stablecoin en la estrategia según la moneda requerida por la estrategia.
+9. La [estrategia](appendix#strategy) invierte los `depósitos` de stablecoin en protocolos de terceros.
+10. El módulo Keeper alcanza la condición de activación de la `cosecha` y activa la `cosecha`.
+11. Cosechador desencadena cada estrategia para ejecutar la `cosecha`.
+12. Cada estrategia ejecuta `claimRewards` para recoger la minería.
+13. Cada estrategia transfiere las monedas de minería `transferRewards` a Harvester.
+14. El cosechador vende a los mineros `sellRewards` en stablecoins a través del intercambio agregado.
+15. El cosechador `sendProfitToVault` transfiere stablecoins a Vault.
+16. El módulo Keeper alcanza la condición de activación `rebase` y activa la `rebase`.
+17. Vault llama a `changeTotalSupply` para emitir USDi adicionales.
+18. Vault recoge una parte de la recaudación, que se transfiere a la tesorería llamada `Treasury`.
+19. La [tesorería](appendix#daos-treasury) beneficiará a los usuarios al utilizar `buyback` para recomprar el token de gobierno BOC.
 
-## Harvest
+## Cosecha
 
-The `harvestTrigger` is triggered every day to determine whether the `harvest` condition is met. The two harvest conditions are:
+El `harvestTrigger` se activa cada día para determinar si se cumple la condición de `harvest`. Las dos condiciones de cosecha son
 
-1. Maximum time interval is exceeded.
-2. The harvest rule met:
+1. Se supera el intervalo de tiempo máximo.
+2. Se cumple la regla de cosecha:
 $$
-Profit \times 20\%  > harvest cost
+Beneficio \times 20\% > costo de la cosecha.
 $$
 
-If any of the above conditions are met, user can do `harvest` work:
+Si se cumple alguna de las condiciones anteriores, el usuario puede realizar el trabajo de `harvest`:
 
-1. Execute the yield transfer Harvester (for the strategy with yield production and reach the yield selling threshold);
-2. Report the current asset from the strategy.
+1. Ejecutar la cosechadora de transferencia de rendimiento (para la estrategia con producción de rendimiento y alcanzar el umbral de venta de rendimiento);
+2. Informar del activo actual de la estrategia.
 
 <table>
 <tr>
-<td>Set parameters</td>
+<td>Seteo de parámetros</td>
 <td>ETH</td>
-<td>BNB Chain</td>
+<td>Chain BNB</td>
 <td>Polygon</td>
 </tr>
 <tr>
-<td>Scheduled task trigger cycle</td>
-<td>6:00 am every day</td>
-<td>6:00 am every day</td>
-<td>6:00 am every day</td>
+<td>Ciclo de activación de tareas programadas</td>
+<td>6:00 am todos los días</td>
+<td>6:00 am todos los días</td>
+<td>6:00 am todos los días</td>
 </tr>
 <tr>
-<td>Maximum time interval for triggering policy “harvest” (if the interval between current “harvest” and last “harvest” is greater than this value, “harvest” must be done) </td>
-<td>2.5 days</td>
-<td>2.5 days</td>
-<td>2.5 days</td>
+<td>Intervalo de tiempo máximo para activar la política "cosecha" (si el intervalo entre la "cosecha" actual y la última "cosecha" es mayor que este valor, se debe realizar la "cosecha") </td>
+<td>2,5 días</td>
+<td>2,5 días</td>
+<td>2,5 días</td>
 </tr>
 <tr>
-<td>The benefit-cost ratio factor X of the trigger strategy “harvest” (“harvest” profit>=cost*X, then “harvest” can be done.)</td>
+<td>El factor de relación beneficio-coste X de la estrategia de activación "cosecha" ("cosecha" beneficio>=coste*X, entonces se puede hacer "cosecha".)</td>
 <td>5</td>
 <td>5</td>
 <td>5</td>
@@ -72,98 +72,99 @@ If any of the above conditions are met, user can do `harvest` work:
 
 ## Rebase
 
-USDi is a token designed in a way that the circulating supply adjusts automatically according to price fluctuations, this process it's call [rebase](appendix#rebase). Similar to stablecoins, rebase tokens are usually pegged to another asset. But instead of using reserves to maintain the peg, rebase tokens automatically [burn](appendix#burnmint) tokens in circulation or [mint](appendix#burnmint) new tokens. When the total assets of the Vault are higher than the total issuance of USDi, means that new income has been generated. After this, the value of USDi compared with the US dollar will be revised. When the number of USDi increase, the total value of USDi is consistent with the total value of Vault assets, ensuring 1 USDi is anchored at 1USD. At the same time, 20% of the additional USDi will be transferred to the treasury as a management fee.
+USDi es un token diseñado de manera que el suministro en circulación se ajusta automáticamente según las fluctuaciones de los precios, este proceso se llama [rebase](appendix#rebase). Al igual que las stablecoins, los tokens rebase suelen estar vinculados a otro activo. Pero en lugar de utilizar las reservas para mantener la vinculación, los tokens rebase automáticamente [queman](appendix#burnmint) tokens en circulación o [acuñan](appendix#burnmint) nuevos tokens. Cuando el total de activos de la Bóveda es mayor que el total de la emisión de USDi, significa que se han generado nuevos ingresos. Después de esto, se revisará el valor de los USDi en comparación con el dólar estadounidense. Cuando el número de USDi aumenta, el valor total de USDi es coherente con el valor total de los activos de la Bóveda, asegurando que 1 USDi está anclado a 1USD. Al mismo tiempo, el 20% de los USDi adicionales se transferirá a la tesorería como comisión de gestión.
 
 ## Fund Allocation
 
 ### doHardWork
 
-The input into the position adjustment of the algorithm are the official [APY](appendix#annual-yield-apy) of the third-party protocol, the gas required for investment of each strategy, the limit of exchange [slippage](appendix#slippage), and the [rules of fund allocation](#introduction-to-boc#fund-allocation-rules), and the strategy and amount of the funds to be invested are the output.
+La entrada en el ajuste de la posición del algoritmo son el [APY] oficial(appendix#annual-yield-apy) del protocolo de terceros, el gas requerido para la inversión de cada estrategia, el límite de [deslizamiento] de cambio(appendix#slippage), y las [reglas de asignación de fondos](#introduction-to-boc#fund-allocation-rules), y la estrategia y la cantidad de los fondos a invertir son la salida.
 
 <table>
 <tr>
-<td>Set parameters</td>
+<td>Configurar parámetros</td>
 <td>ETH</td>
 <td>BNB Chain</td>
 <td>Polygon</td>
 </tr>
 <tr>
-<td>Scheduled Task Trigger Cycle</td>
-<td>7 am every Wed. & Sat.</td>
-<td>7 am every Wed. & Sat.</td>
-<td>7 am every Wed. & Sat.</td>
+<td>Ciclo de activación de tareas programadas</td>
+<td>7 am todos los miércoles y sábados</td>
+<td>7h cada miércoles y sábado</td>
+<td>7 am cada miércoles y sábado.</td>
 </tr>
 <tr>
-<td>Cost-benefit Calculation Period X (If the profit of investment X days >= cost, “doHardwork” can be done)</td>
-<td>365 days</td>
-<td>365 days</td>
-<td>365 days</td>
+<td>Periodo de cálculo coste-beneficio X (Si el beneficio de la inversión X días >= coste, se puede hacer "doHardwork")</td>
+<td>365 días</td>
+<td>365 días</td>
+<td>365 días</td>
 </tr>
 </table>
 
-### Allocation
+### Asignación
 
-Compared with `doHardWork`, `allocation` has done one more step: take out the funds of the low APY strategy, and then use the official APY of the third-party agreement, the gas required for investment of each strategy, the exchange slippage limit, fund allocation rules, the position adjustment algorithm as an input, and the output is the strategy and the amount of the awaiting investment funds.
+En comparación con `doHardWork`, `allocation` ha hecho un paso más: sacar los fondos de la estrategia de bajo APY, y luego utilizar el APY oficial del acuerdo de terceros, el gas requerido para la inversión de cada estrategia, el límite de deslizamiento de cambio, las reglas de asignación de fondos, el algoritmo de ajuste de posición como una entrada, y la salida es la estrategia y la cantidad de los fondos de inversión en espera.
 
-| Set parameters                                                                                            | ETH               | BNB Chain         | Polygon           |
+| Establecer parámetros | ETH | Cadena BNB | Polígono|
 | --------------------------------------------------------------------------------------------------------- | ----------------- | ----------------- | ----------------- |
-| Pre-adjusted position report trigger timing                                                               | 6:50 am every day | 6:50 am every day | 6:50 am every day |
-| Scheduled task trigger cycle                                                                              | 7 am every Monday | 7 am every Monday | 7 am every Monday |
-| Cost-benefit calculation period X (If the profit of rebalancing X days >= cost, “allocation” can be done) | 30 days           | 30 days           | 30 days           |
+| Ciclo de activación de informes de posición preajustado | 6:50 am todos los días | 6:50 am todos los días | 6:50 am todos los días | 6:50 am todos los días
+| Ciclo de activación de la tarea programada: 7 de la mañana todos los lunes.
+| Periodo de cálculo de coste-beneficio X (Si el beneficio del reequilibrio X días >= coste, se puede realizar la "asignación") | 30 días | 30 días | 30 días
 
 ### Fund allocation Algorithm
 
-| Variable     | Meaning                                                                                                                                                                                                                   |
-| ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| durationDays | The cycle of rebalancing needs to ensure that in a cycle after rebalancing, the profit after rebalancing - the profit before rebalancing - the cost of rebalancing > 0                                                    |
-| yearDays     | 365days                                                                                                                                                                                                                   |
-| asset1       | The original assets of the strategy                                                                                                                                                                                       |
-| apr1         | The strategy apr before the position adjustment (APY needs to be converted into apr), the current value of the APY of the position adjustment algorithm is the 7-day average of APY calculated outside the strategy chain |
-| deltaAsset   | Assume the capital change value of the strategy rebalancing                                                                                                                                                               |
-| poolAssets1  | The TVL of the strategic target investment pool is used as a parameter for the change of apr after the position adjustment                                                                                                |
+| Variable     | Meaning|
+| ------------ | -------------- |
+| "durationDays" | El ciclo de reequilibrio debe garantizar que en un ciclo después del reequilibrio, el beneficio después del reequilibrio - el beneficio antes del reequilibrio - el coste del reequilibrio > 0 |
+| "yearDays"     | 365 días|
+| "asset1" | Los activos originales de la estrategia |
+| "apr1" | El apr de la estrategia antes del ajuste de la posición (el APY necesita ser convertido en apr), el valor actual del APY del algoritmo de ajuste de la posición es el promedio de 7 días del APY calculado fuera de la cadena de la estrategia | | "deltaAsset" | El valor del cambio de capital del rebalanceo de la estrategia
+| "deltaAsset" | Asumir el valor de cambio de capital del rebalanceo de la estrategia
+| "poolAssets1"  | El TVL del pool de inversión objetivo estratégico se utiliza como parámetro para el cambio de apr después del ajuste de la posición |
 
-Profit before position adjustment
+Beneficio antes del ajuste de la posición
 
 $$
 gain1 = \frac{asset1 \times apr1 \times durationDays}{yearDays}
 $$
 
-Changed earnings
+Cambios en los ingresos
 
 $$
 gain2 = \frac{ (asset1+deltaAsset-exchangeLoss)\times apr2 \times durationDays}{yearDays}
 $$
 
-changed apr
+Cambio apr
 
 $$
 apr2 = \frac{apr1 \times poolAssets1}{(poolAssets1+deltaAsset-exchangeLoss)}
 $$
 
-After substituting apr2 in gain2 using the above equation:
+Después de sustituir apr2 en gain2 utilizando la ecuación anterior:
 
 $$
 gain2=\frac{apr1 \times durationDays/yearDays \times (asset1+deltaAsset) \times poolAssets1}{poolAssets1+deltaAsset-exchangeLoss}
 $$
 
-Then the relationship between the changed income of a single strategy and the changed assets is:
+Entonces, la relación entre los ingresos cambiados de una sola estrategia y los activos cambiados es:
 
 $$
 deltaGain = gain2-gain1 = \frac{deltaAsset \times (poolAsset1-asset1) \times apr1 \times durationDays}{(poolAsset1+deltaAsset-exchangeLoss) \times yearDays}
 $$
 
-Cost of changing funds for a single strategy
+Coste del cambio de fondos para una sola estrategia
 
-| variable name    | Details                                                                                        |
+| Nombre de la variable | Detalles |
 | ---------------- | ---------------------------------------------------------------------------------------------- |
-| withdrawFee      | Withdrawal Fund Handling Fee                                                                   |
-| lendFee          | Additional capital operation fee                                                               |
-| exchangeLoss     | Exchange currency slippage loss                                                                |
-| harvestFee       | “harvest” Funding Fees                                                                         |
-| profitChangeFee  | Capital change cost                                                                            |
-| withdrawGas      | withdrawGas is the gas consumed by the “withdraw” operation, which is estimated by pre-testing |
-| lendGas          | lendGas is the gas consumed by the “lend” operation, which is estimated by pre-testing         |
-| exchangeLossRate | Redeem Slippage                                                                                |
+| "withdrawFee" | Comisión de gestión de fondos de retirada |
+| "lendFee" | Tasa de operación de capital adicional |
+| "exchangeLoss": Pérdida por deslizamiento de divisas.
+| "harvestFee" | Comisiones de financiación "harvest" |
+| "profitChangeFee" | Coste de cambio de capital |
+| "withdrawGas" | "withdrawGas" es el gas consumido por la operación de "retirada", que se estima por medio de una prueba previa | ||"withdrawGas" |es el gas consumido por la operación de "retirada", que se estima por medio de una prueba previa|
+| "lendGas"| es el gas consumido por la operación "lend", que se estima mediante una prueba previa.|
+| "exchangeLossRate" | Redeem Slippage |
+
 
 $$
 profitChangeFee=withdrawFee+lendFee+exchangeLoss+harvestFee
@@ -185,7 +186,7 @@ $$
 harvestFee=harvestGas \times durationDays
 $$
 
-Find the maximum sum of deltaGain for all strategies:
+Encuentra la suma máxima de deltaGain para todas las estrategias:
 
 $$
 profitChange=MAX\sum_{i=1}^m(deltaGain_i -withdrawFee_i-lendFee_i - exchangeLoss_i-harvestFee_i)
@@ -199,52 +200,52 @@ $$
 - operateFee_i - exchangeLoss_i - harvestFee_i)
 $$
 
-Total Change Profit ProfitChange
-In this formula, the only variable is the deltaAsset for each strategy. At the same time, the solution needs to be limited by
+Cambio total Beneficio CambioBeneficio
+En esta fórmula, la única variable es el deltaAsset para cada estrategia. Al mismo tiempo, la solución debe estar limitada por
 
-Restrictions
+Restricciones
 
-1. The same protocol strategy (multiple constraints) funds do not exceed 30% of the total funds
-2. The sum of all asset changes in and out is 0
+1. Los fondos de la misma estrategia de protocolo (restricciones múltiples) no superan el 30% de los fondos totales
+2. La suma de todas las entradas y salidas de activos es 0
 
-Boundary conditions
+Condiciones límite
 
-1. Strategic assets cannot exceed 20% of total assets
-2. The strategic funds cannot exceed 50% of the target pool assets
+1. Los activos estratégicos no pueden superar el 20% de los activos totales
+2. Los fondos estratégicos no pueden superar el 50% de los activos del pool objetivo
 
-Use python scipy's `optimize.minimize` to find the current optimal rebalancing scheme.
+Utilice el programa `optimize.minimize` de python para encontrar el esquema de rebalanceo óptimo actual.
 
-### Public Parameter Configuration
+### Configuración de los parámetros públicos
 
-| Set parameters                                                                                | ETH        | BNB Chain  | Polygon    |
+| Establecer parámetros | ETH | Cadena BNB | Polígono |
 | --------------------------------------------------------------------------------------------- | ---------- | ---------- | ---------- |
-| Fund allocation calculation Exchange slippage settings                                        | 0.25%      | 0.25%      | 0.25%      |
-| Gas configuration (including strategy deposit and withdrawal Gas, exchange Gas, harvest cost) | Actual Gas | Actual Gas | Actual Gas |
+| Cálculo de la asignación de fondos Configuración del deslizamiento de la bolsa | 0,25% | 0,25% | 0,25% | 0,25%| 
+| Configuración del gas (incluyendo el gas de depósito y retirada de la estrategia, el gas de intercambio, el coste de la cosecha) | | Gas real | Gas real | Gas real| 
 
-### Official APY Calculation Rules
+### Reglas de cálculo del APY oficial
 
-The official APY are needed as a reference when allocating funds. The sources of official APY are as follows: vfat.tools, coingecko, zapper, Official APY, apy.vision Fee, etc. If the official APY source channel does not include the APY calculation of the protocol strategy, the BOC directly copies the official APY calculation rules of the protocol strategy. Generally speaking, the official APY of the protocol strategy consists of market-making revenue and mining coin revenue. Taking the “ConvexLusdStrategy” strategy that BOC has already docked as an example, its APY consists from the contents of following table:
+Los APY oficiales son necesarios como referencia a la hora de asignar fondos. Las fuentes de APY oficiales son las siguientes: vfat.tools, coingecko, zapper, Official APY, apy.vision Fee, etc. Si el canal de la fuente del APY oficial no incluye el cálculo del APY de la estrategia de protocolo, el BOC copia directamente las reglas de cálculo del APY oficial de la estrategia de protocolo. En general, el APY oficial de la estrategia de protocolo se compone de los ingresos de creación de mercado y de los ingresos de las monedas mineras. Tomando la estrategia "ConvexLusdStrategy" que BOC ya ha acoplado como ejemplo, su APY consiste en el contenido de la siguiente tabla:
 
 <table>
 <tr>
-<td>APY Mark</td>
+<td>Marca APY</td>
 <td>APR</td>
 <td>APY</td>
-<td>Compound Interest</td>
-<td>Calculation Method</td>
-<td>Data Source</td>
+<td>Interés compuesto</td>
+<td>Método de cálculo</td>
+<td>Fuente de datos</td>
 </tr>
 <tr>
-<td>Trx Fee</td>
-<td>0.0024</td>
-<td>Tx Fee</td>
+<td>Cuota de Trx</td>
+<td>0,0024</td>
+<td>Tasa de Tx</td>
 <td>N</td>
 <td>API</td>
 <td>https://www.convexfinance.com/api/curve-apys</td>
 </tr>
 <tr>
 <td>crv</td>
-<td>0.023523458</td>
+<td>0,023523458</td>
 <td>cvx mining coins</td>
 <td>Y</td>
 <td>API</td>
@@ -252,11 +253,11 @@ The official APY are needed as a reference when allocating funds. The sources of
 </tr>
 <tr>
 <td>cvx</td>
-<td>0.024132445</td>
+<td>0,024132445</td>
 <td>cvx mining coins</td>
 <td>Y</td>
-<td>Contract Calculation</td>
-<td>Issued according to time, one-year mining coin price/total pool assets can get APR</td>
+<td>Cálculo del contrato</td>
+<td>En función del tiempo, el precio de las monedas mineras a un año/activos totales del pool puede obtener TAE</td>.
 </tr>
 </table>
 
@@ -264,8 +265,8 @@ $$
 APY=(1+APR)^{periods}-1
 $$
 
-The “periods” parameter is the interest payment period.
+El parámetro "periods" es el periodo de pago de intereses.
 
-### Policy Actual APY Calculation Rules
+### Reglas de cálculo del APY real de la estrategia
 
-The actual APY of the strategy is calculated based on the standard return of the strategy currency.
+El APY real de la estrategia se calcula en base a la rentabilidad estándar de la moneda de la estrategia.

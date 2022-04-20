@@ -2,176 +2,176 @@
 sidebar_position: 3
 ---
 
-# Protocol Components
+# Componentes del protocolo
 
-## Incorporated Blockchains
+## Blockchains incorporados
 
-BOC selected [blockchain](appendix#blockchain-network) are compatible with [Ethereum Virtual Machine (EVM)](appendix#ethereum-virtual-machine-evm), actually BOC is connected with Ethereum, BNB Chain and Polygon chain.
+BOC seleccionó [blockchain](appendix#blockchain-network) son compatibles con [Ethereum Virtual Machine (EVM)](appendix#ethereum-virtual-machine-evm), en realidad BOC está conectado con Ethereum, BNB Chain y Polygon chain.
 
 ### Ethereum
 
-**Ethereum** is a decentralized open source blockchain platform with [smart contract](appendix#smart-contract) functions, whose native [cryptocurrency](appendix#cryptocurrency) is ETH. In December 2021, Ethereum became the second most valuable cryptocurrency by market capitalization after Bitcoin, and the most widely used blockchain.
+**Ethereum** es una plataforma blockchain descentralizada de código abierto con funciones de [contrato inteligente](appendix#smart-contract), cuya [criptomoneda](appendix#cryptocurrency) nativa es ETH. En diciembre de 2021, Ethereum se convirtió en la segunda criptomoneda más valiosa por capitalización de mercado después de Bitcoin, y en la blockchain más utilizada.
 
-The concept of Ethereum was first proposed between 2013 and 2014 by the programmer Vitalik Buterin after being inspired by Bitcoin as "the next generation of cryptocurrency and decentralized application platform". Ethereum's development started through ICO crowdfunding in 2014.
+El concepto de Ethereum fue propuesto por primera vez entre 2013 y 2014 por el programador Vitalik Buterin tras inspirarse en Bitcoin como "la próxima generación de criptodivisas y plataforma de aplicaciones descentralizadas". El desarrollo de Ethereum comenzó a través del crowdfunding ICO en 2014.
 
-Ethereum is also known as the "second-generation blockchain platform", second only to Bitcoin.
+Ethereum también se conoce como la "plataforma blockchain de segunda generación", sólo superada por Bitcoin.
 
 ### BNB
 
-**Binance Smart Chain** (formerly called BSC) is a blockchain compatible with the Ethereum virtual machine in parallel to the Binance Chain. It is a cutting-edge project in the crypto asset industry. By introducing the Proof of Stake Authority (PoSA) consensus mechanism, BNB creates a validating ecosystem that allows nodes, token holders, developers and users to enjoy the full benefit of the blockchain, such as higher performance and abundance of innovation space.
+**Binance Smart Chain** (antes llamada BSC) es una blockchain compatible con la máquina virtual Ethereum en paralelo a la cadena Binance. Es un proyecto de vanguardia en la industria de los criptoactivos. Al introducir el mecanismo de consenso Proof of Stake Authority (PoSA), BNB crea un ecosistema de validación que permite a los nodos, a los titulares de tokens, a los desarrolladores y a los usuarios disfrutar de todos los beneficios de la blockchain, como un mayor rendimiento y un abundante espacio de innovación.
 
-On February 15, 2022, the cryptocurrency exchange Binance announced that the original Binance Smart Chain (BSC) will be renamed to BNB Chain. BNB is the Binance Exchange platform cryptocurrency that powers the BNB Chain Ecosystem, and is one of the world’s most popular utility tokens.
+El 15 de febrero de 2022, la bolsa de criptomonedas Binance anunció que la cadena inteligente original de Binance (BSC) pasará a llamarse cadena BNB. BNB es la criptodivisa de la plataforma de intercambio Binance que impulsa el ecosistema BNB Chain, y es uno de los tokens de utilidad más populares del mundo.
 
-### Polygon
+### Polígono
 
-**Polygon** is a protocol for building and interconnecting Ethereum-compatible blockchain networks. The project was launched in India in 2017 under the original name Matic Network. In February 2021, the project name was changed to Polygon. The cryptocurrency of the Polygon project is MATIC, one of the top 20 cryptocurrencies by market cap traded on major exchanges.
+**Polygon** es un protocolo para construir e interconectar redes de blockchain compatibles con Ethereum. El proyecto se lanzó en la India en 2017 con el nombre original de Matic Network. En febrero de 2021, el nombre del proyecto se cambió a Polygon. La criptodivisa del proyecto Polygon es MATIC, una de las 20 principales criptodivisas por capitalización de mercado negociada en los principales intercambios.
 
-## Incorporated Stablecoins
+## Incorporación de Stablecoins
 
-In order to avoid the psychological fear caused by the fluctuations of digital currency value and the losses of market-making funds, the BOC protocol has selected only [stable currency assets](appendix#stablecoin), and is only limited to those with full [collateral](appendix#collateral) provided by legal currency or by stablecoins. 
+Con el fin de evitar el miedo psicológico causado por las fluctuaciones del valor de la moneda digital y las pérdidas de los fondos de creación de mercado, el protocolo BOC ha seleccionado sólo [activos de moneda estable](appendix#stablecoin), y sólo se limita a aquellos con plena [garantía](appendix#collateral) proporcionada por moneda legal o por stablecoins. 
 
-Stablecoins need to meet the following conditions:
+Las stablecoins deben cumplir las siguientes condiciones
 
-- Pass audit
-- Insurance available
-- Stablecoin quotes must be based on ChainLink rather than the protocol itself to reduce oracle attack.
-- Scale greater than $1 billion
+- Pasar la auditoría
+- Disponer de un seguro
+- Las cotizaciones de las stablecoins deben basarse en ChainLink y no en el propio protocolo para reducir los ataques de oráculo.
+- Escala superior a 1.000 millones de dólares
 
-The currently selected strategic stablecoins are: DAI, USDC, USDT, BUSD, USDP, TUSD, LUSD.
+Las stablecoins estratégicas actualmente seleccionadas son: DAI, USDC, USDT, BUSD, USDP, TUSD, LUSD.
 
 ### DAI
 
-**[DAI](https://makerdao.com/en/)** is a stablecoin cryptocurrency designed to keep its value as close to a dollar as possible through an automated system of smart contracts on the Ethereum blockchain.
+**[DAI](https://makerdao.com/en/)** es una criptodivisa stablecoin diseñada para mantener su valor lo más cerca posible del dólar a través de un sistema automatizado de contratos inteligentes en la blockchain de Ethereum.
 
 <https://makerdao.com/en/>
 
 ### USDC
 
-**[USD Coin](https://www.centre.io/usdc)** (USDC) is a digital stablecoin pegged to the U.S. dollar that operates on the Ethereum, Stellar, Algorand, Hedera Hashgraph, and Solana blockchains. As of January 2022, USDC in circulation is $45.2 billion.
+**[USD Coin](https://www.centre.io/usdc)** (USDC) es una stablecoin digital vinculada al dólar estadounidense que opera en las blockchains de Ethereum, Stellar, Algorand, Hedera Hashgraph y Solana. En enero de 2022, el USDC en circulación es de 45.200 millones de dólares.
 
 <https://www.centre.io/usdc>
 
 ### USDT
 
-**[USDT](https://tether.to/en/)**, also known as USDT, is a controversial cryptocurrency issued by Tether Limited, which is controlled by the owners of Bitfinex. USDT is a stable currency. Launched in 2014, the coin is a blockchain-based platform that digitally facilitates the use of fiat currencies.
+**[USDT](https://tether.to/en/)**, también conocida como USDT, es una controvertida criptodivisa emitida por Tether Limited, que está controlada por los propietarios de Bitfinex. USDT es una moneda estable. Lanzada en 2014, la moneda es una plataforma basada en blockchain que facilita digitalmente el uso de monedas fiduciarias.
 
 <https://tether.to/en/>
 
 ### BUSD
 
-**[Binance USD](https://www.binance.com/en/busd)** (BUSD) is a new stablecoin launched by Binance and Paxos, which is pegged 1:1 to the US dollar.
+**[Binance USD](https://www.binance.com/en/busd)** (BUSD) es una nueva stablecoin lanzada por Binance y Paxos, que está vinculada 1:1 al dólar estadounidense.
 
 <https://www.binance.com/en/busd>
 
 ### USDP
 
-**[Pax Dollar](https://paxos.com/usdp/)** (USDP) is a fiat-collateralized stablecoin that is pegged 1:1 to the U.S. dollar.
+**[Pax Dollar](https://paxos.com/usdp/)** (USDP) es una stablecoin con garantía fiduciaria que está vinculada 1:1 al dólar estadounidense.
 
 <https://paxos.com/usdp/>
 
 ### TUSD
 
-**[TrueUSD](https://www.trusttoken.com)** (TUSD) is a USD-pegged stablecoin issued by Trusttoken.
+**[TrueUSD](https://www.trusttoken.com)** (TUSD) es una stablecoin vinculada al USD emitida por Trusttoken.
 
 <https://www.trusttoken.com/>
 
 ### LUSD
 
-**[LUSD](https://www.liquity.org/)** is a USD-pegged stablecoin issued by liquidity Protocol.
+**[LUSD](https://www.liquity.org/)** es una stablecoin con paridad en USD emitida por liquidity Protocol.
 
 <https://www.liquity.org/>
 
-## Incorporated Protocol
+## Protocolo incorporado
 
-The strategies need to meet the following conditions after the stablecoins are selected:
+Las estrategias tienen que cumplir las siguientes condiciones después de seleccionar las stablecoins:
 
-- Don't have withdrawal and admission fee.
-- No lock-up period, some strategies have a lock-up period, and funds cannot be retrieved for a certain period of time.
-- No investment limit, some strategies have a limit on funds.
-- To be able to avoid losses caused by code vulnerabilities, all protocols on BOC are audited.
-- In order to avoid the chain system risk caused by nested tokens and LEGO combinations, the access to the aggregated financial management protocol needs to have a long-term security operation record and obtain the voting permission of the community.
-- In order to avoid impermanent losses caused by market fluctuations, the protocol for obtaining capital returns by providing risky services will not be accessed for the time being. At the same time leverage is not being used to magnify capital returns for the time being.
-- The first batch of the agreement will be connected to three smart contract platforms including Ethereum, Polygon, and BNB that have a TLV of more than $5 billion. In view of the immature cross-chain technology, at this stage, users shall manually use the official cross-chain bridge for asset conversion.
-- The first DEX and lending protocols to be accessed are the first-line protocols of choice on various blockchains, and have a good record of security operations.
-- The protocol provides the optimal allocation service within the capital chain, which combines the two principles of maximizing returns and diversifying capital risks.
+- No tienen cuota de retirada y admisión.
+- Sin periodo de bloqueo, algunas estrategias tienen un periodo de bloqueo, y los fondos no pueden ser recuperados durante un cierto periodo de tiempo.
+- Sin límite de inversión, algunas estrategias tienen un límite de fondos.
+- Para poder evitar las pérdidas causadas por las vulnerabilidades del código, todos los protocolos de BOC son auditados.
+- Para evitar el riesgo del sistema de cadena causado por los tokens anidados y las combinaciones de LEGO, el acceso al protocolo de gestión financiera agregada necesita tener un registro de operaciones de seguridad a largo plazo y obtener el permiso de votación del
+- Para evitar las pérdidas impermanentes causadas por las fluctuaciones del mercado, por el momento no se accederá al protocolo para obtener rendimientos de capital mediante la prestación de servicios de riesgo. Al mismo tiempo, no se utilizará el apalancamiento para magnificar los rendimientos del capital por el momento.
+- El primer lote del acuerdo se conectará a tres plataformas de contratos inteligentes, incluyendo Ethereum, Polygon y BNB, que tienen un TLV de más de 5.000 millones de dólares. En vista de la inmadurez de la tecnología de la cadena cruzada, en esta etapa, los usuarios deberán utilizar manualmente el puente oficial de la cadena cruzada para la conversión de activos.
+- Los primeros protocolos DEX y de préstamo a los que se puede acceder son los protocolos de primera línea elegidos en varias cadenas de bloques, y tienen un buen historial de operaciones de seguridad.
+- El protocolo proporciona el servicio de asignación óptima dentro de la cadena de capital, que combina los dos principios de maximizar los rendimientos y diversificar los riesgos del capital.
 
-The currently selected protocols include:
+Los protocolos actualmente seleccionados son
 
 - Ethereum: Convex, DODO, SushiSwap, Balancer, etc.
-- BNB Chain: DForce, Synapse, Venus, DODO, Belt, Pancakeswap, Alpaca, etc.
-- Polygon: DODO, Synapse, Quickswap, Balancer, Aave, Curve, SushiSwap, etc.
+- Cadena BNB: DForce, Synapse, Venus, DODO, Belt, Pancakeswap, Alpaca, etc.
+- Polígono: DODO, Synapse, Quickswap, Balancer, Aave, Curve, SushiSwap, etc.
 
 ### Aave
 
-**[Aave](https://app.aave.com/)** is an open source decentralized lending protocol that provides users with deposit and lending services. The deposit and loan interest rates of users on both sides of the borrower and lenders are calculated by algorithms based on the platform's borrowing volume and deposit volume, and the platform uses Chainlink's oracle to ensure the fairness of the collateral price. According to the data of [DeFi Pulse](https://www.defipulse.com/), as of March 30, 2022, Aave's total fund lock-up volume was approximately US$11.79 billion, ranking second in DeFi application lock-up volume.
+**[Aave](https://app.aave.com/)** es un protocolo de préstamo descentralizado de código abierto que proporciona a los usuarios servicios de depósito y préstamo. Los tipos de interés de los depósitos y préstamos de los usuarios, tanto del prestatario como del prestamista, se calculan mediante algoritmos basados en el volumen de préstamos y el volumen de depósitos de la plataforma, y ésta utiliza el oráculo de Chainlink para garantizar la equidad del precio de la garantía. Según los datos de [DeFi Pulse](https://www.defipulse.com/), a 30 de marzo de 2022, el volumen total de bloqueo de fondos de Aave era de aproximadamente 11.790 millones de dólares, ocupando el segundo lugar en el volumen de bloqueo de aplicaciones de DeFi.
 
-### Curve
+### Curva
 
-**[Curve](https://curve.fi/)** is a decentralized exchange deployed on Ethereum. Curve is designed for trading between stablecoins with low fees and slippage through an automated market maker protocol. It is a decentralized liquidity aggregator, and anyone can add their own assets to the liquidity pool to earn market-making benefits. According to the data of [DeFi Pulse](https://www.defipulse.com/), as of March 30, 2022, Curve's total fund lock-up volume was approximately US$10.79 billion, ranking third in DeFi application lock-up volume.
+**[Curve](https://curve.fi/)** es un intercambio descentralizado desplegado en Ethereum. Curve está diseñado para el comercio entre stablecoins con bajas comisiones y deslizamientos a través de un protocolo de creador de mercado automatizado. Es un agregador de liquidez descentralizado, y cualquiera puede añadir sus propios activos al pool de liquidez para obtener beneficios de creación de mercado. Según los datos de [DeFi Pulse](https://www.defipulse.com/), al 30 de marzo de 2022, el volumen total de bloqueo de fondos de Curve era de aproximadamente 10.790 millones de dólares, ocupando el tercer lugar en el volumen de bloqueo de aplicaciones de DeFi.
 
 ### Convex
 
-**[Convex](https://www.convexfinance.com/)** is a one-stop platform for CRV staking and liquidity mining on Ethereum that is dedicated to simplifying the use of Curve.
+**[Convex](https://www.convexfinance.com/)** es una plataforma única para la estaca de CRV y la minería de liquidez en Ethereum que se dedica a simplificar el uso de Curve.
 
-As a revenue aggregator on the Ethereum chain, Convex aims to use the CVX token to simplify the process of locking and staking Curve and CRV through a simple and easy-to-use interface, and to improve the compensation of CRV token holders and liquidity providers. This facilitates the development of the CRV ecosystem. According to the data of [DeFi Pulse](https://www.defipulse.com/), as of March 30, 2022, Convex's total locked funds amounted to about $10.1 billion, ranking fourth in DeFi applications.
+Como agregador de ingresos en la cadena Ethereum, Convex pretende utilizar el token CVX para simplificar el proceso de bloqueo y estaqueo de Curve y CRV a través de una interfaz sencilla y fácil de usar, y mejorar la compensación de los titulares de tokens CRV y los proveedores de liquidez. Esto facilita el desarrollo del ecosistema CRV. Según los datos de [DeFi Pulse](https://www.defipulse.com/), al 30 de marzo de 2022, el total de fondos bloqueados de Convex ascendía a unos 10.100 millones de dólares, ocupando el cuarto lugar en las aplicaciones de DeFi.
 
 ### Uniswap
 
-**[Uniswap](https://uniswap.org/)** is a decentralized exchange deployed on Ethereum. The Uniswap protocol facilitates automated transactions between cryptocurrency tokens on the Ethereum blockchain through the use of smart contracts. As of October 2020, Uniswap is estimated to be the largest decentralized exchange and the fourth largest cryptocurrency exchange by daily trading volume. According to the data of [DeFi Pulse](https://www.defipulse.com/), as of March 30, 2022, Uniswap's total locked funds amounted to about $7.04 billion, ranking sixth in DeFi applications.
+**[Uniswap](https://uniswap.org/)** es un intercambio descentralizado desplegado en Ethereum. El protocolo Uniswap facilita las transacciones automatizadas entre tokens de criptodivisas en la blockchain de Ethereum mediante el uso de contratos inteligentes. A partir de octubre de 2020, se estima que Uniswap es el mayor intercambio descentralizado y el cuarto mayor intercambio de criptodivisas por volumen de negociación diario. Según los datos de [DeFi Pulse](https://www.defipulse.com/), al 30 de marzo de 2022, el total de fondos bloqueados de Uniswap ascendía a unos 7.040 millones de dólares, ocupando el sexto lugar en aplicaciones DeFi.
 
 ### Balancer
 
-**[Balancer](https://balancer.fi/)** is a decentralized exchange deployed on Ethereum. Balancer uses automatic market makers to achieve the function of decentralized transactions. Transaction users can choose trading pairs to trade and pay transaction fees, while liquidity providers can get a share of the fees. According to the data of [DeFi Pulse](https://www.defipulse.com/), as of March 30, 2022, Balancer's total fund lock-up volume was about 2.19 billion US dollars, ranking 6th in DeFi application lock-up volume.
+**[Balancer](https://balancer.fi/)** es un intercambio descentralizado desplegado en Ethereum. Balancer utiliza creadores de mercado automáticos para lograr la función de transacciones descentralizadas. Los usuarios de las transacciones pueden elegir los pares de operaciones para negociar y pagar las tasas de transacción, mientras que los proveedores de liquidez pueden obtener una parte de las tasas. Según los datos de [DeFi Pulse](https://www.defipulse.com/), al 30 de marzo de 2022, el volumen total de bloqueo de fondos de Balancer era de unos 2.190 millones de dólares estadounidenses, ocupando el sexto lugar en el volumen de bloqueo de aplicaciones DeFi.
 
 ### SushiSwap
 
-**[SushiSwap](https://app.sushi.com/swap)** was originally a fork of Uniswap, built upon Uniswap's code, while introducing some key differences. One of the biggest differences is that rewards are issued in SUSHI tokens. SushiSwap's liquidity providers are rewarded with the protocol's native token, SUSHI, which is also a governance token. Unlike Uniswap (UNI), SUSHI holders can continue to earn yields even after they cease to provide liquidity. According to [DeFi Pulse](https://www.defipulse.com/), as of March 30, 2022, among the rankings of centralized exchanges, Sushiswap's total lock-up volume of funds was approximately US$1.68 billion, ranking 11th in DeFi application lock-up volume.
+**[SushiSwap](https://app.sushi.com/swap)** fue originalmente una bifurcación de Uniswap, construida sobre el código de Uniswap, aunque introduciendo algunas diferencias clave. Una de las mayores diferencias es que las recompensas se emiten en tokens SUSHI. Los proveedores de liquidez de SushiSwap son recompensados con el token nativo del protocolo, SUSHI, que también es un token de gobernanza. A diferencia de Uniswap (UNI), los titulares de SUSHI pueden seguir obteniendo rendimientos incluso después de dejar de proporcionar liquidez. Según [DeFi Pulse](https://www.defipulse.com/), al 30 de marzo de 2022, entre las clasificaciones de los intercambios centralizados, el volumen total de bloqueo de fondos de Sushiswap era de aproximadamente 1.680 millones de dólares, ocupando el 11º lugar en el volumen de bloqueo de aplicaciones DeFi.
 
 ### Quickswap
 
-**[Quickswap](https://quickswap.exchange/#/)** is a layer2 decentralized exchange, similar to Uniswap and Sushiswap, using the AMM method. Anyone can invest money on Quickswap, provide liquidity, and earn income by staking liquidity tokens again. Quickswap's token, QUICK, is used as a governance token, and holders can submit proposals for changes to the protocol. According to the data of [DeFi Pulse](https://www.defipulse.com/), as of March 30, 2022, among the rankings of centralized exchanges, Quickswap's total locked funds amounted to about US$473 million, ranking 22nd among DeFi applications.
+**[Quickswap](https://quickswap.exchange/#/)** es un intercambio descentralizado de capa 2, similar a Uniswap y Sushiswap, que utiliza el método AMM. Cualquiera puede invertir dinero en Quickswap, proporcionar liquidez y obtener ingresos apostando de nuevo tokens de liquidez. El token de Quickswap, QUICK, se utiliza como token de gobernanza, y sus titulares pueden presentar propuestas de cambios en el protocolo. Según los datos de [DeFi Pulse](https://www.defipulse.com/), al 30 de marzo de 2022, entre los rankings de intercambios centralizados, los fondos totales bloqueados de Quickswap ascendían a unos 473 millones de dólares, ocupando el puesto 22 entre las aplicaciones DeFi.
 
 ### DODO
 
-**[DODO](https://app.dodoex.io/)** is a decentralized trading platform that uses an original Proactive Market Maker (PMM) algorithm to provide efficient on-chain liquidity for Web3 assets, allowing everyone to easily issue and trade Web3 assets. DODO not only provides liquidity by itself, but also aggregates the liquidity of other exchanges. This allows DODO to offer the best prices on the entire network. According to the data of [DeFi Pulse](https://www.defipulse.com/), as of March 30, 2022, DODO's total fund lock-up volume was approximately US$47,700 million, ranking 52nd in DeFi application lock-up volume.
+**[DODO](https://app.dodoex.io/)** es una plataforma de negociación descentralizada que utiliza un algoritmo original de Creador de Mercado Proactivo (PMM) para proporcionar una liquidez eficiente en la cadena para los activos de Web3, permitiendo a todo el mundo emitir y negociar fácilmente los activos de Web3. DODO no sólo proporciona liquidez por sí mismo, sino que también agrega la liquidez de otras bolsas. Esto permite a DODO ofrecer los mejores precios de toda la red. Según los datos de [DeFi Pulse](https://www.defipulse.com/), al 30 de marzo de 2022, el volumen total de bloqueo de fondos de DODO era de aproximadamente 47.700 millones de dólares, ocupando el puesto 52 en el volumen de bloqueo de aplicaciones DeFi.
 
 ### dForce
 
-**[dForce](https://dforce.network/)** is committed to building an integrated and interoperable matrix of open financial protocols and currency protocols, including lending protocols (global liquidity pools, interest-earning markets), asset-based protocols (multi-currency stablecoins, synthetic assets, etc.), liquidity aggregators, automatic market makers, etc. As of March 30, 2022, dForce's total lock-up volume of funds was approximately US$15,400, and DeFi applications ranked 69th in lock-up volume.
+**[dForce](https://dforce.network/)** está comprometida con la construcción de una matriz integrada e interoperable de protocolos financieros abiertos y protocolos de divisas, incluyendo protocolos de préstamo (grupos de liquidez global, mercados que generan intereses), protocolos basados en activos (stablecoins multidivisa, activos sintéticos, etc.), agregadores de liquidez, creadores de mercado automáticos, etc. Al 30 de marzo de 2022, el volumen total de fondos bloqueados de dForce era de aproximadamente 15.400 dólares, y las aplicaciones de DeFi ocupaban el puesto 69 en volumen de bloqueo.
 
 ### Synapse
 
-**[Synapse](https://synapseprotocol.com/landing)** was upgraded and renamed from Nerve Finance, an anonymous cross-chain liquidity protocol on the original BNB Chain.
+**[Synapse](https://synapseprotocol.com/landing)** fue actualizado y renombrado a partir de Nerve Finance, un protocolo de liquidez anónimo de cadena cruzada en la cadena BNB original.
 
-Synapse adopts cross-chain multi-party computation (MPC) validator and threshold signature scheme to support assets, smart contract calls, etc. Synapse connects different blockchains for easy and secure interoperability; developers can also build real cross-chain applications, including cross-chain DEXs, lending platforms, margin systems, derivatives markets, income aggregators, and more.
+Synapse adopta un esquema de validación de computación multipartidista (MPC) entre cadenas y un esquema de firma de umbral para soportar activos, llamadas de contratos inteligentes, etc. Synapse conecta diferentes blockchains para una interoperabilidad fácil y segura; los desarrolladores también pueden construir aplicaciones reales de cadena cruzada, incluyendo DEXs de cadena cruzada, plataformas de préstamos, sistemas de márgenes, mercados de derivados, agregadores de ingresos, y más.
 
 ### Venus
 
-**[Venus](https://app.venus.io/dashboard)** is a synthetic stablecoin-driven decentralized currency market system on the BNB Chain, providing users with cryptocurrency lending solutions without the need for any third-party custody of funds or centralized entities to exercise more control over the protocol.
+**[Venus](https://app.venus.io/dashboard)** es un sistema de mercado de divisas descentralizado impulsado por stablecoin sintético en la cadena BNB, que proporciona a los usuarios soluciones de préstamo de criptodivisas sin necesidad de custodia de fondos por parte de terceros o de entidades centralizadas que ejerzan más control sobre el protocolo.
 
-Borrowers on Venus can get instant loans in stablecoins after holding cryptocurrency. This enables users to obtain additional funds without having to sell their non-stablecoin digital assets. On the other hand, lenders can deposit stablecoins (and other different cryptocurrencies) on the platform to earn passive income. What makes Venus unique is how it promotes its own synthetic stablecoin within the cryptocurrency ecosystem. The synthetic stablecoins can maintain stable long-term value without holding the real-world assets they are pegged to (such as through algorithms, ecosystem incentive schemes, or using other forms of collateral).
+Los prestatarios en Venus pueden obtener préstamos instantáneos en stablecoins después de mantener la criptodivisa. Esto permite a los usuarios obtener fondos adicionales sin tener que vender sus activos digitales que no sean stablecoins. Por otro lado, los prestamistas pueden depositar stablecoins (y otras criptodivisas diferentes) en la plataforma para obtener ingresos pasivos. Lo que hace único a Venus es la forma en que promueve su propia stablecoin sintética dentro del ecosistema de criptodivisas. Las stablecoins sintéticas pueden mantener un valor estable a largo plazo sin tener los activos del mundo real a los que están vinculadas (por ejemplo, a través de algoritmos, esquemas de incentivos del ecosistema o utilizando otras formas de garantía).
 
 ### Pancakeswap
 
-**[Pancakeswap](https://pancakeswap.finance/)** is a decentralized exchange on BNB Chain. Users can earn market-making income by providing liquidity to the platform, and earn Cake tokens by staking.
+**[Pancakeswap](https://pancakeswap.finance/)** es un intercambio descentralizado en BNB Chain. Los usuarios pueden obtener ingresos de creación de mercado proporcionando liquidez a la plataforma, y ganar tokens de Cake apostando.
 
 ### Alpaca
 
-**[Alpaca](https://app.alpacafinance.org/lend)** is the largest lending protocol on the BNB Chain that provides leveraged farms. Alpaca helps lenders earn income and provides borrowers with leveraged farm position loans with insufficient collateral, which maximizes the principal benefit of farmers' mining and can generate multiple returns.
+**[Alpaca](https://app.alpacafinance.org/lend)** es el mayor protocolo de préstamos en la cadena BNB que proporciona granjas apalancadas. Alpaca ayuda a los prestamistas a obtener ingresos y proporciona a los prestatarios préstamos apalancados para la posición de la granja con insuficiente garantía, lo que maximiza el beneficio principal de la minería de los agricultores y puede generar múltiples rendimientos.
 
-## Incorporated Oracle
+## Oráculos incorporados
 
-Oracles are data sources that connect Ethereum to off-chain, real-world information so that user can query data in smart contracts. It allows certain smart contracts to respond to the uncertain external world, and is the only way for smart contracts to interact with the outside world, and it is also the interface between blockchain and the real world.
+Los oráculos son fuentes de datos que conectan a Ethereum con información del mundo real fuera de la cadena para que el usuario pueda consultar los datos en los contratos inteligentes. Permite que ciertos contratos inteligentes respondan al mundo externo incierto, y es la única manera de que los contratos inteligentes interactúen con el mundo exterior, y también es la interfaz entre blockchain y el mundo real.
 
 ### Chainlink
 
-**[Chainlink](https://chain.link/)** is a decentralized oracle network that bridges the gap between smart contracts (like those on Ethereum) and their external data. The blockchain itself cannot connect to external applications in a trusted manner. Chainlink is not a single network of oracles, but an ecosystem of many decentralized oracle networks running in parallel, whose token is LINK.
+**[Chainlink](https://chain.link/)** es una red de oráculos descentralizada que sirve de puente entre los contratos inteligentes (como los de Ethereum) y sus datos externos. La propia blockchain no puede conectarse a aplicaciones externas de forma fiable. Chainlink no es una única red de oráculos, sino un ecosistema de muchas redes de oráculos descentralizadas que funcionan en paralelo, cuyo token es LINK.
 
-## Protocol Contract Address
+## Dirección del contrato de protocolo.
 
 ### Ethereum
 
-| BOC Contract                                                     | 3rd Party Protocol Contract                                                 |
+| Contrato BOC                                                     |  Contrato del protocolo de la tercera parte                                                  |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | [Vault](https://etherscan.io/address/0x008586B7f6768EDc269D9e5cd276316d33CECE6d)|                                                       |
 | [Balancer3CrvStrategy](https://etherscan.io/address/0xa4bc7002d89ef7966c5b2fd70963eaa7a632bb19) | [Balancer Vault](https://etherscan.io/address/0xBA12222222228d8Ba445958a75a0704d566BF2C8) |
@@ -203,7 +203,7 @@ Oracles are data sources that connect Ethereum to off-chain, real-world informat
 
 ### BNB Chain  
 
-| BOC Contract                                                     | 3rd Party Protocol Contract                                                 |
+| Contrato BOC                                                     |  Contrato del protocolo de la tercera parte                                                  |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | [Vault](https://bscscan.com/address/0x699F86dd50224544E6c23670Af44682CAe9db3c5) |                                                              |
 | [PancakeDaiBusdStrategy](https://bscscan.com/address/0x3fa2b30bfa5816b115b648d42955d3c3cb7bc368) | [PancakeSwap Router v2](https://bscscan.com/address/0x10ED43C718714eb63d5aA57B78B54704E256024E) [PancakeSwap Main Staking Contract](https://bscscan.com/address/0x73feaa1eE314F8c655E354234017bE2193C9E24E) |
@@ -230,7 +230,7 @@ Oracles are data sources that connect Ethereum to off-chain, real-world informat
 
 ### Polygon
 
-| BOC Contract                                                     | 3rd Party Protocol Contract                                                 |
+| Contrato BOC                                                     |  Contrato del protocolo de la tercera parte                                                  |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | [Vault](https://polygonscan.com/address/0xFB7f340A7DEfD3bB0072844db6D5EbdFAD765dea) |                                                              |
 | [Curve3CrvStrategy](https://polygonscan.com/address/0x1f84a8c8c31674b89a4723521ead5a48579b8bf7) | [Curve.fi Aave Pool](https://polygonscan.com/address/0x445FE580eF8d70FF569aB36e80c647af338db351) [Curve.fi Aave Gauge](https://polygonscan.com/address/0x19793B454D3AfC7b454F206Ffe95aDE26cA6912c) |

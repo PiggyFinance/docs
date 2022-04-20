@@ -1,3 +1,6 @@
 {"rule":"MORFOLOGIK_RULE_ES","sentence":"^\\QEmail：contact@bankofchain\nTelegram (Ingles)：\\E(?:Dummy|Ina|Jimmy-)[0-9]+\\Q\nTelegram (Chino)：\\E(?:Dummy|Ina|Jimmy-)[0-9]+\\Q\nTelegram (Español)：\\E(?:Dummy|Ina|Jimmy-)[0-9]+\\Q\nDiscord：\\E(?:Dummy|Ina|Jimmy-)[0-9]+\\Q\nTwitter：\\E(?:Dummy|Ina|Jimmy-)[0-9]+$"}
 {"rule":"SIGLAS","sentence":"^\\QLa plataforma BOC conecta protocolos cuidadosamente seleccionados dentro del ecosistema criptográfico, incluidos los Automated Market Makers (AMMs), protocolos de préstamo, agregadores de rendimiento, etc.\\E$"}
 {"rule":"NO_SEPARADO","sentence":"^\\QPor el momento, la gobernanza de BOC es lograr la co-gestión de los tokenholders a través de la multifirma de Gnosis.\\E$"}
+{"rule":"UPPERCASE_SENTENCE_START","sentence":"^\\Qx Las pruebas entre familiares y amigos se pusieron en marcha el 4 de marzo de 2022.\\E$"}
+{"rule":"UPPERCASE_SENTENCE_START","sentence":"^\\Qx El diseño del logotipo se ha completado para el 4 de marzo de 2022.\\E$"}
+{"rule":"UPPERCASE_SENTENCE_START","sentence":"^\\Qx Formulación de las normas de emisión de tokens de gobernanza completada para el 10 de marzo de 2022.\\E$"}

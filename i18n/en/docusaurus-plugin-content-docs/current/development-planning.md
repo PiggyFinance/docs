@@ -19,11 +19,11 @@ sidebar_position: 8
 
 ### Algorithm Optimization
 
-At present, the adjustment algorithm only uses a function of scipy “minimize”, and there is room for optimization. Global optimization, non-convex optimization, among other algorithms can be considered.
+At present, the adjustment algorithm only uses a function of scipy “minimize”. Global optimization, non-convex optimization, among other algorithms can be considered.
 
 ### Additional Mainstream Blockchains
 
-In the future, BOC may support more mainstream blockchains, such as Fantom, Avalanche, Solana, Arbitrum, etc.
+In the future, BOC may support more blockchains newtworks, such as Fantom, Avalanche, Solana, Arbitrum, etc.
 
 ### Additional Protocol Strategy
 
