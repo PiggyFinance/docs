@@ -1,7 +1,7 @@
 ---
 sidebar_position: 6
 ---
-# Gobernancia
+# Gobernanza
 
 BOC es una innovación disruptiva que tiene como objetivo cambiar el ecosistema DeFi. Servirá como puente entre los prestamistas de fondos y los operadores de inversión. BOC será una puerta para los recién llegados al mundo de las criptoinversiones, creando una nueva forma de interactuar con el ecosistema DeFi.
 
@@ -19,8 +19,7 @@ Por el momento, la gobernanza de BOC es lograr la cogestión de los tokenholders
 
 ## Tokenómica
 
-El suministro máximo de tokens BOC es de mil millones. Los tenedores de tokens recibirán una tarifa de administración de BOC de acuerdo con la proporción de tenencia. Una vez que los 
-tokens están bloqueados, pueden participar en la gobernanza y compartir los beneficios. Está previsto que los tokens específicos se distribuyan en las siguientes 4 partes: equipo, inversores, comunidad y parte reservada.
+El suministro máximo de tokens BOC es de mil millones. Los tenedores de tokens recibirán una tarifa de administración de BOC de acuerdo con la proporción de tenencia. Una vez que los tokens están bloqueados, pueden participar en la gobernanza y compartir los beneficios. Está previsto que los tokens específicos se distribuyan en las siguientes 4 partes: equipo, inversores, comunidad y parte reservada.
 
 ![pic-en-6-1](/images/pic-en-6-1.png)
 

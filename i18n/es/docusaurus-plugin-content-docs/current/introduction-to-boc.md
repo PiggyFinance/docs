@@ -8,32 +8,29 @@ sidebar_position: 2
 
 Bank of Chain (BOC) es una forma nueva e innovadora de interactuar con ecosistema de las finanzas descentralizadas (DeFi). Es una herramienta indispensable que ayuda a los inversores ordinarios a obtener una herramienta de gestión de activos para generar ganancias "sin riesgo".
 
-La plataforma BOC conecta protocolos cuidadosamente seleccionados dentro del ecosistema criptográfico, incluidos los Automated Market Makers (AMMs), protocolos de préstamo, agregadores de rendimiento, etc. (consulte https://dashboard.bankofchain.io/#/ para obtener más detalles).
+La plataforma BOC conecta protocolos cuidadosamente seleccionados dentro del ecosistema criptográfico, incluidos los Automated Market Makers (AMMs), protocolos de préstamo, agregadores de rendimiento, etc. Consulte el [dashboard](https://dashboard.bankofchain.io/) para obtener más detalles.
 
 Al acceder a estrategias de protocolo de alta calidad, el BOC puede ser de 300 a 500 puntos básicos (3 a 5 %) más alto que otros fondos administrados en USD similares.
 
 Para los recién llegados a la industria de las criptomonedas, esta es la mejor manera de ingresar al ecosistema DeFi. Como protocolo de un solo clic, BOC traerá una nueva revolución a la industria DeFi, atrayendo cientos de millones de dólares de inversión.
 
-## BOC Fuente de rendimiento (Yield)
+## BOC Fuente de interés (Yield)
 
 BOC es un protocolo DeFi que proporciona el mejor rendimiento "sin riesgo" a largo plazo, y su fuente de rendimiento incluye:
 
 - La tarifa de transacción cobrada por proporcionar fondos para market makers de exchanges descentralizados (DEX).
 
-- El interés cobrado sobre los fondos prestados como colateral.
+- El interés cobrado sobre fondos prestados en casos de préstamos sobrecolateralizados.
 
 - Recompensas de tokens de gobernanza.
-
 
 ## Reglas de asignación de fondos
 
 - La prioridad está en los fondos comunes de capital (liquidity pools) de mayor rendimiento.
-- El capital de inversión de un solo fondo no puede exceder el 20% de los activos de inversión totales.
-- Los fondos de un solo grupo de capital no pueden exceder el 50% de su monto de bloqueo existente.
-- Múltiples fondos de capital en el mismo acuerdo no pueden exceder el 30% de los activos de inversión totales.
-- Hay una evaluación automática regular para la revisión de ganancias. Con el objetivo de optimizar la asignación de fondos cuando la ganancia por ajuste de posición es mayor que el costo.
-
-
+- El capital de inversión de un pool no puede exceder el 20% de los activos totales.
+- Los fondos de un pool no pueden exceder el 50% de del monto de bloqueo existente en ese fondo.
+- Los fondos invertidos en un protocolo no pueden exceder el 30% de los activos de inversión totales.
+- Hay una evaluación automática regular para la revisión de ganancias. Con el objetivo de optimizar la asignación de fondos cuando las ganancias exceden al costo.
 
 ## ¿Por qué existe BOC?
 
@@ -215,7 +212,7 @@ En resumen, la plataforma BOC es el catalizador faltante que revolucionará la i
     <td>7-11%</td>
    </tr>
    <tr>
-    <td>Pool QTY</td>
+    <td>Cantidad de Pools</td>
     <td>1</td>
     <td>Multi</td>
     <td>1</td>
@@ -275,7 +272,7 @@ En resumen, la plataforma BOC es el catalizador faltante que revolucionará la i
     <td>Seleccionado por el equipo</td>
    </tr>
    <tr>
-    <td>Considere la distribución de fondos</td>
+    <td>Posee diversificación de fondos</td>
     <td>Si</td>
     <td>No</td>
     <td>No</td>
@@ -287,7 +284,7 @@ En resumen, la plataforma BOC es el catalizador faltante que revolucionará la i
     <td>unknown</td>
    </tr>
    <tr>
-    <td>Redeem using aggregates</td>
+    <td>Utiliza Exchange aggregation</td>
     <td>Si</td>
     <td>No</td>
     <td>No</td>
@@ -311,7 +308,7 @@ En resumen, la plataforma BOC es el catalizador faltante que revolucionará la i
     <td>No</td>
    </tr>
    <tr>
-    <td>Soporte para extraer en cualquier momento</td>
+    <td>Extracción en cualquier momento</td>
     <td>Si</td>
     <td>Si</td>
     <td>Si</td>
