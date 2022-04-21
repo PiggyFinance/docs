@@ -10,11 +10,11 @@ BOC seleccionó [blockchain](appendix#blockchain-network) son compatibles con [E
 
 ### Ethereum
 
-**Ethereum** es una plataforma blockchain descentralizada de código abierto con funciones de [contrato inteligente](appendix#smart-contract), cuya [criptomoneda](appendix#cryptocurrency) nativa es ETH. En diciembre de 2021, Ethereum se convirtió en la segunda criptomoneda más valiosa por capitalización de mercado después de Bitcoin, y en la blockchain más utilizada.
+**Ethereum** es una plataforma blockchain descentralizada de código abierto con funciones de [contrato inteligente](appendix#smart-contract), cuya [criptomoneda](appendix#criptomoneda) nativa es ETH. En diciembre de 2021, Ethereum se convirtió en la segunda criptomoneda más valiosa por capitalización de mercado después de Bitcoin, y en la blockchain más utilizada.
 
 El concepto de Ethereum fue propuesto por primera vez entre 2013 y 2014 por el programador Vitalik Buterin tras inspirarse en Bitcoin como "la próxima generación de criptodivisas y plataforma de aplicaciones descentralizadas". El desarrollo de Ethereum comenzó a través del crowdfunding ICO en 2014.
 
-Ethereum también se conoce como la "plataforma blockchain de segunda generación", sólo superada por Bitcoin.
+Ethereum también se conoce como la "plataforma blockchain de segunda generación", solo superada por Bitcoin.
 
 ### BNB
 
@@ -28,7 +28,7 @@ El 15 de febrero de 2022, la bolsa de criptomonedas Binance anunció que la cade
 
 ## Incorporación de Stablecoins
 
-Con el fin de evitar el miedo psicológico causado por las fluctuaciones del valor de la moneda digital y las pérdidas de los fondos de creación de mercado, el protocolo BOC ha seleccionado sólo [activos de moneda estable](appendix#stablecoin), y sólo se limita a aquellos con plena [garantía](appendix#collateral) proporcionada por moneda legal o por stablecoins. 
+Con el fin de evitar el miedo psicológico causado por las fluctuaciones del valor de la moneda digital y las pérdidas de los fondos de creación de mercado, el protocolo BOC ha seleccionado sólo [activos de moneda estable](appendix#stablecoin), y solo se limita a aquellos con plena [garantía](appendix#colateral) proporcionada por moneda legal o por stablecoins. 
 
 Las stablecoins deben cumplir las siguientes condiciones
 

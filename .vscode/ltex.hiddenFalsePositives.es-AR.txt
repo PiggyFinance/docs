@@ -4,3 +4,7 @@
 {"rule":"UPPERCASE_SENTENCE_START","sentence":"^\\Qx Las pruebas entre familiares y amigos se pusieron en marcha el 4 de marzo de 2022.\\E$"}
 {"rule":"UPPERCASE_SENTENCE_START","sentence":"^\\Qx El diseño del logotipo se ha completado para el 4 de marzo de 2022.\\E$"}
 {"rule":"UPPERCASE_SENTENCE_START","sentence":"^\\Qx Formulación de las normas de emisión de tokens de gobernanza completada para el 10 de marzo de 2022.\\E$"}
+{"rule":"SIGLAS","sentence":"^\\QNormalmente se diseñan recompensas o incentivos para aquellos que proporcionan liquidez a los LPs.\\E$"}
+{"rule":"MORFOLOGIK_RULE_ES","sentence":"^\\Q\"Depositar\" - El protocolo BOC permite a los usuarios \\E(?:Dummy|Ina|Jimmy-)[0-9]+\\Q las tres principales stablecoins (USDT, USDC, DAI) en cualquier combinación y en cualquier cantidad, y acuñar USDi de valor correspondiente para devolver al usuario.\"Retirar\" - Los usuarios pueden \\E(?:Dummy|Ina|Jimmy-)[0-9]+\\Q USDi las tres principales stablecoins en cualquier momento a través del protocolo BOC.\\E$"}
+{"rule":"MORFOLOGIK_RULE_ES","sentence":"^\\QDespués de que Vault reciba la stablecoin, \\E(?:Dummy|Ina|Jimmy-)[0-9]+\\Q consulta el precio de la transferencia del usuario de la stablecoin a través de un oráculo externo.\\E$"}
+{"rule":"MORFOLOGIK_RULE_ES","sentence":"^\\QBurn/Mint\\E$"}

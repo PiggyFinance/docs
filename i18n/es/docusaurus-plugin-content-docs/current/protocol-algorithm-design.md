@@ -8,15 +8,15 @@ sidebar_position: 4
 
 ![pic-2](/images/pic-2.png)
 
-1. "Depositar" - El protocolo BOC permite a los usuarios `depositar` las tres principales stablecoins (USDT, USDC, DAI) en cualquier combinación y en cualquier cantidad, y acuñar USDi de valor correspondiente para devolver al usuario.<br />"Retirar" - Los usuarios pueden `retirar` USDi las tres principales stablecoins en cualquier momento a través del protocolo BOC. Por defecto, se devolverán según la proporción de las tres principales stablecoins en la [Bóveda](appendix#vault) en ese momento, o pueden especificar una determinada moneda a devolver.
-2. Después de que Vault reciba la stablecoin, `queryTokenPrice` consulta el precio de la transferencia del usuario de la [stablecoin](appendix#stablecoin) a través de un oráculo externo. When the price returned by the [oracle](appendix#oracle) is higher than 1 USD, it is calculated at 1 USD, and when it is lower than 1 USD, it is calculated at the price of the [oracle](appendix#oracle).
+1. "Depositar" - El protocolo BOC permite a los usuarios `depositar` las tres principales stablecoins (USDT, USDC, DAI) en cualquier combinación y en cualquier cantidad, y acuñar USDi de valor correspondiente para devolver al usuario.<br />"Retirar" - Los usuarios pueden `retirar` USDi las tres principales stablecoins en cualquier momento a través del protocolo BOC. Por defecto, se devolverán según la proporción de las tres principales stablecoins en la [Bóveda](appendix#bóveda) en ese momento, o pueden especificar una determinada moneda a devolver.
+2. Después de que Vault reciba la stablecoin, `queryTokenPrice` consulta el precio de la transferencia del usuario de la [stablecoin](appendix#stablecoin) a través de un oráculo externo. Cuando el precio devuelto por el [oráculo](appendix#oráculo) es superior a 1 USD, se calcula a 1 USD, y cuando es inferior a 1 USD, se calcula al precio del [oráculo](appendix#oráculo).
 3. Basado en el valor calculado, `mint/burn` [mint/burn](appendix#burnmint) un valor equivalente a USDi.
 4. El módulo [Keeper](appendix#keeper) alcanza la condición de activación de `doHardWork` y activa `doHardWork`.
 5. Vault llama al módulo de intercambio agregado `swapTokenToWants`.
 6. El módulo de intercambio agregado `swapTokens` completa el intercambio.
 7. Vault recibe la moneda de destino intercambiada por el módulo de intercambio agregado.
 8. Vault coloca los `depósitos` de stablecoin en la estrategia según la moneda requerida por la estrategia.
-9. La [estrategia](appendix#strategy) invierte los `depósitos` de stablecoin en protocolos de terceros.
+9. La [estrategia](appendix#estrategia) invierte los `depósitos` de stablecoin en protocolos de terceros.
 10. El módulo Keeper alcanza la condición de activación de la `cosecha` y activa la `cosecha`.
 11. Cosechador desencadena cada estrategia para ejecutar la `cosecha`.
 12. Cada estrategia ejecuta `claimRewards` para recoger la minería.
@@ -26,7 +26,7 @@ sidebar_position: 4
 16. El módulo Keeper alcanza la condición de activación `rebase` y activa la `rebase`.
 17. Vault llama a `changeTotalSupply` para emitir USDi adicionales.
 18. Vault recoge una parte de la recaudación, que se transfiere a la tesorería llamada `Treasury`.
-19. La [tesorería](appendix#daos-treasury) beneficiará a los usuarios al utilizar `buyback` para recomprar el token de gobierno BOC.
+19. La [tesorería](appendix#tesorería) beneficiará a los usuarios al utilizar `buyback` para recomprar el token de gobierno BOC.
 
 ## Cosecha
 
@@ -74,11 +74,11 @@ Si se cumple alguna de las condiciones anteriores, el usuario puede realizar el 
 
 USDi es un token diseñado de manera que el suministro en circulación se ajusta automáticamente según las fluctuaciones de los precios, este proceso se llama [rebase](appendix#rebase). Al igual que las stablecoins, los tokens rebase suelen estar vinculados a otro activo. Pero en lugar de utilizar las reservas para mantener la vinculación, los tokens rebase automáticamente [queman](appendix#burnmint) tokens en circulación o [acuñan](appendix#burnmint) nuevos tokens. Cuando el total de activos de la Bóveda es mayor que el total de la emisión de USDi, significa que se han generado nuevos ingresos. Después de esto, se revisará el valor de los USDi en comparación con el dólar estadounidense. Cuando el número de USDi aumenta, el valor total de USDi es coherente con el valor total de los activos de la Bóveda, asegurando que 1 USDi está anclado a 1USD. Al mismo tiempo, el 20% de los USDi adicionales se transferirá a la tesorería como comisión de gestión.
 
-## Fund Allocation
+## Asignación de fondos
 
 ### doHardWork
 
-La entrada en el ajuste de la posición del algoritmo son el [APY] oficial(appendix#annual-yield-apy) del protocolo de terceros, el gas requerido para la inversión de cada estrategia, el límite de [deslizamiento] de cambio(appendix#slippage), y las [reglas de asignación de fondos](#introduction-to-boc#fund-allocation-rules), y la estrategia y la cantidad de los fondos a invertir son la salida.
+La entrada en el ajuste de la posición del algoritmo son el [APY](appendix#interés-porcentual-anual-apy) oficial del protocolo de terceros, el gas requerido para la inversión de cada estrategia, el límite de [deslizamiento](appendix#slippage) de cambio, y las [reglas de asignación de fondos](introduction-to-boc#reglas-de-asignación-de-fondos), y la estrategia y la cantidad de los fondos a invertir son la salida.
 
 <table>
 <tr>
@@ -111,7 +111,7 @@ En comparación con `doHardWork`, `allocation` ha hecho un paso más: sacar los 
 | Ciclo de activación de la tarea programada: 7 de la mañana todos los lunes.
 | Periodo de cálculo de coste-beneficio X (Si el beneficio del reequilibrio X días >= coste, se puede realizar la "asignación") | 30 días | 30 días | 30 días
 
-### Fund allocation Algorithm
+### Algoritmo de asignación de fondos
 
 | Variable     | Meaning|
 | ------------ | -------------- |
@@ -269,4 +269,4 @@ El parámetro "periods" es el periodo de pago de intereses.
 
 ### Reglas de cálculo del APY real de la estrategia
 
-El APY real de la estrategia se calcula en base a la rentabilidad estándar de la moneda de la estrategia.
+El APY real de la estrategia se calcula con base en la rentabilidad estándar de la moneda de la estrategia.

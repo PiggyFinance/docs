@@ -6,9 +6,9 @@ sidebar_position: 2
 
 ## ¿Qué es BOC?
 
-Bank of Chain (BOC) es una forma nueva e innovadora de interactuar con ecosistema de las finanzas descentralizadas (DeFi). Es una herramienta indispensable que ayuda a los inversores ordinarios a obtener una herramienta de gestión de activos para generar ganancias "sin riesgo".
+Bank of Chain (BOC) es una forma nueva e innovadora de interactuar con ecosistema de las [finanzas descentralizadas](appendix#finanzas-descentralizadas-defi) (DeFi). Es una herramienta indispensable que ayuda a los inversores ordinarios a obtener una herramienta de gestión de activos para generar ganancias "sin riesgo".
 
-La plataforma BOC conecta protocolos cuidadosamente seleccionados dentro del ecosistema criptográfico, incluidos los Automated Market Makers (AMMs), protocolos de préstamo, agregadores de rendimiento, etc. Consulte el [dashboard](https://dashboard.bankofchain.io/) para obtener más detalles.
+La plataforma BOC conecta [protocolos](appendix#protocolo) cuidadosamente seleccionados dentro del ecosistema criptográfico, incluidos los Automated Market Makers (AMMs), [protocolos de préstamo](appendix#protocolo-de-préstamos), [agregadores de rendimiento](appendix#agregadores-de-rendimiento), etc. Consulte el [dashboard](https://dashboard.bankofchain.io/) para obtener más detalles.
 
 Al acceder a estrategias de protocolo de alta calidad, el BOC puede ser de 300 a 500 puntos básicos (3 a 5 %) más alto que otros fondos administrados en USD similares.
 
@@ -28,7 +28,7 @@ BOC es un protocolo DeFi que proporciona el mejor rendimiento "sin riesgo" a lar
 
 - La prioridad está en los fondos comunes de capital (liquidity pools) de mayor rendimiento.
 - El capital de inversión de un pool no puede exceder el 20% de los activos totales.
-- Los fondos de un pool no pueden exceder el 50% de del monto de bloqueo existente en ese fondo.
+- Los fondos de un pool no pueden exceder el 50% de del monto bloqueado existente en ese fondo.
 - Los fondos invertidos en un protocolo no pueden exceder el 30% de los activos de inversión totales.
 - Hay una evaluación automática regular para la revisión de ganancias. Con el objetivo de optimizar la asignación de fondos cuando las ganancias exceden al costo.
 
