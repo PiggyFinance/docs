@@ -113,14 +113,14 @@ Compared with `doHardWork`, `allocation` has done one more step: take out the fu
 
 ### Fund allocation Algorithm
 
-| Variable     | Meaning                                                                                                                                                                                                                   |
-| ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| durationDays | The cycle of rebalancing needs to ensure that in a cycle after rebalancing, the profit after rebalancing - the profit before rebalancing - the cost of rebalancing > 0                                                    |
-| yearDays     | 365days                                                                                                                                                                                                                   |
-| asset1       | The original assets of the strategy                                                                                                                                                                                       |
-| apr1         | The strategy apr before the position adjustment (APY needs to be converted into apr), the current value of the APY of the position adjustment algorithm is the 7-day average of APY calculated outside the strategy chain |
-| deltaAsset   | Assume the capital change value of the strategy rebalancing                                                                                                                                                               |
-| poolAssets1  | The TVL of the strategic target investment pool is used as a parameter for the change of apr after the position adjustment                                                                                                |
+| Variable     | Meaning|
+| ------------ | -------------- |
+| "durationDays" | The cycle of rebalancing needs to ensure that in a cycle after rebalancing, the profit after rebalancing - the profit before rebalancing - the cost of rebalancing > 0|
+| "yearDays"     | 365days|
+| "asset1"       | The original assets of the strategy|
+| "apr1"         | The strategy apr before the position adjustment (APY needs to be converted into apr), the current value of the APY of the position adjustment algorithm is the 7-day average of APY calculated outside the strategy chain |
+| "deltaAsset"   | Assume the capital change value of the strategy rebalancing|
+| "poolAssets1"  | The TVL of the strategic target investment pool is used as a parameter for the change of apr after the position adjustment||
 
 Profit before position adjustment
 

@@ -1,148 +1,149 @@
 ---
 sidebar_position: 9
 ---
-# Appendix
+# Apéndice
 
-## Glossary
+## Glosario
 
 ### Blockchain network
 
-Blockchain is a system of recording information in a way that makes it difficult or impossible to change, hack, or cheat the system. A blockchain is essentially a digital ledger of transactions that is duplicated and distributed across the entire network of computer systems on the blockchain. It encrypted blocks of data (smart contracts, transactions, etc.) then chains them together to form a chronological single-source-of-truth for the data. Blockchain’s inherent security measures and public ledger make it a prime technology for almost every single sector. The blockchain community participates from this block adding by different consensus mechanism.
+La Blockchain (cadena de bloques) es un sistema de registro de información que hace difícil o imposible cambiar, piratear o engañar al sistema. Una cadena de bloques es esencialmente un libro de contabilidad digital de transacciones que se duplica y distribuye por toda la red de sistemas informáticos de la cadena de bloques. Encripta bloques de datos (contratos inteligentes, transacciones, etc.) y luego los encadena para formar una única fuente de verdad cronológica para los datos. Las medidas de seguridad inherentes a blockchain y su libro de contabilidad público la convierten en una tecnología de primer orden para casi todos los sectores. La comunidad de blockchain participa de esta adición de bloques mediante diferentes mecanismos de consenso.
 
 ### Ethereum Virtual Machine (EVM)
 
-The Ethereum Virtual Machine is the software platform that developers can use to create decentralized applications (DApps) on Ethereum. This virtual machine is where all Ethereum accounts and smart contracts live.
+La Ethereum Virtual Machine (máquina virtual de Ethereum) es la plataforma de software que los desarrolladores pueden utilizar para crear aplicaciones descentralizadas (DApps) en Ethereum. Esta máquina virtual es donde viven todas las cuentas y contratos inteligentes de Ethereum.
 
-### Cryptocurrency
+### Criptomoneda
 
-A cryptocurrency is a token that's native to a blockchain. Cryptocurrencies are typically minted with each new block added to the chain. For instance, each new block of Ethereum mined comes with a reward of two ether tokens as compensation to the miner.
+Una criptomoneda es un token nativo de una cadena de bloques. Las criptomonedas suelen acuñarse con cada nuevo bloque que se añade a la cadena. Por ejemplo, cada nuevo bloque de Ethereum minado viene con una recompensa de dos tokens de éter como compensación al minero.
 
-Cryptocurrencies are a type of token. Their nativity is their defining factor: Other tokens are created using platforms and apps built on top of blockchains, while cryptocurrencies built into a blockchain's protocol.
+Las criptomonedas son un tipo de token. Su natividad es su factor definitorio: Otros tokens se crean mediante plataformas y aplicaciones construidas sobre cadenas de bloques, mientras que las criptomonedas se incorporan al protocolo de una cadena de bloques.
 
-### Consensus mechanism
+### Mecanismo de consenso
 
-A consensus mechanism is a fault-tolerant mechanism that is used in computer and blockchain systems to achieve the necessary agreement on a single data value or a single state of the network among distributed processes or multiagent systems, such as with cryptocurrencies. It is useful in record-keeping, among other things. By the moment, the most used mechanisms are Proof of Work (PoW) and Proof of Stake (PoS).
+Un mecanismo de consenso es un mecanismo tolerante a fallos que se utiliza en sistemas informáticos y de blockchain para lograr el acuerdo necesario sobre un único valor de datos o un único estado de la red entre procesos distribuidos o sistemas multiagente, como ocurre con las criptomonedas. Es útil, entre otras cosas, para el mantenimiento de registros. Por el momento, los mecanismos más utilizados son Proof of Work (PoW) y Proof of Stake (PoS).
 
-### Proof of work
+### Proof of work (PoW)
 
-Proof of work is a consensus mechanism through which blocks are added to a blockchain. POW requires miners to solve complicated cryptographic puzzles, which demand large amounts of energy from powerful mining rigs, in order to validate new blockchain transactions. 
+La prueba de trabajo (proof of work) es un mecanismo de consenso mediante el cual se añaden bloques a una cadena de bloques. La prueba de trabajo requiere que los mineros resuelvan complicados rompecabezas criptográficos, que exigen grandes cantidades de energía de potentes equipos de minería, para validar nuevas transacciones en la cadena de bloques. 
 
-POW is a safe and decentralized consensus mechanism, but it's notoriously inefficient. It's how bitcoin's and first versions of Ethereum's blockchains operate, although Ethereum will soon shift to the more efficient proof of stake. 
+PoW es un mecanismo de consenso seguro y descentralizado, pero es notoriamente ineficiente. Así es como funcionan las cadenas de bloques de Bitcoin y las primeras versiones de Ethereum, aunque Ethereum pronto cambiará a la más eficiente prueba de participación. 
 
-### Proof of stake
+### Proof of stake (PoS)
 
-Confronted with the huge energy demands of proof of work, proof of stake is an updated consensus mechanism that allows blocks to be mined much more efficiently. POS allows holders of a cryptocurrency to validate new blocks onto the relevant blockchain. 
+Frente a la enorme demanda de energía de la prueba de trabajo, la prueba de participación (proof of stake) es un mecanismo de consenso actualizado que permite minar bloques de forma mucho más eficiente. La prueba de trabajo permite a los titulares de una criptomoneda validar nuevos bloques en la cadena de bloques correspondiente. 
 
-They do this by staking their cryptocurrency. Users of a network stake their cryptocurrency, and if their stake is chosen by a randomized algorithm, they get the opportunity to validate a new block for which they'll get a reward in the form of more cryptocurrency. The more cryptocurrency staked, the higher chance a user is to be chosen to validate a new block. 
+Lo hacen apostando su criptodivisa. Los usuarios de una red apuestan su criptodivisa, y si su apuesta es elegida por un algoritmo aleatorio, tienen la oportunidad de validar un nuevo bloque por el que recibirán una recompensa en forma de más criptodivisa. Cuanta más criptomoneda se apueste, más posibilidades tendrá el usuario de ser elegido para validar un nuevo bloque. 
 
-Where proof of work rewards those who have spent the most computational power to solve a cryptographic puzzle, proof of stake rewards those who invest their cryptocurrency over a long period of time. 
+Mientras que la prueba de trabajo recompensa a aquellos que han gastado la mayor cantidad de energía computacional para resolver un rompecabezas criptográfico, la prueba de apuesta recompensa a aquellos que invierten su criptodivisa durante un largo periodo de tiempo. 
 
-### Distributed Autonomous Organization (DAO)
+### Organizaciones autónomas descentralizadas (DAO)
 
-Can be defined as an ‘organization’ on a blockchain, represented by a set of rules encoded as a computer program (on a blockchain) that is transparent, controlled by the organization members and not influenced by a central government.
+Las organizaciones autónomas descentralizadas (Decentralized Autonomous Organization) puede definirse como una "organización" en una cadena de bloques, representada por un conjunto de reglas codificadas como un programa informático (en una cadena de bloques) que es transparente, controlado por los miembros de la organización y no influenciado por un gobierno central.
 
-### DAOs Treasury
+### Tesorería
 
-Anything in a DAO that can be automated should be. Anything that can’t be automated should be funded by the treasury. Treasuries help DAOs fund critical development, attract contributors, and grow their network.
+Todo lo que pueda ser automatizado en una DAO debería serlo. Todo lo que no pueda ser automatizado debe ser financiado por la tesorería. Las tesorerías ayudan a las DAO a financiar el desarrollo crítico, a atraer contribuyentes y a hacer crecer su red.
 
-#### Principles of Treasury Management:
+#### Principios de la gestión de la tesorería
 
-- Maintain an infinite time horizon: The treasury should be structured to exist in perpetuity (however, treasuries may be dissolved in certain situations).
+- Mantener un horizonte temporal infinito: La tesorería debe estructurarse para existir a perpetuidad (sin embargo, las tesorerías pueden disolverse en determinadas situaciones).
 
-- Ensure inflows exceed outflows: Over the long run, revenue from the protocol plus returns of the treasury should exceed spending.
+- Garantizar que las entradas superen a las salidas: A largo plazo, los ingresos del protocolo más los rendimientos de la tesorería deben superar los gastos.
 
-- Diversify: Treasury allocations should ensure that critical expenses can be funded even if the protocol token has a significant drawdown.
+- Diversificar: las asignaciones de la tesorería deben asegurar que los gastos críticos puedan ser financiados incluso si el token del protocolo tiene una reducción significativa.
 
-### Decentralized Finance (DeFi)  
+### Finanzas descentralizadas (DeFi)  
 
-Decentralized finance (commonly known as DeFi) is a kind of finance created on the blockchain. It does not rely on financial institutions such as brokerages, exchanges or banks to provide financial tools, but uses smart contracts on the blockchain (such as Ethereum) for financial activities. DeFi platforms allow people to lend or borrow funds to others, trade cryptocurrencies, and earn interest in savings-like accounts.
+Las finanzas descentralizadas (comúnmente conocidas como DeFi) son un tipo de finanzas creadas en la cadena de bloques. No depende de instituciones financieras como corredores, bolsas o bancos para proporcionar herramientas financieras, sino que utiliza contratos inteligentes en la cadena de bloques (como Ethereum) para las actividades financieras. Las plataformas DeFi permiten a las personas prestar o tomar prestados fondos a otros, comerciar con criptomonedas y ganar intereses en cuentas similares a las de ahorro.
 
-### Impermanent loss
+### Pérdida impermanente
 
-In AMMs, lending providers (LPs) contribute assets to provide liquidity for market participants. LPs occasionally will not receive the exact amount of assets upon withdrawal. The dollar value of the assets they withdraw would typically be lower than if they had no provided liquidity and just held the assets. This dollar value shortfall is known as impermanent loss. The loss is said to be ‘impermanent’ because if asset prices return to the level during withdrawal the loss is eliminated. 
+En los AMM, los proveedores de préstamos (LP) aportan activos para proporcionar liquidez a los participantes en el mercado. En ocasiones, los LP no reciben el importe exacto de los activos al retirarlos. El valor en dólares de los activos que retiran suele ser menor que si no hubieran aportado liquidez y se hubieran limitado a conservar los activos. Este déficit de valor en dólares se conoce como pérdida impermanente (impermanent loss). Se dice que la pérdida es "impermanente" porque si los precios de los activos vuelven al nivel durante la retirada, la pérdida se elimina. 
 
 ### Slippage
 
-In crypto trade, slippage refers to a difference in price between buyer and seller expectations. Slippage can lead to a final sale price of the asset that is either more or less than the requested transaction amount.
+En el comercio de criptomonedas, el deslizamiento (slippage) se refiere a una diferencia de precio entre las expectativas del comprador y del vendedor. El deslizamiento puede dar lugar a un precio de venta final del activo que sea mayor o menor que el importe de la transacción solicitada.
 
 
-### Dashboard
+### Tablero de mando
 
-A crypto dashboard is a digital platform that lives on a website or in an app (either desktop or mobile). Its main function is to accept all the crypto accounts and/or coins you add to it to monitor their ever-shifting value so that you can manage both your crypto assets and related financial plans accordingly. 
+Un tablero de control (dashboard) de criptomonedas es una plataforma digital que vive en un sitio web o en una aplicación (ya sea de escritorio o móvil). Su función principal es aceptar todas las cuentas de criptomonedas y/o monedas que añadas a ella para supervisar su valor siempre cambiante, de modo que puedas gestionar tanto tus criptoactivos como los planes financieros relacionados en consecuencia. 
 
 ### Smart contract
 
- A smart contract is a self-executing contract with the terms of the agreement between buyer and seller being directly written into lines of code. The code and the agreements contained therein exist across a distributed, decentralized blockchain network. The code controls the execution, and transactions are trackable and irreversible. 
+ Un smart contract (contrato inteligente) es un contrato autoejecutable en el que los términos del acuerdo entre el comprador y el vendedor se escriben directamente en líneas de código. El código y los acuerdos contenidos en él existen en una red blockchain distribuida y descentralizada. El código controla la ejecución, y las transacciones son rastreables e irreversibles. 
 
-### Oracle
+### Oráculo
 
-A trusted feed of data, such as the current market prices of an asset or assets, that provides confidence to users that the data are timely, accurate, and untampered. 
+Un oráculo (oracle) fuente de datos de confianza, como los precios de mercado actuales de un activo o activos, que proporciona a los usuarios la confianza de que los datos son oportunos, precisos y no están manipulados.  
 
 ### Automated Market Maker (AMM)
 
-An Automated Market Maker (AMM) is an autonomous trading mechanism that eliminates the need for centralized trading and related market making techniques. It encourages users to become liquidity providers in exchange for a portion of transaction fees and free tokens.
+Un automated market maker (creador de mercado automatizado) es un mecanismo de negociación autónomo que elimina la necesidad de la negociación centralizada y las técnicas de creación de mercado relacionadas. Anima a los usuarios a convertirse en proveedores de liquidez a cambio de una parte de las comisiones por transacción y fichas gratuitas.
 
 ### Proactive Market Maker (PMM)
 
-Essentially, the difference with AMM is that the algorithm checks the prices of assets allocating funds to proactively increase liquidity near the market price. An example of a DeFi that uses PMM is [DODO](https://dodoex.io/) 
+Esencialmente, la diferencia entre los AMM con los creadores de mercado proactivos (PMM) es que el algoritmo comprueba los precios de los activos asignando fondos para aumentar proactivamente la liquidez cerca del precio de mercado. Un ejemplo de DeFi que utiliza PMM es [DODO](https://dodoex.io/) 
 
-### Protocol  
+### Protocolo  
 
-Protocol is a set of codes or requirements that regulate how a blockchain works. It sets out a broad set of rules, such as the interface of the blockchain, the interaction of participating computers, the types of data that should be shared, Incentives for developers participating in the network and more.
+Un protocolo es un conjunto de líneas de código o requisitos que regulan el funcionamiento de una blockchain. Establece un amplio conjunto de normas, como la interfaz de la blockchain, la interacción de los ordenadores participantes, los tipos de datos que deben compartirse, los incentivos para los desarrolladores que participan en la red y mucho más.
 
-### Lending Protocol  
+### Protocolo de préstamos. 
 
-Lending Protocol is a platform composed of lenders and borrowers. On the one hand, it allows lenders to borrow cryptocurrencies from the platform and pay interest, and on the other hand, it allows depositors to deposit cryptocurrencies to the platform to earn interest. DeFi lending protocols can often offer much higher interest rates compared to bank deposit accounts.
+El protocolo de préstamos (lending protocol) es una plataforma compuesta por prestamistas y prestatarios. Por un lado, permite a los prestamistas tomar prestadas criptodivisas de la plataforma y pagar intereses, y por otro lado, permite a los depositantes depositar criptodivisas en la plataforma para ganar intereses. Los protocolos de préstamo DeFi pueden ofrecer a menudo tipos de interés mucho más altos en comparación con las cuentas de depósito bancarias.
 
-### Collateral
+### Colateral
 
-In DeFi, collateral refers to the offer of one cryptocurrency or token as ‘collateral’ to secure a borrowing a different cryptocurrency or token. 
+En DeFi, la garantía se refiere a la oferta de una criptomoneda o token como "garantía" para asegurar un préstamo de una criptomoneda o token diferente. 
 
-### Volume
+### Volumen
 
-Volume refers to the amount of traded assets over a period of time, usually over the course of a trading day.
+En DeFi, la garantía se refiere a la oferta de una criptomoneda o token como "garantía" para asegurar un préstamo de una criptomoneda o token diferente.
 
-### Liquidity
+### Liquidez
 
-Liquidity measures the circulating supply and how much trading activity there in an exchange, economy, or network. A currency with low supply and/or circulation is said to be illiquid.
+La liquidez mide la oferta en circulación y el grado de actividad comercial en una bolsa, economía o red. Se dice que una moneda con poca oferta y/o circulación es ilíquida.
 
-### Liquidity Pool or Capital pool
+### Pool de liquidez
 
-A Liquidity Pool (LP) is a pool of deposited funds meant to provide liquidity to a currency, network, or Smart Contract. There are usually designed rewards or incentives given to those who provide liquidity to LPs. See also Liquidity Mining. 
+Un Liquidity Pool (pool de capital) es un pool de fondos depositados destinado a proporcionar liquidez a una moneda, red o Contrato Inteligente. Normalmente se diseñan recompensas o incentivos para aquellos que proporcionan liquidez a los LPs. Véase también Minería de Liquidez. 
 
-### Yield Aggregators  
+### Agregadores de rendimiento 
 
-Yield Aggregators is an aggregation platform that supports multiple DeFi protocols. It can automatically move positions between various DeFi protocols that provide liquidity mining, helping users to obtain higher returns.
+Los agregadores de rendimiento (yield aggregators) es una plataforma de agregación que soporta múltiples protocolos DeFi. Puede mover automáticamente las posiciones entre varios protocolos DeFi que proporcionan la minería de liquidez, ayudando a los usuarios a obtener mayores rendimientos.
 
-### Vaults  
 
-Vaults is a complex investment strategy that combines lending, staking, trading, etc. to maximize profits.
+### Bóveda  
+
+Las bóvedas son una estrategia de inversión compleja que combina préstamos, apuestas, operaciones, etc. para maximizar los beneficios.
 
 ### Keeper  
 
-The centralized timer developed by the BOC project is used for timing triggering of on-chain tasks (harvesting, rebalancing, reinvestment of incremental funds, etc.).
+El keeper es un temporizador centralizado desarrollado por el proyecto BOC se utiliza para la activación de tareas en la cadena (recolección, reequilibrio, reinversión de fondos incrementales, etc.).
 
-### Annual Yield (APY)  
+### Interés porcentual anual (APY)  
 
-Annual percentage yield is a way of measuring how much money an investment account makes in a year, a way of measuring the rise in interest over time. The basic calculation formula is:
+La rentabilidad porcentual anual () es una forma de medir cuánto dinero gana una cuenta de inversión en un año, una forma de medir el aumento de los intereses a lo largo del tiempo. La fórmula básica de cálculo es:
 
 $$
 APY=(1+APR)^{periods}-1
 $$
 
-Parameter “periods” is the interest payment periods.
+El parámetro "periodos" son los periodos de pago de intereses.
 
-### Strategy  
+### Estrategia   
 
-Strategy refers to smart contracts that interface with third-party agreements. BOC Vault has multiple policies, and the policy is one-to-one with external third-party agreements.
+La estrategia se refiere a los contratos inteligentes que interactúan con los acuerdos de terceros. BOC Vault tiene múltiples políticas, y la política es uno-a-uno con los acuerdos de terceros externos.
 
 ### Rebase
 
-Similar to stablecoins, rebase tokens are usually pegged to another asset. But instead of using reserves to maintain the price/earnings-to-growth (PEG), rebase tokens automatically burn tokens in circulation or mint new tokens.
+Al igual que las stablecoins, los tokens rebase suelen estar vinculados a otro activo. Pero en lugar de utilizar las reservas para mantener el precio/ganancia de crecimiento (PEG), los tokens rebase queman automáticamente los tokens en circulación o acuñan nuevos tokens.
 
 ### Burn/Mint
 
-The burn-and-mint equilibrium (BME) model is a token economic structure used by certain crypto networks. Burning assets (coins or tokens) means eliminating them by sending them to an ‘eater address,’ which is not accessible by anyone, since no one owns the private keys to that address. The number of created tokens can vary, and it is not related to burning functions in any way. The newly minted assets are distributed to everyone who participated in delivering customer experience (which is the reason for burning assets).
+El modelo de equilibrio burn-and-mint (quemar-crear) es una estructura económica de tokens utilizada por ciertas redes de criptomonedas. Quemar activos (monedas o tokens) significa eliminarlos enviándolos a una "dirección del devorador", a la que nadie puede acceder, ya que nadie posee las claves privadas de esa dirección. El número de tokens creados puede variar, y no está relacionado de ninguna manera con las funciones de quema. Los activos recién acuñados se distribuyen a todos los que han participado en la entrega de la experiencia del cliente (que es la razón de la quema de activos).
 
 <!-- ### Vesting
 
@@ -152,25 +153,25 @@ The burn-and-mint equilibrium (BME) model is a token economic structure used by 
 
 ### Stablecoin
 
-A stablecoin is a cryptocurrency that has its value pegged to the value of a stable asset. Stable coins are most commonly pegged to the US Dollar but can be pegged to other assets like gold or a basket of crypto assets. 
+Una stablecoin es una criptomoneda cuyo valor está vinculado al valor de un activo estable. Las monedas estables suelen estar vinculadas al dólar estadounidense, pero también pueden estarlo a otros activos, como el oro o una cesta de criptoactivos.  
 
 <!-- ### Circular dependencies -->
 
 ### Token
 
-Similar to a type of coin but with much greater functionality. Tokens can also be used as a method of payment like coins, but unlike coins, they can excel at other use cases such as the democratic governance of a protocol or system, or as a means to use underlying coins to make liquidity tokens from these coin deposits. 
+Similar a un tipo de moneda pero con una funcionalidad mucho mayor. Los tokens también pueden ser utilizados como método de pago como las monedas, pero a diferencia de las monedas, pueden sobresalir en otros casos de uso como la gobernanza democrática de un protocolo o sistema, o como un medio para utilizar monedas subyacentes para hacer tokens de liquidez a partir de estos depósitos de monedas. 
 
-### Governance Token
+### Token de gobernanza
 
-Governance refers to determining, maintaining, adapting and enforcing the rules of a blockchain ecosystem, product, project or DAO. It specifically refers to control and use of a Governance coin or token that carries the right to take part in governance processes.
+La gobernanza se refiere a la determinación, el mantenimiento, la adaptación y la aplicación de las normas de un ecosistema, producto, proyecto o DAO de blockchain. Token de gobernanza (governance token) refiere específicamente al control y uso de una moneda o token de gobernanza que conlleva el derecho a participar en los procesos de gobernanza.
 
-### Nested Tokens
+### Tokens anidados
 
-A nested token is a signed token enclosed in an encrypted one. A token is encrypted to also provide secrecy between parties, we will focus on signed tokens. Signed tokens can verify the integrity of the claims contained within it, while encrypted tokens hide those claims from other parties. When tokens are signed using public/private key pairs, the signature also certifies that only the party holding the private key is the one that signed it.
+Un token anidado (nested tokens) es un token firmado encerrado en otro cifrado. Un token está encriptado para proporcionar también secreto entre las partes, nos centraremos en los tokens firmados. Los tokens firmados pueden verificar la integridad de las afirmaciones contenidas en ellos, mientras que los tokens cifrados ocultan esas afirmaciones a otras partes. Cuando los tokens se firman utilizando pares de claves públicas/privadas, la firma también certifica que solo la parte que posee la clave privada es la que lo ha firmado.
 
-### Lego Combination
+### Combinación Lego 
 
-A fundamental tenet of the DeFi space is building for interoperability. This allows the ecosystem to benefit from individual progress, pushing decentralized finance continually forward. As participants build useful things, they are able to be shared and combined in new ways, reminiscent of everyone’s favourite toy, Lego. When new people dive into the Lego ‘bin’, they find individual Legos or preassembled combinations of Legos that they too start building with, creating bigger and better things. 
+Un principio fundamental del espacio DeFi es la interoperabilidad. Esto permite que el ecosistema se beneficie del progreso individual, impulsando continuamente las finanzas descentralizadas. A medida que los participantes construyen cosas útiles, estas pueden ser compartidas y combinadas de nuevas maneras, lo que recuerda al juguete favorito de todos, Lego. Se hace referencia a combinación lego, cuando nuevas personas se sumergen en la "biblioteca" de Legos, encuentran Legos individuales o combinaciones pre-montadas de Legos con las que también empiezan a construir, creando cosas más grandes y mejores. 
 
 <!-- ### aToken
 
@@ -180,23 +181,23 @@ A fundamental tenet of the DeFi space is building for interoperability. This all
 
 ### DEX -->
 
-### Bridge
+### Puentes de blockchain
 
-Blockchain bridges work just like the bridges we know in the physical world. Just as a physical bridge connects two physical locations, a blockchain bridge connects two blockchain ecosystems. Bridges facilitate communication between blockchains through the transfer of information and assets.
+Los puentes de blockchain (bridges) funcionan igual que los puentes que conocemos en el mundo físico. Al igual que un puente físico conecta dos lugares físicos, un puente blockchain conecta dos ecosistemas blockchain. Los puentes facilitan la comunicación entre blockchains mediante la transferencia de información y activos.
 
 ### Discord
 
-Discord is a real-time chat platform initially built for gamers. It has been widely adopted by DeFi and blockchain enthusiasts to share information and build communities. 
+Discord es una plataforma de chat en tiempo real creada inicialmente para los jugadores. Ha sido ampliamente adoptada por los entusiastas del DeFi y del blockchain para compartir información y crear comunidades
 
 ### Wallet
 
-A software application or hardware cryptocurrency wallet that can hold a variety of coins.
+Pueden ser una aplicación online o una cartera de criptodivisas de hardware que puede contener una variedad de cryptomonedas.
 
 <!-- ### Gnosis -->
 
-## Acronym
+## Acrónimos
 
-| word        | description                       |
+| Acrónimo        | Descripcion                       |
 | :---------- | :-------------------------------- |
 | AMM         | Automated market makers           |
 | PMM         | Proactive market makers           |

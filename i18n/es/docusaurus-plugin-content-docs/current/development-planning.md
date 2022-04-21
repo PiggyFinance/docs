@@ -1,46 +1,46 @@
 ---
 sidebar_position: 8
 ---
-# Development Planning
+# Planificación del desarrollo
 
-## Roadmap
+## Hoja de ruta
 
-1. [x] Friend & Family Testing was launched by March 4, 2022. In this testing phase of the project, the capital scale was small, and the final verification before the product was publicized was mainly carried out.
-2. BOC 1.5 version will be publicly released after passing the overseas audit by May 15, 2022.
-    1. [x] Logo design completed by March 4, 2022.
-    2. [x] Formulation of token issuance rules completed by March 10, 2022.
-    3. [ ] White paper will be completed by April 15, 2022.
-    4. [ ] AWS server leasing and deployment will be completed by April 15, 2022.
-    5. [ ] Code development and testing will be completed by May 10, 2022.
-    6. [ ] Security audit will be completed by May 15, 2022.
-3. [ ] Leveraging services will be provided by July 15, 2022 and publicly issued BOC Version 2.0 thereafter.
+1. [x] Las pruebas entre familiares y amigos se pusieron en marcha el 4 de marzo de 2022. En esta fase de pruebas del proyecto, la escala de capital era pequeña, y se realizó principalmente la verificación final antes de dar a conocer el producto.
+2. La versión BOC 1.5 se lanzará públicamente después de pasar la auditoría en el extranjero antes del 15 de mayo de 2022.
+    1. [x] El diseño del logotipo se ha completado para el 4 de marzo de 2022.
+    2. [x] Formulación de las normas de emisión de tokens de gobernanza completada para el 10 de marzo de 2022.
+    3. [ ] El whitepaper estará terminado para el 15 de abril de 2022.
+    4. [ ] El leasing y deployment de servidores de AWS se completará antes del 15 de abril de 2022.
+    5. [ ] El desarrollo del código y las pruebas se completarán antes del 10 de mayo de 2022.
+    6. [ ] La auditoría de seguridad se completará antes del 15 de mayo de 2022.
+3. 7. [ ] Los servicios de apalancamiento se proporcionarán antes del 15 de julio de 2022 y la versión 2.0 del BOC se publicará a partir de entonces.
 
-## Future Planning
+## Planificación futura
 
-### Algorithm Optimization
+### Optimización del algoritmo
 
-At present, the adjustment algorithm only uses a function of scipy “minimize”, and there is room for optimization. Global optimization, non-convex optimization, among other algorithms can be considered.
+En la actualidad, el algoritmo de ajuste solo utiliza una función de scipy "minimizar". Se puede considerar la optimización global, la optimización no convexa, entre otros algoritmos.
 
-### Additional Mainstream Blockchains
+### Blockchains adicionales de la corriente principal
 
-In the future, BOC may support more mainstream blockchains, such as Fantom, Avalanche, Solana, Arbitrum, etc.
+En el futuro, BOC podrá soportar más redes de blockchains, como Fantom, Avalanche, Solana, Arbitrum, etc.
 
-### Additional Protocol Strategy
+### Estrategia de protocolo adicional
 
-In the future, BOC may support more protocol strategies with stable and competitive profit.
+En el futuro, BOC puede apoyar más estrategias de protocolo con un beneficio estable y competitivo.
 
-### Loan Agreement Support
+### Apoyo a los acuerdos de préstamo
 
-By introducing a loan agreement, a capital pool is provided for BOC, and the leverage agreement can be accessed for strategic investment in the future.
-BOC introduces a lending protocol to add leverage when docking the protocol strategy, monitor the relationship between market-making yield, mining coin yield and lending rate in real time, and dynamically adjust the leverage multiple.
+Al introducir un acuerdo de préstamo, se proporciona una reserva de capital para BOC, y se puede acceder al acuerdo de apalancamiento para la inversión estratégica en el futuro.
+BOC introduce un protocolo de préstamo para añadir apalancamiento al acoplar la estrategia del protocolo, supervisar la relación entre el rendimiento de la creación de mercado, el rendimiento de la moneda minera y la tasa de préstamo en tiempo real, y ajustar dinámicamente el múltiplo de apalancamiento.
 
-### Fiat Deposit Channels Support
+### Apoyo a los canales de depósito de Fiat
 
-1. Support bank account deposits and withdrawals;
-2. Support credit card deposit and withdrawal;
-3. Support payment software deposits and withdrawals;
+1. Soporta depósitos y retiros de cuentas bancarias;
+2. Apoyar el depósito y la retirada de la tarjeta de crédito;
+3. Apoyar los depósitos y retiros de software de pago;
 
-### Non-stablecoin Financial Management
+### Gestión financiera de monedas no estables.
 
-1. Support ETH farming and financial management
-2. Support non-mainstream currency farming and financial management
+1. Apoyar el farming y la gestión financiera de ETH
+2. Apoyar el farming y la gestión financiera de monedas no principales

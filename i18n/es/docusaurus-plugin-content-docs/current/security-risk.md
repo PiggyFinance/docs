@@ -1,39 +1,39 @@
 ---
 sidebar_position: 7
 ---
-# Security & Risk
+# Seguridad y Riesgos
 
-The DeFi ecosystem is a new financial ecosystem. Before entering DeFi, users must understand investment and smart contract risks. This section focuses on the risks associated with BOC.
+El ecosistema DeFi es un nuevo ecosistema financiero. Antes de ingresar a DeFi, los usuarios deben comprender los riesgos de inversión y contrato inteligente. Esta sección se centra en los riesgos asociados con BOC.
 
-The following is a non-exhaustive list of security properties that were implemented.
+La siguiente es una lista no exhaustiva de las medidas de seguridad que se implementaron:
 
-1. To be able to avoid losses caused by code vulnerabilities, all protocols shall be audited by reputable auditors.
-2. To reduce the risk of oracle attack, the quotation of the stable coin must be based on the Chain Link rather than the protocol itself.
-3. In order to avoid the chain system risk caused by nested tokens and LEGO combinations, the access to the aggregated financial management protocol needs to have a long-term security operation record and obtain the voting permission of the community.
-4. In order to avoid impermanent losses caused by market fluctuations, the protocol for obtaining capital returns by providing risky services will not be accessed for the time being. At the same time leverage is not being used to magnify capital returns for the time being.
+1. Para poder evitar pérdidas causadas por vulnerabilidades de código, todos los protocolos deben ser auditados por auditores acreditados.
+2. Para reducir el riesgo de un ataque al Oracle, la cotización de la stablecoin debe basarse en ChainLink en lugar del protocolo en sí.
+3. Para evitar el riesgo del sistema de cadena causado por tokens anidados y combinaciones de LEGO, el acceso al protocolo de gestión financiera agregada debe tener un registro de operación de seguridad a largo plazo y obtener el permiso de voto de la comunidad.
+4. Con el fin de evitar pérdidas transitorias provocadas por las fluctuaciones del mercado, por el momento no se accederá al protocolo de obtención de rendimientos de capital mediante la prestación de servicios de riesgo. Al mismo tiempo, el apalancamiento no se está utilizando para aumentar los rendimientos del capital por el momento.
 
-## Yield Dilution Risk
+## Riesgo de dilución de rendimiento
 
-The increased liquidity from big whales can further dilute the yield of investing funds in a particular pool during rebalancing intervals.
+La mayor liquidez de las grandes ballenas puede diluir aún más el rendimiento de los fondos de inversión en un grupo en particular durante los intervalos de reequilibrio.
 
-## Smart Contract Risk
+## Riesgo de contrato inteligente
 
-Smart contracts due to the complexities, even audited by the professional, can still post risk and are prone to hacks and unforeseeable events.
+Los contratos inteligentes debido a las complejidades, incluso auditados por el profesional, aún pueden presentar riesgos y son propensos a ataques y eventos imprevisibles.
 
-## Market Risk
+## Riesgo de mercado
 
-The counterparty on the borrower's side lending protocols are also in default risk that cannot be rectified by liquidation in an extreme case of market fluctuation.
+Los protocolos de préstamo de la contraparte del lado del prestatario también están en riesgo de incumplimiento que no puede ser rectificado por liquidación en un caso extremo de fluctuación del mercado.
 
-## Transaction Cost Risk
+## Riesgo de costo de transacción
 
-The automatic rebalancing that was triggered by network congestion will result in high transaction fee (gas fee) and affects the final yield rate.
+El reequilibrio automático que se desencadenó por la congestión de la red dará como resultado una tarifa de transacción alta (tarifa de gas) y afectará la tasa de rendimiento final.
 
-## Oracle Attack Risk
+## Riesgo de ataque de Oracle
 
-Oracles are the bridge between the blockchain and the real world. Oracles act as on-chain APIs that can be queried for information to smart contracts including but not limited to price information and weather forecasts.
+Los oráculos son el puente entre la cadena de bloques y el mundo real. Los oráculos actúan como API en cadena que se pueden consultar para obtener información sobre contratos inteligentes, incluidos, entre otros, información de precios y pronósticos meteorológicos.
 
-BOC oracle risk is divided into:
+El riesgo del oráculo BOC se divide en:
 
-- If the oracle machine used by the third-party protocol strategy connected by BOC is attacked, the benefits of the protocol will no longer be real. This will affect the BOC to make wrong investment decisions based on the wrong quotation, which in turn affects the APY of the BOC.
+- Si el Oraculo utilizado por la estrategia de protocolo de terceros conectada por BOC es atacada, los beneficios del protocolo ya no serán reales. Esto afectará al BOC para que tome decisiones de inversión incorrectas basadas en una cotización incorrecta, lo que a su vez afectará el APY del BOC.
 
-- If the oracle machine used by BOC is attacked (currently using Chainlink), the valuation of the strategy will no longer be accurate, which will affect user deposits and withdrawals.
+- Si se ataca el Oraculo utilizado por BOC (que actualmente utiliza Chainlink), la valoración de la estrategia dejará de ser precisa, lo que afectará a los depósitos y retiros de los usuarios.

@@ -5,7 +5,6 @@ sidebar_position: 2
 # Introduction to BOC
 
 ## What is BOC
-
 BOC (Bank Of Chain) is a new and innovative way to interact with decentralized financial ([DeFi](appendix#decentralized-finance-defi)) [protocols](appendix#protocol). It helps ordinary investors to obtain a "free-risk" capital-guaranteed wealth management tool on [blockchain](appendix#blockchain-network).
 
 The BOC platform connects carefully selected protocols within the crypto ecosystem, including [Automatic Market Makers (AMMs)](appendix#automated-market-maker-amm), [lending protocols](appendix#lending-protocol), [yield aggregators](appendix#yield-aggregators), etc. (see <https://dashboard.bankofchain.io/#/> for details). 
@@ -26,11 +25,11 @@ BOC is a DeFi protocol that provides the best long-term "free-risk" return, and 
 
 ## Fund Allocation Rules
 
-- Priority is on the higher yield [capital pools](appendix#liquidity-pool-or-capital-pool).
-- The investment capital of a single capital pool cannot exceed 20% of the total investment assets.
-- The funds of a single capital pool cannot exceed 50% of its existing lock-up amount.
-- Multiple capital pools in the same agreement cannot exceed 30% of the total investment assets.
-- There is a regular automatic evaluation for profit review. With the goal of optimize the allocation of funds when the profit from position adjustment is greater than the cost.
+- Priority is on the higher yield [pools](appendix#liquidity-pool-or-capital-pool).
+- The investment on a single pool cannot exceed 20% of the total investment assets on de Vault.
+- The fund on a single protocol can´t exceed 30% of the total investment assets on de Vault.
+- The funds of a pool cannot exceed 50% of its existing lock-up amount of that pool. 
+- There is a regular automatic evaluation for profit review. Rebalancing will occur when the profit exeed the cost.
 
 ## Why BOC existence
 
@@ -214,7 +213,7 @@ In summary, BOC Platform is the missing catalyst that will revolutionize the ind
     <td>7-11%</td>
    </tr>
    <tr>
-    <td>Pool QTY</td>
+    <td>Number of Pools</td>
     <td>1</td>
     <td>Multi</td>
     <td>1</td>
@@ -226,7 +225,7 @@ In summary, BOC Platform is the missing catalyst that will revolutionize the ind
     <td>Multi</td>
    </tr>
    <tr>
-    <td>Pool Support Multi-Strategy</td>
+    <td>Multi-Strategy supported</td>
     <td>Y</td>
     <td>Y</td>
     <td>Y</td>
@@ -238,19 +237,19 @@ In summary, BOC Platform is the missing catalyst that will revolutionize the ind
     <td>Unknown</td>
    </tr>
    <tr>
-    <td>Support automatic fund allocation</td>
+    <td>Automatic fund allocation supported</td>
     <td>Y</td>
-    <td>No, a quota needs to be set</td>
+    <td>No, only manually</td>
     <td>N</td>
     <td>N</td>
-    <td>No, a quota needs to be set by fund manager</td>
-    <td>No, a quota needs to be set</td>
+    <td>No, only manually by fund manager</td>
+    <td>No, only manually</td>
     <td>N</td>
     <td>N</td>
     <td>Unknown</td>
    </tr>
    <tr>
-    <td>Exchange will occur in pool investment</td>
+    <td>Exchange occur when pool assets are invested</td>
     <td>Y</td>
     <td>N</td>
     <td>N</td>
@@ -274,7 +273,7 @@ In summary, BOC Platform is the missing catalyst that will revolutionize the ind
     <td>Selected by the team</td>
    </tr>
    <tr>
-    <td>Consider the spread of funds</td>
+    <td>Diversification considered</td>
     <td>Y</td>
     <td>N</td>
     <td>N</td>
@@ -286,7 +285,7 @@ In summary, BOC Platform is the missing catalyst that will revolutionize the ind
     <td>unknown</td>
    </tr>
    <tr>
-    <td>Redeem using aggregates</td>
+    <td>Exchange aggregation used</td>
     <td>Y</td>
     <td>N</td>
     <td>N</td>

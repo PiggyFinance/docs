@@ -19,7 +19,7 @@ const config = {
   projectName: 'docusaurus', // Usually your repo name.
   i18n: {
     defaultLocale: 'en',
-    locales: ['en', 'zh'],
+    locales: ['en', 'zh',"es"],
   },
   presets: [
     [
