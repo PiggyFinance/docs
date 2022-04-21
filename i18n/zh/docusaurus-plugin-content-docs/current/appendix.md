@@ -4,7 +4,7 @@ sidebar_position: 9
 
 # 附录
 
-## 词汇表
+## 词汇表 kk
 
 ### 去中心化金融（DeFi）
 
