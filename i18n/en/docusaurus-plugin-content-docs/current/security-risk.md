@@ -30,7 +30,7 @@ The automatic rebalancing that was triggered by network congestion will result i
 
 ## Oracle Attack Risk
 
-Oracles are the bridge between the blockchain and the real world. Oracles act as on-chain APIs that can be queried for information to smart contracts including but not limited to price information and weather forecasts.
+[Oracles](appendix#oracle) are the bridge between the blockchain and the real world. Oracles act as on-chain APIs that can be queried for information to smart contracts including but not limited to price information and weather forecasts.
 
 BOC oracle risk is divided into:
 
