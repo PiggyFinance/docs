@@ -7,7 +7,7 @@ sidebar_position: 9
 
 ### Blockchain network
 
-Blockchain is a system of recording information in a way that makes it difficult or impossible to change, hack, or cheat the system. A blockchain is essentially a digital ledger of transactions that is duplicated and distributed across the entire network of computer systems on the blockchain. It encrypted blocks of data (smart contracts, transactions, etc.) then chains them together to form a chronological single-source-of-truth for the data. Blockchain’s inherent security measures and public ledger make it a prime technology for almost every single sector. The blockchain community participates from this block adding by different consensus mechanism.
+Blockchain is a system that records information in a way that makes it difficult or impossible to change, hack, or cheat the system. A blockchain is essentially a digital ledger of transactions that is duplicated and distributed across the entire network of computer systems on the blockchain. It encrypted blocks of data (smart contracts, transactions, etc.) then chains them together to form a chronological single-source-of-truth for the data. Blockchain’s inherent security measures and public ledger make it a prime technology for almost every single sector. The blockchain community participates from this block adding by different consensus mechanism.
 
 ### Ethereum Virtual Machine (EVM)
 
@@ -142,7 +142,7 @@ Similar to stablecoins, rebase tokens are usually pegged to another asset. But i
 
 ### Burn/Mint
 
-The burn-and-mint equilibrium (BME) model is a token economic structure used by certain crypto networks. Burning assets (coins or tokens) means eliminating them by sending them to an ‘eater address,’ which is not accessible by anyone, since no one owns the private keys to that address. The number of created tokens can vary, and it is not related to burning functions in any way. The newly minted assets are distributed to everyone who participated in delivering customer experience (which is the reason for burning assets).
+The burn-and-mint equilibrium (BME) model is a token economic structure used by certain crypto networks. Burning assets (coins or tokens) means eliminating them by sending them to an ‘eater address,’ which is not accessible by anyone, since no one owns the private keys to that address. Users must burn the “tradable tokens” that attempt to accrue value in order to receive the “proprietary payment tokens” for the service in network. Service providers then earn rewards by inflationary minting which is independent of the token burning process. As the network grows in usage, the tradable tokens are burned and the tokens accrue more value. As they grow in value less will need to be burned to receive the same amount of USD denominated proprietary payment tokens. The reverse occurs if usage decreases, thus creating a dynamic to bring the network to an equilibrium.
 
 <!-- ### Vesting
 
