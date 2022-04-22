@@ -334,6 +334,4 @@ In summary, BOC Platform is the missing catalyst that will revolutionize the ind
    </tr>
 </table>
 
-<!-- TODO See again with Aria-->
-
 *Note: The rate of return of the corresponding competing product needs to be confirmed twice, and currently it only reflects the official display rate of the product. Is not consider token incentives and subsidies.

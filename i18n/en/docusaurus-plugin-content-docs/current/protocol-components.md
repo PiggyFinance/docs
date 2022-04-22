@@ -6,7 +6,7 @@ sidebar_position: 3
 
 ## Incorporated Blockchains
 
-BOC protocol is desing to be compatible with [Ethereum Virtual Machine (EVM)](appendix#ethereum-virtual-machine-evm), actually BOC is connected with Ethereum, BNB Chain and Polygon chain.
+BOC protocol is design to be compatible with [Ethereum Virtual Machine (EVM)](appendix#ethereum-virtual-machine-evm), actually BOC is connected with Ethereum, BNB Chain and Polygon chain.
 
 ### Ethereum
 
@@ -81,31 +81,22 @@ The currently selected strategic stablecoins are: DAI, USDC, USDT, BUSD, USDP, T
 
 <https://www.liquity.org/>
 
-<!-- TODO  wait for Aria translation-->
-## Incorporated Protocol
+## Protocol strategy selection
 
-The protocols need to meet the following conditions after the stablecoins are selected:
+After the stablecoin is selected, its corresponding strategies should meet the following conditions: 
+- Don't have a deposit or withdraw fees.
+- Don't have a lock-up period, so funds can be withdrawn rapidly. 
+- No limitation on amount of funds for an investor. 
+- All protocols should be audited to keep a way from potential losses caused by code vulnerabilities. 
+- The aggregated financial management protocol should count with a long-term safety operation record, also obtains the permission of communities via voting. Therefore, the cascading system risks caused by nested tokens and LEGO combinations can be circumvented. 
+- Don't use protocols of obtaining or magnifying capital returns by providing risky services or leverage, thus avoiding losses caused by market fluctuations. 
+- The first accessed DEX and lending protocol should be the preferred first-line protocols on every blockchain and also count with good safety operation records. 
+- The protocol should allocate capital chain intelligently, which always obeys two rules: maximizing yields and decentralizing capital risks.
 
-- Don't have withdrawal and admission fee.
-- No lock-up period, some strategies have a lock-up period, and funds cannot be retrieved for a certain period of time.
-- No investment limit, some strategies have a limit on funds.
-- All should be audited to avoid losses caused by code vulnerabilities,
-- The access to the aggregated financial management protocol needs to have a long-term security operation record and obtain the voting permission of the community. This for avoiding the chain system risk caused by nested tokens and LEGO combinations.
-- The protocol for obtaining capital returns by providing risky services will not be accessed for the time being. In order to avoid impermanent losses caused by market fluctuations. At the same time leverage can not be used to magnify capital returns for the time being.
-
-<!-- ?? -->
-
-- The first batch of the agreement will be connected to three smart contract platforms including Ethereum, Polygon, and BNB that have a TLV of more than $5 billion. In view of the immature cross-chain technology, at this stage, users shall manually use the official cross-chain bridge for asset conversion.
-
-- The first DEX and lending protocols to be accessed are the first-line protocols of choice on various blockchains, and have a good record of security operations.
-
-- The protocol provides the optimal allocation service within the capital chain, which combines the two principles of maximizing returns and diversifying capital risks.
-
-The currently selected protocols include:
-
-- Ethereum: Convex, DODO, SushiSwap, Balancer, etc.
-- BNB Chain: DForce, Synapse, Venus, DODO, Belt, Pancakeswap, Alpaca, etc.
-- Polygon: DODO, Synapse, Quickswap, Balancer, Aave, Curve, SushiSwap, etc.
+The following are selected protocols at present: 
+- in Ethereum: Convex, DODO, SushiSwap, Balancer, etc.
+- in BNB Chain: DForce, Synapse, Venus, DODO, Belt, Pancakeswap, Alpaca, etc.
+- in Polygon: DODO, Synapse, Quickswap, Balancer, Aave, Curve, SushiSwap, etc.
 
 ### Aave
 
