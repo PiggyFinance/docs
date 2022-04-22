@@ -3,17 +3,15 @@ sidebar_position: 6
 ---
 # Governance
 
-BOC is a disruptive innovation that aims to change the DeFi ecosystem. It will serve as a bridge between fund lenders and investment operators. BOC will be a gate to newcomers on the crypto investing world, creating a new way to interact with the DeFi Ecosystem.
+BOC is a disruptive blockchain innovation that aims to change the DeFi ecosystem. It will serve as a bridge between fund lenders and investment operators. BOC will be a gate to newcomers on the crypto investing world, creating a new way to interact with the DeFi Ecosystem.
 
 ## DAO Development
 
-By the moment, the governance of BOC is to achieve co-management of the tokenholders through Gnosis multi-signature. In the future, governance rights will be transferred to DAO. 
+By the moment, the governance of BOC is through Gnosis multi-signature. In the future, governance will be assumed by the DAO. 
 
-The DAO program will:
+The DAO will use [snapshot](https://snapshot.org/) for off-chain voting and the execution proposals by on-chain smart contracts. 
 
-* Execute proposals by on-chain smart contracts.
-* Use snapshots for off-chain voting
-* Finish the development of Governance tokens.
+The Governance tokens are yet to be developed but will be launched soon.
 
 ## Tokenomics
 
@@ -40,8 +38,8 @@ The maximum supply of BOC tokens is 1 billion. Tokenholders will receive a BOC m
 
 ## Audit
 
-All BOC smart contracts are audited by independent labs like SlowMist among others.
+All BOC smart contracts are audited by independent labs as SlowMist among others.
 
 ## Bug Bounty Program
 
-By collaborating with third parties, BOC will establish a way in which the community will help to improve the quality of the smart contracts used. Potential third-party organisations includes the premier bug bounty platform and the DeFi Project. In those organisations, security researchers review code, disclose vulnerabilities, get paid, and make BOC's smart contracts more secure.
+By collaborating with third parties, BOC will establish a way in which the community will help to improve the quality of the smart contracts used. Potential third-party organisations includes the premier bug bounty platform and the DeFi Project. In those organizations, security researchers review code, disclose vulnerabilities, have the incentive to help to make smart contracts more secure.
