@@ -32,8 +32,6 @@ BOC is a DeFi protocol that provides the best long-term "risk-free" return. Itâ€
 - Multiple capital pools in the same protocol cannot exceed 30% of the total assets under management.
 - Funds allocation is adjusted automatically to ensure the most cost-efficient position.
 
-## Why BOC existence
-
 The existing DeFi protocols present the following problems:
 
 - [Impermanent losses](appendix#impermanent-loss) in decentralized exchanges from market makers. In 2021, UniswapV3â€™s market-making revenue was about $200 million, but [those pools have suffered impermanent losses of $260 million](https://cointelegraph.com/news/half-of-uniswap-v3-liquidity-providers-are-losing-money-new-research), resulting in a total net loss of $60 million. 
@@ -227,7 +225,7 @@ In summary, BOC Platform is the missing catalyst that will revolutionize the ind
     <td>Multi</td>
    </tr>
    <tr>
-    <td>Pool Multi-Strategy Supported</td>
+    <td>Multi-Strategy supported</td>
     <td>Y</td>
     <td>Y</td>
     <td>Y</td>
@@ -239,19 +237,19 @@ In summary, BOC Platform is the missing catalyst that will revolutionize the ind
     <td>Unknown</td>
    </tr>
    <tr>
-    <td>Support automatic fund allocation</td>
+    <td>Automatic fund allocation supported</td>
     <td>Y</td>
-    <td>No, a manually set</td>
+    <td>No, only manually</td>
     <td>N</td>
     <td>N</td>
-    <td>No, a manually set by fund manager</td>
-    <td>No, a manually set</td>
+    <td>No, only manually by fund manager</td>
+    <td>No, only manually</td>
     <td>N</td>
     <td>N</td>
     <td>Unknown</td>
    </tr>
    <tr>
-    <td>Exchange will occur in pool investment</td>
+    <td>Exchange occur when pool assets are invested</td>
     <td>Y</td>
     <td>N</td>
     <td>N</td>
@@ -275,7 +273,7 @@ In summary, BOC Platform is the missing catalyst that will revolutionize the ind
     <td>Selected by the team</td>
    </tr>
    <tr>
-    <td>Diversification Considered</td>
+    <td>Diversification considered</td>
     <td>Y</td>
     <td>N</td>
     <td>N</td>
@@ -287,7 +285,7 @@ In summary, BOC Platform is the missing catalyst that will revolutionize the ind
     <td>unknown</td>
    </tr>
    <tr>
-    <td>Redeem using aggregates</td>
+    <td>Exchange aggregation used</td>
     <td>Y</td>
     <td>N</td>
     <td>N</td>

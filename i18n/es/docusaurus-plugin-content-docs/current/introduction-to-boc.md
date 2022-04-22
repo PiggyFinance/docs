@@ -2,86 +2,85 @@
 sidebar_position: 2
 ---
 
-# Introduction to BOC
+# Introducción a BOC
 
-## What is BOC
+## ¿Qué es BOC?
 
-BOC (Bank Of Chain) is a new and innovative way to interact with decentralized financial ([DeFi](appendix#decentralized-finance-defi)) [protocols](appendix#protocol). It helps ordinary investors to obtain a "free-risk" capital-guaranteed wealth management tool on [blockchain](appendix#blockchain-network).
+Bank of Chain (BOC) es una forma nueva e innovadora de interactuar con ecosistema de las [finanzas descentralizadas](appendix#finanzas-descentralizadas-defi) (DeFi). Es una herramienta indispensable que ayuda a los inversores ordinarios a obtener una herramienta de gestión de activos para generar ganancias "sin riesgo".
 
-The BOC platform connects carefully selected protocols within the crypto ecosystem, including [Automatic Market Makers (AMMs)](appendix#automated-market-maker-amm), [lending protocols](appendix#lending-protocol), [yield aggregators](appendix#yield-aggregators), etc. (see <https://dashboard.bankofchain.io/#/> for details). 
+La plataforma BOC conecta [protocolos](appendix#protocolo) cuidadosamente seleccionados dentro del ecosistema criptográfico, incluidos los Automated Market Makers (AMMs), [protocolos de préstamo](appendix#protocolo-de-préstamos), [agregadores de rendimiento](appendix#agregadores-de-rendimiento), etc. Consulte el [dashboard](https://dashboard.bankofchain.io/) para obtener más detalles.
 
-By accessing high-quality [protocol](appendix#protocol) [strategies](appendix#strategy), BOC can be 300-500 basis points (3-5%) higher than other similar USD managed funds. 
+Al acceder a estrategias de protocolo de alta calidad, el BOC puede ser de 300 a 500 puntos básicos (3 a 5 %) más alto que otros fondos administrados en USD similares.
 
-For newcomers to the crypto industry, this is the best way to enter the DeFi ecosystem. As a one-click protocol BOC will bring a new revolution to the DeFi industry, attracting hundreds of millions of dollars of investment.
+Para los recién llegados a la industria de las criptomonedas, esta es la mejor manera de ingresar al ecosistema DeFi. Como protocolo de un solo clic, BOC traerá una nueva revolución a la industria DeFi, atrayendo cientos de millones de dólares de inversión.
 
-## BOC Source of Yield
+## BOC Fuente de interés (Yield)
 
-BOC is a DeFi protocol that provides the best long-term "free-risk" return, and it’s source of Yield includes:
+BOC es un protocolo DeFi que proporciona el mejor rendimiento "sin riesgo" a largo plazo, y su fuente de rendimiento incluye:
 
-- The transaction fee charged for providing market-making funds for decentralized exchange (DEX). 
+- La tarifa de transacción cobrada por proporcionar fondos para market makers de exchanges descentralizados (DEX).
 
-- The interest charged on funds borrowed for over-collateralized lending.
+- El interés cobrado sobre fondos prestados en casos de préstamos sobrecolateralizados.
 
-- Governance token rewards.
+- Recompensas de tokens de gobernanza.
 
-## Fund Allocation Rules
+## Reglas de asignación de fondos
 
-- Priority is on the higher yield [capital pools](appendix#liquidity-pool-or-capital-pool).
-- The investment capital of a single capital pool cannot exceed 20% of the total investment assets.
-- The funds of a single capital pool cannot exceed 50% of its existing lock-up amount.
-- Multiple capital pools in the same agreement cannot exceed 30% of the total investment assets.
-- There is a regular automatic evaluation for profit review. With the goal of optimize the allocation of funds when the profit from position adjustment is greater than the cost.
+- La prioridad está en los fondos comunes de capital (liquidity pools) de mayor rendimiento.
+- El capital de inversión de un pool no puede exceder el 20% de los activos totales.
+- Los fondos de un pool no pueden exceder el 50% de del monto bloqueado existente en ese fondo.
+- Los fondos invertidos en un protocolo no pueden exceder el 30% de los activos de inversión totales.
+- Hay una evaluación automática regular para la revisión de ganancias. Con el objetivo de optimizar la asignación de fondos cuando las ganancias exceden al costo.
 
-## Why BOC existence
+## ¿Por qué existe BOC?
 
-The existing DeFi protocols have the following problems:
+Los protocolos DeFi existentes tienen los siguientes problemas:
+- Hay casos de grandes pérdidas impermanentes (impermanent loss) en intercambios descentralizados de creación de mercado. En 2021, los ingresos de creación de mercado de UniswapV3 son solo de unos 200 millones de dólares, pero esos grupos sufrieron pérdidas impermanentes de 260 millones de dólares, lo que resultó en una pérdida neta total de 60 millones de dólares.
+- Es habitual que los agregadores de desempeño (yield aggregators) sufran dependencias circulares.
+- Muchos acuerdos tienen altos umbrales de inversión.
+- En general, los protocolos DeFi tienen múltiples opciones de inversión, y los usuarios necesitan un nivel de conocimiento relativamente más alto para elegir en qué protocolos subyacentes invertir. Al mismo tiempo, muchos de estos productos necesitan invertir en una variedad de monedas diferentes, y los usuarios necesitan convertir en la moneda requerida por el producto.
+- El proceso de inversión es complicado. En el proceso de reequilibrio de inversiones, los usuarios deben implementar operaciones complejas como retiro, cambio de moneda e inversión.
 
-- There are cases of several [impermanent losses](appendix#impermanent-loss) in decentralized exchanges from market making. In 2021, UniswapV3’s market-making revenue is only about $200 million, but [those pools have suffered impermanent losses of $260 million](https://cointelegraph.com/news/half-of-uniswap-v3-liquidity-providers-are-losing-money-new-research), resulting in a total net loss of $60 million. 
-- Is usual that revenue aggregators suffer from circular dependencies.
-- Many agreements have high investment thresholds. 
-- In general DeFi protocols have multiple pools, and users need a relatively higher level of knowledge to choose which underlying protocols to invest in. At the same time, many of them products need to invest in a variety of different currencies, and users need to convert them into the currency required by the product.
-- The investment process is complicated. In the process of investment rebalancing, users need to implement complex operations such as withdrawal, currency exchange and investment.
+## ¿Qué hace que BOC sea diferente?
 
-## What makes BOC Different
+BOC es una plataforma abierta que realiza inversiones descentralizadas al invertir en una combinación de protocolos DeFi cuidadosamente seleccionados, creando ingresos estables a largo plazo evitando la mayoría de los riesgos.
 
-BOC is an open platform that realizes decentralized investment by doing a mix of carefully selected DeFi protocols, creating long-term stable income avoiding most risks.
+Las principales características que hacen de BOC un producto único son:
 
-The main characteristic that make BOC a unique product are:
+La facilidad de uso:
 
-User-friendliness:
+1. Los usuarios depositarán y retirarán directamente sin pensar en implementar y asumir el costo de operaciones complejas como el farming, el intercambio y la reasignación. BOC hace la mejor selección para ellos.
+2. Las ganancias se reinvierten automáticamente con un proceso de depósito y retiro inmediato.
+3. Los rendimientos históricos y dinámicos son intuitivamente visibles.
 
-1. Users shall deposit and withdraw directly without thinking to implement and bear the cost of complex operations such as farming, exchange, and reallocation. BOC makes the best selection for them.
-2. Profits are automatically reinvested with an immediate deposit and withdrawal process.
-3. Historical and dynamic returns are intuitively visible.
+La seguridad:
 
-Safety:
+1. La capitalización de mercado de las monedas estables calificadas supera los 1000 millones de dólares.
+2. El TVL de Blockchains calificados supera los 5 mil millones de dólares.
+3. Cuenta con auditoría de terceros.
+4. BOC no utiliza puentes entre cadenas de terceros no oficiales para las transacciones.
+5. La cotización del precio se basa en Chainlink, un oráculo líder en el mercado.
 
-1. The market cap of qualified stablecoins exceeds 1 billion dollars.
-2. The TVL of qualified Blockchains exceeds 5 billion dollars.
-3. It has third party auditing in place.
-4. BOC does not use unofficial third-party cross-chain bridges for transactions.
-5. The price quotation relies on Chainlink, a market-leading oracle.
+Control de riesgo:
 
-Risk control:
+1. Minimiza el riesgo de desanclaje de las monedas estables.
+2. Minimiza el riesgo de pérdida temporal, BOC utiliza la creación de mercado solo para pares de [moneda estable] (apéndice # moneda estable).
+3. El riesgo sistémico está optimizado por los tokens envueltos muy selectivos y los agregadores de rendimiento.
+4. El riesgo de cola larga es realmente bajo, cualquier rendimiento se genera a partir del negocio de servicios de riesgo, como suscripción de seguros, opciones de compra de venta.
+5. No hay riesgo en el apalancamiento, se proporciona cualquier función de apalancamiento.
 
-1. It minimizes the de-anchoring risk of stablecoins.
-2. It plays down the risk of impermanent loss, BOC use market-making for [stablecoin](appendix#stablecoin) pairs only.
-3. The systemic risk is optimized by the very selective wrapped [tokens](appendix#token) and yield aggregators.
-4. The long-tail risk is really low, any yield are generated from risk servicing business, such as insurance underwriting, sell call options.
-5. There is no risk in leveraging, any leverage function is provided.
+Algoritmo inteligente:
 
-Smart algorithm:
+1. Los rendimientos se calibran regularmente, sopesando el costo y la recompensa por la reasignación de fondos.
+2. Realiza búsquedas continuas de la mejor tarifa a través de agregadores de cambio.
+3. BOC realiza un intercambio de intereses de FX, ajustando la síntesis de FX en función del tipo de cambio y el rendimiento.
+4. Los parámetros se establecen automáticamente para la creación de mercado y la estrategia de préstamo.
 
-1. Yields are regularly calibrated, weighing the cost and reward for funds reallocation.
-2. It makes continues searches for the best rate through exchange aggregators.
-3. BOC performs FX interest swap, adjusting FX synthesis based on exchange rate and yield.
-4. Parameters are automatically set for market-making and lending strategy.
-
-In summary, BOC Platform is the missing catalyst that will revolutionize the industry generating a new way to interact with the DeFi Ecosystem, making it a safe path for newcomers. This will lead to a new market growth compared to other similar products in the market:
+En resumen, la plataforma BOC es el catalizador faltante que revolucionará la industria generando una nueva forma de interactuar con el ecosistema DeFi, convirtiéndolo en un camino seguro para los recién llegados. Conduciendo a un nuevo crecimiento del mercado en comparación con otros productos similares en el mercado:
 
 <table>
    <tr>
-    <td>Comparing Product</td>
+    <td>Comparativa de producto</td>
     <td><a href="https://bankofchain.io/">BOC</a></td>
     <td><a href="http://yearn.finance/">Yearn</a></td>
     <td><a href="https://www.ousd.com/">OUSD</a></td>
@@ -94,31 +93,30 @@ In summary, BOC Platform is the missing catalyst that will revolutionize the ind
    </tr>
    <tr>
     <td>Type</td>
-    <td>DeFi Bank</td>
-    <td>Yield Aggregator</td>
+    <td>Banco DeFi</td>
+    <td>Agregador de rendimiento</td>
     <td>Stablecoin</td>
-    <td>Yield Aggregator</td>
-    <td>On-chain asset management</td>
-    <td>Yield Aggregator</td>
-    <td>Yield Aggregator</td>
-    <td>Yield Aggregator</td>
-    <td>DeFi Bank</td>
+    <td>Agregador de rendimiento</td>
+    <td>Gestión de activos en cadena</td>
+    <td>Agregador de rendimiento</td>
+    <td>Agregador de rendimiento</td>
+    <td>Agregador de rendimiento</td>
+    <td>Banco DeFi</td>
    </tr>
    <tr>
-    <td>Details</td>
-    <td>BOC is a DeFi protocol that provides the best long-term risk-free return.</td>
-    <td>Yearn Finance is a suite of products in Decentralized Finance (DeFi) that provides yield generation, lending aggregation, and more on the blockchain. </td>
-    <td>Origin Dollar (OUSD) is a new stablecoin that was initially launched on the Ethereum network.</td>
-    <td>AladdinDAO is a decentralized network to shift crypto investments from venture capitalists to wisdom of crowds through collective value discovery.</td>
-    <td>Fast &amp; cost-effective way to build, scale and monetize investment strategies.Fast &amp; cost-effective way to build, scale and monetize investment strategies.</td>
-    <td>Harvest Finance is a yield farming protocol that lets users put their assets to work in high-producing farming opportunities.</td>
-    <td>Beefy Finance is a Decentralized, Multi-Chain Yield Optimizer that allows its users to earn compound interest on their crypto holdings. Beefy earns you the highest APYs with safety and efficiency in mind.</td>
-    <td>Alpha Finance Lab is an ecosystem of cross-chain DeFi products that focus on capturing unaddressed demand in an innovative and user friendly way.</td>
-    <td>Your Digital Wealth Partner
- Discover the easiest way to earn on your digital assets</td>
+    <td>Detalles</td>
+    <td>BOC es un protocolo DeFi que proporciona el mejor rendimiento sin riesgo a largo plazo.</td>
+    <td>Yearn Finance es un conjunto de productos en finanzas descentralizadas (DeFi) que proporciona generación de rendimiento, agregación de préstamos y más en la cadena de bloques.</td>
+    <td>Origin Dollar (OUSD) es una nueva moneda estable que se lanzó inicialmente en la red Ethereum.</td>
+    <td>AladdinDAO es una red descentralizada para cambiar las inversiones criptográficas de los capitalistas de riesgo a la sabiduría de las multitudes a través del descubrimiento de valor colectivo.</td>
+    <td>Rápido y rentable forma de crear, escalar y monetizar estrategias de inversión. forma rentable de construir, escalar y monetizar estrategias de inversión.</td>
+    <td>Harvest Finance es un protocolo de agricultura de rendimiento que permite a los usuarios poner sus activos a trabajar en oportunidades agrícolas de alta producción.</td>
+    <td>Beefy Finance es un optimizador de rendimiento multicadena descentralizado que permite a sus usuarios ganar intereses compuestos sobre sus criptodivisas. Beefy le otorga los APY más altos teniendo en cuenta la seguridad y la eficiencia.</td>
+    <td>Alpha Finance Lab es un ecosistema de productos DeFi de cadena cruzada que se enfoca en capturar la demanda no atendida de una manera innovadora y fácil de usar.</td>
+    <td>Tu socio de riqueza digital. Forma más fácil de ganar con sus activos digitales</td>
    </tr>
    <tr>
-    <td>Supported Chain</td>
+    <td>Chains Soportadas</td>
     <td>ETH<br />BNB Chain<br />Polygon</td>
     <td>ETH<br />Fantom</td>
     <td>ETH</td>
@@ -130,7 +128,7 @@ In summary, BOC Platform is the missing catalyst that will revolutionize the ind
     <td>ETH<br />V2 BNB Chain</td>
    </tr>
    <tr>
-    <td>Locked Asset（USD）<br />2022/3/8</td>
+    <td>Valor bloqueado（USD）<br />2022/3/8</td>
     <td>31k</td>
     <td>3.05B</td>
     <td>155.82m</td>
@@ -142,7 +140,7 @@ In summary, BOC Platform is the missing catalyst that will revolutionize the ind
     <td>512.71m</td>
    </tr>
    <tr>
-    <td>Official Token</td>
+    <td>Token Oficial</td>
     <td>n/a</td>
     <td>YFI</td>
     <td>OGN</td>
@@ -155,54 +153,54 @@ In summary, BOC Platform is the missing catalyst that will revolutionize the ind
    </tr>
    <tr>
     <td>KYC Required</td>
-    <td>N</td>
-    <td>N</td>
-    <td>N</td>
-    <td>N</td>
-    <td>N</td>
-    <td>N</td>
-    <td>N</td>
-    <td>N</td>
-    <td>Y</td>
+    <td>No</td>
+    <td>No</td>
+    <td>No</td>
+    <td>No</td>
+    <td>No</td>
+    <td>No</td>
+    <td>No</td>
+    <td>No</td>
+    <td>Si</td>
    </tr>
    <tr>
     <td>Open Source</td>
-    <td>Y</td>
-    <td>Y</td>
-    <td>Y</td>
-    <td>Y</td>
-    <td>Y</td>
-    <td>Y</td>
-    <td>Y</td>
-    <td>Y</td>
-    <td>N</td>
+    <td>Si</td>
+    <td>Si</td>
+    <td>Si</td>
+    <td>Si</td>
+    <td>Si</td>
+    <td>Si</td>
+    <td>Si</td>
+    <td>Si</td>
+    <td>No</td>
    </tr>
    <tr>
-    <td>Min. Investment</td>
-    <td>N</td>
-    <td>N</td>
-    <td>N</td>
-    <td>N</td>
-    <td>N</td>
-    <td>N</td>
-    <td>N</td>
-    <td>N</td>
+    <td>Inversion Mínima</td>
+    <td>No</td>
+    <td>No</td>
+    <td>No</td>
+    <td>No</td>
+    <td>No</td>
+    <td>No</td>
+    <td>No</td>
+    <td>No</td>
     <td>100 USD</td>
    </tr>
    <tr>
-    <td>Stablecoin only</td>
-    <td>Y</td>
-    <td>N</td>
-    <td>Y</td>
-    <td>N</td>
-    <td>N</td>
-    <td>N</td>
-    <td>N</td>
-    <td>N</td>
-    <td>N</td>
+    <td>Solo Stablecoin</td>
+    <td>Si</td>
+    <td>No</td>
+    <td>Si</td>
+    <td>No</td>
+    <td>No</td>
+    <td>No</td>
+    <td>No</td>
+    <td>No</td>
+    <td>No</td>
    </tr>
    <tr>
-    <td>Stablecoin actual return*</td>
+    <td>Retorno actual de Stablecoin*</td>
     <td></td>
     <td>5.46%</td>
     <td>8.97%</td>
@@ -214,7 +212,7 @@ In summary, BOC Platform is the missing catalyst that will revolutionize the ind
     <td>7-11%</td>
    </tr>
    <tr>
-    <td>Pool QTY</td>
+    <td>Cantidad de Pools</td>
     <td>1</td>
     <td>Multi</td>
     <td>1</td>
@@ -226,113 +224,113 @@ In summary, BOC Platform is the missing catalyst that will revolutionize the ind
     <td>Multi</td>
    </tr>
    <tr>
-    <td>Pool Support Multi-Strategy</td>
-    <td>Y</td>
-    <td>Y</td>
-    <td>Y</td>
-    <td>N</td>
-    <td>Y</td>
-    <td>Y</td>
-    <td>N</td>
-    <td>N</td>
-    <td>Unknown</td>
+    <td>Pool soporta multi-estrategia</td>
+    <td>Si</td>
+    <td>Si</td>
+    <td>Si</td>
+    <td>No</td>
+    <td>Si</td>
+    <td>Si</td>
+    <td>No</td>
+    <td>No</td>
+    <td>Desconocido</td>
    </tr>
    <tr>
-    <td>Support automatic fund allocation</td>
-    <td>Y</td>
-    <td>No, a quota needs to be set</td>
-    <td>N</td>
-    <td>N</td>
-    <td>No, a quota needs to be set by fund manager</td>
-    <td>No, a quota needs to be set</td>
-    <td>N</td>
-    <td>N</td>
-    <td>Unknown</td>
+    <td>Posee asignación automática de fondos</td>
+    <td>Si</td>
+    <td>No, es necesario establecer una cuota</td>
+    <td>No</td>
+    <td>No</td>
+    <td>No, es necesario establecer una cuota</td>
+    <td>No, es necesario establecer una cuota</td>
+    <td>No</td>
+    <td>No</td>
+    <td>Desconocido</td>
    </tr>
    <tr>
-    <td>Exchange will occur in pool investment</td>
-    <td>Y</td>
-    <td>N</td>
-    <td>N</td>
-    <td>N</td>
-    <td>Y</td>
-    <td>N</td>
-    <td>N</td>
-    <td>N</td>
-    <td>Unknown</td>
+    <td>El intercambio ocurrirá en la inversión del grupo</td>
+    <td>Si</td>
+    <td>No</td>
+    <td>No</td>
+    <td>No</td>
+    <td>Si</td>
+    <td>No</td>
+    <td>No</td>
+    <td>No</td>
+    <td>Desconocido</td>
    </tr>
    <tr>
-    <td>Strategy selection</td>
-    <td>For the time being, it is strictly selected by the team</td>
-    <td>Community</td>
+    <td>Elección de estrategia</td>
+    <td>Por el momento, es estrictamente seleccionado por el equipo.</td>
+    <td>Comunidad</td>
     <td>Selected by the team</td>
-    <td>Community</td>
-    <td>Selected by the fund manager</td>
-    <td>Community</td>
-    <td>Community</td>
-    <td>Community</td>
-    <td>Selected by the team</td>
+    <td>Comunidad</td>
+    <td>Seleccionada por el gestor del fondo</td>
+    <td>Comunidad</td>
+    <td>Comunidad</td>
+    <td>Comunidad</td>
+    <td>Seleccionado por el equipo</td>
    </tr>
    <tr>
-    <td>Consider the spread of funds</td>
-    <td>Y</td>
-    <td>N</td>
-    <td>N</td>
-    <td>N</td>
-    <td>N</td>
-    <td>N</td>
-    <td>N</td>
-    <td>N</td>
+    <td>Posee diversificación de fondos</td>
+    <td>Si</td>
+    <td>No</td>
+    <td>No</td>
+    <td>No</td>
+    <td>No</td>
+    <td>No</td>
+    <td>No</td>
+    <td>No</td>
     <td>unknown</td>
    </tr>
    <tr>
-    <td>Redeem using aggregates</td>
-    <td>Y</td>
-    <td>N</td>
-    <td>N</td>
-    <td>N</td>
-    <td>Y</td>
-    <td>N</td>
-    <td>N</td>
-    <td>N</td>
-    <td>unknown</td>
+    <td>Utiliza Exchange aggregation</td>
+    <td>Si</td>
+    <td>No</td>
+    <td>No</td>
+    <td>No</td>
+    <td>Si</td>
+    <td>No</td>
+    <td>No</td>
+    <td>No</td>
+    <td>Desconocido</td>
    </tr>
    <tr>
-    <td>Support leveraged lending and investment</td>
-    <td>None</td>
-    <td>None</td>
-    <td>N</td>
-    <td>N</td>
-    <td>N</td>
-    <td>N</td>
-    <td>N</td>
-    <td>Y</td>
-    <td>N</td>
+    <td>Posee préstamos e inversiones apalancados</td>
+    <td>No</td>
+    <td>No</td>
+    <td>No</td>
+    <td>No</td>
+    <td>No</td>
+    <td>No</td>
+    <td>No</td>
+    <td>Si</td>
+    <td>No</td>
    </tr>
    <tr>
-    <td>Support to extract at any time</td>
-    <td>Y</td>
-    <td>Y</td>
-    <td>Y</td>
-    <td>Y</td>
-    <td>Y</td>
-    <td>Y</td>
-    <td>Y</td>
-    <td>Y</td>
-    <td>Y</td>
+    <td>Extracción en cualquier momento</td>
+    <td>Si</td>
+    <td>Si</td>
+    <td>Si</td>
+    <td>Si</td>
+    <td>Si</td>
+    <td>Si</td>
+    <td>Si</td>
+    <td>Si</td>
+    <td>Si</td>
    </tr>
    <tr>
-    <td>Fee Scheme</td>
-    <td>Performance fee</td>
-    <td>Performance fee<br/>Management fee</td>
-    <td>Performance fee<br/>Withdrawal fee</td>
-    <td>Performance fee</td>
-    <td>Performance fee<br/>Entrance fee<br/>Management fee</td>
-    <td>Performance fee</td>
-    <td>Performance fee<br/>Management fee</td>
-    <td>Performance fee</td>
-    <td>Performance fee</td>
+    <td>Esquema de tarifas</td>
+    <td>Comisión de rentabilidad</td>
+    <td>Comisión de rentabilidad<br/>Comisión de gestión</td>
+    <td>Comisión de rentabilidad<br/>Comisión por retiro</td>
+    <td>Comisión de rentabilidad</td>
+    <td>Comisión de rentabilidad<br/>Comisión de entrada<br/>Comisión de gestión</td>
+    <td>Comisión de rentabilidad</td>
+    <td>Comisión de rentabilidad<br/>Comisión de gestión</td>
+    <td>Comisión de rentabilidad</td>
+    <td>Comisión de rentabilidad</td>
    </tr>
 </table>
 
-*Note: The rate of return of the corresponding competing product needs to be confirmed twice, and currently it only reflects the official display rate of the product. Is not consider token incentives and subsidies.
+*Nota: La tasa de devolución del producto de la competencia correspondiente debe confirmarse dos veces y actualmente solo refleja la tasa de visualización oficial del producto. No se consideran incentivos simbólicos y subsidios.

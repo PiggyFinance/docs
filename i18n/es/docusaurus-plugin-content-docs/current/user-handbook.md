@@ -2,77 +2,82 @@
 sidebar_position: 5
 ---
 
-# User Handbook
+# Manual del usuario
 
-Here is a quick guide to interact and invest with the BOC platform.
-First, to complete the investment in BOC we need to start on the user investment page. We go to the [landing home page](https://bankofchain.io/#/) and click on `LAUNCH APP` button.
+Esta es una guía rápida para interactuar e invertir con la plataforma BOC.
+En primer lugar, para completar la inversión en BOC tenemos que empezar en la página de inversión del usuario. Nos dirigimos a la [página de inicio](https://bankofchain.io/#/) y hacemos clic en el botón `LAUNCH APP`.
 
 ![launchapp](/images/launchapp.png)
 
-## Wallet Connection
+## Conexión de Wallet (Billetera)
 
-We can interact with BOC through [wallets](appendix#wallet), the APP is compatible [MetaMask](https://metamask.io/) and [WalletConnect](https://walletconnect.com/), by clicking on the `CONNECT WALLET` button.
+Podemos interactuar con BOC a través de una [wallets](appendix#wallet) (billetera digital), la APP es compatible [MetaMask](https://metamask.io/) y [WalletConnect](https://walletconnect.com/), pulsando el botón `CONNECT WALLET`.
 
 ![connectwallet](/images/connectwallet.png)
 
-After connecting the wallet, we can see the USDT balance in our account.
+Después de conectar el monedero, podemos ver el saldo de USDT en nuestra cuenta.
+
 ![pic4](/images/pic-4.png)
 
-## Parameter Settings
+## Ajustes de los parámetros
 
 ### Cross-chain Bridge
 
-BOC provides [cross-chain bridge](appendix#bridge) options, in case we need to implement cross-chain crypto assets.
+BOC proporciona opciones de [cross-chain bridge](appendix#bridge), en caso de que necesitemos implementar una operación cross-chain.
+
 ![chainbridge](/images/chainbridge.png)
 
-### Switch Chain
+### Cambiar de cadena
 
-At the present, BOC works on Ethereum, BNB Chain and Polygon. If we need to switch chains, they can do it through `NETWORKS`.
+En la actualidad, BOC trabaja en Ethereum, BNB Chain y Polygon. Si necesitamos cambiar de cadena, pueden hacerlo a través de `NETWORKS`.
+
 ![networkchange](/images/networkchange.png)
 
-## Investment and Redemption
+## Inversión y reembolso
 
-### Deposit
+### Depósito
 
- Once the wallet has been successfully connected, we can complete the deposit by selecting the desired amount or selecting the "Max" balance, and then clicking on `DEPOSIT`.
+ Una vez que el monedero se ha conectado con éxito, podemos completar el depósito seleccionando la cantidad deseada o seleccionando el saldo "Max", y luego haciendo clic en `DEPOSIT`.
+
 ![pic7](/images/pic-7.png)
 
-### Withdrawal
+### Retirada de fondos
 
-After successfully connecting the wallet, we can complete the withdrawal by selecting the desired share or selecting the "maximum" share and clicking `WITHDRAW`.
+Después de conectar con éxito el monedero, podemos completar la retirada seleccionando la cuota deseada o seleccionando la cuota "máxima" y haciendo clic en `WITHDRAW`.
 
 ![pic8](/images/pic-8.png)
 
-### Withdrawal Advanced Parameters
+### Retirada Parámetros avanzados
 
 ![advancesetting](/images/advancesetting.png)
+
 There are 3 advanced setup parameters:
 
-1. **Exchanged**: Exchange function enablement. Each strategy in the BOC uses different stablecoins. When we withdraw money, we will do it according to the strategy APY from low to high. If a non-USDT strategy is obtained, the stable currency of the corresponding strategy will be returned, e.g. if Yearn LUSD is obtained, LUSD will be returned and if the exchange is closed, the corresponding value of LUSD will be returned to our account. If redemption is enabled, the Slippage parameter needs to be set.
-2. **Max Loss**: The maximum loss on withdrawals. When we specify the withdrawal share, the total assets at the current net value will be displayed, but these are not the funds we can finally get, and losses may occur during the withdrawal process, including exchange slippage losses. If our total assets are estimated to be $1000 at this time, and we choose Max Loss=0.3%, then we will get no less than $997.
-3. **Slippage**: [Slippage](appendix#slippage) between different currencies. After enabling Exchanged, we need to specify the slippage that we accept.
+1. **Exchanged**: Habilitación de la función de intercambio. Cada estrategia en el BOC utiliza diferentes stablecoins. Cuando retiremos dinero, lo haremos según el APY de la estrategia de menor a mayor. Si se obtiene una estrategia que no sea USDT, se devolverá la moneda estable de la estrategia correspondiente, por ejemplo, si se obtiene Yearn LUSD, se devolverá LUSD y si se cierra el intercambio, se devolverá a nuestra cuenta el valor correspondiente de LUSD. Si se habilita la redención, es necesario establecer el parámetro Slippage.
+2. **Pérdida máxima**: La pérdida máxima en los retiros. Cuando especifiquemos la cuota de retirada, se mostrarán los activos totales con el valor neto actual, pero estos no son los fondos que podemos obtener finalmente, y pueden producirse pérdidas durante el proceso de retirada, incluidas las pérdidas por deslizamiento de cambio. Si nuestros activos totales se estiman en $1000 en este momento, y elegimos Max Loss=0,3%, entonces obtendremos no menos de $997.
+3. **Slippage**: [Slippage](appendix#slippage) (deslizamiento) entre diferentes monedas. Después de habilitar Exchanged, necesitamos especificar el deslizamiento que aceptamos.
 
-## Dashboard
+## Dashboard (Tablero de mandos)
 
-From the [dashboard](appendix#dashboard) we can get the next relevant information about our assets and protocols that interact with them.
+Desde el [dashboard](appendix#dashboard) podemos obtener la siguiente información relevante sobre nuestros activos y los protocolos que interactúan con ellos.
 
 <https://dashboard.bankofchain.io>
 
 ![dashboard](/images/dashboard.jpg)
 
-Each data is described as follows:
+Cada dato se describe como sigue:
 
-1. On-chain Vault lock-up amount, read the subgraph interface.
-2. The number of investment users, read the subgraph interface.
-3. APY for the last 30 days based on net worth.
-4. Proportion of protocol funds, query the subgraph interface.
-5. The total assets of each strategy, read the contract interface.
-6. Official APY, regularly pulled every morning.
-7. Currency standard weekly profit, weekly APY.
-8. Strategy Address.
-9. Vault operation records, displayed with the blockchain browser.
+1. Cantidad de bloqueo de la bóveda en cadena, leer la interfaz del subgrafo.
+2. El número de usuarios de inversión, leer la interfaz del subgrafo.
+3. APY de los últimos 30 días en función del patrimonio neto.
+4. Proporción de fondos de protocolo, consultar la interfaz del subgráfico.
+5. El patrimonio total de cada estrategia, consultar la interfaz de contratos.
+6. APY oficial, se extrae regularmente cada mañana.
+7. Moneda estándar beneficio semanal, APY semanal.
+8. Dirección de la estrategia.
+9. Registros de operaciones de la bóveda, mostrados con el navegador de la cadena de bloques.
 
-BOC subgraph:
+Gráficas BOC:
 
 - ETH: <https://api.thegraph.com/subgraphs/name/bankofchain/boc-subgraph-eth>
 
@@ -80,40 +85,41 @@ BOC subgraph:
 
 - POLYGON: <https://api.thegraph.com/subgraphs/name/bankofchain/boc-subgraph-matic>
 
-## Policy Details
+## Detalles de la estrategia
 
-Take SushiUsdcUsdtStrategy as an example, enter the strategy details page as shown in the figure:
+Tome SushiUsdcUsdtStrategy como ejemplo, entre en la página de detalles de la estrategia como se muestra en la figura:
 
 ![detail](/images/detail.jpg)
 
-Each data is described as follows:
+Cada dato se describe como sigue:
 
-1. Policy Details
-      - Policy name
-      - Stablecoins accepted by the strategy
-      - The current total assets of the strategy (valued in USDT)
-      - The total assets of the strategy's historical investment (valued in USDT)
-2. Strategy Historical Return APY Performance
-      - Historical official APY(yellow line)
-      - Historical weekly APY(blue line)
-3. Total Strategy Assets (Currency Standard)
-4. Strategy operation asset changes (currency standard)
-5. Policy Action Type
-      - “harvest:: The strategy completes a mine sale and reinvestment, and reports the total asset valuation
-      - “lend”: Vault puts funds into the strategy, and this action occurs in fund allocation (“doHardWork”, “allocation”)
-      - “redeem”: Vault withdraws funds from the strategy, and this action occurs in the allocation of funds (“allocation”)
+1. Datos de la póliza
+      - Nombre de la póliza
+      - Stablecoins aceptados por la estrategia
+      - Los activos totales actuales de la estrategia (valorados en USDT)
+      - Los activos totales de la inversión histórica de la estrategia (valorados en USDT)
+2. Rendimiento histórico del APY de la estrategia
+      - APY oficial histórico (línea amarilla)
+      - APY semanal histórico (línea azul)
+3. Activos totales de la estrategia (moneda estándar)
+4. Cambios en los activos de las operaciones de la estrategia (moneda estándar)
+5. Tipo de acción de la estrategia
+      - "harvest": La estrategia completa la venta y reinversión de una mina, e informa de la valoración total de los activos
+      - "lend": La bóveda pone fondos en la estrategia, y esta acción ocurre en la asignación de fondos ("doHardWork", "allocation")
+      - "redeem": Vault retira fondos de la estrategia, y esta acción se produce en la asignación de fondos ("allocation")
 
-## Personal Investment Analysis
+## Análisis de inversiones personales
 
-Enter the personal investment analysis page to see the personal investment income.
+Entre en la página de análisis de inversiones personales para ver los ingresos de las inversiones personales.
 
 ![personalpage](/images/personalpage.jpg)
-Each data is described as follows:
 
-1. Personal investment total asset valuation (calculated in USDT).
-2. Acquired BOC share.
-3. Pass 30 days [APY](appendix#annual-yield-apy).
-4. Unwithdrawn earnings (calculated in USDT).
-5. Withdrawn earnings (calculated in USDT).
-6. Historical personal total assets.
-7. Monthly income
+Cada dato se describe como sigue:
+
+1. Valoración del activo total de la inversión personal (calculada en USDT).
+2. Acción de BOC adquirida.
+3. Pasar 30 días [APY](appendix#annual-yield-apy).
+4. Ganancias no retiradas (calculadas en USDT).
+5. Ganancias retiradas (calculadas en USDT).
+6. Activos totales personales históricos.
+7. Ingresos mensuales
