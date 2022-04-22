@@ -4,18 +4,19 @@ sidebar_position: 5
 
 # User Handbook
 
-Here is a quick guide to interact and invest with the BOC platform.
-First, to complete the investment in BOC we need to start on the user investment page. We go to the [landing home page](https://bankofchain.io/#/) and click on `LAUNCH APP` button.
+Here is a quick guide to interact and invest on the BOC platform.
+First, to invest in BOC it's necessary need to start on the [landing home page](https://bankofchain.io/#/) and click on `LAUNCH APP` button.
 
 ![launchapp](/images/launchapp.png)
 
 ## Wallet Connection
 
-We can interact with BOC through [wallets](appendix#wallet), the APP is compatible [MetaMask](https://metamask.io/) and [WalletConnect](https://walletconnect.com/), by clicking on the `CONNECT WALLET` button.
+We can interact with BOC through [virtual wallets](appendix#wallet), the APP is compatible with [MetaMask](https://metamask.io/) and [WalletConnect](https://walletconnect.com/), by clicking on the `CONNECT WALLET` button.
 
 ![connectwallet](/images/connectwallet.png)
 
 After connecting the wallet, we can see the USDT balance in our account.
+
 ![pic4](/images/pic-4.png)
 
 ## Parameter Settings
@@ -23,11 +24,13 @@ After connecting the wallet, we can see the USDT balance in our account.
 ### Cross-chain Bridge
 
 BOC provides [cross-chain bridge](appendix#bridge) options, in case we need to implement cross-chain crypto assets.
+
 ![chainbridge](/images/chainbridge.png)
 
 ### Switch Chain
 
 At the present, BOC works on Ethereum, BNB Chain and Polygon. If we need to switch chains, they can do it through `NETWORKS`.
+
 ![networkchange](/images/networkchange.png)
 
 ## Investment and Redemption
@@ -35,6 +38,7 @@ At the present, BOC works on Ethereum, BNB Chain and Polygon. If we need to swit
 ### Deposit
 
  Once the wallet has been successfully connected, we can complete the deposit by selecting the desired amount or selecting the "Max" balance, and then clicking on `DEPOSIT`.
+
 ![pic7](/images/pic-7.png)
 
 ### Withdrawal
@@ -46,11 +50,12 @@ After successfully connecting the wallet, we can complete the withdrawal by sele
 ### Withdrawal Advanced Parameters
 
 ![advancesetting](/images/advancesetting.png)
-There are 3 advanced setup parameters:
 
-1. **Exchanged**: Exchange function enablement. Each strategy in the BOC uses different stablecoins. When we withdraw money, we will do it according to the strategy APY from low to high. If a non-USDT strategy is obtained, the stable currency of the corresponding strategy will be returned, e.g. if Yearn LUSD is obtained, LUSD will be returned and if the exchange is closed, the corresponding value of LUSD will be returned to our account. If redemption is enabled, the Slippage parameter needs to be set.
-2. **Max Loss**: The maximum loss on withdrawals. When we specify the withdrawal share, the total assets at the current net value will be displayed, but these are not the funds we can finally get, and losses may occur during the withdrawal process, including exchange slippage losses. If our total assets are estimated to be $1000 at this time, and we choose Max Loss=0.3%, then we will get no less than $997.
-3. **Slippage**: [Slippage](appendix#slippage) between different currencies. After enabling Exchanged, we need to specify the slippage that we accept.
+There are 3 advanced setup parameters:
+<!-- TODO Ask Java -->
+<!-- 1. **Exchanged**: Exchange function enablement. Each strategy in the BOC uses different stablecoins. When we withdraw money, we will do it according to the strategy APY from low to high. If a non-USDT strategy is obtained, the stable currency of the corresponding strategy will be returned, e.g. if Yearn LUSD is obtained, LUSD will be returned and if the exchange is closed, the corresponding value of LUSD will be returned to our account. If redemption is enabled, the Slippage parameter needs to be set. -->
+- **Max Loss**: The maximum loss on withdrawals. When we specify the withdrawal share, the total assets at the current net value will be displayed, but these are not the funds we can finally get, and losses may occur during the withdrawal process, including exchange slippage losses. If our total assets are estimated to be $1000 at this time, and we choose Max Loss=0.3%, then we will get no less than $997.
+- **Slippage**: [Slippage](appendix#slippage) between different currencies. After enabling Exchanged, we need to specify the slippage that we accept.
 
 ## Dashboard
 
