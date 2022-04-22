@@ -7,14 +7,11 @@ BOC is a disruptive blockchain innovation that aims to change the DeFi ecosystem
 
 ## DAO Development
 
-By the moment, the objective of BOC is to achieve co-management of the tokenholders through Gnosis multi-signature. In the future, governance rights will be transferred to DAO. 
+By the moment, the governance of BOC is through Gnosis multi-signature. In the future, governance will be assumed by the DAO. 
 
-The DAO program will:
+The DAO will use [snapshot](https://snapshot.org/) for off-chain voting and the execution proposals by on-chain smart contracts. 
 
-* Execute proposals by on-chain smart contracts.
-* Use snapshots for off-chain voting
-<!-- TODO ASK-->
-* Finish the development of Governance tokens.
+The Governance tokens are yet to be developed but will be launched soon.
 
 ## Tokenomics
 

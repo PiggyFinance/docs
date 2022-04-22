@@ -81,7 +81,7 @@ The currently selected strategic stablecoins are: DAI, USDC, USDT, BUSD, USDP, T
 
 <https://www.liquity.org/>
 
-<!-- TODO  ask java-->
+<!-- TODO  wait for Aria translation-->
 ## Incorporated Protocol
 
 The protocols need to meet the following conditions after the stablecoins are selected:
