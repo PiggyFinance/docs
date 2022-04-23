@@ -136,13 +136,15 @@ Parameter “periods” is the interest payment periods.
 
 Strategy refers to smart contracts that interface with third-party agreements. BOC Vault has multiple policies, and the policy is one-to-one with external third-party agreements.
 
-### Rebase
+### Burn
 
-Similar to stablecoins, rebase tokens are usually pegged to another asset. But instead of using reserves to maintain the price/earnings-to-growth (PEG), rebase tokens automatically burn tokens in circulation or mint new tokens.
+ Burning assets (coins or tokens) means eliminating USDi by sending them to an ‘eater address,’ which is not accessible by anyone, since no one owns the private keys to that address. Users must burn the “tradable tokens” that attempt to accrue value in order to receive the “proprietary payment tokens” for the service in network. 
+ 
+### Mint
 
-### Burn/Mint
+Minting is the process of creating or producing something. In the blockchain, minting means, validating information, creating a new block, and recording that information into the blockchain. In this case, BOC mints USDi.
 
-The burn-and-mint equilibrium (BME) model is a token economic structure used by certain crypto networks. Burning assets (coins or tokens) means eliminating them by sending them to an ‘eater address,’ which is not accessible by anyone, since no one owns the private keys to that address. Users must burn the “tradable tokens” that attempt to accrue value in order to receive the “proprietary payment tokens” for the service in network. Service providers then earn rewards by inflationary minting which is independent of the token burning process. As the network grows in usage, the tradable tokens are burned and the tokens accrue more value. As they grow in value less will need to be burned to receive the same amount of USD denominated proprietary payment tokens. The reverse occurs if usage decreases, thus creating a dynamic to bring the network to an equilibrium.
+ ### Mint
 
 <!-- ### Vesting
 
