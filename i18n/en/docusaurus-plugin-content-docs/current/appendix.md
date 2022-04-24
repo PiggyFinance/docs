@@ -57,9 +57,9 @@ Anything in a DAO that can be automated should be. Anything that can’t be auto
 
 Decentralized finance (commonly known as DeFi) is a kind of finance created on the blockchain. It does not rely on financial institutions such as brokerages, exchanges or banks to provide financial tools, but uses smart contracts on the blockchain (such as Ethereum) for financial activities. DeFi platforms allow people to lend or borrow funds to others, trade cryptocurrencies, and earn interest in savings-like accounts.
 
-### Impermanent loss
+### Impermanent loss (IL)
 
-In AMMs, lending providers contribute assets to provide liquidity for market participants. lending providers will usually receive the exact amount of assets upon withdrawal. The dollar value of the assets they withdraw would typically be lower than if they had no provided liquidity and just held the assets. This dollar value shortfall is known as impermanent loss. The loss is said to be ‘impermanent’ because if asset prices return to the level during withdrawal the loss is eliminated. 
+Impermanent loss happens when you provide liquidity to a liquidity pool, and the price of your deposited assets changes compared to when you deposited them. The bigger this change is, the more you are exposed to impermanent loss. In this case, the loss means less dollar value at the time of withdrawal than at the time of deposit.Impermanent loss is the risk that liquidity providers (LP) take in exchange for fees they earn in liquidity pools. If IL exceeds fees earned by a user when they withdraw, it means the user has suffered negative returns compared with simply holding their tokens outside the pool. 
 
 ### Slippage
 
@@ -106,7 +106,7 @@ Volume refers to the amount of traded assets over a period of time, usually over
 
 Liquidity measures the circulating supply and how much trading activity there in an exchange, economy, or network. A currency with low supply and/or circulation is said to be illiquid.
 
-### Liquidity Pool or Capital pool
+### Liquidity Pool
 
 A Liquidity Pool is a pool of deposited funds meant to provide liquidity to a currency, network, or Smart Contract. There are usually designed rewards or incentives given to those who provide liquidity to Liquidity Pools. See also Liquidity Mining. 
 
@@ -136,9 +136,6 @@ Parameter “periods” is the interest payment periods.
 
 Strategy refers to smart contracts that interface with third-party agreements. BOC Vault has multiple policies, and the policy is one-to-one with external third-party agreements.
 
-### Burn/Mint
-
-The burn-and-mint equilibrium (BME) model is a token economic structure used by certain crypto networks. Burning assets (coins or tokens) means eliminating them by sending them to an ‘eater address,’ which is not accessible by anyone, since no one owns the private keys to that address. The number of created tokens can vary, and it is not related to burning functions in any way. The newly minted assets are distributed to everyone who participated in delivering customer experience (which is the reason for burning assets).
 
 <!-- ### Vesting
 
@@ -174,7 +171,7 @@ A fundamental tenet of the DeFi space is building for interoperability. This all
 
 ### Basis points-->
 
-### Decentralized crypto exchanges (DEXs) 
+### Decentralized exchanges (DEXs) 
 
 DEXs are blockchain-based apps that coordinate large-scale trading of crypto assets between many users. They do that entirely through automated algorithms, instead of the conventional approach of acting as financial intermediary between buyers and sellers.
 
