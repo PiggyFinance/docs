@@ -102,10 +102,6 @@ $$
 
 策略，在BOC中指与第三方协议进行对接的智能合约。
 
-### 弹性币（Rebase）
-
-弹性币是一种加密货币，其供应经过算法调整以控制其价格。与稳定币类似，弹性币通常与另一种资产挂钩。但是，弹性币不会被持有者储存来维持挂钩，而是会自动销毁流通中的代币或铸造新的代币。
-
 ### 销毁和铸币均衡模型（BME）
 
 销毁和铸币均衡模型是某些加密网络使用的一种代币经济结构。销毁（burn）代币是指将它们发送到一个 “吞食地址”，任何人都无法访问此地址，因为没有人拥有此地址的私钥。用户必须销毁 “试图增值的可交易代币” 才能收到 “专有支付代币” 以使用网络的服务。“专有支付代币” 不可转让，只用于获取服务。服务过后，服务提供商通过通胀铸币获得奖励。随着网络使用量增长，越来越多 “试图增值的可交易代币” 被烧毁，其价格也会随之增长，所以用户将需要销毁更少的币来接收相同数量的以美元计价的 “专有支付代币”。如果使用量减少，则会发生相反的情况，从而产生使网络达到平衡的动态。
@@ -130,17 +126,13 @@ $$
 
 去中心化自治组织要求参与者投资自己的资金以换取投票权，给用户发行治理币，以代表每个用户的股份。在特定协议、游戏、dApp或DeFi解决方案中治理币持有者有治理权。起到确定、维护、调整和实施区块链生态系统、产品、项目或规则的作用。
 
-### 嵌套代币（Nested Tokens）
+### 嵌套代币（Nested Tokens）  
 
-嵌套代币是封装在加密代币中的签名代币。 通过对代币进行加密，在各交易方之间保密，我们将重点关注已签名的代币。 签名代币可以验证其中包含的声明的真实性，而加密的代币将这些声明从其他方隐藏起来。 当使用公钥/私钥对对代币进行签名时，签名还证明只有持有私钥的一方才是对其签名的一方。  
+嵌套代币是封装在加密代币中的签名代币。签名代币可以验证其包含口令的真实性，而加密代币则负责将这些口令隐藏，在各方之间都保密。只有持有私钥持有者才能对其签名。  
 
-A token is encrypted to also provide secrecy between parties, we will focus on signed tokens. Signed tokens can verify the integrity of the claims contained within it, while encrypted tokens hide those claims from other parties. When tokens are signed using public/private key pairs, the signature also certifies that only the party holding the private key is the one that signed it.
+### 乐高式组合 (Lego Combination)
 
-### 乐高组合 (Lego Combination)
-
-DeFi空间的一个基本原则是构建互操作性。这使得生态系统从个人进步中受益，推动去中心化金融不断向前发展。 当参与者建造有用的东西时，他们能够以新的方式分享和组合，让人想起每个人最喜欢的玩具乐高。 当新人们进入乐高的“箱子”时，他们会找到单独的乐高或预先组装的乐高组合，他们也会开始用它们来建造，创造出更大更好的东西。  
-
-A fundamental tenet of the DeFi space is building for interoperability. This allows the ecosystem to benefit from individual progress, pushing decentralized finance continually forward. As participants build useful things, they are able to be shared and combined in new ways, reminiscent of everyone’s favourite toy, Lego. When new people dive into the Lego ‘bin’, they find individual Legos or preassembled combinations of Legos that they too start building with, creating bigger and better things. 
+DeFi本质是由许多个执行具体功能的智能合约搭建而成的，将不同的智能合约组合在一起，可以做出不同的DeFi产品，这个过程很像玩乐高积木，所以DeFi也称金融乐高。其一个基本原则是交互，这能使整个生态系统从个人进步中受益，推动去中心化金融不断向前发展。在DeFi平台上任何一个创新都能与所有人分享或组合，好似玩具乐高：当新人们开搭建乐高时，会找到单独的乐高积木或预先组装好的乐高组合，用其创造出更大更好的乐高模型。
 
 <!-- ### aToken
 

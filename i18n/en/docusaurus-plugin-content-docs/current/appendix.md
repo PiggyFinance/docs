@@ -57,9 +57,9 @@ Anything in a DAO that can be automated should be. Anything that can’t be auto
 
 Decentralized finance (commonly known as DeFi) is a kind of finance created on the blockchain. It does not rely on financial institutions such as brokerages, exchanges or banks to provide financial tools, but uses smart contracts on the blockchain (such as Ethereum) for financial activities. DeFi platforms allow people to lend or borrow funds to others, trade cryptocurrencies, and earn interest in savings-like accounts.
 
-### Impermanent loss
+### Impermanent loss (IL)
 
-In AMMs, lending providers (LPs) contribute assets to provide liquidity for market participants. LPs occasionally will not receive the exact amount of assets upon withdrawal. The dollar value of the assets they withdraw would typically be lower than if they had no provided liquidity and just held the assets. This dollar value shortfall is known as impermanent loss. The loss is said to be ‘impermanent’ because if asset prices return to the level during withdrawal the loss is eliminated. 
+Impermanent loss happens when you provide liquidity to a liquidity pool, and the price of your deposited assets changes compared to when you deposited them. The bigger this change is, the more you are exposed to impermanent loss. In this case, the loss means less dollar value at the time of withdrawal than at the time of deposit.Impermanent loss is the risk that liquidity providers (LP) take in exchange for fees they earn in liquidity pools. If IL exceeds fees earned by a user when they withdraw, it means the user has suffered negative returns compared with simply holding their tokens outside the pool. 
 
 ### Slippage
 
@@ -106,9 +106,9 @@ Volume refers to the amount of traded assets over a period of time, usually over
 
 Liquidity measures the circulating supply and how much trading activity there in an exchange, economy, or network. A currency with low supply and/or circulation is said to be illiquid.
 
-### Liquidity Pool or Capital pool
+### Liquidity Pool
 
-A Liquidity Pool (LP) is a pool of deposited funds meant to provide liquidity to a currency, network, or Smart Contract. There are usually designed rewards or incentives given to those who provide liquidity to LPs. See also Liquidity Mining. 
+A Liquidity Pool is a pool of deposited funds meant to provide liquidity to a currency, network, or Smart Contract. There are usually designed rewards or incentives given to those who provide liquidity to Liquidity Pools. See also Liquidity Mining. 
 
 ### Yield Aggregators  
 
@@ -138,13 +138,12 @@ Strategy refers to smart contracts that interface with third-party agreements. B
 
 ### Burn
 
- Burning assets (coins or tokens) means eliminating USDi by sending them to an ‘eater address,’ which is not accessible by anyone, since no one owns the private keys to that address. Users must burn the “tradable tokens” that attempt to accrue value in order to receive the “proprietary payment tokens” for the service in network. 
+Burning assets (coins or tokens) means eliminating USDi by sending them to an ‘eater address,’ which is not accessible by anyone, since no one owns the private keys to that address. Users must burn the “tradable tokens” that attempt to accrue value in order to receive the “proprietary payment tokens” for the service in network. 
  
 ### Mint
 
 Minting is the process of creating or producing something. In the blockchain, minting means, validating information, creating a new block, and recording that information into the blockchain. In this case, BOC mints USDi.
 
- ### Mint
 
 <!-- ### Vesting
 
@@ -178,9 +177,11 @@ A fundamental tenet of the DeFi space is building for interoperability. This all
 
 ### cToken
 
-### Basis points
+### Basis points-->
 
-### DEX -->
+### Decentralized exchanges (DEXs) 
+
+DEXs are blockchain-based apps that coordinate large-scale trading of crypto assets between many users. They do that entirely through automated algorithms, instead of the conventional approach of acting as financial intermediary between buyers and sellers.
 
 ### Bridge
 

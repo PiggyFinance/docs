@@ -72,7 +72,7 @@ If any of the above conditions are met, user can do `harvest` work:
 
 ## Rebase
 
-USDi is a token designed in a way that the circulating supply adjusts automatically according to price fluctuations. Similar to stablecoins, tokens are usually pegged to another asset. But instead of using reserves to maintain the peg, rebase tokens automatically [burn](appendix#burn) tokens in circulation or [mint](appendix#mint) new tokens. When the total assets of the Vault are higher than the total issuance of USDi, means that new income has been generated. After this, the value of USDi compared with the US dollar will be revised. When the number of USDi increase, the total value of USDi is consistent with the total value of Vault assets, ensuring 1 USDi is anchored at 1USD. At the same time, 20% of the additional USDi will be transferred to the treasury as a management fee.
+When the total assets of the Vault are greater than the total issuance of USDi, it means that new income has been generated. At this time, the value of USDi compared with the US dollar will be revised, and the number of USDi will be increased, so that the total value of USDi is consistent with the total value of Vault assets, ensuring 1 USDi is anchored at 1USD. At the same time, 20% of the additional USDi will be transferred to the national treasury as a management fee.
 
 ## Fund Allocation
 
