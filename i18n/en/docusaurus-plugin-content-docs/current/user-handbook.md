@@ -35,7 +35,7 @@ At the present, BOC works on Ethereum, BNB Chain and Polygon. If we need to swit
 ### Deposit
 
  Once the wallet has been successfully connected, we can complete the deposit by selecting the desired amount or selecting the "Max" balance, and then clicking on `DEPOSIT`.
-![pic7](/images/pic-7.png)
+![depositpage](/images/depositpage.png)
 
 ### Withdrawal
 

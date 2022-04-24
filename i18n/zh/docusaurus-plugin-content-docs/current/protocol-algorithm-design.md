@@ -70,7 +70,7 @@ Keeper每日都会触发`harvestTrigger`，判断是否达到`harvest`条件，�
 
 ## rebase
 
-当若Vault总资产大于USDi总发行量，则说明产生了新的收益，此时将修正USDi相较于美元的价值，增发USDi数量，使得USDi的总价值与Vault资产总价值相符，确保1枚USDi的价值锚定1USD。同时增发的USDi的20%将作为管理费用，转给国库。
+当Vault内总资产大于USDi发行量的总价值，则说明产生了新的收益，此时USDi相较于美元的价值将会被重置，同时增发USDi数量，使USDi的总价值与Vault资产总价值相符，确保USDi与USD的价格1:1锚定。增发的USDi的其中20%将作为管理费用转给国库。
 
 ## 资金调配
 

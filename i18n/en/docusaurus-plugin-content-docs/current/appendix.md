@@ -59,7 +59,7 @@ Decentralized finance (commonly known as DeFi) is a kind of finance created on t
 
 ### Impermanent loss
 
-In AMMs, lending providers (LPs) contribute assets to provide liquidity for market participants. LPs occasionally will not receive the exact amount of assets upon withdrawal. The dollar value of the assets they withdraw would typically be lower than if they had no provided liquidity and just held the assets. This dollar value shortfall is known as impermanent loss. The loss is said to be ‘impermanent’ because if asset prices return to the level during withdrawal the loss is eliminated. 
+In AMMs, lending providers contribute assets to provide liquidity for market participants. lending providers will usually receive the exact amount of assets upon withdrawal. The dollar value of the assets they withdraw would typically be lower than if they had no provided liquidity and just held the assets. This dollar value shortfall is known as impermanent loss. The loss is said to be ‘impermanent’ because if asset prices return to the level during withdrawal the loss is eliminated. 
 
 ### Slippage
 
@@ -108,7 +108,7 @@ Liquidity measures the circulating supply and how much trading activity there in
 
 ### Liquidity Pool or Capital pool
 
-A Liquidity Pool (LP) is a pool of deposited funds meant to provide liquidity to a currency, network, or Smart Contract. There are usually designed rewards or incentives given to those who provide liquidity to LPs. See also Liquidity Mining. 
+A Liquidity Pool is a pool of deposited funds meant to provide liquidity to a currency, network, or Smart Contract. There are usually designed rewards or incentives given to those who provide liquidity to Liquidity Pools. See also Liquidity Mining. 
 
 ### Yield Aggregators  
 
@@ -135,10 +135,6 @@ Parameter “periods” is the interest payment periods.
 ### Strategy  
 
 Strategy refers to smart contracts that interface with third-party agreements. BOC Vault has multiple policies, and the policy is one-to-one with external third-party agreements.
-
-### Rebase
-
-Similar to stablecoins, rebase tokens are usually pegged to another asset. But instead of using reserves to maintain the price/earnings-to-growth (PEG), rebase tokens automatically burn tokens in circulation or mint new tokens.
 
 ### Burn/Mint
 
@@ -176,9 +172,11 @@ A fundamental tenet of the DeFi space is building for interoperability. This all
 
 ### cToken
 
-### Basis points
+### Basis points-->
 
-### DEX -->
+### Decentralized crypto exchanges (DEXs) 
+
+DEXs are blockchain-based apps that coordinate large-scale trading of crypto assets between many users. They do that entirely through automated algorithms, instead of the conventional approach of acting as financial intermediary between buyers and sellers.
 
 ### Bridge
 
