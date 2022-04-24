@@ -88,3 +88,9 @@ slippage
 Authority
 PoSA
 Binance
+Vault
+boveda
+PEG
+Application
+Programming
+Transaction
