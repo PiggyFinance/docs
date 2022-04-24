@@ -16,35 +16,32 @@ La Ethereum Virtual Machine (máquina virtual de Ethereum) es la plataforma de s
 
 ### Criptomoneda
 
-Una criptomoneda es un token nativo de una blockchain. Las criptomonedas suelen acuñarse con cada nuevo bloque que se añade a la cadena. Por ejemplo, cada nuevo bloque de Ethereum minado viene con una recompensa de dos tokens de éter como compensación al minero.
-
-Las criptomonedas son un tipo de token. Su natividad es su factor definitorio: otros tokens se crean usando plataformas y aplicaciones construidas sobre blockchains, mientras que las criptomonedas se crean directamente dentro del protocolo de una blockchain.
+Una criptomoneda es la divisa nativa de una blockchain. Las criptomonedas suelen acuñarse con cada nuevo bloque que se añade a la cadena. Por ejemplo, cada nuevo bloque de Ethereum minado viene con una recompensa de dos tokens de éter como recompensa para el minero. Su natividad es su factor definitorio. Por otro lado están los tokens, estos se crean usando plataformas y aplicaciones construidas sobre blockchains de terceros, mientras que las criptomonedas se crean directamente dentro del protocolo de la propia blockchain.
 
 ### Mecanismo de consenso
 
-Un mecanismo de consenso es un mecanismo tolerante a fallos que se utiliza en sistemas informáticos y de blockchain para lograr el acuerdo necesario sobre un único valor de datos o un único estado de la red entre procesos distribuidos o sistemas multi-agente, como ocurre con las criptomonedas. Es útil, entre otras cosas, para el mantenimiento de registros. Por el momento, los mecanismos más utilizados son Proof of Work (PoW) y Proof of Stake (PoS).
+Un mecanismo de consenso es un mecanismo tolerante a fallos que utilizan las blockchains para lograr el acuerdo necesario sobre un único valor de datos o un único estado de la red entre procesos distribuidos o sistemas multi-agente, como ocurre con las criptomonedas. Es útil, entre otras cosas, para el mantenimiento de registros. Por el momento, los mecanismos más utilizados son Proof of Work (PoW) y Proof of Stake (PoS).
 
 ### Proof of work (PoW)
 
-La prueba de trabajo (proof of work) es un mecanismo de consenso mediante el cual se añaden bloques a una cadena de bloques. La prueba de trabajo requiere que los mineros resuelvan complicados rompecabezas criptográficos, que exigen grandes cantidades de energía de potentes equipos de minería, para validar nuevas transacciones en la cadena de bloques. 
+La prueba de trabajo (proof of work) es un mecanismo de consenso mediante el cual se añaden bloques a una cadena de bloques. La prueba de trabajo requiere que los mineros resuelvan complicados problemas criptográficos (o matemáticos), esto demanda grandes cantidades de energía de potentes equipos de minería para validar y agregar un bloque a la cadena. Este es un mecanismo de consenso extremadamente seguro y descentralizado, pero es notoriamente ineficiente. Este mecanismo es utilizado por ejemplo en el blockchain de Bitcoin y las primeras versiones de Ethereum, aunque Ethereum pronto cambiará a un protocolo de consenso más eficiente: [‘Proof of Stake’](appendix#proof-of-stake-pos).
 
-PoW es un mecanismo de consenso seguro y descentralizado, pero es notoriamente ineficiente. Así es como funcionan las cadenas de bloques de Bitcoin y las primeras versiones de Ethereum, aunque Ethereum pronto cambiará a la más eficiente prueba de participación. 
 
 ### Proof of stake (PoS)
 
 Frente a la enorme demanda de energía de la prueba de trabajo, la prueba de participación (proof of stake) es un mecanismo de consenso actualizado que permite minar bloques de forma mucho más eficiente. La prueba de trabajo permite a los titulares de una criptomoneda validar nuevos bloques en la cadena de bloques correspondiente. 
 
-Lo hacen apostando su criptodivisa. Los usuarios de una red apuestan su criptodivisa, y si su apuesta es elegida por un algoritmo aleatorio, tienen la oportunidad de validar un nuevo bloque por el que recibirán una recompensa en forma de más criptodivisa. Cuanta más criptomoneda se apueste, más posibilidades tendrá el usuario de ser elegido para validar un nuevo bloque. 
+Lo hacen "reservando" sus criptomonedas. En otras palabras, pueden tener la oportunidad de validar un nuevo bloque, si su apuesta es elegida por un algoritmo aleatorio, y obtendrán una recompensa en criptomonedas por ello. Cuanta más criptomoneda se apueste, más posibilidades tendrá el usuario de ser elegido para validar un nuevo bloque. 
 
 Mientras que la prueba de trabajo recompensa a aquellos que han gastado la mayor cantidad de energía computacional para resolver un rompecabezas criptográfico, la prueba de apuesta recompensa a aquellos que invierten su criptodivisa durante un largo periodo de tiempo. 
 
 ### Organizaciones autónomas descentralizadas (DAO)
 
-Las organizaciones autónomas descentralizadas (Decentralized Autonomous Organization) puede definirse como una "organización" en una cadena de bloques, representada por un conjunto de reglas codificadas como un programa informático (en una cadena de bloques) que es transparente, controlado por los miembros de la organización y no influenciado por un gobierno central.
+Las organizaciones autónomas descentralizadas (Decentralized Autonomous Organization) puede definirse como una organización en una blockchain, representada por un conjunto de reglas codificadas en un programa informático en una blockchain, que es transparente, controlada por los miembros de la organización y no influenciada por un gobierno central.
 
-### Tesorería
+### Tesorería de las DAOs
 
-Todo lo que pueda ser automatizado en una DAO debería serlo. Todo lo que no pueda ser automatizado debe ser financiado por la tesorería. Las tesorerías ayudan a las DAO a financiar el desarrollo crítico, a atraer contribuyentes y a hacer crecer su red.
+Las tesorerías ayudan a las DAO a financiar el desarrollo crítico, a atraer contribuyentes y a hacer crecer su red. Todo lo que pueda ser automatizado en una DAO debería serlo y todo lo que no pueda serlo, debería ser financiado por la tesorería. 
 
 #### Principios de la gestión de la tesorería
 
@@ -56,7 +53,7 @@ Todo lo que pueda ser automatizado en una DAO debería serlo. Todo lo que no pue
 
 ### Finanzas descentralizadas (DeFi)  
 
-Las finanzas descentralizadas (comúnmente conocidas como DeFi) son un tipo de finanzas creadas en la cadena de bloques. No depende de instituciones financieras como corredores, bolsas o bancos para proporcionar herramientas financieras, sino que utiliza contratos inteligentes en la cadena de bloques (como Ethereum) para las actividades financieras. Las plataformas DeFi permiten a las personas prestar o tomar prestados fondos a otros, comerciar con criptomonedas y ganar intereses en cuentas similares a las de ahorro.
+Las finanzas descentralizadas (comúnmente conocidas como DeFi) son un tipo de finanzas creadas en la blockchain. No depende de instituciones financieras como corredores, bolsas o bancos para brindar herramientas financieras, sino que utiliza contratos inteligentes ([smart contracts](appendix#smart-contract)) en la blockchain (como Ethereum) para las actividades financieras. Las plataformas DeFi permiten a las personas prestar o tomar prestados fondos de otros, comerciar con criptomonedas y ganar intereses en cuentas similares a las de ahorro..
 
 ### Pérdida impermanente
 
@@ -69,7 +66,7 @@ En el comercio de criptomonedas, el deslizamiento (slippage) se refiere a una di
 
 ### Tablero de mando
 
-Un tablero de control (dashboard) de criptomonedas es una plataforma digital que vive en un sitio web o en una aplicación (ya sea de escritorio o móvil). Su función principal es aceptar todas las cuentas de criptomonedas y/o monedas que añadas a ella para supervisar su valor siempre cambiante, de modo que puedas gestionar tanto tus criptoactivos como los planes financieros relacionados en consecuencia. 
+Un tablero de control (dashboard) de criptomonedas es una plataforma digital que se encuentra en un sitio web o en una aplicación (de escritorio o móvil). Su función principal es aceptar todas las cuentas de criptomonedas y/o monedas que agregues para monitorear su valor en cambio constante, de modo que puedas gestionar tanto tus criptoactivos como los planes financieros relacionados. 
 
 ### Smart contract
 
@@ -77,7 +74,7 @@ Un tablero de control (dashboard) de criptomonedas es una plataforma digital que
 
 ### Oráculo
 
-Un oráculo (oracle) fuente de datos de confianza, como los precios de mercado actuales de un activo o activos, que proporciona a los usuarios la confianza de que los datos son oportunos, precisos y no están manipulados.  
+Un oráculo (oracle) es una fuente de datos confiable, como los precios de mercado actuales de los activos, que brinda a los usuarios la confianza de que los datos son actualizados, precisos y no están manipulados.
 
 ### Automated Market Maker (AMM)
 
@@ -85,7 +82,7 @@ Un automated market maker (creador de mercado automatizado) es un mecanismo de n
 
 ### Proactive Market Maker (PMM)
 
-Esencialmente, la diferencia entre los AMM con los creadores de mercado proactivos (PMM) es que el algoritmo comprueba los precios de los activos asignando fondos para aumentar proactivamente la liquidez cerca del precio de mercado. Un ejemplo de DeFi que utiliza PMM es [DODO](https://dodoex.io/) 
+Esencialmente, la diferencia con los AMM es que el algoritmo comprueba los precios de los activos asignando fondos para aumentar proactivamente la liquidez cerca del precio de mercado. Un ejemplo de DeFi que utiliza PMM es [DODO](https://dodoex.io/).
 
 ### Protocolo  
 
@@ -93,15 +90,15 @@ Un protocolo es un conjunto de líneas de código o requisitos que regulan el fu
 
 ### Protocolo de préstamos. 
 
-El protocolo de préstamos (lending protocol) es una plataforma compuesta por prestamistas y prestatarios. Por un lado, permite a los prestamistas tomar prestadas criptodivisas de la plataforma y pagar intereses, y por otro lado, permite a los depositantes depositar criptodivisas en la plataforma para ganar intereses. Los protocolos de préstamo DeFi pueden ofrecer a menudo tipos de interés mucho más altos en comparación con las cuentas de depósito bancarias.
+El protocolo de préstamos (lending protocol) es una plataforma compuesta por prestamistas y prestatarios. Por un lado, permite a los prestamistas tomar prestadas criptomonedas de la plataforma y pagar intereses, y por otro lado, permite a los depositantes depositar criptomonedas en la plataforma para ganar intereses. Los protocolos de préstamo DeFi ofrecen a menudo tipos de interés mucho más altos que las cuentas de depósito bancarias.
 
 ### Colateral
 
-En DeFi, la garantía se refiere a la oferta de una criptomoneda o token como "garantía" para asegurar un préstamo de una criptomoneda o token diferente. 
+En DeFi, el colateral se refiere a la puesta a disposición de una criptomoneda o token como garantía para asegurar un préstamo de otra criptomoneda o token.
 
 ### Volumen
 
-En DeFi, la garantía se refiere a la oferta de una criptomoneda o token como "garantía" para asegurar un préstamo de una criptomoneda o token diferente.
+El volumen se refiere a la cantidad de activos comercializados durante un periodo de tiempo, normalmente en el transcurso de un día de negociación.
 
 ### Liquidez
 
@@ -118,15 +115,17 @@ Los agregadores de rendimiento (yield aggregators) es una plataforma de agregaci
 
 ### Bóveda  
 
-Las bóvedas son una estrategia de inversión compleja que combina préstamos, apuestas, operaciones, etc. para maximizar los beneficios.
+Las bóvedas son una estrategia de inversión compleja que combina préstamos, apuestas, intercambios, etc. para maximizar los beneficios.
 
 ### Keeper  
 
-El keeper es un temporizador centralizado desarrollado por el proyecto BOC se utiliza para la activación de tareas en la cadena (recolección, reequilibrio, reinversión de fondos incrementales, etc.).
+El temporizador centralizado desarrollado por BOC, se utiliza para programar las tareas en la cadena (recolección, reequilibrio, reinversión de fondos incrementales, etc.).
 
 ### Interés porcentual anual (APY)  
 
-La rentabilidad porcentual anual () es una forma de medir cuánto dinero gana una cuenta de inversión en un año, una forma de medir el aumento de los intereses a lo largo del tiempo. La fórmula básica de cálculo es:
+El interés porcentual anual representa el interés anual que se cobra por los préstamos. 
+
+La fórmula básica de cálculo es:
 
 $$
 APY=(1+APR)^{periods}-1
@@ -138,13 +137,13 @@ El parámetro "periodos" son los periodos de pago de intereses.
 
 La estrategia se refiere a los contratos inteligentes que interactúan con los acuerdos de terceros. La boveda de BOC tiene múltiples políticas, y la política es uno-a-uno con los acuerdos de terceros externos.
 
-### Rebase
+### Burn
 
-Al igual que las stablecoins, los tokens rebase suelen estar vinculados a otro activo. Pero en lugar de utilizar las reservas para mantener el precio/ganancia de crecimiento (PEG), los tokens rebase queman automáticamente los tokens en circulación o acuñan nuevos tokens.
+Quemar (burn) activos (monedas o tokens) significa eliminar USDi enviándolos a una "dirección bloqueada", a la que nadie puede acceder, ya que nadie posee las claves privadas de esa dirección.
 
-### Burn/Mint
+### Mint
 
-El modelo de equilibrio burn-and-mint (quemar-crear) es una estructura económica de tokens utilizada por ciertas redes de criptomonedas. Quemar activos (monedas o tokens) significa eliminarlos enviándolos a una "dirección del devorador", a la que nadie puede acceder, ya que nadie posee las claves privadas de esa dirección. El número de tokens creados puede variar, y no está relacionado de ninguna manera con las funciones de quema. Los activos recién acuñados se distribuyen a todos los que han participado en la entrega de la experiencia del cliente (que es la razón de la quema de activos).
+Minting es el proceso de crear o producir algo. En la cadena de bloques, mint significa validar información, esto se realiza mediante la creación de un nuevo bloque y registrando esa información en la cadena de bloques. En este caso, BOC crea USDi.
 
 <!-- ### Vesting
 
@@ -166,9 +165,9 @@ Similar a un tipo de moneda pero con una funcionalidad mucho mayor. Los tokens t
 
 La gobernanza se refiere a la determinación, el mantenimiento, la adaptación y la aplicación de las normas de un ecosistema, producto, proyecto o DAO de blockchain. Token de gobernanza (governance token) refiere específicamente al control y uso de una moneda o token de gobernanza que conlleva el derecho a participar en los procesos de gobernanza.
 
-### Tokens anidados
+<!-- ### Tokens anidados
 
-Un token anidado (nested tokens) es un token firmado encerrado en otro cifrado. Un token está encriptado para proporcionar también secreto entre las partes, nos centraremos en los tokens firmados. Los tokens firmados pueden verificar la integridad de las afirmaciones contenidas en ellos, mientras que los tokens cifrados ocultan esas afirmaciones a otras partes. Cuando los tokens se firman utilizando pares de claves públicas/privadas, la firma también certifica que solo la parte que posee la clave privada es la que lo ha firmado.
+Un token anidado (nested tokens) es un token firmado encerrado en otro cifrado. Un token está encriptado para proporcionar también secreto entre las partes, nos centraremos en los tokens firmados. Los tokens firmados pueden verificar la integridad de las afirmaciones contenidas en ellos, mientras que los tokens cifrados ocultan esas afirmaciones a otras partes. Cuando los tokens se firman utilizando pares de claves públicas/privadas, la firma también certifica que solo la parte que posee la clave privada es la que lo ha firmado. -->
 
 ### Combinación Lego 
 
@@ -185,10 +184,6 @@ Un principio fundamental del espacio DeFi es la interoperabilidad. Esto permite 
 ### Puentes de blockchain
 
 Los puentes de blockchain (bridges) funcionan igual que los puentes que conocemos en el mundo físico. Al igual que un puente físico conecta dos lugares físicos, un puente blockchain conecta dos ecosistemas blockchain. Los puentes facilitan la comunicación entre blockchains mediante la transferencia de información y activos.
-
-### Discord
-
-Discord es una plataforma de chat en tiempo real creada inicialmente para los jugadores. Ha sido ampliamente adoptada por los entusiastas del DeFi y del blockchain para compartir información y crear comunidades
 
 ### Wallet
 
@@ -217,6 +212,5 @@ Pueden ser una aplicación online o una cartera de criptodivisas de hardware que
 | PoW         | Proof of Work                     |
 | PoS         | Proof of Stake                    |
 | PoSA        | Proof of Stake Authority          |
-| PoW         | Proof of Work                     |
 | TVL         | Total Value Locked                |
 | Tx          | Transaction                       |

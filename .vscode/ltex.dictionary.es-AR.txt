@@ -94,3 +94,5 @@ PEG
 Application
 Programming
 Transaction
+Minting
+USDi
