@@ -16,7 +16,7 @@ Digital assets are easily copied and redistributed. On music and film industry i
 
 ### What is the difference between cryptocurrency and blockchain?
 
-Blockchain makes cryptos possible. It's what manage cryptocurrency. There is several blockchains networks, to use them is usual that you have to pay a fee, for this you need to pay on the native cryptocurrency. If you use the Polygon blockchain you need Matic to pay the fee. This fee is the incentive to people to participate on the process and contribute to the safety of the blockchain network.
+Blockchain makes cryptos possible. It's what manage cryptocurrency. There is several blockchains networks, to use them is usual that you have to pay a gas fee, for this you need to pay on the native cryptocurrency. If you use the Polygon blockchain you need Matic to pay the fee. This fee is the incentive to people to participate on the process and contribute to the safety of the blockchain network.
 
 ## DeFi FAQs
 
@@ -26,4 +26,4 @@ Decentralized finance (commonly known as DeFi) is a kind of real world finance b
 
 ### Why BOC is secure? 
 
-BOC ensure it's safety because does not use unofficial third-party cross-chain bridges for transactions. It has third party auditing in place. At the same time, BOC does not use unofficial third-party cross-chain bridges for transactions, using always the price quotation relies on Chainlink, a market-leading oracle.
+BOC ensure it's safety being audited regularly as well as the integrated DeFi protocols. At the same time, BOC does not use unofficial third-party cross-chain bridges for transactions and the price quotation always relies on [Chainlink](https://chain.link/), a market-leading oracle.

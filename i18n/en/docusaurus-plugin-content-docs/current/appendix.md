@@ -7,7 +7,7 @@ sidebar_position: 9
 
 ### Blockchain network
 
-Blockchain is a system of recording information in a way that makes it difficult or impossible to change, hack, or cheat the system. A blockchain is essentially a digital ledger of transactions that is duplicated and distributed across the entire network of computer systems on the blockchain. It encrypted blocks of data (smart contracts, transactions, etc.) then chains them together to form a chronological single-source-of-truth for the data. Blockchain’s inherent security measures and public ledger make it a prime technology for almost every single sector. The blockchain community participates from this block adding by different consensus mechanism.
+Blockchain is a system that records information in a way that makes it difficult or impossible to change, hack, or cheat the system. A blockchain is essentially a digital ledger of transactions that is duplicated and distributed across the entire network of computer systems on the blockchain. It encrypted blocks of data (smart contracts, transactions, etc.) then chains them together to form a chronological single-source-of-truth for the data. Blockchain’s inherent security measures and public ledger make it a prime technology for almost every single sector. The blockchain community participates from this block adding by different consensus mechanism.
 
 ### Ethereum Virtual Machine (EVM)
 
@@ -135,6 +135,14 @@ Parameter “periods” is the interest payment periods.
 ### Strategy  
 
 Strategy refers to smart contracts that interface with third-party agreements. BOC Vault has multiple policies, and the policy is one-to-one with external third-party agreements.
+
+### Burn
+
+Burning assets (coins or tokens) means eliminating USDi by sending them to an ‘eater address,’ which is not accessible by anyone, since no one owns the private keys to that address. Users must burn the “tradable tokens” that attempt to accrue value in order to receive the “proprietary payment tokens” for the service in network. 
+ 
+### Mint
+
+Minting is the process of creating or producing something. In the blockchain, minting means, validating information, creating a new block, and recording that information into the blockchain. In this case, BOC mints USDi.
 
 
 <!-- ### Vesting

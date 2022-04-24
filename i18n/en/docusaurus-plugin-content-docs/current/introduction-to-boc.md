@@ -5,51 +5,51 @@ sidebar_position: 2
 # Introduction to BOC
 
 ## What is BOC
-BOC (Bank Of Chain) is a new and innovative way to interact with decentralized financial ([DeFi](appendix#decentralized-finance-defi)) [protocols](appendix#protocol). It helps ordinary investors to obtain a "free-risk" capital-guaranteed wealth management tool on [blockchain](appendix#blockchain-network).
+
+BOC (Bank Of Chain) is a new and innovative way to interact with decentralized financial ([DeFi](appendix#decentralized-finance-defi)) [protocols](appendix#protocol). It helps ordinary investors to obtain a "risk-free" capital-guaranteed wealth management tool on the [blockchain](appendix#blockchain-network).
 
 The BOC platform connects carefully selected protocols within the crypto ecosystem, including [Automatic Market Makers (AMMs)](appendix#automated-market-maker-amm), [lending protocols](appendix#lending-protocol), [yield aggregators](appendix#yield-aggregators), etc. (see <https://dashboard.bankofchain.io/#/> for details). 
 
-By accessing high-quality [protocol](appendix#protocol) [strategies](appendix#strategy), BOC can be 300-500 basis points (3-5%) higher than other similar USD managed funds. 
+By accessing high-quality [protocol](appendix#protocol) [strategies](appendix#strategy), BOC can provide for 300-500 basis points (3-5%) above other similar USD managed funds. 
 
 For newcomers to the crypto industry, this is the best way to enter the DeFi ecosystem. As a one-click protocol BOC will bring a new revolution to the DeFi industry, attracting hundreds of millions of dollars of investment.
 
 ## BOC Source of Yield
 
-BOC is a DeFi protocol that provides the best long-term "free-risk" return, and it’s source of Yield includes:
+BOC is a DeFi protocol that provides the best long-term "risk-free" return. It’s source of return includes:
 
-- The transaction fee charged for providing market-making funds for decentralized exchange (DEX). 
+- The transaction fee charged for providing market-making funds to decentralized exchanges (DEX). 
 
-- The interest charged on funds borrowed for over-collateralized lending.
+- The interest charged on funds borrowed for over-collateralized loans.
 
 - Governance token rewards.
 
 ## Fund Allocation Rules
 
-- Priority is on the higher yield [pools](appendix#liquidity-pool-or-capital-pool).
-- The investment on a single pool cannot exceed 20% of the total investment assets on de Vault.
-- The fund on a single protocol can´t exceed 30% of the total investment assets on de Vault.
-- The funds of a pool cannot exceed 50% of its existing lock-up amount of that pool. 
-- There is a regular automatic evaluation for profit review. Rebalancing will occur when the profit exeed the cost.
+- Priority is allocated to [capital pools](appendix#liquidity-pool-or-capital-pool) that provide the higher yield.
+- The capital invested in a single capital pool cannot exceed 20% of the total assets under management.
+- The capital allocated to a single capital pool cannot exceed 50% of their existing lock-up amount.
+- Multiple capital pools in the same protocol cannot exceed 30% of the total assets under management.
+- Funds allocation is adjusted automatically to ensure the most cost-efficient position.
 
-## Why BOC existence
+The existing DeFi protocols present the following problems:
 
-The existing DeFi protocols have the following problems:
+- [Impermanent losses](appendix#impermanent-loss) in decentralized exchanges from market makers. In 2021, UniswapV3’s market-making revenue was about $200 million, but [those pools have suffered impermanent losses of $260 million](https://cointelegraph.com/news/half-of-uniswap-v3-liquidity-providers-are-losing-money-new-research), resulting in a total net loss of $60 million. 
+- Circular dependencies for revenue aggregators.
+- High investment thresholds. 
+- Operating requires a high degree of sophistication from users and presents a complex user interface.
+- Require multiple different currencies
 
-- There are cases of several [impermanent losses](appendix#impermanent-loss) in decentralized exchanges from market making. In 2021, UniswapV3’s market-making revenue is only about $200 million, but [those pools have suffered impermanent losses of $260 million](https://cointelegraph.com/news/half-of-uniswap-v3-liquidity-providers-are-losing-money-new-research), resulting in a total net loss of $60 million. 
-- Is usual that revenue aggregators suffer from circular dependencies.
-- Many agreements have high investment thresholds. 
-- In general DeFi protocols have multiple pools, and users need a relatively higher level of knowledge to choose which underlying protocols to invest in. At the same time, many of them products need to invest in a variety of different currencies, and users need to convert them into the currency required by the product.
-- The investment process is complicated. In the process of investment rebalancing, users need to implement complex operations such as withdrawal, currency exchange and investment.
 
 ## What makes BOC Different
 
-BOC is an open platform that realizes decentralized investment by doing a mix of carefully selected DeFi protocols, creating long-term stable income avoiding most risks.
+BOC is an open platform performs decentralized investing by carefully running selected DeFi protocols to create long-term stable income avoiding risk.
 
-The main characteristic that make BOC a unique product are:
+The main characteristics that make BOC a unique product are:
 
 User-friendliness:
 
-1. Users shall deposit and withdraw directly without thinking to implement and bear the cost of complex operations such as farming, exchange, and reallocation. BOC makes the best selection for them.
+1. Users can deposit and withdraw directly without considering the difficulties of implementing complex operations such as farming, exchange, and reallocation. BOC makes the best selection for them.
 2. Profits are automatically reinvested with an immediate deposit and withdrawal process.
 3. Historical and dynamic returns are intuitively visible.
 
@@ -213,7 +213,7 @@ In summary, BOC Platform is the missing catalyst that will revolutionize the ind
     <td>7-11%</td>
    </tr>
    <tr>
-    <td>Number of Pools</td>
+    <td>Number of pools</td>
     <td>1</td>
     <td>Multi</td>
     <td>1</td>
@@ -297,7 +297,7 @@ In summary, BOC Platform is the missing catalyst that will revolutionize the ind
     <td>unknown</td>
    </tr>
    <tr>
-    <td>Support leveraged lending and investment</td>
+    <td>Support leveraged lending and investment </td>
     <td>None</td>
     <td>None</td>
     <td>N</td>

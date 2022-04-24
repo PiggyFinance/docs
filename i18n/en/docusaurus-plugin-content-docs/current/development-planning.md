@@ -9,7 +9,7 @@ sidebar_position: 8
 2. BOC 1.5 version will be publicly released after passing the overseas audit by May 15, 2022.
     1. [x] Logo design completed by March 4, 2022.
     2. [x] Formulation of token issuance rules completed by March 10, 2022.
-    3. [ ] White paper will be completed by April 15, 2022.
+    3. [x] White paper will be completed by April 15, 2022.
     4. [ ] AWS server leasing and deployment will be completed by April 15, 2022.
     5. [ ] Code development and testing will be completed by May 10, 2022.
     6. [ ] Security audit will be completed by May 15, 2022.
@@ -23,15 +23,15 @@ At present, the adjustment algorithm only uses a function of scipy â€œminimizeâ€
 
 ### Additional Mainstream Blockchains
 
-In the future, BOC may support more blockchains newtworks, such as Fantom, Avalanche, Solana, Arbitrum, etc.
+In the future, BOC may support more blockchains, such as Fantom, Avalanche, Solana, Arbitrum, etc.
 
 ### Additional Protocol Strategy
 
-In the future, BOC may support more protocol strategies with stable and competitive profit.
+In the future, BOC may support more protocols with stable and competitive profit.
 
 ### Loan Agreement Support
 
-By introducing a loan agreement, a capital pool is provided for BOC, and the leverage agreement can be accessed for strategic investment in the future.
+By introducing a loan agreement BOC will provide a pool where the leverage can be accessed for strategic investment in the future.
 BOC introduces a lending protocol to add leverage when docking the protocol strategy, monitor the relationship between market-making yield, mining coin yield and lending rate in real time, and dynamically adjust the leverage multiple.
 
 ### Fiat Deposit Channels Support

@@ -7,21 +7,22 @@ sidebar_position: 9
 
 ### Blockchain network
 
-La Blockchain (cadena de bloques) es un sistema de registro de información que hace difícil o imposible cambiar, piratear o engañar al sistema. Una cadena de bloques es esencialmente un libro de contabilidad digital de transacciones que se duplica y distribuye por toda la red de sistemas informáticos de la cadena de bloques. Encripta bloques de datos (contratos inteligentes, transacciones, etc.) y luego los encadena para formar una única fuente de verdad cronológica para los datos. Las medidas de seguridad inherentes a blockchain y su libro de contabilidad público la convierten en una tecnología de primer orden para casi todos los sectores. La comunidad de blockchain participa de esta adición de bloques mediante diferentes mecanismos de consenso.
+La Blockchain (cadena de bloques) es un sistema de registro de información en la cual cambiar datos, hackear o engañar al sistema, es muy difícil o imposible. Una cadena de bloques es esencialmente un libro de contabilidad digital de transacciones que se duplica y distribuye por toda la red de sistemas informáticos de la cadena de bloques. Encripta bloques de datos (contratos inteligentes, transacciones, etc.) y luego los encadena para formar una única fuente cronológica certera de datos. 
+Las medidas de seguridad inherentes a blockchain y su libro de contabilidad público la convierten en una tecnología de primer orden para casi todos los sectores. La comunidad de blockchain participa de esta adición de bloques mediante diferentes mecanismos de consenso.
 
 ### Ethereum Virtual Machine (EVM)
 
-La Ethereum Virtual Machine (máquina virtual de Ethereum) es la plataforma de software que los desarrolladores pueden utilizar para crear aplicaciones descentralizadas (DApps) en Ethereum. Esta máquina virtual es donde viven todas las cuentas y contratos inteligentes de Ethereum.
+La Ethereum Virtual Machine (máquina virtual de Ethereum) es la plataforma de software que los desarrolladores pueden utilizar para crear aplicaciones descentralizadas (DApps) en Ethereum. Esta máquina virtual es donde se encuentran todas las cuentas y contratos inteligentes de Ethereum.
 
 ### Criptomoneda
 
-Una criptomoneda es un token nativo de una cadena de bloques. Las criptomonedas suelen acuñarse con cada nuevo bloque que se añade a la cadena. Por ejemplo, cada nuevo bloque de Ethereum minado viene con una recompensa de dos tokens de éter como compensación al minero.
+Una criptomoneda es un token nativo de una blockchain. Las criptomonedas suelen acuñarse con cada nuevo bloque que se añade a la cadena. Por ejemplo, cada nuevo bloque de Ethereum minado viene con una recompensa de dos tokens de éter como compensación al minero.
 
-Las criptomonedas son un tipo de token. Su natividad es su factor definitorio: Otros tokens se crean mediante plataformas y aplicaciones construidas sobre cadenas de bloques, mientras que las criptomonedas se incorporan al protocolo de una cadena de bloques.
+Las criptomonedas son un tipo de token. Su natividad es su factor definitorio: otros tokens se crean usando plataformas y aplicaciones construidas sobre blockchains, mientras que las criptomonedas se crean directamente dentro del protocolo de una blockchain.
 
 ### Mecanismo de consenso
 
-Un mecanismo de consenso es un mecanismo tolerante a fallos que se utiliza en sistemas informáticos y de blockchain para lograr el acuerdo necesario sobre un único valor de datos o un único estado de la red entre procesos distribuidos o sistemas multiagente, como ocurre con las criptomonedas. Es útil, entre otras cosas, para el mantenimiento de registros. Por el momento, los mecanismos más utilizados son Proof of Work (PoW) y Proof of Stake (PoS).
+Un mecanismo de consenso es un mecanismo tolerante a fallos que se utiliza en sistemas informáticos y de blockchain para lograr el acuerdo necesario sobre un único valor de datos o un único estado de la red entre procesos distribuidos o sistemas multi-agente, como ocurre con las criptomonedas. Es útil, entre otras cosas, para el mantenimiento de registros. Por el momento, los mecanismos más utilizados son Proof of Work (PoW) y Proof of Stake (PoS).
 
 ### Proof of work (PoW)
 
@@ -135,7 +136,7 @@ El parámetro "periodos" son los periodos de pago de intereses.
 
 ### Estrategia   
 
-La estrategia se refiere a los contratos inteligentes que interactúan con los acuerdos de terceros. BOC Vault tiene múltiples políticas, y la política es uno-a-uno con los acuerdos de terceros externos.
+La estrategia se refiere a los contratos inteligentes que interactúan con los acuerdos de terceros. La boveda de BOC tiene múltiples políticas, y la política es uno-a-uno con los acuerdos de terceros externos.
 
 ### Rebase
 
@@ -191,13 +192,13 @@ Discord es una plataforma de chat en tiempo real creada inicialmente para los ju
 
 ### Wallet
 
-Pueden ser una aplicación online o una cartera de criptodivisas de hardware que puede contener una variedad de cryptomonedas.
+Pueden ser una aplicación online o una cartera de criptodivisas de hardware que puede contener una variedad de criptomonedas.
 
 <!-- ### Gnosis -->
 
 ## Acrónimos
 
-| Acrónimo        | Descripcion                       |
+| Acrónimo        | Descripción                       |
 | :---------- | :-------------------------------- |
 | AMM         | Automated market makers           |
 | PMM         | Proactive market makers           |
