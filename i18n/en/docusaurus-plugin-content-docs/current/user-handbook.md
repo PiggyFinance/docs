@@ -5,7 +5,7 @@ sidebar_position: 5
 # User Handbook
 
 Here is a quick guide to interact and invest with the BOC platform.
-First, to complete the investment in BOC we need to start on the user investment page. We go to the [landing home page](https://bankofchain.io/#/) and click on `LAUNCH APP` button.
+First, to complete the investment in BOC we need to start on the user investment page. We go to the [home page](https://bankofchain.io/#/) and click on `LAUNCH APP` button.
 
 ![launchapp](/images/launchapp.png)
 
