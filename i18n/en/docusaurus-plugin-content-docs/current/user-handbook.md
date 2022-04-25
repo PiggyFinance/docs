@@ -35,23 +35,26 @@ At the present, BOC works on Ethereum, BNB Chain and Polygon. If we need to swit
 
 ### Deposit
 
- Once the wallet has been successfully connected, we can complete the deposit by selecting the desired amount or selecting the "Max" balance, and then clicking on `DEPOSIT`.
-![pic-7](/images/pic-7.png)
+ Once the wallet has been successfully connected, we can complete the deposit by choosing the stablecoin to use and selecting the desired amount and then clicking on `DEPOSIT`.
+
+![pic7](/images/pic-7.png)
+
+**Exchanged**: Exchange function enablement. Each strategy in the BOC uses different stablecoins. When we withdraw money, we will do it according to the strategy APY from low to high. If a non-USDT strategy is obtained, the stable currency of the corresponding strategy will be returned, e.g. if Yearn LUSD is obtained, LUSD will be returned and if the exchange is closed, the corresponding value of LUSD will be returned to our account. If redemption is enabled, the Slippage parameter needs to be set.
 
 ### Withdrawal
 
-After successfully connecting the wallet, we can complete the withdrawal by selecting the desired share or selecting the "maximum" share and clicking `WITHDRAW`.
+After successfully connecting the wallet, we can complete the withdrawal by selecting the stablecoin or mix to withdraw and the desired USDi and clicking `WITHDRAW`.
 
 ![pic8](/images/pic-8.png)
 
 ### Withdrawal Advanced Parameters
 
 ![advancesetting](/images/advancesetting.png)
-There are 3 advanced setup parameters:
 
-1. **Exchanged**: Exchange function enablement. Each strategy in the BOC uses different stablecoins. When we withdraw money, we will do it according to the strategy APY from low to high. If a non-USDT strategy is obtained, the stable currency of the corresponding strategy will be returned, e.g. if Yearn LUSD is obtained, LUSD will be returned and if the exchange is closed, the corresponding value of LUSD will be returned to our account. If redemption is enabled, the Slippage parameter needs to be set.
-2. **Max Loss**: The maximum loss on withdrawals. When we specify the withdrawal share, the total assets at the current net value will be displayed, but these are not the funds we can finally get, and losses may occur during the withdrawal process, including exchange slippage losses. If our total assets are estimated to be $1000 at this time, and we choose Max Loss=0.3%, then we will get no less than $997.
-3. **Slippage**: [Slippage](appendix#slippage) between different currencies. After enabling Exchanged, we need to specify the slippage that we accept.
+The advanced setup parameters are:
+
+**Max Loss**: The maximum loss on withdrawals. When we specify the amount of USDi to withdrawal, the total assets at the current net value will be displayed, but these are not the funds we can finally get, and losses may occur during the withdrawal process, including exchange slippage losses. If our total assets are estimated to be $1000 at this time, and we choose Max Loss=0.3%, then we will get no less than $997.
+**Slippage**: [Slippage](appendix#slippage) between different currencies. After enabling Exchanged, we need to specify the slippage that we accept.
 
 ## Dashboard
 
