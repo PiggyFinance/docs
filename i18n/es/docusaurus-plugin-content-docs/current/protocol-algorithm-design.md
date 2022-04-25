@@ -10,7 +10,7 @@ sidebar_position: 4
 
 1. "Depositar" - El protocolo BOC permite a los usuarios `depositar` las tres principales stablecoins (USDT, USDC, DAI) en cualquier combinación y en cualquier cantidad, y acuñar USDi de valor correspondiente para devolver al usuario.<br />"Retirar" - Los usuarios pueden `retirar` USDi las tres principales stablecoins en cualquier momento a través del protocolo BOC. Por defecto, se devolverán según la proporción de las tres principales stablecoins en la [Bóveda](appendix#bóveda) en ese momento, o pueden especificar una determinada moneda a devolver.
 2. Después de que Vault reciba la stablecoin, `queryTokenPrice` consulta el precio de la transferencia del usuario de la [stablecoin](appendix#stablecoin) a través de un oráculo externo. Cuando el precio devuelto por el [oráculo](appendix#oráculo) es superior a 1 USD, se calcula a 1 USD, y cuando es inferior a 1 USD, se calcula al precio del [oráculo](appendix#oráculo).
-3. Basado en el valor calculado, `mint/burn` [mint/burn](appendix#burnmint) un valor equivalente a USDi.
+3. Basado en el valor calculado, `mint/burn` [mint/burn](appendix#burn) un valor equivalente a USDi.
 4. El módulo [Keeper](appendix#keeper) alcanza la condición de activación de `doHardWork` y activa `doHardWork`.
 5. Vault llama al módulo de intercambio agregado `swapTokenToWants`.
 6. El módulo de intercambio agregado `swapTokens` completa el intercambio.
