@@ -8,35 +8,40 @@ sidebar_position: 4
 
 ![pic-2](/images/pic-2.png)
 
-1. “Deposit” - The BOC protocol supports users to deposit the three major stablecoins (USDT, USDC, DAI) in any combination and in any amount, and mint USDi of corresponding value to return to the user.<br />“Withdrawal” - Users can exchange USDi back to the three major stablecoins at any time through the BOC protocol. By default, they will be returned according to the proportion of the three major stablecoins in the Vault at that time, or they can specify a certain currency to be returned.
-2. After Vault receives the stablecoin, “queryTokenPrice” queries the price of the user's transfer of the stablecoin through an external oracle. l (When the price returned by the oracle machine is higher than 1 USD, it is calculated as 1 USD, and when it is lower than 1 USD, it is calculated as the price of the oracle machine)
-3. Based on the calculated value, “mint/burn” will mint/burn an equivalent value of USDi.
-4. The Keeper module reaches the trigger condition of “doHardWork” and triggers “doHardWork”.
-5. Vault calls the aggregate exchange module “swapTokenToWants”.
-6. The aggregated exchange module “swapTokens” completes the exchange.
+1. “Deposit” - The BOC protocol supports users to `deposit` the three major stablecoins (USDT, USDC, DAI) in any combination and in any amount, and mint USDi of corresponding value to return to the user.<br />“Withdraw” - Users can `withdraw` USDi all the three major stablecoins at any time through the BOC protocol. By default, they will be returned according to the proportion of the three major stablecoins in the [Vault](appendix#vaults) at that time, or they can specify a certain currency to be returned.
+2. After Vault receives the stablecoin, `queryTokenPrice` queries the price of the user's transfer of the [stablecoin](appendix#stablecoin) through an external oracle. When the price returned by the [oracle](appendix#oracle) is higher than 1 USD, it is calculated at 1 USD, and when it is lower than 1 USD, it is calculated at the price of the [oracle](appendix#oracle).
+3. Based on the calculated value, `mint/burn` will [mint/burn](appendix#burnmint) an equivalent value of USDi.
+4. The [Keeper](appendix#keeper) module reaches the trigger condition of `doHardWork` and triggers `doHardWork`.
+5. Vault calls the aggregate exchange module `swapTokenToWants`.
+6. The aggregated exchange module `swapTokens` completes the exchange.
 7. Vault receives the target currency exchanged by the aggregate exchange module.
-8. Vault puts stablecoin “deposits” into the strategy according to the currency required by the strategy.
-9. The strategy invests stablecoin “deposits” into third-party protocols.
-10. The Keeper module reaches the “harvest” trigger condition and triggers the “harvest”.
-11. Harvester triggers each strategy to execute “harvest”.
-12. Each strategy executes “claimRewards” to collect mining.
-13. Each strategy transfers mining coins “transferRewards” to Harvester.
-14. Harvester sells miner “sellRewards” into stablecoins through aggregated exchange.
-15. Harvester “sendProfitToVault” transfers stablecoins into Vault.
-16. The Keeper module reaches the “rebase” trigger condition and triggers the “rebase”.
-17. Vault calls “changeTotalSupply” to issue additional USDi.
-18. Vault collects a portion of the proceeds, which is transferred to the treasury called “Treasury”.
-19. The treasury will benefit users from using “buyback” to repurchase the BOC governance token.
+8. Vault puts stablecoin `deposits` into the strategy according to the currency required by the strategy.
+9. The [strategy](appendix#strategy) invests stablecoin `deposits` into third-party protocols.
+10. The Keeper module reaches the `harvest` trigger condition and triggers the `harvest`.
+11. Harvester triggers each strategy to execute `harvest`.
+12. Each strategy executes `claimRewards` to collect mining.
+13. Each strategy transfers mining coins `transferRewards` to Harvester.
+14. Harvester sells miner `sellRewards` into stablecoins through aggregated exchange.
+15. Harvester `sendProfitToVault` transfers stablecoins into Vault.
+16. The Keeper module reaches the `rebase` trigger condition and triggers the `rebase`.
+17. Vault calls `changeTotalSupply` to issue additional USDi.
+18. Vault collects a portion of the proceeds, which is transferred to the treasury called `Treasury`.
+19. The [treasury](appendix#daos-treasury) will benefit users from using `buyback` to repurchase the BOC governance token.
 
-## harvest
+## Harvest
 
-The “harvestTrigger'' is triggered every day to determine whether the “harvest” condition is met.
+The `harvestTrigger` is triggered every day to determine whether the `harvest` condition is met. The two harvest conditions are:
 
-* Exceeded maximum time interval
-* Profit*20%>“harvest” cost
-* If any of the above conditions are met, user can do “harvest” work:
-* Execute the ore transfer Harvester (for the strategy with ore production and reach the ore selling threshold);
-* Report the current strategy asset.
+1. Maximum time interval is exceeded.
+2. The harvest rule met:
+$$
+Profit \times 20\%  > harvest cost
+$$
+
+If any of the above conditions are met, user can do `harvest` work:
+
+1. Execute the yield transfer Harvester (for the strategy with yield production and reach the yield selling threshold);
+2. Report the current asset from the strategy.
 
 <table>
 <tr>
@@ -65,15 +70,15 @@ The “harvestTrigger'' is triggered every day to determine whether the “harve
 </tr>
 </table>
 
-## rebase
+## Rebase
 
-When the total assets of the Vault are greater than the total issuance of USDi, it means that new income has been generated. At this time, the value of USDi compared with the US dollar will be revised, and the number of USDi will be increased, so that the total value of USDi is consistent with the total value of Vault assets, ensuring 1 USDi is anchored at 1USD. At the same time, 20% of the additional USDi will be transferred to the national treasury as a management fee.
+When the total assets of the Vault are greater than the total issuance of USDi, it means that new income has been generated. At this time, the value of USDi compared with the US dollar will be revised, and the number of USDi will be increased, so that the total value of USDi is consistent with the total value of Vault assets, ensuring 1 USDi is anchored at 1USD. At the same time, 20% of the additional USDi will be transferred to the DAO treasury as a management fee.
 
 ## Fund Allocation
 
 ### doHardWork
 
-The official APY of the third-party agreement, the gas required for investment/redemption of each strategy, the exchange slippage limit, and the fund allocation rules are input into the position adjustment algorithm.  The strategy and amount of the funds to be invested should also be output.
+The input into the position adjustment of the algorithm are the official [APY](appendix#annual-yield-apy) of the third-party protocol, the gas required for investment of each strategy, the limit of exchange [slippage](appendix#slippage), and the [rules of fund allocation](introduction-to-boc#fund-allocation-rules), and the strategy and amount of the funds to be invested are the output.
 
 <table>
 <tr>
@@ -96,9 +101,9 @@ The official APY of the third-party agreement, the gas required for investment/r
 </tr>
 </table>
 
-### allocation
+### Allocation
 
-Compared with “dohardwork”, “allocation” has done one more step: take out the funds of the low APY strategy, and then use the official APY of the third-party agreement, the gas required for investment/redemption of each strategy, the exchange slippage limit, fund allocation rules, the position adjustment algorithm as an input, and output the strategy and the amount of the awaiting investment funds.
+Compared with `doHardWork`, `allocation` has done one more step: take out the funds of the low APY strategy, and then use the official APY of the third-party agreement, the gas required for investment of each strategy, the exchange slippage limit, fund allocation rules, the position adjustment algorithm as an input, and the output is the strategy and the amount of the awaiting investment funds.
 
 | Set parameters                                                                                            | ETH               | BNB Chain         | Polygon           |
 | --------------------------------------------------------------------------------------------------------- | ----------------- | ----------------- | ----------------- |
@@ -108,14 +113,14 @@ Compared with “dohardwork”, “allocation” has done one more step: take ou
 
 ### Fund allocation Algorithm
 
-| Variable     | Meaning                                                                                                                                                                                                                   |
-| ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| durationDays | The cycle of rebalancing needs to ensure that in a cycle after rebalancing, the profit after rebalancing - the profit before rebalancing - the cost of rebalancing > 0                                                    |
-| yearDays     | 365days                                                                                                                                                                                                                   |
-| asset1       | The original assets of the strategy                                                                                                                                                                                       |
-| apr1         | The strategy apr before the position adjustment (APY needs to be converted into apr), the current value of the APY of the position adjustment algorithm is the 7-day average of APY calculated outside the strategy chain |
-| deltaAsset   | Assume the capital change value of the strategy rebalancing                                                                                                                                                               |
-| poolAssets1  | The TVL of the strategic target investment pool is used as a parameter for the change of apr after the position adjustment                                                                                                |
+| Variable     | Meaning|
+| ------------ | -------------- |
+| "durationDays" | The cycle of rebalancing needs to ensure that in a cycle after rebalancing, the profit after rebalancing - the profit before rebalancing - the cost of rebalancing > 0|
+| "yearDays"     | 365days|
+| "asset1"       | The original assets of the strategy|
+| "apr1"         | The strategy apr before the position adjustment (APY needs to be converted into apr), the current value of the APY of the position adjustment algorithm is the 7-day average of APY calculated outside the strategy chain |
+| "deltaAsset"   | Assume the capital change value of the strategy rebalancing|
+| "poolAssets1"  | The TVL of the strategic target investment pool is used as a parameter for the change of apr after the position adjustment||
 
 Profit before position adjustment
 
@@ -187,7 +192,11 @@ profitChange=MAX\sum_{i=1}^m(deltaGain_i -withdrawFee_i-lendFee_i - exchangeLoss
 $$
 
 $$
-profitChange=MAX\sum_{i=1}^m(\frac{deltaAsset_i \times (poolAsset_i-asset_i) \times apr_i * durationDays_i}{(poolAsset_i+deltaAsset_i-exchangeLoss_i) \times yearDays_i} - operateFee_i - exchangeLoss_i - harvestFee_i)
+profitChange=MAX\sum_{i=1}^m(\frac{deltaAsset_i \times (poolAsset_i-asset_i) \times apr_i * durationDays_i}{(poolAsset_i+deltaAsset_i-exchangeLoss_i) \times yearDays_i} 
+$$
+
+$$
+- operateFee_i - exchangeLoss_i - harvestFee_i)
 $$
 
 Total Change Profit ProfitChange
@@ -203,7 +212,7 @@ Boundary conditions
 1. Strategic assets cannot exceed 20% of total assets
 2. The strategic funds cannot exceed 50% of the target pool assets
 
-Use python scipy's “optimize.minimize” to find the current optimal rebalancing scheme.
+Use python scipy's `optimize.minimize` to find the current optimal rebalancing scheme.
 
 ### Public Parameter Configuration
 

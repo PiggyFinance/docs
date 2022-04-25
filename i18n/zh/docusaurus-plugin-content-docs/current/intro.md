@@ -10,3 +10,4 @@ sidebar_position: 1
 - Telegram 中文：<https://t.me/bankofchain_zh>
 - Discord：<https://discord.gg/WjwyDB9zFM>
 - Twitter：<https://twitter.com/bankofchain_dao>
+- LinkedIn: <https://www.linkedin.com/company/bank-of-chain/>
