@@ -81,19 +81,17 @@ Las stablecoins estratégicas actualmente seleccionadas son: DAI, USDC, USDT, BU
 
 <https://www.liquity.org/>
 
-## Protocolo incorporado
+## Selección de estrategia de protocolo
 
-Las estrategias tienen que cumplir las siguientes condiciones después de seleccionar las stablecoins:
-
-- No tienen cuota de retirada y admisión.
-- Sin periodo de bloqueo, algunas estrategias tienen un periodo de bloqueo, y los fondos no pueden ser recuperados durante un cierto periodo de tiempo.
-- Sin límite de inversión, algunas estrategias tienen un límite de fondos.
-- Para poder evitar las pérdidas causadas por las vulnerabilidades del código, todos los protocolos de BOC son auditados.
-- Para evitar el riesgo del sistema de cadena causado por los tokens anidados y las combinaciones de LEGO, el acceso al protocolo de gestión financiera agregada necesita tener un registro de operaciones de seguridad a largo plazo y obtener el permiso de votación del
-- Para evitar las pérdidas impermanentes causadas por las fluctuaciones del mercado, por el momento no se accederá al protocolo para obtener rendimientos de capital mediante la prestación de servicios de riesgo. Al mismo tiempo, no se utilizará el apalancamiento para magnificar los rendimientos del capital por el momento.
-- El primer lote del acuerdo se conectará a tres plataformas de contratos inteligentes, incluyendo Ethereum, Polygon y BNB, que tienen un TLV de más de 5.000 millones de dólares. En vista de la inmadurez de la tecnología de la cadena cruzada, en esta etapa, los usuarios deberán utilizar manualmente el puente oficial de la cadena cruzada para la conversión de activos.
-- Los primeros protocolos DEX y de préstamo a los que se puede acceder son los protocolos de primera línea elegidos en varias cadenas de bloques, y tienen un buen historial de operaciones de seguridad.
-- El protocolo proporciona el servicio de asignación óptima dentro de la cadena de capital, que combina los dos principios de maximizar los rendimientos y diversificar los riesgos del capital.
+Después de seleccionar la moneda estable, sus estrategias correspondientes deben cumplir las siguientes condiciones:
+- No tener comisión por depósito o retiro.
+- No tener un período de bloqueo, por lo que los fondos se pueden retirar rápidamente.
+- Sin limitación en la cantidad de fondos para un inversor.
+- Todos los protocolos deben ser auditados para evitar pérdidas potenciales causadas por vulnerabilidades de código.
+- El protocolo de gestión financiera agregada debe contar con un registro de operación de seguridad a largo plazo, también obtiene el permiso de las comunidades mediante votación. Por lo tanto, los riesgos del sistema en cascada causados ​​por fichas anidadas y combinaciones de LEGO pueden evitarse.
+- No utilizar protocolos de magnificación de rendimientos de capital mediante la prestación de servicios de riesgo o apalancamiento, evitando así las pérdidas provocadas por las fluctuaciones del mercado.
+- El DEX al que se accedió por primera vez y el protocolo de préstamo deben ser los protocolos de primera línea preferidos en cada cadena de bloques y también contar con buenos registros de operaciones de seguridad.
+- El protocolo debe asignar la cadena de capital de forma inteligente, que obedece siempre a dos reglas: maximizar los rendimientos y descentralizar los riesgos del capital.
 
 Los protocolos actualmente seleccionados son
 

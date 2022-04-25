@@ -72,7 +72,7 @@ Si se cumple alguna de las condiciones anteriores, el usuario puede realizar el 
 
 ## Rebase
 
-USDi es un token diseñado de manera que el suministro en circulación se ajusta automáticamente según las fluctuaciones de los precios, este proceso se llama [rebase](appendix#rebase). Al igual que las stablecoins, los tokens rebase suelen estar vinculados a otro activo. Pero en lugar de utilizar las reservas para mantener la vinculación, los tokens rebase automáticamente [queman](appendix#burnmint) tokens en circulación o [acuñan](appendix#burnmint) nuevos tokens. Cuando el total de activos de la Bóveda es mayor que el total de la emisión de USDi, significa que se han generado nuevos ingresos. Después de esto, se revisará el valor de los USDi en comparación con el dólar estadounidense. Cuando el número de USDi aumenta, el valor total de USDi es coherente con el valor total de los activos de la Bóveda, asegurando que 1 USDi está anclado a 1USD. Al mismo tiempo, el 20% de los USDi adicionales se transferirá a la tesorería como comisión de gestión.
+Cuando los activos totales de la Bóveda son mayores que la emisión total de USDi, significa que se han generado nuevos ingresos. En este momento, se revisará el valor de USDi en comparación con el dólar estadounidense y se aumentará la cantidad de USDi, de modo que el valor total de USDi sea consistente con el valor total de los activos de Vault, asegurando que 1 USDi esté anclado en 1 USD. Al mismo tiempo, el 20% del USDi adicional se transferirá a la tesorería de la DAO como comisión de gestión.
 
 ## Asignación de fondos
 

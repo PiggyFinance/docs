@@ -96,3 +96,5 @@ Programming
 Transaction
 Minting
 USDi
+sobrecolateralizados
+magnificación

@@ -23,7 +23,7 @@ Después de conectar el monedero, podemos ver el saldo de USDT en nuestra cuenta
 
 ### Cross-chain Bridge
 
-BOC proporciona opciones de [cross-chain bridge](appendix#bridge), en caso de que necesitemos implementar una operación cross-chain.
+BOC proporciona opciones de [cross-chain bridge](appendix#puentes-de-blockchain), en caso de que necesitemos implementar una operación cross-chain.
 
 ![chainbridge](/images/chainbridge.png)
 
@@ -43,19 +43,21 @@ En la actualidad, BOC trabaja en Ethereum, BNB Chain y Polygon. Si necesitamos c
 
 ### Retirada de fondos
 
-Después de conectar con éxito el monedero, podemos completar la retirada seleccionando la cuota deseada o seleccionando la cuota "máxima" y haciendo clic en `WITHDRAW`.
+Después de conectar con éxito el monedero, podemos completar la retirada seleccionando el saldo deseado o seleccionando la el saldo "Max" y haciendo clic en `WITHDRAW`.
 
 ![pic8](/images/pic-8.png)
+
+**Exchanged**: En el desplegable se encuentra la función de intercambio. Cada estrategia en el BOC utiliza diferentes stablecoins. Cuando retiremos dinero, lo haremos según el APY de la estrategia de menor a mayor. Si se obtiene una estrategia que no sea USDT, se devolverá la moneda estable de la estrategia correspondiente, por ejemplo, si se obtiene Yearn LUSD, se devolverá LUSD y si se cierra el intercambio, se devolverá a nuestra cuenta el valor correspondiente de LUSD. Si se habilita la redención, es necesario establecer el parámetro Slippage.
 
 ### Retirada Parámetros avanzados
 
 ![advancesetting](/images/advancesetting.png)
 
-There are 3 advanced setup parameters:
+Los parámetros de las opciones avanzadas son:
 
-1. **Exchanged**: Habilitación de la función de intercambio. Cada estrategia en el BOC utiliza diferentes stablecoins. Cuando retiremos dinero, lo haremos según el APY de la estrategia de menor a mayor. Si se obtiene una estrategia que no sea USDT, se devolverá la moneda estable de la estrategia correspondiente, por ejemplo, si se obtiene Yearn LUSD, se devolverá LUSD y si se cierra el intercambio, se devolverá a nuestra cuenta el valor correspondiente de LUSD. Si se habilita la redención, es necesario establecer el parámetro Slippage.
-2. **Pérdida máxima**: La pérdida máxima en los retiros. Cuando especifiquemos la cuota de retirada, se mostrarán los activos totales con el valor neto actual, pero estos no son los fondos que podemos obtener finalmente, y pueden producirse pérdidas durante el proceso de retirada, incluidas las pérdidas por deslizamiento de cambio. Si nuestros activos totales se estiman en $1000 en este momento, y elegimos Max Loss=0,3%, entonces obtendremos no menos de $997.
-3. **Slippage**: [Slippage](appendix#slippage) (deslizamiento) entre diferentes monedas. Después de habilitar Exchanged, necesitamos especificar el deslizamiento que aceptamos.
+**Pérdida máxima**: La pérdida máxima en los retiros. Cuando especifiquemos la cuota de retirada, se mostrarán los activos totales con el valor neto actual, pero estos no son los fondos que podemos obtener finalmente, y pueden producirse pérdidas durante el proceso de retirada, incluidas las pérdidas por deslizamiento de cambio. Si nuestros activos totales se estiman en $1000 en este momento, y elegimos Max Loss=0,3%, entonces obtendremos no menos de $997.
+
+**Slippage**: [Slippage](appendix#slippage) (deslizamiento) entre diferentes monedas. Podemos especificar el deslizamiento que aceptamos.
 
 ## Dashboard (Tablero de mandos)
 
@@ -67,7 +69,7 @@ Desde el [dashboard](appendix#dashboard) podemos obtener la siguiente informaci�
 
 Cada dato se describe como sigue:
 
-1. Cantidad de bloqueo de la bóveda en cadena, leer la interfaz del subgrafo.
+1. Cantidad de bloqueo de la bóveda en cadena, leer la interfaz del grafo.
 2. El número de usuarios de inversión, leer la interfaz del subgrafo.
 3. APY de los últimos 30 días en función del patrimonio neto.
 4. Proporción de fondos de protocolo, consultar la interfaz del subgráfico.
@@ -104,9 +106,9 @@ Cada dato se describe como sigue:
 3. Activos totales de la estrategia (moneda estándar)
 4. Cambios en los activos de las operaciones de la estrategia (moneda estándar)
 5. Tipo de acción de la estrategia
-      - "harvest": La estrategia completa la venta y reinversión de una mina, e informa de la valoración total de los activos
-      - "lend": La bóveda pone fondos en la estrategia, y esta acción ocurre en la asignación de fondos ("doHardWork", "allocation")
-      - "redeem": Vault retira fondos de la estrategia, y esta acción se produce en la asignación de fondos ("allocation")
+      - `harvest`: La estrategia completa la venta y reinversión de una mina, e informa de la valoración total de los activos
+      - `lend`: La bóveda pone fondos en la estrategia, y esta acción ocurre en la asignación de fondos (`doHardWork`, `allocation`)
+      - `redeem`: Vault retira fondos de la estrategia, y esta acción se produce en la asignación de fondos (`allocation`)
 
 ## Análisis de inversiones personales
 
