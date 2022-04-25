@@ -10,11 +10,11 @@ sidebar_position: 5
 
 ## 连接钱包
 
-您可以通过MetaMask和WalletConnect与BOC进行交互, 点击“CONNET WALLET”按钮连接您的钱包。
+您可以通过[MetaMask](https://metamask.io/#/) 和 [WalletConnect](https://walletconnect.com/#/)与BOC进行交互, 点击“CONNET WALLET”按钮连接您的[钱包](appendix#wallet)。
 
 ![connectwallet](/images/connectwallet.png)
 
-成功连接钱包后，可以看见您账户里的USDT。
+成功连接钱包后，可以看见您账户里的USDT余额。
 
 ![pic4](/images/pic-4.png)
 
@@ -22,7 +22,7 @@ sidebar_position: 5
 
 ### 跨链桥
 
-BOC提供Polygon和Binance跨链桥，方便您实现加密资产跨链。点击页面左上方的“Bridge”即可选择跨链桥。
+BOC提供[Polygon](https://wallet.polygon.technology/#/)和[Binance](https://www.binance.com/#/)两种[跨链桥](appendix#bridge)，方便您实现加密资产跨链。点击页面左上方的“Bridge”即可选择跨链桥。
 
 ![chainbridge](/images/chainbridge.png)
 
@@ -42,18 +42,18 @@ BOC提供Ethereum、BNB Chain和Polygon三条链，进入页面左上方的“NE
 
 ### 取出币
 
-成功存币后，您可以随时将USDi换回三大稳定币（USDT、USDC、DAI），也可以指定换回某一种币。点击“WITHDRAW”切换到取币页面，选择期望换回的币种，输入需要的取币金额，或选择“Max”及全部取出，点击“WITHDRAW”，完成取币。
+成功存币后，您可以随时将USDi换回三大稳定币（USDT、USDC、DAI），也可以指定换回某一种币。点击“WITHDRAW”切换到取币页面，选择期望换回的币种，输入需要的取币金额，或选择“Max”全部取出，点击“WITHDRAW”，完成取币。
 
 ![withdrawpage](/images/withdrawpage.png)
 
-#### 取币高级参数
+#### 取币的高级参数设置
 
 ![withdrawadvancesetting](/images/withdrawadvancesetting.png)
 
 点击“Advanced Settings”即可展开高级参数设置：
 
 1. **Max Loss**：取币最大损失。当您输入取币数额后，会显示当前净值下的预估总资产，但这并不是您最终能拿到手的资金，在取款过程可能会发生损失，比如滑点损失。例如：此时您的总资产预估为$1000，选择Max Loss = 0.3%，则您拿到手的资金不会少于$997。
-2. **Slippage**：不同币种的滑点。您需要选择或输入所能接受的滑点。
+2. **Slippage**：不同币种的[滑点](appendix#滑点-slippage)。您需要选择或输入所能接受的滑点。
 
 ## Dashboard
 
