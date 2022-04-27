@@ -2,7 +2,7 @@
 sidebar_position: 11
 ---
 
-#Preguntas frecuentes (FAQs)
+# Preguntas frecuentes (FAQs)
 
 ## Preguntas frecuentes sobre la cadena de bloques
 
