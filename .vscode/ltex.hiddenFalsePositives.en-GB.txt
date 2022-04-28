@@ -37,3 +37,4 @@
 {"rule":"ABLE_TO_PASSIVE","sentence":"^\\QAs participants build useful things, they are able to be shared and combined in new ways, reminiscent of everyone's favourite toy, Lego.\\E$"}
 {"rule":"EN_WORD_COHERENCY","sentence":"^\\QIn those organizations, security researchers review code, disclose vulnerabilities, have the incentive to help to make smart contracts more secure.\\E$"}
 {"rule":"UPPERCASE_SENTENCE_START","sentence":"^\\Qx White paper will be completed by April 15, 2022.\\E$"}
+{"rule":"MORFOLOGIK_RULE_EN_GB","sentence":"^\\QtokenRatio_en\\E$"}

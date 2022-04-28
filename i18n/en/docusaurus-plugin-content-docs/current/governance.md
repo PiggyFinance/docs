@@ -17,7 +17,7 @@ The Governance tokens are yet to be developed but will be launched soon.
 
 The maximum supply of BOC tokens is 1 billion. Tokenholders will receive a BOC management fee according to the holding ratio. After the tokens are locked, they can participate in governance and share the benefits. The specific tokens are planned to be distributed in the following 4 parts: team, investors, community and reserved part.
 
-![pic-en-6-1](/images/pic-en-6-1.png)
+![tokenRatio_en](/images/tokenRatio_en.png)
 
 | **Team* ** | **20.00%** | **200M** |
 | --- | --- | --- |

@@ -18,12 +18,10 @@ Digital assets are easily copied and redistributed. On music and film industry i
 
 Blockchain makes cryptos possible. It's what manage cryptocurrency. There is several blockchains networks, to use them is usual that you have to pay a gas fee, for this you need to pay on the native cryptocurrency. If you use the Polygon blockchain you need Matic to pay the fee. This fee is the incentive to people to participate on the process and contribute to the safety of the blockchain network.
 
-## DeFi FAQs
-
 ### What are Decentralized Finances? 
 
 Decentralized finance (commonly known as DeFi) is a kind of real world finance but is created on the blockchain. It uses smart contracts on the blockchain (such as Ethereum) for financial activities. DeFi platforms allow people to lend or borrow funds to others, trade cryptocurrencies, and earn interest in savings-like accounts, all this without a centralized institution.
 
-### Why BOC is secure? 
+## Bank of Chain (BOC) FAQs
 
-BOC ensure it's safety being audited regularly as well as the integrated DeFi protocols. At the same time, BOC does not use unofficial third-party cross-chain bridges for transactions and the price quotation always relies on [Chainlink](https://chain.link/), a market-leading oracle.
+
