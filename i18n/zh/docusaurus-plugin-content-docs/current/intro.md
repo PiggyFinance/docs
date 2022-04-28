@@ -11,3 +11,5 @@ sidebar_position: 1
 - Discord：<https://discord.gg/WjwyDB9zFM>
 - Twitter：<https://twitter.com/bankofchain_dao>
 - LinkedIn: <https://www.linkedin.com/company/bank-of-chain/>
+- Reddit: <https://www.reddit.com/user/BankofChain>
+- Medium: <https://medium.com/@bankofchain>
