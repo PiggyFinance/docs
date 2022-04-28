@@ -24,4 +24,30 @@ Decentralized finance (commonly known as DeFi) is a kind of real world finance b
 
 ## Bank of Chain (BOC) FAQs
 
+### What blockchains are compatible with the BOC platform?
+
+By the moment BOC is compatible the following blockchain networks:
+
+- BNB chain
+- Ethereum
+- Polygon
+
+### What wallets are compatible with BOC?
+
+To [interact with BOC](user-handbook#wallet-connection) you can use MetaMask or WalletConnect.
+
+### What stablecoins are incorporated for deposit on BOC?
+
+BOC is on version beta 1.5 and receive [deposits](user-handbook#deposit) on USDT, USDC & DAI.
+
+### How much time should pass to withdraw my deposit?
+
+None, it isn't locked time required to [withdraw](user-handbook#withdrawal) our assets.
+
+<!-- ### What is a USDi? -->
+
+
+
+
+
 
