@@ -28,6 +28,37 @@ sidebar_position: 4
 18. Vault collects a portion of the proceeds, which is transferred to the treasury called `Treasury`.
 19. The [treasury](appendix#daos-treasury) will benefit users from using `buyback` to repurchase the BOC governance token.
 
+### Mint & Burn
+
+![mint](/images/mint.png)
+
+Here is a numerical example of minting and burning USDi tokens. 
+
+Let’s assume that Alice deposits 100 USDT, 100 DAI and 100 USDC. The current price from Chainlink is:
+
+1 USDT = 1.1 USD                                                        
+1 DAI = 0.9 USD                                                         
+1 USDC = 1.0 USD
+
+According to the BOC mint rule: the transaction price is 1USD when the price from Chainlink is higher than 1USD, otherwise the transaction price is equal to the price from Chainlink. 
+
+Thus, Alice will `mint` 290 USDi in total: 
+
+100 USDT = 100 USDi  (the price from Chainlink > 1USD, 1 USDT = 1.0 USD)
+100 DAI = 90 USDi  (the price from Chainlink < 1USD, 1 DAI = 0.9 USD)   
+100 USDC = 100 USDi  (the price from Chainlink = 1USD, 1 USDC = 1.0 USD)
+
+![burn](/images/burn.png)
+Alice decides to `burn` the USDi to withdraw her stablecoins. She has 290 USDi now and she burns 90 of them for USDT, 100 of them for DAI, and the rest 100 for USDC. Assume the current price from Chainlink does not change. 
+
+The rule of burning is opposite to that of minting: the transaction price is 1U when the price from Chainlink is less than 1U, otherwise the transaction price is equal to the price from Chainlink.
+
+Therefore, Alice burns 290 USDi to withdraw:
+
+90 USDi = 81.82 USDT  (the price from Chainlink > 1USD, 1 USDT = 1.1 USD)
+100 USDi = 100 DAI  (the price from Chainlink < 1USD, 1 DAI = 1.0 USD)   
+100 USDi = 100 USDC  (the price from Chainlink = 1USD, 1 USDC = 1.0 USD)
+
 ## Harvest
 
 The `harvestTrigger` is triggered every day to determine whether the `harvest` condition is met. The two harvest conditions are:

@@ -48,6 +48,39 @@ sidebar_position: 4
 
 19. 国库将收益用户`buyback`回购BOC治理代币。
 
+### 铸造(Mint)/销毁(Burn)流程示意图
+
+![mint](/images/mint.png)
+
+上图为用户存入稳定币并`mint`出等价的USDi的规则流程图。
+
+用户将手中的三大稳定币（USDT、USDC、DAI）以任意组合、任意数量存入，根据当下预言机Chainlink的价格，铸造出等价的USDi作为抵押凭证。
+
+假设用户存入USDT, DAI和USDC各100，此时预言机的价格为：
+
+1 USDT = 1.1 USD                                                        
+1 DAI = 0.9 USD                                                         
+1 USDC = 1.0 USD
+
+根据BOC的`mint`规则：预言机价格高于1USD时按1USD算，低于1USD时按预言机价格算。
+
+则最终用户能`mint`出290 USDi ：
+
+100 USDT = 100 USDi  (预言机价格 > 1USD，按1USD算)       
+100 DAI = 90 USDi  (预言机价格 < 1USD，按预言机价格算)      
+100 USDC = 100 USDi  (预言机价格 = 1USD，按1USD算)
+
+![burn](/images/burn.png)
+当用户取出池中稳定币时，需要提供并销毁(`burn`)手上的抵押凭证USDi。
+
+BOC的销毁规则与铸造币时相反：预言机价格高于1USD时按预言机价格算，低于1USD时按1USD算。
+
+用户销毁(`burn`)手中的290 USDi以取出其对应的稳定币 (假设用户将90USDi用来取USDT, 100USDi用来取DAI, 100USDi用来取USDT)：
+
+90 USDi = 81.82 USDT  (预言机价格 > 1USD，按预言机价格算)   
+100 USDi = 100 DAI  (预言机价格 < 1USD，按1USD算)           
+100 USDi = 100 USDC  (预言机价格 = 1USD，按1USD算)
+
 ## harvest
 
 Keeper每日都会触发`harvestTrigger`，判断是否达到`harvest`条件，以下是2个`harvest`条件：
