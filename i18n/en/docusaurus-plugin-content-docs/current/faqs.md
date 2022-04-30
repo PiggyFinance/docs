@@ -27,3 +27,27 @@ Decentralized finance (commonly known as DeFi) is a kind of real world finance b
 ### Why BOC is secure? 
 
 BOC ensure it's safety being audited regularly as well as the integrated DeFi protocols. At the same time, BOC does not use unofficial third-party cross-chain bridges for transactions and the price quotation always relies on [Chainlink](https://chain.link/), a market-leading oracle.
+
+### What stablecoins can I deposit and withdraw?
+
+BOC currently provides users to deposit and withdraw USDT, USDC and DAI in any combination and in any amount. When depositing stablecoins, USDi of equivalent value will be minted as a collateral, which will be burned when users want to withdraw their stablecoins. 
+
+### What is USDi? Can I use it to reinvest or do anything?
+
+USDi is a collateral minted by users when they deposit stablecoins. The returns that users obtain via BOC protocol will be reflected in the increased amount of USDi in their wallet. USDi is pegged 1:1 as USD, in other word, it shows the user’s net USD value in BOC protocol. USDi is only a collateral which will be burned when withdrawing, it cannot be used for other financial activities.
+
+### When will the BOC token be issued? 
+
+It will be issued in June 2022. 
+
+### How soon will my balance increase once I have USDi?
+
+The amount of USDi in your wallet will grow each time there is a positive rebase event. You can read more about this in [Rebase](protocol-algorithm-design#rebase). The supply is currently rebased once a day and is usually correlated with how many people are minting and burning USDi.
+
+### What are the costs to mint and redeem USDi and ETHi?
+
+As with any Ethereum transaction, you will need Ether to interact with the BOC smart contract. We have taken measures to reduce gas usage where possible, but these costs can vary.
+
+For ETHi: Anytime you mint or burn ETHi, there will be an exchange rate applied to your stablecoins deposited or withdrawn. The depositing charge depends on [Oracles](appendix#oracle) and the withdrawing charge will be xx% to encourage long-term holding of ETHi and to protect the protocol from attackers.
+
+For USDi: The depositing charge depends on Oracles and no withdrawing charge. 

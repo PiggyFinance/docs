@@ -8,9 +8,11 @@ sidebar_position: 4
 
 ![pic2](/images/pic-2.png)
 
-1. - **存入`deposit`**BOC协议支持用户将手中的三大稳定币（USDT、USDC、DAI）以任意组合、任意数量的形式存入，并`mint`出相应价值的USDi返回给用户。
+BOC目前提供USD理财和ETH理财。
 
-   - **取出`withdraw`**用户可以随时将USDi通过BOC协议换回三大稳定币，缺省将按照当时Vault中三大稳定币的比例进行返回，也可以指定返回某一种币，并`burn`相应价值USDi。
+1. - **存入`deposit`**：BOC协议支持用户将手中的三大稳定币（USDT、USDC、DAI）以任意组合、任意数量的形式存入，并`mint`出相应价值的USDi返回给用户。
+
+   - **取出`withdraw`**：用户可以随时将USDi通过BOC协议换回三大稳定币，缺省将按照当时Vault中三大稳定币的比例进行返回，也可以指定返回某一种币，并`burn`相应价值USDi。
 
 2. Vault接收到稳定币后通过外部预言机`queryTokenPrice`查询用户转入稳定币的价格（预言机返回的价格高于1USD时按1USD算，低于1USD时按预言机价格算）。
 
@@ -44,7 +46,7 @@ sidebar_position: 4
 
 17. Vault调用`changeTotalSupply`增发USDi。
 
-18. Vault收取部分收益，转移到国库Treasury。
+18. Vault收取部分收益，转移到国库`Treasury`。
 
 19. 国库将收益用户`buyback`回购BOC治理代币。
 
