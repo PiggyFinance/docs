@@ -155,7 +155,9 @@ Minting is the process of creating or producing something. In the blockchain, mi
 
 A stablecoin is a cryptocurrency that has its value pegged to the value of a stable asset. Stable coins are most commonly pegged to the US Dollar but can be pegged to other assets like gold or a basket of crypto assets. 
 
-<!-- ### Circular dependencies -->
+### Circular dependencies
+
+In DeFi, a circular dependency is a relation between two or more protocols which either directly or indirectly depend on each other to function properly. 
 
 ### Token
 

@@ -6,7 +6,7 @@ sidebar_position: 2
 
 [BOC](https://v1.bankofchain.io/#/)（Bank Of Chain）是帮助普通投资者获取链上“无风险”保本理财的一款[去中心化金融](appendix#去中心化金融defi)[协议](appendix#协议protocol)。
 
-BOC平台连接加密生态系统内诸多协议，例如[AMM](appendix#自动做市商amm)、[借贷协议](appendix#借贷协议lending-protocol)、[收益聚合器等](appendix#收益聚合器yield-aggregators)(参见[Dashboard](https://dashboard-v1.bankofchain.io/#/)详细信息)。通过接入高质量协议[策略](appendix#策略strategy)，BOC可以比其他美元托管基金高300~500个基点，这将是BOC吸引数亿美元的基础。
+BOC平台连接加密生态系统内诸多协议，例如[AMM](appendix#自动做市商amm)、[借贷协议](appendix#借贷协议lending-protocol)、[收益聚合器等](appendix#收益聚合器yield-aggregators)(参见[Dashboard](https://dashboard-v1.bankofchain.io/#/)详细信息)。通过接入高质量低风险的协议[策略](appendix#策略strategy)，BOC能实现比其他美元托管基金高300~500个基点，这将是BOC吸引数亿美元的基础。
 
 BOC对于加密行业的新人来说是进入数字资产投资回报生态系统的最佳渠道。作为一键复合理财平台，BOC将为行业带来新的革命。
 
@@ -14,13 +14,13 @@ BOC对于加密行业的新人来说是进入数字资产投资回报生态系�
 
 现有的[DeFi](appendix#去中心化金融defi)协议存在如下问题：
 
-1. 在[去中心化交易所](appendix#去中心化交易所-dex)里做市，存在[无偿损失](appendix#无偿损失-impermanent-loss)。在2021年，UniswapV3做市收入约2亿美元收益，这些资金池遭受了2.6亿美元的无常损失，导致6000万美元的净损失总额。
+1. 在[去中心化交易所](appendix#去中心化交易所-dex)里做市，存在[无偿损失](appendix#无偿损失-impermanent-loss)。在2021年，UniswapV3做市收入约2亿美元收益，这些资金池遭受了2.6亿美元的无偿损失，导致6000万美元的净损失总额。
 
-2. 部分收益聚合器存在循环依赖的问题。
+2. 部分收益聚合器存在[循环依赖](appendix#循环依赖-circular-dependency)的问题。
 
 3. 部分协议投资门槛高。部分收益聚合器产品存在众多[机枪池](appendix#机枪池vaults)，用户需要较高的知识储备才能正确选择投资哪些机枪池。同时，众多DeFi产品需要投资多种不同币种，需要用户自行兑换成所需币种。
 
-4. 投资过程操作复杂。用户在投资再平衡过程中，需要实施取款、币种兑换和复投等复杂操作。
+4. 投资过程操作复杂。用户在投资再平衡过程中，需要实施取币、币种兑换和复投等复杂操作。
 
 ## 收益来源
 
@@ -28,7 +28,7 @@ BOC对于加密行业的新人来说是进入数字资产投资回报生态系�
 
 2. 为[超额抵押](appendix#超额抵押-over-collateralization)借贷提供借贷资金收取的利息 。
 
-3. 在以上过程中获得的协议管理代币补贴。
+3. 在以上过程中获得的协议[治理币](appendix#治理币governance-token)补贴。
 
 ## 资金分配规则
 
@@ -54,7 +54,7 @@ BOC作为开放式平台，通过连接加密生态众多协议实现分散投�
 
    - 合格稳定币已发行规模均超过10亿美元。
 
-   - 合格Block Chain锁仓超过50亿美元。
+   - 合格区块链上的锁仓量已超过50亿美元。
 
    - BOC通过第三方严格审计。
 
@@ -68,7 +68,7 @@ BOC作为开放式平台，通过连接加密生态众多协议实现分散投�
 
    - 无偿损失的风险：做市限于稳定币资产交易对。
 
-   - 连锁系统性风险：排除嵌套代币和乐高协议。
+   - 连锁系统性风险：排除[嵌套代币](appendix#嵌套代币nested-tokens)和[乐高协议](appendix#乐高式组合-lego-combination)。
 
    - 长尾风险：不通过提供风险服务获取回报，如保险、期权。
 

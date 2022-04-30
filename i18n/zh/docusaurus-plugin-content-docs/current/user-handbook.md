@@ -34,13 +34,13 @@ BOC提供Ethereum、BNB Chain和Polygon三条链，进入页面左上方的“NE
 
 ## 存币 & 取币
 
-### 存入币
+### 存币
 
-目前BOC支持用户将手中的三大稳定币（USDT、USDC、DAI）以任意组合、任意数量的形式存入。成功连接钱包并且设置好参数之后，相应的币下输入您期望的存币金额，或选择“Max”，即存入您钱包中的所有此种代币，点击“DEPOSIT”，完成存币。
+目前BOC支持用户将手中的三大稳定币（USDT、USDC、DAI）以任意组合、任意数量的形式存入。成功连接钱包并且设置好参数之后，在相应的币下输入您期望的存币金额，或选择“Max”，即存入您钱包中的所有此种代币，点击“DEPOSIT”，完成存币。
 
 ![depositpage](/images/depositpage.png)
 
-### 取出币
+### 取币
 
 成功存币后，您可以随时将USDi换回三大稳定币（USDT、USDC、DAI），也可以指定换回某一种币。点击“WITHDRAW”切换到取币页面，选择期望换回的币种，输入需要的取币金额，或选择“Max”全部取出，点击“WITHDRAW”，完成取币。
 
@@ -48,16 +48,17 @@ BOC提供Ethereum、BNB Chain和Polygon三条链，进入页面左上方的“NE
 
 #### 取币的高级参数设置
 
-![withdrawadvancesetting](/images/withdrawadvancesetting.png)
-
 点击“Advanced Settings”即可展开高级参数设置：
 
-1. **Max Loss**：取币最大损失。当您输入取币数额后，会显示当前净值下的预估总资产，但这并不是您最终能拿到手的资金，在取款过程可能会发生损失，比如滑点损失。例如：此时您的总资产预估为$1000，选择Max Loss = 0.3%，则您拿到手的资金不会少于$997。
-2. **Slippage**：不同币种的[滑点](appendix#滑点-slippage)。您需要选择或输入所能接受的滑点。
+![withdrawadvancesetting](/images/withdrawadvancesetting.png)
+
+1. **Max Loss 取币最大损失**：当您输入取币数额后，会显示当前净值下的预估总资产，但这并不是您最终能拿到手的资金，在取款过程可能会发生损失，比如滑点损失。例如：此时您的总资产预估为$1000，选择Max Loss = 0.3%，则您拿到手的资金不会少于$997。
+
+2. **Slippage 滑点**：指买方和卖方预期之间的价格差异。滑点可能导致资产的最终出售价格高于或低于请求的交易金额。您需要选择或输入所能接受的滑点。
 
 ## Dashboard
 
-<https://dashboard.bankofchain.io>
+点此进入[Dashboard](https://dashboard-v1.bankofchain.io/#/)主页面。
 
 ![dashboard](/images/dashboard.jpg)
 
