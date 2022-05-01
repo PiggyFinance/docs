@@ -40,14 +40,21 @@ USDi is a collateral minted by users when they deposit stablecoins. The returns 
 
 It will be issued in June 2022. 
 
-### How soon will my balance increase once I have USDi?
+### How often will my balance increase once I have USDi or ETHi?
 
-The amount of USDi in your wallet will grow each time there is a positive rebase event. You can read more about this in [Rebase](protocol-algorithm-design#rebase). The supply is currently rebased once a day and is usually correlated with how many people are minting and burning USDi.
+The amount of USDi or ETHi in your wallet will grow each time there is a positive rebase event. You can read more about this in [Rebase](protocol-algorithm-design#rebase). Currently rebase are triggerred once a day and is usually correlated with how many people are minting and burning in a day.
 
-### What are the costs to mint and redeem USDi and ETHi?
+### What are the costs to mint and burn USDi and ETHi?
 
-As with any Ethereum transaction, you will need Ether to interact with the BOC smart contract. We have taken measures to reduce gas usage where possible, but these costs can vary.
+Anytime you mint or burn, there will be an exchange rate applied to your stablecoins deposited or withdrawn，and the exchange rate depends on [Oracles](appendix#oracle), which can be varied. See more details in [Mint & Burn](protocol-algorithm-design#mint--burn). The aim of this mechanism here is to protect the protocol from arbitrage, BOC protocol charge nothing in these process. 
 
-For ETHi: Anytime you mint or burn ETHi, there will be an exchange rate applied to your stablecoins deposited or withdrawn. The depositing charge depends on [Oracles](appendix#oracle) and the withdrawing charge will be xx% to encourage long-term holding of ETHi and to protect the protocol from attackers.
+### Glossary
 
-For USDi: The depositing charge depends on Oracles and no withdrawing charge. 
+If you are unsure about any specific terms feel free to check the [Glossary](appendix#glossary). 
+
+### Is there a minimum or maximum amount to deposit?
+
+You can deposit any amount you want, there is no minimum or maximum limit. 
+
+### How much will I earn?
+Each asset has its own market of supply and demand with its own APY (Annual Percentage Yield) which evolves with time. You can find the average annual rate over the past 30 days to evaluate the rate evolution, and you can also find more data on the reserve overview of each asset in the [Dashboard](https://dashboard-v1.bankofchain.io/#/) of BOC. 

@@ -6,13 +6,16 @@ sidebar_position: 4
 
 ## 总体流程说明
 
-![pic2](/images/pic-2.png)
+BOC目前提供[USD耕种理财](protocol-algorithm-design#usd理财)和[ETH耕种理财](protocol-algorithm-design#eth理财)。
 
-BOC目前提供USD理财和ETH理财。
+
+### USD理财: 
+
+![pic2](/images/pic-2.png)
 
 1. - **存入`deposit`**：BOC协议支持用户将手中的三大稳定币（USDT、USDC、DAI）以任意组合、任意数量的形式存入，并`mint`出相应价值的USDi返回给用户。
 
-   - **取出`withdraw`**：用户可以随时将USDi通过BOC协议换回三大稳定币，缺省将按照当时Vault中三大稳定币的比例进行返回，也可以指定返回某一种币，并`burn`相应价值USDi。
+   - **取出`withdraw`**：用户可以随时将USDi通过BOC协议换回三大稳定币，BOC将按照当时Vault中三大稳定币的比例进行返回，也可以指定返回某一种币，并`burn`相应价值USDi。
 
 2. Vault接收到稳定币后通过外部预言机`queryTokenPrice`查询用户转入稳定币的价格（预言机返回的价格高于1USD时按1USD算，低于1USD时按预言机价格算）。
 
@@ -46,7 +49,7 @@ BOC目前提供USD理财和ETH理财。
 
 17. Vault调用`changeTotalSupply`增发USDi。
 
-18. Vault收取部分收益，转移到国库`Treasury`。
+18. Vault收取20%收益，转移到国库`Treasury`。
 
 19. 国库将收益用户`buyback`回购BOC治理代币。
 
@@ -60,42 +63,36 @@ BOC目前提供USD理财和ETH理财。
 
 假设用户存入USDT, DAI和USDC各100，此时预言机的价格为：
 
-1 USDT = 1.1 USD                                                        
-1 DAI = 0.9 USD                                                         
-1 USDC = 1.0 USD
+1 USDT = 1.01 USD                                                        
+1 DAI = 0.99 USD                                                         
+1 USDC = 1.00 USD
 
 根据BOC的`mint`规则：预言机价格高于1USD时按1USD算，低于1USD时按预言机价格算。
 
-则最终用户能`mint`出290 USDi ：
+则最终用户能`mint`出299 USDi ：
 
-100 USDT = 100 USDi  (预言机价格 > 1USD，按1USD算)       
-100 DAI = 90 USDi  (预言机价格 < 1USD，按预言机价格算)      
-100 USDC = 100 USDi  (预言机价格 = 1USD，按1USD算)
+100 USDT = 100 x 1.00 = 100 USDi  (预言机价格 > 1USD，按1USD算)       
+100 DAI = 100 x 0.99 = 99 USDi  (预言机价格 < 1USD，按预言机价格算)      
+100 USDC = 100 x 1.00 = 100 USDi  (预言机价格 = 1USD，按1USD算)
 
 ![burn](/images/burn.png)
 当用户取出池中稳定币时，需要提供并销毁(`burn`)手上的抵押凭证USDi。
 
-BOC的销毁规则与铸造币时相反：预言机价格高于1USD时按预言机价格算，低于1USD时按1USD算。
+BOC的销毁规则与铸造币时相反：预言机价格高于1USD时按预言机价格算，低于1USD时按1USD算。假设预言机价格不变。
 
-用户销毁(`burn`)手中的290 USDi以取出其对应的稳定币 (假设用户将90USDi用来取USDT, 100USDi用来取DAI, 100USDi用来取USDT)：
+用户销毁(`burn`)手中的299 USDi以取出其对应的稳定币 (假设用户将100 USDi用来取USDT, 99 USDi用来取DAI, 100 USDi用来取USDT)：
 
-90 USDi = 81.82 USDT  (预言机价格 > 1USD，按预言机价格算)   
-100 USDi = 100 DAI  (预言机价格 < 1USD，按1USD算)           
-100 USDi = 100 USDC  (预言机价格 = 1USD，按1USD算)
+100 USDi = 100/1.01 = 99 USDT  (预言机价格 > 1USD，按预言机价格算)   
+100 USDi = 100/1.00 = 100 DAI  (预言机价格 < 1USD，按1USD算)           
+100 USDi = 100/1.00 = 100 USDC  (预言机价格 = 1USD，按1USD算)
 
-## harvest
+此机制的目的是保护协议，防止套利和预言机被攻击。
 
-Keeper每日都会触发`harvestTrigger`，判断是否达到`harvest`条件，以下是2个`harvest`条件：
+### ETH理财
 
-1. **超过最大时间间隔**。
+ETH耕种理财机制目前与USD耕种理财机制一样，唯一区别是EHT理财耕种的抵押凭证为EHTi。
 
-2. **收益\*20%>`harvest`成本**。
-
-满足以上任意一个条件即可做`harvest`工作，内容包括2项：
-
-1. 执行收矿转移Harvester（对于有产矿的策略而言且达到卖矿阈值）。
-
-2. 上报当前策略资产。
+## Harvest
 
 | 设置参数                                                     | Ethereum  | BNB Chain          | Polygon      |
 | ------------------------------------------------------------ | ------------ | ------------ | ------------ |
@@ -244,3 +241,4 @@ $$
 ## 策略实际APY计算规则
 
 策略实际APY是以策略币本位收益进行计算。
+

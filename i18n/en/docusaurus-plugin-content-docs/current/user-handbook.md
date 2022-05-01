@@ -59,6 +59,16 @@ The advanced setup parameters are:
 
 **Slippage**: [Slippage](appendix#slippage) between different currencies. After enabling Exchanged, we need to specify the slippage that we accept.
 
+### Adding USDi to your wallet
+
+If the USDi is not shown on your wallet, you need to add it manually. 
+
+you should insert this address of USDi to you wallet: 
+
+**0xc791b4a9b10b1bdb5fbe2614d389f0fe92105279**
+
+Click [here](https://metamask.zendesk.com/hc/en-us/articles/360015489031-How-to-add-unlisted-tokens-custom-tokens-in-MetaMask) to learn the steps of "adding a token to my MetaMask wallet". 
+
 ## Dashboard
 
 From the [dashboard](appendix#dashboard) we can get the next relevant information about our assets and protocols that interact with them.

@@ -10,7 +10,7 @@ BOC protocol is design to be compatible with [Ethereum Virtual Machine (EVM)](ap
 
 ### Ethereum
 
-**Ethereum** is a decentralized open source blockchain platform with [smart contract](appendix#smart-contract) functions, whose native [cryptocurrency](appendix#cryptocurrency) is ETH. In December 2021, Ethereum became the second most valuable cryptocurrency by market capitalization after Bitcoin, and the most widely used blockchain.
+**[Ethereum](https://ethereum.org)** is a decentralized open source blockchain platform with [smart contract](appendix#smart-contract) functions, whose native [cryptocurrency](appendix#cryptocurrency) is ETH. In December 2021, Ethereum became the second most valuable cryptocurrency by market capitalization after Bitcoin, and the most widely used blockchain.
 
 The concept of Ethereum was first proposed between 2013 and 2014 by the programmer Vitalik Buterin after being inspired by Bitcoin as "the next generation of cryptocurrency and decentralized application platform". Ethereum's development started through ICO crowdfunding in 2014.
 
@@ -18,13 +18,13 @@ Ethereum is also known as the "second-generation blockchain platform", second on
 
 ### BNB
 
-**Binance Smart Chain** (formerly called BSC) is a blockchain compatible with the Ethereum virtual machine in parallel to the Binance Chain. It is a cutting-edge project in the crypto asset industry. By introducing the Proof of Stake Authority (PoSA) consensus mechanism, BNB creates a validating ecosystem that allows nodes, token holders, developers and users to enjoy the full benefit of the blockchain, such as higher performance and abundance of innovation space.
+**[Binance Smart Chain](https://www.bnbchain.world/en)** (formerly called BSC) is a blockchain compatible with the Ethereum virtual machine in parallel to the Binance Chain. It is a cutting-edge project in the crypto asset industry. By introducing the Proof of Stake Authority (PoSA) consensus mechanism, BNB creates a validating ecosystem that allows nodes, token holders, developers and users to enjoy the full benefit of the blockchain, such as higher performance and abundance of innovation space.
 
 On February 15, 2022, the cryptocurrency exchange Binance announced that the original Binance Smart Chain (BSC) will be renamed to BNB Chain. BNB is the Binance Exchange platform cryptocurrency that powers the BNB Chain Ecosystem, and is one of the world’s most popular utility tokens.
 
 ### Polygon
 
-**Polygon** is a protocol for building and interconnecting Ethereum-compatible blockchain networks. The project was launched in India in 2017 under the original name Matic Network. In February 2021, the project name was changed to Polygon. The cryptocurrency of the Polygon project is MATIC, one of the top 20 cryptocurrencies by market cap traded on major exchanges.
+**[Polygon](https://wallet.polygon.technology/)** is a protocol for building and interconnecting Ethereum-compatible blockchain networks. The project was launched in India in 2017 under the original name Matic Network. In February 2021, the project name was changed to Polygon. The cryptocurrency of the Polygon project is MATIC, one of the top 20 cryptocurrencies by market cap traded on major exchanges.
 
 ## Incorporated Stablecoins
 
@@ -43,43 +43,29 @@ The currently selected strategic stablecoins are: DAI, USDC, USDT, BUSD, USDP, T
 
 **[DAI](https://makerdao.com/en/)** is a stablecoin cryptocurrency designed to keep its value as close to a dollar as possible through an automated system of smart contracts on the Ethereum blockchain.
 
-<https://makerdao.com/en/>
-
 ### USDC
 
 **[USD Coin](https://www.centre.io/usdc)** (USDC) is a digital stablecoin pegged to the U.S. dollar that operates on the Ethereum, Stellar, Algorand, Hedera Hashgraph, and Solana blockchains. As of January 2022, USDC in circulation is $45.2 billion.
-
-<https://www.centre.io/usdc>
 
 ### USDT
 
 **[USDT](https://tether.to/en/)**, also known as USDT, is a controversial cryptocurrency issued by Tether Limited, which is controlled by the owners of Bitfinex. USDT is a stable currency. Launched in 2014, the coin is a blockchain-based platform that digitally facilitates the use of fiat currencies.
 
-<https://tether.to/en/>
-
 ### BUSD
 
 **[Binance USD](https://www.binance.com/en/busd)** (BUSD) is a new stablecoin launched by Binance and Paxos, which is pegged 1:1 to the US dollar.
-
-<https://www.binance.com/en/busd>
 
 ### USDP
 
 **[Pax Dollar](https://paxos.com/usdp/)** (USDP) is a fiat-collateralized stablecoin that is pegged 1:1 to the U.S. dollar.
 
-<https://paxos.com/usdp/>
-
 ### TUSD
 
 **[TrueUSD](https://www.trusttoken.com)** (TUSD) is a USD-pegged stablecoin issued by Trusttoken.
 
-<https://www.trusttoken.com/>
-
 ### LUSD
 
 **[LUSD](https://www.liquity.org/)** is a USD-pegged stablecoin issued by liquidity Protocol.
-
-<https://www.liquity.org/>
 
 ## Protocol strategy selection
 
@@ -108,9 +94,7 @@ The following are selected protocols at present:
 
 ### Convex
 
-**[Convex](https://www.convexfinance.com/)** is a one-stop platform for CRV staking and liquidity mining on Ethereum that is dedicated to simplifying the use of Curve.
-
-As a revenue aggregator on the Ethereum chain, Convex aims to use the CVX token to simplify the process of locking and staking Curve and CRV through a simple and easy-to-use interface, and to improve the compensation of CRV token holders and liquidity providers. This facilitates the development of the CRV ecosystem. According to the data of [DeFi Pulse](https://www.defipulse.com/), as of March 30, 2022, Convex's total locked funds amounted to about $10.1 billion, ranking fourth in DeFi applications.
+**[Convex](https://www.convexfinance.com/)** is a one-stop platform for CRV staking and liquidity mining on Ethereum that is dedicated to simplifying the use of Curve. As a revenue aggregator on the Ethereum chain, Convex aims to use the CVX token to simplify the process of locking and staking Curve and CRV through a simple and easy-to-use interface, and to improve the compensation of CRV token holders and liquidity providers. This facilitates the development of the CRV ecosystem. According to the data of [DeFi Pulse](https://www.defipulse.com/), as of March 30, 2022, Convex's total locked funds amounted to about $10.1 billion, ranking fourth in DeFi applications.
 
 ### Uniswap
 
@@ -118,7 +102,7 @@ As a revenue aggregator on the Ethereum chain, Convex aims to use the CVX token 
 
 ### Balancer
 
-**[Balancer](https://balancer.fi/)** is a decentralized exchange deployed on Ethereum. Balancer uses automatic market makers to achieve the function of decentralized transactions. Transaction users can choose trading pairs to trade and pay transaction fees, while liquidity providers can get a share of the fees. According to the data of [DeFi Pulse](https://www.defipulse.com/), as of March 30, 2022, Balancer's total fund lock-up volume was about 2.19 billion US dollars, ranking 6th in DeFi application lock-up volume.
+**[Balancer](https://balancer.fi/)** is a [decentralized exchange](appendix#decentralized-finance-defi) deployed on Ethereum. Balancer uses automatic market makers to achieve the function of decentralized transactions. Transaction users can choose trading pairs to trade and pay transaction fees, while liquidity providers can get a share of the fees. According to the data of [DeFi Pulse](https://www.defipulse.com/), as of March 30, 2022, Balancer's total fund lock-up volume was about 2.19 billion US dollars, ranking 6th in DeFi application lock-up volume.
 
 ### SushiSwap
 

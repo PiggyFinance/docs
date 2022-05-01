@@ -4,7 +4,6 @@ sidebar_position: 11
 
 # 常见问题 (FAQs)
 
-
 ### 区块链可以解决什么问题？
 
 在现实生活中数字资产很容易复制、传播及重新发布。 例如，在音乐和影视行业，任何人都可以复制歌曲和电影。区块链技术提供了一个数据库，记录所有操作行为且不能篡改，因此它可以区分原创和抄袭。
@@ -18,3 +17,16 @@ USDi是用户存入稳定币时所铸造出来的抵押凭证。用户所获得�
 
 ### 什么时候发行BOC币？
 目前预计2022年6月份。
+
+### 在铸造和销毁UDSi/ETHi时会有手续费吗？
+
+ETHi: 铸造和销毁时的汇率取决于预言机Chainlink，BOC协议本身不收取任何费用，详细参见 [Mint & Burn](protocol-algorithm-design#铸造mint销毁burn流程示意图),此机制的目的是保护协议，防止套利。
+
+USDi: 铸造和销毁时的汇率取决于预言机Chainlink，BOC协议本身不收取任何费用，详细参见 [Mint & Burn](protocol-algorithm-design#铸造mint销毁burn流程示意图)。此机制的目的是保护协议，防止套利。
+
+### 当我存入稳定币后，钱包中的UDSi每隔多久会增加？
+
+每次Rebase后如果产生新收益，用户钱包中的USDi数量将会相应增加。用户在存取币时也都会触发rebase。目前详细信息参见[Rebase](protocol-algorithm-design#rebase和[Harvest](protocol-algorithm-design#harvest。当前平均每天Harvest一次。
+
+### 术语
+如果您对任何词语不确定，请随时查看[词汇表](appendix#术语汇总)。

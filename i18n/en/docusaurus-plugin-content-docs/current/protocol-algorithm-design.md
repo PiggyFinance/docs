@@ -4,28 +4,50 @@ sidebar_position: 4
 
 # Protocol Algorithm Design
 
-## Process Description
+BOC provides the [USD Stablecoins Farming](Protocol-Algorithm-Design#usd-stablecoins-farming-mechanism) and [ETH Farming](Protocol-Algorithm-Design#eth-farming). 
+
+## USD Stablecoins Farming Mechanism 
+
+### Process Description
 
 ![pic-2](/images/pic-2.png)
 
 1. “Deposit” - The BOC protocol supports users to `deposit` the three major stablecoins (USDT, USDC, DAI) in any combination and in any amount, and mint USDi of corresponding value to return to the user.<br />“Withdraw” - Users can `withdraw` USDi all the three major stablecoins at any time through the BOC protocol. By default, they will be returned according to the proportion of the three major stablecoins in the [Vault](appendix#vaults) at that time, or they can specify a certain currency to be returned.
-2. After Vault receives the stablecoin, `queryTokenPrice` queries the price of the user's transfer of the [stablecoin](appendix#stablecoin) through an external oracle. When the price returned by the [oracle](appendix#oracle) is higher than 1 USD, it is calculated at 1 USD, and when it is lower than 1 USD, it is calculated at the price of the [oracle](appendix#oracle).
+
+2. After Vault receives the stablecoin, `queryTokenPrice` queries the price of the user's transfer of the [stablecoin](appendix#stablecoin) through an external oracle. When the price returned by the [oracle](appendix#oracle) is higher than 1 USD, it is calculated at 1 USD, and when it is lower than 1 USD, it is calculated at the price of the oracle.
+
 3. Based on the calculated value, `mint/burn` will [mint/burn](appendix#burnmint) an equivalent value of USDi.
+
 4. The [Keeper](appendix#keeper) module reaches the trigger condition of `doHardWork` and triggers `doHardWork`.
+
 5. Vault calls the aggregate exchange module `swapTokenToWants`.
+
 6. The aggregated exchange module `swapTokens` completes the exchange.
+
 7. Vault receives the target currency exchanged by the aggregate exchange module.
+
 8. Vault puts stablecoin `deposits` into the strategy according to the currency required by the strategy.
+
 9. The [strategy](appendix#strategy) invests stablecoin `deposits` into third-party protocols.
+
 10. The Keeper module reaches the `harvest` trigger condition and triggers the `harvest`.
+
 11. Harvester triggers each strategy to execute `harvest`.
+
 12. Each strategy executes `claimRewards` to collect mining.
+
 13. Each strategy transfers mining coins `transferRewards` to Harvester.
+
 14. Harvester sells miner `sellRewards` into stablecoins through aggregated exchange.
+
 15. Harvester `sendProfitToVault` transfers stablecoins into Vault.
+
 16. The Keeper module reaches the `rebase` trigger condition and triggers the `rebase`.
+
 17. Vault calls `changeTotalSupply` to issue additional USDi.
-18. Vault collects a portion of the proceeds, which is transferred to the treasury called `Treasury`.
+
+18. Vault collects 20% of the yields, which is transferred to the `Treasury`.
+
 19. The [treasury](appendix#daos-treasury) will benefit users from using `buyback` to repurchase the BOC governance token.
 
 ### Mint & Burn
@@ -34,19 +56,19 @@ Here is a numerical example of minting and burning USDi tokens.
 
 Let’s assume that Alice deposits 100 USDT, 100 DAI and 100 USDC. The current price from Chainlink is:
 
-1 USDT = 1.1 USD                                                        
-1 DAI = 0.9 USD                                                         
-1 USDC = 1.0 USD
+1 USDT = 1.01 USD                                                        
+1 DAI = 0.99 USD                                                         
+1 USDC = 1.00 USD
 
 According to the BOC mint rule: the transaction price is 1 USD when the price from Chainlink is higher than 1 USD, otherwise the transaction price is equal to the price from Chainlink. 
 
-Thus, Alice will `mint` 290 USDi in total:
+Thus, Alice will `mint` 299 USDi in total:
 
-100 USDT = 100 USDi  (the price from Chainlink > 1USD, 1 USDT = 1.0 USD)
+100 USDT = 100 x 1.00 = 100 USDi  (the price from Chainlink > 1USD, 1 USDT = 1.00 USD)
 
-100 DAI = 90 USDi  (the price from Chainlink < 1USD, 1 DAI = 0.9 USD)   
+100 DAI = 100 x 0.99 = 99 USDi  (the price from Chainlink < 1USD, 1 DAI = 0.99 USD)   
 
-100 USDC = 100 USDi  (the price from Chainlink = 1USD, 1 USDC = 1.0 USD)
+100 USDC = 100 x 1.00 = 100 USDi  (the price from Chainlink = 1USD, 1 USDC = 1.00 USD)
 
 ![mint](/images/mint.png)
 
@@ -54,18 +76,19 @@ Alice decides to `burn` the USDi to withdraw her stablecoins. She has 290 USDi n
 
 The rule of burning is opposite to that of minting: the transaction price is 1 USD when the price from Chainlink is less than 1 USD, otherwise the transaction price is equal to the price from Chainlink.
 
-Therefore, Alice burns 290 USDi to withdraw:
+Therefore, Alice burns 299 USDi to withdraw:
 
-90 USDi = 81.82 USDT  (the price from Chainlink > 1USD, 1 USDT = 1.1 USD)
+100 USDi = 90/1.01 = 99 USDT  (the price from Chainlink > 1USD, 1 USDT = 1.01 USD)
 
-100 USDi = 100 DAI  (the price from Chainlink < 1USD, 1 DAI = 1.0 USD)  
+99 USDi = 99/100 = 99 DAI  (the price from Chainlink < 1USD, 1 DAI = 1.00 USD)  
 
-100 USDi = 100 USDC  (the price from Chainlink = 1USD, 1 USDC = 1.0 USD)
-
+100 USDi = 100/1.00 = 100 USDC  (the price from Chainlink = 1USD, 1 USDC = 1.00 USD)
 
 ![burn](/images/burn.png)
 
-## Harvest
+The number in the chart here is only a numerical example for better understanding the rules of minting and burning in BOC. In the real world the fluctuation of USDi is much smaller, which means users will never encounter the possible lost like this. In fact, the possible lost here will be less than 0.01%. The objective of these rules is to avoid oracles attacks and protect the protocol.
+
+### Harvest
 
 The `harvestTrigger` is triggered every day to determine whether the `harvest` condition is met. The two harvest conditions are:
 
@@ -107,13 +130,13 @@ If any of the above conditions are met, user can do `harvest` work:
 </tr>
 </table>
 
-## Rebase
+### Rebase
 
 When the total assets of the Vault are greater than the total issuance of USDi, it means that new income has been generated. At this time, the value of USDi compared with the US dollar will be revised, and the number of USDi will be increased, so that the total value of USDi is consistent with the total value of Vault assets, ensuring 1 USDi is anchored at 1USD. At the same time, 20% of the additional USDi will be transferred to the national treasury as a management fee.
 
-## Fund Allocation
+### Fund Allocation
 
-### doHardWork
+#### doHardWork
 
 The input into the position adjustment of the algorithm are the official [APY](appendix#annual-yield-apy) of the third-party protocol, the gas required for investment of each strategy, the limit of exchange [slippage](appendix#slippage), and the [rules of fund allocation](introduction-to-boc#fund-allocation-rules), and the strategy and amount of the funds to be invested are the output.
 
@@ -138,7 +161,7 @@ The input into the position adjustment of the algorithm are the official [APY](a
 </tr>
 </table>
 
-### Allocation
+#### Allocation
 
 Compared with `doHardWork`, `allocation` has done one more step: take out the funds of the low APY strategy, and then use the official APY of the third-party agreement, the gas required for investment of each strategy, the exchange slippage limit, fund allocation rules, the position adjustment algorithm as an input, and the output is the strategy and the amount of the awaiting investment funds.
 
@@ -148,7 +171,7 @@ Compared with `doHardWork`, `allocation` has done one more step: take out the fu
 | Scheduled task trigger cycle                                                                              | 7 am every Monday | 7 am every Monday | 7 am every Monday |
 | Cost-benefit calculation period X (If the profit of rebalancing X days >= cost, “allocation” can be done) | 30 days           | 30 days           | 30 days           |
 
-### Fund allocation Algorithm
+#### Fund allocation Algorithm
 
 | Variable     | Meaning|
 | ------------ | -------------- |
@@ -251,14 +274,14 @@ Boundary conditions
 
 Use python scipy's `optimize.minimize` to find the current optimal rebalancing scheme.
 
-### Public Parameter Configuration
+#### Public Parameter Configuration
 
 | Set parameters                                                                                | ETH        | BNB Chain  | Polygon    |
 | --------------------------------------------------------------------------------------------- | ---------- | ---------- | ---------- |
 | Fund allocation calculation Exchange slippage settings                                        | 0.25%      | 0.25%      | 0.25%      |
 | Gas configuration (including strategy deposit and withdrawal Gas, exchange Gas, harvest cost) | Actual Gas | Actual Gas | Actual Gas |
 
-### Official APY Calculation Rules
+#### Official APY Calculation Rules
 
 The official APY are needed as a reference when allocating funds. The sources of official APY are as follows: vfat.tools, coingecko, zapper, Official APY, apy.vision Fee, etc. If the official APY source channel does not include the APY calculation of the protocol strategy, the BOC directly copies the official APY calculation rules of the protocol strategy. Generally speaking, the official APY of the protocol strategy consists of market-making revenue and mining coin revenue. Taking the “ConvexLusdStrategy” strategy that BOC has already docked as an example, its APY consists from the contents of following table:
 
@@ -303,6 +326,10 @@ $$
 
 The “periods” parameter is the interest payment period.
 
-### Policy Actual APY Calculation Rules
+#### Policy Actual APY Calculation Rules
 
 The actual APY of the strategy is calculated based on the standard return of the strategy currency.
+
+## ETH Farming Mechanism
+
+The mechanism of ETH farming is exactly the same as that of the USD stablecoins farming at present. The only difference is that the collateral of USD stablecoins is USDi, thus, that of ETH is called ETHi. 
