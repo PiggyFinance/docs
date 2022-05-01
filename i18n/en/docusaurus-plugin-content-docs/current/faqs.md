@@ -24,7 +24,7 @@ Blockchain makes cryptos possible. It's what manage cryptocurrency. There is sev
 
 Decentralized finance (commonly known as DeFi) is a kind of real world finance but is created on the blockchain. It uses smart contracts on the blockchain (such as Ethereum) for financial activities. DeFi platforms allow people to lend or borrow funds to others, trade cryptocurrencies, and earn interest in savings-like accounts, all this without a centralized institution.
 
-### Why BOC is secure? 
+### Why BOC is secure?
 
 BOC ensure it's safety being audited regularly as well as the integrated DeFi protocols. At the same time, BOC does not use unofficial third-party cross-chain bridges for transactions and the price quotation always relies on [Chainlink](https://chain.link/), a market-leading oracle.
 
@@ -38,7 +38,7 @@ USDi is a collateral minted by users when they deposit stablecoins. The returns 
 
 ### When will the BOC token be issued? 
 
-It will be issued in June 2022. 
+It will be issued in June 2022.
 
 ### How often will my balance increase once I have USDi or ETHi?
 

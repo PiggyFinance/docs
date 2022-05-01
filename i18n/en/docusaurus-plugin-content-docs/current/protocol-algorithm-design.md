@@ -54,11 +54,18 @@ BOC provides the [USD Stablecoins Farming](Protocol-Algorithm-Design#usd-stablec
 
 Here is a numerical example of minting and burning USDi tokens. 
 
-Let’s assume that Alice deposits 100 USDT, 100 DAI and 100 USDC. The current price from Chainlink is:
+Let’s assume that Alice deposits 100 USDT, 100 DAI and 100 USDC. 
 
 1 USDT = 1.01 USD                                                        
 1 DAI = 0.99 USD                                                         
 1 USDC = 1.00 USD
+=======
+The current price from Chainlink is:
+
+- 1 USDT = 1.01 USD                                                        
+- 1 DAI = 0.99 USD                                                         
+- 1 USDC = 1.00 USD
+>>>>>>> a6561c04bed8121d86f57dd324f7cd62941d1e90
 
 According to the BOC mint rule: the transaction price is 1 USD when the price from Chainlink is higher than 1 USD, otherwise the transaction price is equal to the price from Chainlink. 
 
@@ -69,6 +76,13 @@ Thus, Alice will `mint` 299 USDi in total:
 100 DAI = 100 x 0.99 = 99 USDi  (the price from Chainlink < 1USD, 1 DAI = 0.99 USD)   
 
 100 USDC = 100 x 1.00 = 100 USDi  (the price from Chainlink = 1USD, 1 USDC = 1.00 USD)
+=======
+100 USDT <= 99 USDi / 0.99 (DAI/USDi) <= 100 USDi  (Chainlink > 1USD, 1 USDT = 1.01 USD)
+
+100 DAI <= 99 USDi / 0.99 (DAI/USDi) <= 99 USDi  (Chainlink < 1USD, 1 DAI = 0.99 USD)   
+
+100 USDC <= 99 USDi / 0.99 (DAI/USDi) <= 100 USDi  (Chainlink = 1USD, 1 USDC = 1.0 USD)
+>>>>>>> a6561c04bed8121d86f57dd324f7cd62941d1e90
 
 ![mint](/images/mint.png)
 
@@ -81,6 +95,29 @@ Therefore, Alice burns 299 USDi to withdraw:
 100 USDi = 90/1.01 = 99 USDT  (the price from Chainlink > 1USD, 1 USDT = 1.01 USD)
 
 99 USDi = 99/100 = 99 DAI  (the price from Chainlink < 1USD, 1 DAI = 1.00 USD)  
+=======
+Chainlink prices:
+
+- 1 USDT = 1.01 USD
+- 1 DAI = 1.01 USD
+- 1 USDC = 1.01 USD
+
+$$
+100 USDi  = \frac{99 USDi} {1.01 \frac {USDi}{USDT}} = 98.01 USDT
+$$
+
+$$
+100 USDi  = \frac{100 (USDi)} {0.99 \frac {USDi}{DAI}} = 100 DAI
+$$
+
+$$
+100 USDi  = \frac{100 USDi} {0.99 \frac {USDi}{USDC}} = 100 USDC
+$$
+
+100 DAI <= 100 USDi / 1.00 (DAI/USDi)  <= 100 USDi  (Chainlink < 1USD, 1 DAI = 0.99 USD)  
+
+100 USDC <= 100 USDi / 1.00 (USDC/USDi)  <= 100 USDi  (Chainlink = 1USD, 1 USDC = 1.00 USD)
+>>>>>>> a6561c04bed8121d86f57dd324f7cd62941d1e90
 
 100 USDi = 100/1.00 = 100 USDC  (the price from Chainlink = 1USD, 1 USDC = 1.00 USD)
 
@@ -191,7 +228,7 @@ $$
 Changed earnings
 
 $$
-gain2 = \frac{ (asset1+deltaAsset-exchangeLoss)\times apr2 \times durationDays}{yearDays}
+gain2 = \frac{(asset1+deltaAsset-exchangeLoss)\times apr2 \times durationDays}{yearDays}
 $$
 
 changed apr

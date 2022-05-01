@@ -74,9 +74,6 @@ A crypto dashboard is a digital platform that lives on a website or in an app (e
 
  A smart contract is a self-executing contract with the terms of the agreement between buyer and seller being directly written into lines of code. The code and the agreements contained therein exist across a distributed, decentralized blockchain network. The code controls the execution, and transactions are trackable and irreversible. 
 
-### Oracle
-
-A trusted feed of data, such as the current market prices of an asset or assets, that provides confidence to users that the data are timely, accurate, and untampered. 
 
 ### Automated Market Maker (AMM)
 
@@ -136,6 +133,16 @@ Parameter “periods” is the interest payment periods.
 
 Strategy refers to smart contracts that interface with third-party agreements. BOC Vault has multiple policies, and the policy is one-to-one with external third-party agreements.
 
+### Oracle
+
+A trusted feed of data, such as the current market prices of an asset or assets, that provides confidence to users that the data are timely, accurate, and untampered. 
+
+### Oracle Atack
+
+
+### Arbitrage
+
+
 ### Burn
 
 Burning assets (coins or tokens) means eliminating USDi by sending them to an ‘eater address,’ which is not accessible by anyone, since no one owns the private keys to that address. Users must burn the “tradable tokens” that attempt to accrue value in order to receive the “proprietary payment tokens” for the service in network. 
@@ -155,9 +162,7 @@ Minting is the process of creating or producing something. In the blockchain, mi
 
 A stablecoin is a cryptocurrency that has its value pegged to the value of a stable asset. Stable coins are most commonly pegged to the US Dollar but can be pegged to other assets like gold or a basket of crypto assets. 
 
-### Circular dependencies
-
-In DeFi, a circular dependency is a relation between two or more protocols which either directly or indirectly depend on each other to function properly. 
+<!-- ### Circular dependencies -->
 
 ### Token
 
