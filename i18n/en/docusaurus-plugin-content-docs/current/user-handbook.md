@@ -61,13 +61,9 @@ The advanced setup parameters are:
 
 ### Adding USDi to your wallet
 
-If the USDi is not shown on your wallet, you need to add it manually. 
+If the USDi is not shown on your wallet, you need to add it manually, we make it really easy you just to click on the `+` next to your USDi balance and press `Add Token`. Then you will see you USDi balance on your metamask wallet.
 
-you should insert this address of USDi to you wallet: 
-
-**0xc791b4a9b10b1bdb5fbe2614d389f0fe92105279**
-
-Click [here](https://metamask.zendesk.com/hc/en-us/articles/360015489031-How-to-add-unlisted-tokens-custom-tokens-in-MetaMask) to learn the steps of "adding a token to my MetaMask wallet". 
+![addtoken](/images/addtoken.png)
 
 ## Dashboard
 

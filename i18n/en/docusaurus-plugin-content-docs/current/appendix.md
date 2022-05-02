@@ -135,22 +135,25 @@ Strategy refers to smart contracts that interface with third-party agreements. B
 
 ### Oracle
 
-A trusted feed of data, such as the current market prices of an asset or assets, that provides confidence to users that the data are timely, accurate, and untampered. 
+Blockchain oracles are entities that connect blockchains to external systems, thereby enabling smart contracts to execute based upon inputs and outputs from the real world. In the case of BOC, it is where the USD value of stablecoins is consulted.
 
 ### Oracle Atack
 
+Blockchain oracle mechanisms using a centralized entity to deliver data to a smart contract introduce a single point of failure, defeating the entire purpose of a decentralized blockchain application. If the single oracle is corrupted/attacked, then the data being delivered on-chain may be highly incorrect and lead to smart contracts executing very wrong outcomes. 
+
+Truly overcoming the oracle problem necessitates decentralized oracles to prevent data manipulation, inaccuracy, and downtime. A Decentralized Oracle Network, or DON for short, combines multiple independent oracle node operators and multiple reliable data sources to establish end-to-end decentralization. BOC actually uses [Chainlink Oracle](https://chain.link/)
 
 ### Arbitrage
 
+Arbitrage involves buying and selling two related assets in two different markets in order to leverage the price or rate differential between the markets into risk-free profits. This, if not contemplated, can lead to asset losses in the vault. See more here.
 
 ### Burn
 
-Burning assets (coins or tokens) means eliminating USDi by sending them to an ‘eater address,’ which is not accessible by anyone, since no one owns the private keys to that address. Users must burn the “tradable tokens” that attempt to accrue value in order to receive the “proprietary payment tokens” for the service in network. 
+Burning assets (coins or tokens) means eliminating USDi by sending them to an ‘eater address,’ which is not accessible by anyone, since no one owns the private keys to that address. Users must burn the “tradable tokens” that attempt to accrue value in order to receive the “proprietary payment tokens” for the service in network. On BOC the user burns USDi when they redeem and receive the stablecoin selected.
  
 ### Mint
 
-Minting is the process of creating or producing something. In the blockchain, minting means, validating information, creating a new block, and recording that information into the blockchain. In this case, BOC mints USDi.
-
+In cryptocurrency, minting is a decentralized method that enables a person to generate a new token without the involvement of a central authority, such as the government or the bank. It can either be a non-fungible token or a crypto coin. In this case, in BOC through a smart contract users mints USDi and are transfer to them when they deposit their stablecoins.
 
 <!-- ### Vesting
 

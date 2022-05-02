@@ -50,56 +50,48 @@ BOC provides the [USD Stablecoins Farming](Protocol-Algorithm-Design#usd-stablec
 
 19. The [treasury](appendix#daos-treasury) will benefit users from using `buyback` to repurchase the BOC governance token.
 
-### Mint & Burn
+### Mint & Burn rules
 
 Here is a numerical example of minting and burning USDi tokens. 
 
 Let’s assume that Alice deposits 100 USDT, 100 DAI and 100 USDC. 
 
-1 USDT = 1.01 USD                                                        
-1 DAI = 0.99 USD                                                         
-1 USDC = 1.00 USD
-=======
+According to the BOC mint rule: the transaction price is 1 USD when the price from Chainlink is higher than 1 USD, otherwise the transaction price is equal to the price from Chainlink. 
+
+Thus, Alice will `mint` 299 USDi in total:
+
 The current price from Chainlink is:
 
 - 1 USDT = 1.01 USD                                                        
 - 1 DAI = 0.99 USD                                                         
 - 1 USDC = 1.00 USD
->>>>>>> a6561c04bed8121d86f57dd324f7cd62941d1e90
 
-According to the BOC mint rule: the transaction price is 1 USD when the price from Chainlink is higher than 1 USD, otherwise the transaction price is equal to the price from Chainlink. 
+$$
+100 USDT  = 99 USDT \times 1.00 \frac {USDi}{USDT} = 100 USDi
+$$
 
-Thus, Alice will `mint` 299 USDi in total:
+$$
+100 DAI  = 100 DAI \times 0.99 \frac {USDi}{DAI} = 99 USDi
+$$
 
-100 USDT = 100 x 1.00 = 100 USDi  (the price from Chainlink > 1USD, 1 USDT = 1.00 USD)
+$$
+100 USDC  = 100 USDC  \times 1.00 \frac {USDi}{USDC} = 100 USDi
+$$
 
-100 DAI = 100 x 0.99 = 99 USDi  (the price from Chainlink < 1USD, 1 DAI = 0.99 USD)   
-
-100 USDC = 100 x 1.00 = 100 USDi  (the price from Chainlink = 1USD, 1 USDC = 1.00 USD)
-=======
-100 USDT <= 99 USDi / 0.99 (DAI/USDi) <= 100 USDi  (Chainlink > 1USD, 1 USDT = 1.01 USD)
-
-100 DAI <= 99 USDi / 0.99 (DAI/USDi) <= 99 USDi  (Chainlink < 1USD, 1 DAI = 0.99 USD)   
-
-100 USDC <= 99 USDi / 0.99 (DAI/USDi) <= 100 USDi  (Chainlink = 1USD, 1 USDC = 1.0 USD)
->>>>>>> a6561c04bed8121d86f57dd324f7cd62941d1e90
 
 ![mint](/images/mint.png)
 
-Alice decides to `burn` the USDi to withdraw her stablecoins. She has 290 USDi now and she burns 90 of them for USDT, 100 of them for DAI, and the rest 100 for USDC. Assume the current price from Chainlink does not change. 
+
+Now, Alice decides to `burn` the USDi to withdraw her stablecoins. She has 299 USDi now and when she burns depending on the proportion of USDT/USDC/DAI of the Vault the burning smart contract will distribute the same proportion the USDi on each stablecoin, in this case when we redeem there is a little less of USDT on the Vault, so the distribution will be 99 of them for USDT, 100 of them for DAI, and the rest 100 for USDC. Assume the current price from Chainlink does not change. 
 
 The rule of burning is opposite to that of minting: the transaction price is 1 USD when the price from Chainlink is less than 1 USD, otherwise the transaction price is equal to the price from Chainlink.
 
 Therefore, Alice burns 299 USDi to withdraw:
 
-100 USDi = 90/1.01 = 99 USDT  (the price from Chainlink > 1USD, 1 USDT = 1.01 USD)
-
-99 USDi = 99/100 = 99 DAI  (the price from Chainlink < 1USD, 1 DAI = 1.00 USD)  
-=======
-Chainlink prices:
+Chainlink prices:  
 
 - 1 USDT = 1.01 USD
-- 1 DAI = 1.01 USD
+- 1 DAI = 0.99 USD
 - 1 USDC = 1.01 USD
 
 $$
@@ -107,19 +99,14 @@ $$
 $$
 
 $$
-100 USDi  = \frac{100 (USDi)} {0.99 \frac {USDi}{DAI}} = 100 DAI
+100  USDi  = \frac {100 (USDi)} {1.00 \frac {USDi}{DAI}} = 100 DAI
 $$
 
 $$
-100 USDi  = \frac{100 USDi} {0.99 \frac {USDi}{USDC}} = 100 USDC
+100  USDi  = \frac {100 USDi} {1.00 \frac {USDi}{USDC}} = 100 USDC
 $$
 
-100 DAI <= 100 USDi / 1.00 (DAI/USDi)  <= 100 USDi  (Chainlink < 1USD, 1 DAI = 0.99 USD)  
 
-100 USDC <= 100 USDi / 1.00 (USDC/USDi)  <= 100 USDi  (Chainlink = 1USD, 1 USDC = 1.00 USD)
->>>>>>> a6561c04bed8121d86f57dd324f7cd62941d1e90
-
-100 USDi = 100/1.00 = 100 USDC  (the price from Chainlink = 1USD, 1 USDC = 1.00 USD)
 
 ![burn](/images/burn.png)
 
