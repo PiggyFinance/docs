@@ -42,11 +42,11 @@ It will be issued in June 2022.
 
 ### How often will my balance increase once I have USDi or ETHi?
 
-The amount of USDi or ETHi in your wallet will grow each time there is a positive rebase event. You can read more about this in [Rebase](protocol-algorithm-design#rebase). Currently rebase are triggerred once a day and is usually correlated with how many people are minting and burning in a day.
+The amount of USDi or ETHi in your wallet will grow each time there is a positive rebase event. You can read more about this in [Rebase](protocol-algorithm-design#rebase). Currently, rebase are triggered once a day and is usually correlated with how many people are minting and burning in a day.
 
 ### What are the costs to mint and burn USDi and ETHi?
 
-Anytime you mint or burn, there will be an exchange rate applied to your stablecoins deposited or withdrawn，and the exchange rate depends on [Oracles](appendix#oracle), which can be varied. See more details in [Mint & Burn](protocol-algorithm-design#mint--burn). The aim of this mechanism here is to protect the protocol from arbitrage, BOC protocol charge nothing in these process. 
+Anytime you mint or burn, there will be an exchange rate applied to your stablecoins deposited or withdrawn，and the exchange rate depends on [Oracles](appendix#oracle), which can be varied. See more details in [Mint & Burn](protocol-algorithm-design#mint--burn). The aim of this mechanism here is to protect the protocol from arbitrage, BOC protocol charge nothing in this process. 
 
 ### Glossary
 

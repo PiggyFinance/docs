@@ -39,3 +39,4 @@
 {"rule":"UPPERCASE_SENTENCE_START","sentence":"^\\Qx White paper will be completed by April 15, 2022.\\E$"}
 {"rule":"UPPERCASE_SENTENCE_START","sentence":"^\\Qaddtoken\\E$"}
 {"rule":"MORFOLOGIK_RULE_EN_GB","sentence":"^\\QThen you will see you USDi balance on your metamask wallet.\\E$"}
+{"rule":"MORFOLOGIK_RULE_EN_GB","sentence":"^\\QTokenDistribution\\E$"}

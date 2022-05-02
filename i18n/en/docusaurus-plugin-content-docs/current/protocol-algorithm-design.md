@@ -78,9 +78,7 @@ $$
 100 USDC  = 100 USDC  \times 1.00 \frac {USDi}{USDC} = 100 USDi
 $$
 
-
 ![mint](/images/mint.png)
-
 
 Now, Alice decides to `burn` the USDi to withdraw her stablecoins. She has 299 USDi now and when she burns depending on the proportion of USDT/USDC/DAI of the Vault the burning smart contract will distribute the same proportion the USDi on each stablecoin, in this case when we redeem there is a little less of USDT on the Vault, so the distribution will be 99 of them for USDT, 100 of them for DAI, and the rest 100 for USDC. Assume the current price from Chainlink does not change. 
 
@@ -88,7 +86,7 @@ The rule of burning is opposite to that of minting: the transaction price is 1 U
 
 Therefore, Alice burns 299 USDi to withdraw:
 
-Chainlink prices:  
+Chainlink prices:
 
 - 1 USDT = 1.01 USD
 - 1 DAI = 0.99 USD

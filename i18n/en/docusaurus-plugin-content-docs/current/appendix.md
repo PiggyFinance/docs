@@ -59,7 +59,7 @@ Decentralized finance (commonly known as DeFi) is a kind of finance created on t
 
 ### Impermanent loss (IL)
 
-Impermanent loss happens when you provide liquidity to a liquidity pool, and the price of your deposited assets changes compared to when you deposited them. The bigger this change is, the more you are exposed to impermanent loss. In this case, the loss means less dollar value at the time of withdrawal than at the time of deposit.Impermanent loss is the risk that liquidity providers (LP) take in exchange for fees they earn in liquidity pools. If IL exceeds fees earned by a user when they withdraw, it means the user has suffered negative returns compared with simply holding their tokens outside the pool. 
+Impermanent loss happens when you provide liquidity to a liquidity pool, and the price of your deposited assets changes compared to when you deposited them. The bigger this change is, the more you are exposed to impermanent loss. In this case, the loss means less dollar value at the time of withdrawal than at the time of deposit. Impermanent loss is the risk that liquidity providers (LP) take in exchange for fees they earn in liquidity pools. If IL exceeds fees earned by a user when they withdraw, it means the user has suffered negative returns compared with simply holding their tokens outside the pool. 
 
 ### Slippage
 
@@ -137,7 +137,7 @@ Strategy refers to smart contracts that interface with third-party agreements. B
 
 Blockchain oracles are entities that connect blockchains to external systems, thereby enabling smart contracts to execute based upon inputs and outputs from the real world. In the case of BOC, it is where the USD value of stablecoins is consulted.
 
-### Oracle Atack
+### Oracle Attack
 
 Blockchain oracle mechanisms using a centralized entity to deliver data to a smart contract introduce a single point of failure, defeating the entire purpose of a decentralized blockchain application. If the single oracle is corrupted/attacked, then the data being delivered on-chain may be highly incorrect and lead to smart contracts executing very wrong outcomes. 
 
@@ -153,7 +153,7 @@ Burning assets (coins or tokens) means eliminating USDi by sending them to an â€
  
 ### Mint
 
-In cryptocurrency, minting is a decentralized method that enables a person to generate a new token without the involvement of a central authority, such as the government or the bank. It can either be a non-fungible token or a crypto coin. In this case, in BOC through a smart contract users mints USDi and are transfer to them when they deposit their stablecoins.
+In cryptocurrency, minting is a decentralized method that enables a person to generate a new token without the involvement of a central authority, such as the government or the bank. It can either be a non-fungible token or a crypto coin. In this case, in BOC through a smart contract the user mints USDi and that are transfer to their wallets when they deposit stablecoins.
 
 <!-- ### Vesting
 
