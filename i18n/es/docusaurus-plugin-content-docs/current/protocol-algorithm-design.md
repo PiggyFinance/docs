@@ -30,7 +30,7 @@ sidebar_position: 4
 
 ### Reglas de acuñación y quema (burn & mint)
 
-He aquí un ejemplo numérico de acuñación y quema de fichas USDi. 
+He aquí un ejemplo numérico de acuñación y quema de tokens USDi. 
 
 Supongamos que Alicia deposita 100 USDT, 100 DAI y 100 USDC. 
 
@@ -90,7 +90,7 @@ $$
 
 ![burn](/images/burn.png)
 
-Los numeros en el gráfico es sólo un ejemplo numérico para entender mejor las reglas de acuñación y quema en BOC. En el mundo real la fluctuación de USDi es mucho menor, lo que significa que los usuarios nunca se encontrarán con una posible pérdida como ésta. De hecho, la posible pérdida será inferior al 0,01%. El objetivo de estas reglas es evitar [arbitrages](appendix#arbitraje) en nuestra plataforma y proteger el protocolo.
+Los numeros en el gráfico es sólo un ejemplo numérico para entender mejor las reglas de acuñación y quema en BOC. En el mundo real la fluctuación de USDi es mucho menor, lo que significa que los usuarios nunca se encontrarán con una posible pérdida como ésta. De hecho, la posible pérdida será inferior al 0,01%. El objetivo de estas reglas es evitar [arbitrajes](appendix#arbitraje) en nuestra plataforma y proteger el protocolo.
 
 ## Cosecha
 
@@ -136,7 +136,7 @@ Si se cumple alguna de las condiciones anteriores, el usuario puede realizar el 
 
 ## Rebase
 
-USDi es un token diseñado de manera que el suministro en circulación se ajusta automáticamente según las fluctuaciones de los precios, este proceso se llama [rebase](appendix#rebase). Al igual que las stablecoins, los tokens rebase suelen estar vinculados a otro activo. Pero en lugar de utilizar las reservas para mantener la vinculación, los tokens rebase automáticamente [queman](appendix#burnmint) tokens en circulación o [acuñan](appendix#burnmint) nuevos tokens. Cuando el total de activos de la Bóveda es mayor que el total de la emisión de USDi, significa que se han generado nuevos ingresos. Después de esto, se revisará el valor de los USDi en comparación con el dólar estadounidense. Cuando el número de USDi aumenta, el valor total de USDi es coherente con el valor total de los activos de la Bóveda, asegurando que 1 USDi está anclado a 1USD. Al mismo tiempo, el 20% de los USDi adicionales se transferirá a la tesorería como comisión de gestión.
+USDi es un token diseñado de manera que el suministro en circulación se ajusta automáticamente según las fluctuaciones de los precios, este proceso se llama [rebase](appendix#rebase). Al igual que las stablecoins, los tokens rebase suelen estar vinculados a otro activo. Pero en lugar de utilizar las reservas para mantener la vinculación, los tokens rebase automáticamente [queman](appendix#burnmint) tokens en circulación o [acuñan](appendix#burnmint) nuevos tokens. Cuando el total de activos de la Bóveda es mayor que el total de la emisión de USDi, significa que se han generado nuevos ingresos. Después de esto, se revisará el valor de los USDi en comparación con el dólar estadounidense. Cuando el número de USDi aumenta, el valor total de USDi es coherente con el valor total de los activos de la Bóveda, asegurando que 1 USDi está anclado a 1 USD. Al mismo tiempo, el 20% de los USDi adicionales se transferirá a la tesorería como comisión de gestión.
 
 ## Asignación de fondos
 
