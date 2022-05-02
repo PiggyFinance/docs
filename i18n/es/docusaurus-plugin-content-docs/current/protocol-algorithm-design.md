@@ -10,7 +10,7 @@ sidebar_position: 4
 
 1. "Depositar" - El protocolo BOC permite a los usuarios `depositar` las tres principales stablecoins (USDT, USDC, DAI) en cualquier combinación y en cualquier cantidad, y acuñar USDi de valor correspondiente para devolver al usuario.<br />"Retirar" - Los usuarios pueden `retirar` USDi las tres principales stablecoins en cualquier momento a través del protocolo BOC. Por defecto, se devolverán según la proporción de las tres principales stablecoins en la [Bóveda](appendix#bóveda) en ese momento, o pueden especificar una determinada moneda a devolver.
 2. Después de que Vault reciba la stablecoin, `queryTokenPrice` consulta el precio de la transferencia del usuario de la [stablecoin](appendix#stablecoin) a través de un oráculo externo. Cuando el precio devuelto por el [oráculo](appendix#oráculo) es superior a 1 USD, se calcula a 1 USD, y cuando es inferior a 1 USD, se calcula al precio del [oráculo](appendix#oráculo).
-3. Basado en el valor calculado, `mint/burn` [mint/burn](appendix#burn) un valor equivalente a USDi.
+3. Basado en el valor calculado, `mint/burn` [mint/burn](appendix#burnmint) un valor equivalente a USDi.
 4. El módulo [Keeper](appendix#keeper) alcanza la condición de activación de `doHardWork` y activa `doHardWork`.
 5. Vault llama al módulo de intercambio agregado `swapTokenToWants`.
 6. El módulo de intercambio agregado `swapTokens` completa el intercambio.
@@ -27,6 +27,70 @@ sidebar_position: 4
 17. Vault llama a `changeTotalSupply` para emitir USDi adicionales.
 18. Vault recoge una parte de la recaudación, que se transfiere a la tesorería llamada `Treasury`.
 19. La [tesorería](appendix#tesorería) beneficiará a los usuarios al utilizar `buyback` para recomprar el token de gobierno BOC.
+
+### Reglas de acuñación y quema (burn & mint )
+
+He aquí un ejemplo numérico de acuñación y quema de fichas USDi. 
+
+Supongamos que Alicia deposita 100 USDT, 100 DAI y 100 USDC. 
+
+Según la regla de acuñación (burn) del BOC: el precio de la transacción es de 1.00 USD cuando el precio de Chainlink es igual o superior a 1.00 USD, de lo contrario el precio de la transacción es igual al precio de [Chainlink](https://chain.link/). 
+
+Por lo tanto, Alice "acuñará" 299 USDi en total:
+
+El precio actual de Chainlink es:
+
+- 1 USDT = 1,01 USD                                                        
+- 1 DAI = 0,99 USD                                                         
+- 1 USDC = 1.00 USD
+
+$$
+100 USDT  = 99 USDT \times 1.00 \frac {USDi}{USDT} = 100 USDi
+$$
+
+$$
+100 DAI  = 100 DAI \times 0.99 \frac {USDi}{DAI} = 99 USDi
+$$
+
+$$
+100 USDC  = 100 USDC  \times 1.00 \frac {USDi}{USDC} = 100 USDi
+$$
+
+![mint](/images/mint.png)
+
+Ahora, Alice decide `quemar` los USDi para retirar sus stablecoins. Ella tiene 299 USDi y cuando ella quema, dependiendo de la proporción de USDT/USDC/DAI de la Bóveda el contrato inteligente de quema distribuirá la misma proporción los USDi en cada stablecoin, en este caso cuando redimimos hay un poco menos de USDT en la Bóveda, por lo que la distribución será 99 de ellos para USDT, 100 de ellos para DAI, y el resto 100 para USDC. Supongamos que el precio actual de Chainlink no cambia. 
+
+La regla de la quema es opuesta a la de la acuñación: el precio de la transacción es de 1 USD cuando el precio de Chainlink es inferior a 1 USD, de lo contrario el precio de la transacción es igual al precio de Chainlink.
+
+Por lo tanto, Alicia quema 299 USDi para retirar:
+
+Precios de Chainlink:
+
+- 1 USDT = 1,01 USD
+- 1 DAI = 0,99 USD
+- 1 USDC = 1,01 USD
+
+$$
+100 USDi  = \frac{99 USDi} {1.01 \frac {USDi}{USDT}} = 98.01 USDT
+$$
+
+$$
+100  USDi  = \frac {100 (USDi)} {1.00 \frac {USDi}{DAI}} = 100 DAI
+$$
+
+$$
+100  USDi  = \frac {100 USDi} {1.00 \frac {USDi}{USDC}} = 100 USDC
+$$
+
+
+
+![burn](/images/burn.png)
+
+Los numeros en el gráfico es sólo un ejemplo numérico para entender mejor las reglas de acuñación y quema en BOC. En el mundo real la fluctuación de USDi es mucho menor, lo que significa que los usuarios nunca se encontrarán con una posible pérdida como ésta. De hecho, la posible pérdida será inferior al 0,01%. El objetivo de estas reglas es evitar [arbitrages](appendix#arbitraje) en nuestra plataforma y proteger el protocolo.
+
+
+
+
 
 ## Cosecha
 
@@ -72,7 +136,7 @@ Si se cumple alguna de las condiciones anteriores, el usuario puede realizar el 
 
 ## Rebase
 
-Cuando los activos totales de la Bóveda son mayores que la emisión total de USDi, significa que se han generado nuevos ingresos. En este momento, se revisará el valor de USDi en comparación con el dólar estadounidense y se aumentará la cantidad de USDi, de modo que el valor total de USDi sea consistente con el valor total de los activos de Vault, asegurando que 1 USDi esté anclado en 1 USD. Al mismo tiempo, el 20% del USDi adicional se transferirá a la tesorería de la DAO como comisión de gestión.
+USDi es un token diseñado de manera que el suministro en circulación se ajusta automáticamente según las fluctuaciones de los precios, este proceso se llama [rebase](appendix#rebase). Al igual que las stablecoins, los tokens rebase suelen estar vinculados a otro activo. Pero en lugar de utilizar las reservas para mantener la vinculación, los tokens rebase automáticamente [queman](appendix#burnmint) tokens en circulación o [acuñan](appendix#burnmint) nuevos tokens. Cuando el total de activos de la Bóveda es mayor que el total de la emisión de USDi, significa que se han generado nuevos ingresos. Después de esto, se revisará el valor de los USDi en comparación con el dólar estadounidense. Cuando el número de USDi aumenta, el valor total de USDi es coherente con el valor total de los activos de la Bóveda, asegurando que 1 USDi está anclado a 1USD. Al mismo tiempo, el 20% de los USDi adicionales se transferirá a la tesorería como comisión de gestión.
 
 ## Asignación de fondos
 
