@@ -48,13 +48,14 @@ The amount of USDi or ETHi in your wallet will grow each time there is a positiv
 
 Anytime you mint or burn, there will be an exchange rate applied to your stablecoins deposited or withdrawn，and the exchange rate depends on [Oracles](appendix#oracle), which can be varied. See more details in [Mint & Burn](protocol-algorithm-design#mint--burn). The aim of this mechanism here is to protect the protocol from arbitrage, BOC protocol charge nothing in this process. 
 
-### Glossary
-
-If you are unsure about any specific terms feel free to check the [Glossary](appendix#glossary). 
-
 ### Is there a minimum or maximum amount to deposit?
 
 You can deposit any amount you want, there is no minimum or maximum limit. 
 
 ### How much will I earn?
-Each asset has its own market of supply and demand with its own APY (Annual Percentage Yield) which evolves with time. You can find the average annual rate over the past 30 days to evaluate the rate evolution, and you can also find more data on the reserve overview of each asset in the [Dashboard](https://dashboard-v1.bankofchain.io/#/) of BOC. 
+
+Each asset has its own market of supply and demand with its own APY (Annual Percentage Yield) which evolves with time. You can find the average annual rate over the past 30 days to evaluate the rate evolution, and you can also find more data on the reserve overview of each asset in the [Dashboard](https://dashboard-v1.bankofchain.io/#/) of BOC.
+
+### Glossary
+
+If you are unsure about any specific terms feel free to check the [Glossary](appendix#glossary). 
