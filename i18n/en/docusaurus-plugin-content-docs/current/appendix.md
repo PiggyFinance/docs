@@ -198,10 +198,6 @@ DEXs are blockchain-based apps that coordinate large-scale trading of crypto ass
 
 Blockchain bridges work just like the bridges we know in the physical world. Just as a physical bridge connects two physical locations, a blockchain bridge connects two blockchain ecosystems. Bridges facilitate communication between blockchains through the transfer of information and assets.
 
-### Discord
-
-Discord is a real-time chat platform initially built for gamers. It has been widely adopted by DeFi and blockchain enthusiasts to share information and build communities. 
-
 ### Wallet
 
 A software application or hardware cryptocurrency wallet that can hold a variety of coins.

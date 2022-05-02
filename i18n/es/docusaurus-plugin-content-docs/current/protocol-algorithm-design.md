@@ -28,7 +28,7 @@ sidebar_position: 4
 18. Vault recoge una parte de la recaudación, que se transfiere a la tesorería llamada `Treasury`.
 19. La [tesorería](appendix#tesorería) beneficiará a los usuarios al utilizar `buyback` para recomprar el token de gobierno BOC.
 
-### Reglas de acuñación y quema (burn & mint )
+### Reglas de acuñación y quema (burn & mint)
 
 He aquí un ejemplo numérico de acuñación y quema de fichas USDi. 
 
@@ -58,17 +58,23 @@ $$
 
 ![mint](/images/mint.png)
 
-Ahora, Alice decide `quemar` los USDi para retirar sus stablecoins. Ella tiene 299 USDi y cuando ella quema, dependiendo de la proporción de USDT/USDC/DAI de la Bóveda el contrato inteligente de quema distribuirá la misma proporción los USDi en cada stablecoin, en este caso cuando redimimos hay un poco menos de USDT en la Bóveda, por lo que la distribución será 99 de ellos para USDT, 100 de ellos para DAI, y el resto 100 para USDC. Supongamos que el precio actual de Chainlink no cambia. 
+Ahora, Alice decide `quemar` los USDi para retirar sus stablecoins. Ella tiene 299 USDi y cuando ella quema, dependiendo de la proporción de USDT/USDC/DAI de la Bóveda, el contrato inteligente de quema distribuirá en la misma proporción los USDi en cada stablecoin, en este caso cuando redimimos hay un poco menos de USDT en la Bóveda, por lo que la distribución de cambio será:
 
-La regla de la quema es opuesta a la de la acuñación: el precio de la transacción es de 1 USD cuando el precio de Chainlink es inferior a 1 USD, de lo contrario el precio de la transacción es igual al precio de Chainlink.
+- 99 USDi -> USDT
+- 100 USDi -> DAI
+- 100 USDi -> USDC 
 
-Por lo tanto, Alicia quema 299 USDi para retirar:
+Supongamos que el precio actual de Chainlink no cambia. 
 
 Precios de Chainlink:
 
 - 1 USDT = 1,01 USD
 - 1 DAI = 0,99 USD
 - 1 USDC = 1,01 USD
+
+La regla de la quema es opuesta a la de la acuñación: el precio de la transacción es de 1 USD cuando el precio de Chainlink es inferior a 1 USD, de lo contrario el precio de la transacción es igual al precio de Chainlink.
+
+Por lo tanto, Alicia quema 299 USDi para retirar:
 
 $$
 100 USDi  = \frac{99 USDi} {1.01 \frac {USDi}{USDT}} = 98.01 USDT
@@ -82,15 +88,9 @@ $$
 100  USDi  = \frac {100 USDi} {1.00 \frac {USDi}{USDC}} = 100 USDC
 $$
 
-
-
 ![burn](/images/burn.png)
 
 Los numeros en el gráfico es sólo un ejemplo numérico para entender mejor las reglas de acuñación y quema en BOC. En el mundo real la fluctuación de USDi es mucho menor, lo que significa que los usuarios nunca se encontrarán con una posible pérdida como ésta. De hecho, la posible pérdida será inferior al 0,01%. El objetivo de estas reglas es evitar [arbitrages](appendix#arbitraje) en nuestra plataforma y proteger el protocolo.
-
-
-
-
 
 ## Cosecha
 

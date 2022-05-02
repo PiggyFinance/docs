@@ -18,11 +18,11 @@ Los activos digitales se copian y redistribuyen fácilmente. En la industria mus
 
 Blockchain hace posible las criptomonedas. Es lo que gestiona la criptodivisa. Hay varias redes de blockchains, para usarlas es habitual que tengas que pagar una cuota, para ello necesitas pagar en la criptodivisa nativa. Si usas la blockchain de Polygon necesitas Matic para pagar la cuota. Esta cuota es el incentivo para que la gente participe en el proceso y contribuya a la seguridad de la red blockchain.
 
-## DeFi FAQs
-
 ### ¿Qué son las finanzas descentralizadas? 
 
 Las finanzas descentralizadas (comúnmente conocidas como DeFi) son un tipo de finanzas similar al del mundo real pero creadas en la blockchain. Utiliza contratos inteligentes (smart contracts) en la blockchain (como Ethereum) para las actividades financieras. Las plataformas DeFi permiten a las personas prestar o pedir prestados fondos a otros, comerciar con criptomonedas y ganar intereses en cuentas similares a las de ahorro, todo ello sin una institución centralizada.
+
+## BOC FAQs
 
 ### ¿Qué es el USDi? ¿Puedo utilizarlo para reinvertir o hacer cualquier cosa?
 
@@ -38,7 +38,7 @@ La cantidad de USDi o ETHi en su cartera crecerá cada vez que se produzca un ev
 
 ### ¿Cuáles son los costes de acuñar y quemar USDi y ETHi?
 
-Cada vez que mentas o quemas, habrá un tipo de cambio aplicado a tus stablecoins depositados o retirados，y el tipo de cambio depende de [Oracles](appendix#oracle), que puede variar. Ver más detalles en [Mint & Burn](protocol-algorithm-design#mint--burn). El objetivo de este mecanismo es proteger el protocolo del arbitraje, el protocolo BOC no cobra nada en este proceso. 
+Cada vez que mentas o quemas, habrá un tipo de cambio aplicado a tus stablecoins depositados o retirados el tipo de cambio depende de [Oracles](appendix#oracle), estos puede variar. Ver más detalles en [Mint & Burn](protocol-algorithm-design#reglas-de-acuñación-y-quema-burn--mint). El objetivo de este mecanismo es proteger el protocolo del arbitraje, el protocolo BOC no cobra nada en este proceso. 
 
 ### Glosario
 

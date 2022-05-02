@@ -98,3 +98,5 @@ Minting
 USDi
 sobrecolateralizados
 magnificación
+DAI
+USDC
