@@ -58,14 +58,9 @@ BOC提供Ethereum、BNB Chain和Polygon三条链，进入页面左上方的“NE
 
 ### 将USDi添加至钱包
 
-在您成功存币后，如果您的钱包中没有显示USDi，您需要手动将USDi添加至钱包，以方便看到当前USDi余额。
+在您成功存币后，如果您的钱包中没有显示USDi，您需要手动将USDi添加至钱包，以方便看到当前USDi余额。如下图所示，点击“+”按钮，再点击“Add Token”,添加完成。
 
-您需要在钱包中手动输入USDi的合约地址：
-
-**0xc791b4a9b10b1bdb5fbe2614d389f0fe92105279**
-
-点击[此处](https://metamask.zendesk.com/hc/en-us/articles/360015489031-How-to-add-unlisted-tokens-custom-tokens-in-MetaMask)进入教程：“如何在MetaMask钱包中添加新的代币？”
-
+![addtoken](/images/addtoken.png)
 
 ## Dashboard
 

@@ -55,6 +55,7 @@ BOC目前提供[USD耕种理财](protocol-algorithm-design#usd理财)和[ETH耕�
 
 ### 铸造(Mint)/销毁(Burn)流程示意图
 
+
 ![mint](/images/mint.png)
 
 上图为用户存入稳定币并`mint`出等价的USDi的规则流程图。
@@ -76,6 +77,7 @@ BOC目前提供[USD耕种理财](protocol-algorithm-design#usd理财)和[ETH耕�
 100 USDC = 100 x 1.00 = 100 USDi  (预言机价格 = 1USD，按1USD算)
 
 ![burn](/images/burn.png)
+
 当用户取出池中稳定币时，需要提供并销毁(`burn`)手上的抵押凭证USDi。
 
 BOC的销毁规则与铸造币时相反：预言机价格高于1USD时按预言机价格算，低于1USD时按1USD算。假设预言机价格不变。
