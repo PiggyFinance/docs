@@ -2,7 +2,7 @@
 sidebar_position: 11
 ---
 
-#Preguntas frecuentes (FAQs)
+# Preguntas frecuentes (FAQs)
 
 ## Preguntas frecuentes sobre la cadena de bloques
 
@@ -18,12 +18,37 @@ Los activos digitales se copian y redistribuyen fácilmente. En la industria mus
 
 Blockchain hace posible las criptomonedas. Es lo que gestiona la criptodivisa. Hay varias redes de blockchains, para usarlas es habitual que tengas que pagar una cuota, para ello necesitas pagar en la criptodivisa nativa. Si usas la blockchain de Polygon necesitas Matic para pagar la cuota. Esta cuota es el incentivo para que la gente participe en el proceso y contribuya a la seguridad de la red blockchain.
 
-## DeFi FAQs
-
 ### ¿Qué son las finanzas descentralizadas? 
 
 Las finanzas descentralizadas (comúnmente conocidas como DeFi) son un tipo de finanzas similar al del mundo real pero creadas en la blockchain. Utiliza contratos inteligentes (smart contracts) en la blockchain (como Ethereum) para las actividades financieras. Las plataformas DeFi permiten a las personas prestar o pedir prestados fondos a otros, comerciar con criptomonedas y ganar intereses en cuentas similares a las de ahorro, todo ello sin una institución centralizada.
 
-### ¿Por qué BOC es seguro? 
+## BOC FAQs
 
-BOC garantiza su seguridad porque no utiliza puentes de cadena cruzada de terceros no oficiales para las transacciones. Dispone de auditorías de terceros. Al mismo tiempo, BOC no utiliza puentes de cadena cruzada de terceros no oficiales para las transacciones, utilizando siempre la cotización de precios se basa en Chainlink, un oráculo líder en el mercado.
+### ¿Qué es el USDi? ¿Puedo utilizarlo para reinvertir o hacer cualquier cosa?
+
+USDi es una garantía acuñada por los usuarios cuando depositan stablecoins. Los rendimientos que los usuarios obtengan a través del protocolo BOC se reflejarán en el aumento de la cantidad de USDi en su cartera. USDi está vinculado 1:1 como USD, en otras palabras, muestra el valor neto de USD del usuario en el protocolo BOC. El USDi es sólo una garantía que se quemará cuando se retire, no se puede utilizar para otras actividades financieras.
+
+### ¿Cuándo se emitirá el token BOC? 
+
+Se emitirá en junio de 2022.
+
+### ¿Con qué frecuencia aumentará mi saldo una vez que tenga USDi o ETHi?
+
+La cantidad de USDi o ETHi en su cartera crecerá cada vez que se produzca un evento de rebase positivo. Puedes leer más sobre esto en [Rebase](protocol-algorithm-design#rebase). Actualmente, el rebase se activa una vez al día y suele estar correlacionado con el número de personas que acuñan y queman en un día.
+
+### ¿Cuáles son los costes de acuñar y quemar USDi y ETHi?
+
+Cada vez que mentas o quemas, habrá un tipo de cambio aplicado a tus stablecoins depositados o retirados el tipo de cambio depende de [Oracles](appendix#oracle), estos puede variar. Ver más detalles en [Mint & Burn](protocol-algorithm-design#reglas-de-acuñación-y-quema-burn--mint). El objetivo de este mecanismo es proteger el protocolo del arbitraje, el protocolo BOC no cobra nada en este proceso. 
+
+### Glosario
+
+Si no estás seguro de algún término específico, no dudes en consultar el [Glosario](appendix#glossary). 
+
+### ¿Hay una cantidad mínima o máxima para depositar?
+
+Puede depositar cualquier cantidad que desee, no hay límite mínimo ni máximo. 
+
+### ¿Cuánto voy a ganar?
+
+Cada activo tiene su propio mercado de oferta y demanda con su propio APY (rendimiento porcentual anual) que evoluciona con el tiempo. Puede encontrar el tipo medio anual de los últimos 30 días para evaluar la evolución del tipo, y también puede encontrar más datos sobre el resumen de reservas de cada activo en el [Dashboard](https://dashboard-v1.bankofchain.io/#/) de BOC. 
+

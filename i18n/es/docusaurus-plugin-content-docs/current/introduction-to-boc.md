@@ -6,7 +6,7 @@ sidebar_position: 2
 
 ## ¿Qué es BOC?
 
-Bank of Chain (BOC) es una forma nueva e innovadora de interactuar con ecosistema de las [finanzas descentralizadas](appendix#finanzas-descentralizadas-defi) (DeFi). Es una herramienta indispensable que ayuda a los inversores ordinarios a obtener una herramienta de gestión de activos para generar ganancias "sin riesgo".
+Bank of Chain (BOC) es una forma nueva e innovadora de interactuar con ecosistema de las [finanzas descentralizadas](appendix#finanzas-descentralizadas-defi) (DeFi). Es una plataforma indispensable que ayuda a los inversores ordinarios a obtener una herramienta de gestión de activos para generar ganancias "sin riesgo".
 
 La plataforma BOC conecta [protocolos](appendix#protocolo) cuidadosamente seleccionados dentro del ecosistema criptográfico, incluidos los Automated Market Makers (AMMs), [protocolos de préstamo](appendix#protocolo-de-préstamos), [agregadores de rendimiento](appendix#agregadores-de-rendimiento), etc. Consulte el [dashboard](https://dashboard.bankofchain.io/) para obtener más detalles.
 

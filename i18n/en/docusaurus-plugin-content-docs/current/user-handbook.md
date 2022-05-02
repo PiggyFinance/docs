@@ -23,12 +23,14 @@ After connecting the wallet, we can see the USDT balance in our account.
 
 ### Cross-chain Bridge
 
-BOC provides [cross-chain bridge](appendix#bridge) options, in case we need to implement cross-chain crypto assets.
+BOC provides [cross-chain bridge](appendix#bridge) options, in case it's necessary to do cross-chain operations.
+
 ![chainbridge](/images/chainbridge.png)
 
 ### Switch Chain
 
 At the present, BOC works on Ethereum, BNB Chain and Polygon. If we need to switch chains, they can do it through `NETWORKS`.
+
 ![networkchange](/images/networkchange.png)
 
 ## Investment and Redemption
@@ -54,7 +56,14 @@ After successfully connecting the wallet, we can complete the withdrawal by sele
 The advanced setup parameters are:
 
 **Max Loss**: The maximum loss on withdrawals. When we specify the amount of USDi to withdrawal, the total assets at the current net value will be displayed, but these are not the funds we can finally get, and losses may occur during the withdrawal process, including exchange slippage losses. If our total assets are estimated to be $1000 at this time, and we choose Max Loss=0.3%, then we will get no less than $997.
+
 **Slippage**: [Slippage](appendix#slippage) between different currencies. After enabling Exchanged, we need to specify the slippage that we accept.
+
+### Adding USDi to your wallet
+
+If the USDi is not shown on your wallet, you need to add it manually, we make it really easy you just to click on the `+` next to your USDi balance and press `Add Token`. Then you will see you USDi balance on your metamask wallet.
+
+![addtoken](/images/addtoken.png)
 
 ## Dashboard
 

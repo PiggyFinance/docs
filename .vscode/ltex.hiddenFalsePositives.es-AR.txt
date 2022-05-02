@@ -10,3 +10,19 @@
 {"rule":"MORFOLOGIK_RULE_ES","sentence":"^\\QBurn/Mint\\E$"}
 {"rule":"AGREEMENT_POSTPONED_ADJ","sentence":"^\\QSe hace referencia a combinación lego, cuando nuevas personas se sumergen en la \"biblioteca\" de Legos, encuentran Legos individuales o combinaciones pre-montadas de Legos con las que también empiezan a construir, creando cosas más grandes y mejores.\\E$"}
 {"rule":"ES_SIMPLE_REPLACE","sentence":"^\\QAMM Automated market makers\nPMM Proactive market makers\nAPI Application Programming Interface\nAPY Annual percentage yield\nBOC Bank Of Chain\nDAO Distributed Autonomous Organization\nDAPP / dApp Decentralized Application\nDeFi Decentralized Finance\nDEX Decentralized Exchange\nEVM Ethereum Virtual Machine\nFX Foreign Exchange\nKYC Know Your Customer\nLP Liquidity Provider\nPEG Price/earnings-to-growth\nPoW Proof of Work\nPoS Proof of Stake\nPoSA Proof of Stake Authority\nPoW Proof of Work\nTVL Total Value Locked\nTx Transaction\\E$"}
+{"rule":"MORFOLOGIK_RULE_ES","sentence":"^\\QBasado en el valor calculado, \\E(?:Dummy|Ina|Jimmy-)[0-9]+\\Q mint/burn un valor equivalente a USDi.\\E$"}
+{"rule":"MORFOLOGIK_RULE_ES","sentence":"^\\QEl módulo Keeper alcanza la condición de activación de \\E(?:Dummy|Ina|Jimmy-)[0-9]+\\Q y activa \\E(?:Dummy|Ina|Jimmy-)[0-9]+\\Q.\\E$"}
+{"rule":"MORFOLOGIK_RULE_ES","sentence":"^\\QVault llama al módulo de intercambio agregado \\E(?:Dummy|Ina|Jimmy-)[0-9]+\\Q.\\E$"}
+{"rule":"MORFOLOGIK_RULE_ES","sentence":"^\\QEl módulo de intercambio agregado \\E(?:Dummy|Ina|Jimmy-)[0-9]+\\Q completa el intercambio.\\E$"}
+{"rule":"MORFOLOGIK_RULE_ES","sentence":"^\\QVault coloca los \\E(?:Dummy|Ina|Jimmy-)[0-9]+\\Q de stablecoin en la estrategia según la moneda requerida por la estrategia.\\E$"}
+{"rule":"MORFOLOGIK_RULE_ES","sentence":"^\\QLa estrategia invierte los \\E(?:Dummy|Ina|Jimmy-)[0-9]+\\Q de stablecoin en protocolos de terceros.\\E$"}
+{"rule":"MORFOLOGIK_RULE_ES","sentence":"^\\QEl módulo Keeper alcanza la condición de activación de la \\E(?:Dummy|Ina|Jimmy-)[0-9]+\\Q y activa la \\E(?:Dummy|Ina|Jimmy-)[0-9]+\\Q.\\E$"}
+{"rule":"MORFOLOGIK_RULE_ES","sentence":"^\\QCosechador desencadena cada estrategia para ejecutar la \\E(?:Dummy|Ina|Jimmy-)[0-9]+\\Q.\\E$"}
+{"rule":"MORFOLOGIK_RULE_ES","sentence":"^\\QCada estrategia ejecuta \\E(?:Dummy|Ina|Jimmy-)[0-9]+\\Q para recoger la minería.\\E$"}
+{"rule":"MORFOLOGIK_RULE_ES","sentence":"^\\QCada estrategia transfiere las monedas de minería \\E(?:Dummy|Ina|Jimmy-)[0-9]+\\Q a Harvester.\\E$"}
+{"rule":"MORFOLOGIK_RULE_ES","sentence":"^\\QEl cosechador vende a los mineros \\E(?:Dummy|Ina|Jimmy-)[0-9]+\\Q en stablecoins a través del intercambio agregado.\\E$"}
+{"rule":"MORFOLOGIK_RULE_ES","sentence":"^\\QEl cosechador \\E(?:Dummy|Ina|Jimmy-)[0-9]+\\Q transfiere stablecoins a Vault.\\E$"}
+{"rule":"MORFOLOGIK_RULE_ES","sentence":"^\\QEl módulo Keeper alcanza la condición de activación \\E(?:Dummy|Ina|Jimmy-)[0-9]+\\Q y activa la \\E(?:Dummy|Ina|Jimmy-)[0-9]+\\Q.\\E$"}
+{"rule":"MORFOLOGIK_RULE_ES","sentence":"^\\QVault llama a \\E(?:Dummy|Ina|Jimmy-)[0-9]+\\Q para emitir USDi adicionales.\\E$"}
+{"rule":"MORFOLOGIK_RULE_ES","sentence":"^\\QVault recoge una parte de la recaudación, que se transfiere a la tesorería llamada \\E(?:Dummy|Ina|Jimmy-)[0-9]+\\Q.\\E$"}
+{"rule":"MORFOLOGIK_RULE_ES","sentence":"^\\QLa tesorería beneficiará a los usuarios al utilizar \\E(?:Dummy|Ina|Jimmy-)[0-9]+\\Q para recomprar el token de gobierno BOC.\\E$"}

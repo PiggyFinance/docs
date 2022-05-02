@@ -21,7 +21,7 @@ Por el momento, la gobernanza de BOC es lograr la cogestión de los tokenholders
 
 El suministro máximo de tokens BOC es de mil millones. Los tenedores de tokens recibirán una tarifa de administración de BOC de acuerdo con la proporción de tenencia. Una vez que los tokens están bloqueados, pueden participar en la gobernanza y compartir los beneficios. Está previsto que los tokens específicos se distribuyan en las siguientes 4 partes: equipo, inversores, comunidad y parte reservada.
 
-![pic-en-6-1](/images/pic-en-6-1.png)
+![TokenDistribution](/images/TokenDistribution.png)
 
 | **Equipo* ** | **20.00%** | **200M** |
 | --- | --- | --- |
@@ -29,13 +29,12 @@ El suministro máximo de tokens BOC es de mil millones. Los tenedores de tokens 
 | Ventas | 2.00% | 20M |
 | Fundadores | 8% | 80M |
 | **Inversores*** | **20.00%** | **200M** |
-| **Comunidad ** | **20.00%** | **200M** |
+| **Comunidad ** | **55.00%** | **550M** |
 | Liquidez (negociación de USD en Balancer durante 12 meses) | 5.00% | 50M |
-| Minería (mayores retornos para inversionistas en etapa temprana, por un período de 12 meses) | 15.00% | 150M |
-| **Reserva ** | **40.00%** | **40M** |
+| Minería (mayores retornos para inversionistas en etapa temprana, por un período de 12 meses) | 50.00% | 500M |
+| **Futuro desarrollo ** | **5.00%** | **50M** |
 | Equipo (reclutamiento de nuevos miembros en el futuro) | 3.00% | 30M |
 | Consultores (personas importantes e influyentes en la industria) | 2.00% | 20M |
-| Minado (plan de adquisición de usuarios indecisos + nueva ronda de recaudación de fondos) | 35.00% | 350M |
 | **Total ** | **100.00%** | **1B** |
 
 *Nota: El porcentaje total será distribuido: el 10% el primer año, 20% el segundo año, 30% el tercer año, 40% el cuarto año

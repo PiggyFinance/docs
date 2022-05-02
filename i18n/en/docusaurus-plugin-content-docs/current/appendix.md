@@ -61,7 +61,7 @@ Decentralized finance (commonly known as DeFi) is a kind of finance created on t
 
 ### Impermanent loss (IL)
 
-Impermanent loss happens when you provide liquidity to a liquidity pool, and the price of your deposited assets changes compared to when you deposited them. The bigger this change is, the more you are exposed to impermanent loss. In this case, the loss means less dollar value at the time of withdrawal than at the time of deposit.Impermanent loss is the risk that liquidity providers (LP) take in exchange for fees they earn in liquidity pools. If IL exceeds fees earned by a user when they withdraw, it means the user has suffered negative returns compared with simply holding their tokens outside the pool. 
+Impermanent loss happens when you provide liquidity to a liquidity pool, and the price of your deposited assets changes compared to when you deposited them. The bigger this change is, the more you are exposed to impermanent loss. In this case, the loss means less dollar value at the time of withdrawal than at the time of deposit. Impermanent loss is the risk that liquidity providers (LP) take in exchange for fees they earn in liquidity pools. If IL exceeds fees earned by a user when they withdraw, it means the user has suffered negative returns compared with simply holding their tokens outside the pool. 
 
 ### Slippage
 
@@ -75,10 +75,6 @@ A crypto dashboard is a digital platform that lives on a website or in an app (e
 ### Smart contract
 
  A smart contract is a self-executing contract with the terms of the agreement between buyer and seller being directly written into lines of code. The code and the agreements contained therein exist across a distributed, decentralized blockchain network. The code controls the execution, and transactions are trackable and irreversible. 
-
-### Oracle
-
-A trusted source of data, such as current market prices of assets, which gives users confidence about the data's timeliness, accuracy and lack of manipulation.
 
 ### Automated Market Maker (AMM)
 
@@ -138,14 +134,27 @@ Parameter “periods” is the interest payment periods.
 
 Strategy refers to smart contracts that interface with third-party agreements. BOC Vault has multiple policies, and the policy is one-to-one with external third-party agreements.
 
+### Oracle
+
+Blockchain oracles are entities that connect blockchains to external systems, thereby enabling smart contracts to execute based upon inputs and outputs from the real world. In the case of BOC, it is where the USD value of stablecoins is consulted.
+
+### Oracle Attack
+
+Blockchain oracle mechanisms using a centralized entity to deliver data to a smart contract introduce a single point of failure, defeating the entire purpose of a decentralized blockchain application. If the single oracle is corrupted/attacked, then the data being delivered on-chain may be highly incorrect and lead to smart contracts executing very wrong outcomes. 
+
+Truly overcoming the oracle problem necessitates decentralized oracles to prevent data manipulation, inaccuracy, and downtime. A Decentralized Oracle Network, or DON for short, combines multiple independent oracle node operators and multiple reliable data sources to establish end-to-end decentralization. BOC actually uses [Chainlink Oracle](https://chain.link/)
+
+### Arbitrage
+
+Arbitrage involves buying and selling two related assets in two different markets in order to leverage the price or rate differential between the markets into risk-free profits. This, if not contemplated, can lead to asset losses in the vault. See more here.
+
 ### Burn
 
-Burning assets (coins or tokens) means eliminating USDi by sending them to an ‘eater address,’ which is not accessible by anyone, since no one owns the private keys to that address. 
+Burning assets (coins or tokens) means eliminating USDi by sending them to a null address, which is not accessible by anyone, since no one owns the private keys to that address. Users must burn the “tradable tokens” that attempt to accrue value in order to receive the “proprietary payment tokens” for the service in network. On BOC the user burns USDi when they redeem and receive the stablecoin selected.
  
 ### Mint
 
-Minting is the process of creating or producing something. In the blockchain, minting means, validating information, creating a new block, and recording that information into the blockchain. In this case, BOC mints USDi.
-
+In cryptocurrency, minting is a decentralized method that enables a person to generate a new token without the involvement of a central authority, such as the government or the bank. It can either be a non-fungible token or a crypto coin. In this case, in BOC through a smart contract the user mints USDi and that are transfer to their wallets when they deposit stablecoins.
 
 <!-- ### Vesting
 
@@ -188,10 +197,6 @@ DEXs are blockchain-based apps that coordinate large-scale trading of crypto ass
 ### Bridge
 
 Blockchain bridges work just like the bridges we know in the physical world. Just as a physical bridge connects two physical locations, a blockchain bridge connects two blockchain ecosystems. Bridges facilitate communication between blockchains through the transfer of information and assets.
-
-### Discord
-
-Discord is a real-time chat platform initially built for gamers. It has been widely adopted by DeFi and blockchain enthusiasts to share information and build communities. 
 
 ### Wallet
 

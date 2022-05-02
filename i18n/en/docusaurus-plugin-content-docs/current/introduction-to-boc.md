@@ -8,7 +8,7 @@ sidebar_position: 2
 
 BOC (Bank Of Chain) is a new and innovative way to interact with decentralized financial ([DeFi](appendix#decentralized-finance-defi)) [protocols](appendix#protocol). It helps ordinary investors to obtain a "risk-free" capital-guaranteed wealth management tool on the [blockchain](appendix#blockchain-network).
 
-The BOC platform connects carefully selected protocols within the crypto ecosystem, including [Automatic Market Makers (AMMs)](appendix#automated-market-maker-amm), [lending protocols](appendix#lending-protocol), [yield aggregators](appendix#yield-aggregators), etc. (see <https://dashboard.bankofchain.io/#/> for details). 
+The BOC platform connects carefully selected protocols within the crypto ecosystem, including [Automatic Market Makers (AMMs)](appendix#automated-market-maker-amm), [lending protocols](appendix#lending-protocol), [yield aggregators](appendix#yield-aggregators), etc. (see [Dashboard](https://dashboard.bankofchain.io/#/) for details). 
 
 By accessing high-quality [protocol](appendix#protocol) [strategies](appendix#strategy), BOC can provide for 300-500 basis points (3-5%) above other similar USD managed funds. 
 
@@ -93,7 +93,7 @@ In summary, BOC Platform is the missing catalyst that will revolutionize the ind
    </tr>
    <tr>
     <td>Type</td>
-    <td>DeFi Bank</td>
+    <td>Yield Aggregator</td>
     <td>Yield Aggregator</td>
     <td>Stablecoin</td>
     <td>Yield Aggregator</td>
@@ -213,8 +213,8 @@ In summary, BOC Platform is the missing catalyst that will revolutionize the ind
     <td>7-11%</td>
    </tr>
    <tr>
-    <td>Number of pools</td>
-    <td>1</td>
+    <td>Number of Vaults</td>
+    <td>2</td>
     <td>Multi</td>
     <td>1</td>
     <td>Multi</td>
