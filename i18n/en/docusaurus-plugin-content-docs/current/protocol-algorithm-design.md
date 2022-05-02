@@ -282,17 +282,17 @@ $$
 $$
 
 Total Change Profit ProfitChange
-In this formula, the only variable is the deltaAsset for each strategy. At the same time, the solution needs to be limited by
+In this formula, the only variable is the deltaAsset for each strategy. At the same time, the solution needs to be limited by:
 
 Restrictions
 
-1. The same protocol strategy (multiple constraints) funds do not exceed 30% of the total funds
-2. The sum of all asset changes in and out is 0
+1. The same protocol strategy (multiple constraints) funds do not exceed 30% of the total funds.
+2. The sum of all asset changes in and out is 0.
 
 Boundary conditions
 
-1. Strategic assets cannot exceed 20% of total assets
-2. The strategic funds cannot exceed 50% of the target pool assets
+1. Strategic assets cannot exceed 20% of total assets.
+2. The strategic funds cannot exceed 50% of the target pool assets.
 
 Use python scipy's `optimize.minimize` to find the current optimal rebalancing scheme.
 

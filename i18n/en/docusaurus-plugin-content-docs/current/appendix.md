@@ -149,7 +149,7 @@ Arbitrage involves buying and selling two related assets in two different market
 
 ### Burn
 
-Burning assets (coins or tokens) means eliminating USDi by sending them to an ‘eater address,’ which is not accessible by anyone, since no one owns the private keys to that address. Users must burn the “tradable tokens” that attempt to accrue value in order to receive the “proprietary payment tokens” for the service in network. On BOC the user burns USDi when they redeem and receive the stablecoin selected.
+Burning assets (coins or tokens) means eliminating USDi by sending them to a null address, which is not accessible by anyone, since no one owns the private keys to that address. Users must burn the “tradable tokens” that attempt to accrue value in order to receive the “proprietary payment tokens” for the service in network. On BOC the user burns USDi when they redeem and receive the stablecoin selected.
  
 ### Mint
 
