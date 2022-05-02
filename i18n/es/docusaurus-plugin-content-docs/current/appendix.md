@@ -72,9 +72,31 @@ Un tablero de control (dashboard) de criptomonedas es una plataforma digital que
 
  Un smart contract (contrato inteligente) es un contrato autoejecutable en el que los términos del acuerdo entre el comprador y el vendedor se escriben directamente en líneas de código. El código y los acuerdos contenidos en él existen en una red blockchain distribuida y descentralizada. El código controla la ejecución, y las transacciones son rastreables e irreversibles. 
 
-### Oráculo
+### Oráculos
 
-Un oráculo (oracle) es una fuente de datos confiable, como los precios de mercado actuales de los activos, que brinda a los usuarios la confianza de que los datos son actualizados, precisos y no están manipulados.
+Los oráculos de blockchain son entidades que conectan las blockchains con sistemas externos, permitiendo así que los contratos inteligentes se ejecuten basándose en las entradas y salidas del mundo real. En el caso de BOC, es donde se consulta el valor en USD de las stablecoins.
+
+### Ataque de oráculo
+
+Los mecanismos de oráculo de blockchain que utilizan una entidad centralizada para entregar datos a un contrato inteligente introducen un único punto de fallo, derrotando todo el propósito de una aplicación de blockchain descentralizada. Si el oráculo único se corrompe o es atacado, entonces los datos que se entregan en la cadena pueden ser muy incorrectos y llevar a los contratos inteligentes a ejecutar resultados muy erróneos. 
+
+Para superar realmente el problema del oráculo se necesitan oráculos descentralizados para evitar la manipulación de datos, la inexactitud y el tiempo de inactividad. Una Red de Oráculos Descentralizada, o DON para abreviar, combina múltiples operadores de nodos de oráculos independientes y múltiples fuentes de datos fiables para establecer una descentralización de extremo a extremo. BOC utiliza actualmente [Chainlink Oracle](https://chain.link/)
+
+### Arbitraje
+
+El arbitraje implica la compra y venta de dos activos relacionados en dos mercados diferentes con el fin de aprovechar el diferencial de precios o tasas entre los mercados en beneficios libres de riesgo. Esto, si no se contempla, puede llevar a pérdidas de activos en la cámara. Vea más aquí.
+
+### Burn
+
+Burn (quemar) los activos (monedas o tokens) significa eliminar los USDi enviándolos a una "dirección de eater", a la que no puede acceder nadie, ya que nadie posee las claves privadas de esa dirección. Los usuarios deben quemar los "tokens negociables" que intentan acumular valor para recibir los "tokens de pago propios" del servicio en red. En BOC el usuario quema USDi cuando canjea y recibe la stablecoin seleccionada.
+ 
+### Mint
+
+En criptomoneda, mint (acuñar) es un método descentralizado que permite a una persona generar un nuevo token sin la participación de una autoridad central, como el gobierno o el banco. Puede ser un token no fungible o una criptomoneda. En este caso, en BOC a través de un contrato inteligente el usuario acuña USDi y que son transferidos a sus carteras cuando depositan stablecoins.
+
+### Rebase
+
+Al igual que las stablecoins, los tokens con estrategia de rebase suelen estar vinculados a otro activo. Pero en lugar de utilizar las reservas para mantener el precio/ganancia de crecimiento (PEG), los tokens rebase queman automáticamente los tokens en circulación o acuñan nuevos tokens.
 
 ### Automated Market Maker (AMM)
 
@@ -136,14 +158,6 @@ El parámetro "periodos" son los periodos de pago de intereses.
 ### Estrategia   
 
 La estrategia se refiere a los contratos inteligentes que interactúan con los acuerdos de terceros. La boveda de BOC tiene múltiples políticas, y la política es uno-a-uno con los acuerdos de terceros externos.
-
-### Burn
-
-Quemar (burn) activos (monedas o tokens) significa eliminar USDi enviándolos a una "dirección bloqueada", a la que nadie puede acceder, ya que nadie posee las claves privadas de esa dirección.
-
-### Mint
-
-Minting es el proceso de crear o producir algo. En la cadena de bloques, mint significa validar información, esto se realiza mediante la creación de un nuevo bloque y registrando esa información en la cadena de bloques. En este caso, BOC crea USDi.
 
 <!-- ### Vesting
 

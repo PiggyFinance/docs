@@ -17,21 +17,20 @@ The Governance tokens are yet to be developed but will be launched soon.
 
 The maximum supply of BOC tokens is 1 billion. Tokenholders will receive a BOC management fee according to the holding ratio. After the tokens are locked, they can participate in governance and share the benefits. The specific tokens are planned to be distributed in the following 4 parts: team, investors, community and reserved part.
 
-![tokenRatio_en](/images/tokenRatio_en.png)
+![TokenDistribution](/images/TokenDistribution.png)
 
-| **Team* ** | **20.00%** | **200M** |
+| **Team** | **20.00%** | **200M** |
 | --- | --- | --- |
 | Technology Team | 10.00% | 100M |
-| Sales | 2.00% | 20M |
+| Sales & Marketing | 2.00% | 20M |
 | Founders | 8% | 80M |
-| **Investors*** | **20.00%** | **200M** |
-| **Community ** | **20.00%** | **200M** |
+| **Investors** | **20.00%** | **200M** |
+| **Community ** | **55.00%** | **550M** |
 | Liquidity (USD trading on Balancer for 12 months) | 5.00% | 50M |
-| Mining (increased returns for investors in the early stage, for a period of 12 months) | 15.00% | 150M |
-| **Reserve ** | **40.00%** | **40M** |
+| Mining (increased returns for investors in the early stage, for a period of 12 months) | 50.00% | 500M 
+| **Future Development** | **5.00%** | **50M** |
 | Team (recruit new team members in the future) | 3.00% | 30M |
 | Consultants (important and influential people in the industry) | 2.00% | 20M |
-| Mining (undecided user acquisition plan + new fundraising round) | 35.00% | 350M |
 | **Total ** | **100.00%** | **1B** |
 
 *Note: The total percentage will be the 10% the first year, 20% the second year, 30% the third year, 40% the fourth year
