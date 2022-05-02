@@ -154,7 +154,7 @@ If any of the above conditions are met, user can do `harvest` work:
 
 ### Rebase
 
-When the total assets of the Vault are greater than the total issuance of USDi, it means that new income has been generated. At this time, the value of USDi compared with the US dollar will be revised, and the number of USDi will be increased, so that the total value of USDi is consistent with the total value of Vault assets, ensuring 1 USDi is anchored at 1USD. At the same time, 20% of the additional USDi will be transferred to the national treasury as a management fee.
+When the total assets of the Vault are greater than the total issuance of USDi, it means that new income has been generated. At this time, the value of USDi compared with the US dollar will be revised, and the number of USDi will be increased, so that the total value of USDi is consistent with the total value of Vault assets, ensuring 1 USDi is anchored at 1USD. At the same time, 20% of the additional USDi will be transferred to the DAO treasury as a management fee.
 
 ### Fund Allocation
 

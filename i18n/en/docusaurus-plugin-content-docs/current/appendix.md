@@ -7,7 +7,7 @@ sidebar_position: 9
 
 ### Blockchain network
 
-Blockchain is a system that records information in a way that makes it difficult or impossible to change, hack, or cheat the system. A blockchain is essentially a digital ledger of transactions that is duplicated and distributed across the entire network of computer systems on the blockchain. It encrypted blocks of data (smart contracts, transactions, etc.) then chains them together to form a chronological single-source-of-truth for the data. Blockchain’s inherent security measures and public ledger make it a prime technology for almost every single sector. The blockchain community participates from this block adding by different consensus mechanism.
+Blockchain is a system that records information in a way that makes it difficult or impossible to change, hack, or cheat the system. A blockchain is essentially a digital ledger of transactions that is duplicated and distributed across the entire network of computer systems on the blockchain. It encrypts data blocks (smart contracts, transactions, etc.) and links them together to form a chronologically single source of accurate data.  Blockchain’s inherent security measures and public ledger make it a prime technology for almost every single sector. The blockchain community participates from this block adding by different consensus mechanism.
 
 ### Ethereum Virtual Machine (EVM)
 
@@ -15,9 +15,10 @@ The Ethereum Virtual Machine is the software platform that developers can use to
 
 ### Cryptocurrency
 
-A cryptocurrency is a token that's native to a blockchain. Cryptocurrencies are typically minted with each new block added to the chain. For instance, each new block of Ethereum mined comes with a reward of two ether tokens as compensation to the miner.
+A cryptocurrency is a native token on a blockchain. Cryptocurrencies are typically minted with each new block added to the chain. For instance, each new block of Ethereum mined comes with a reward of two ether tokens as compensation to the miner.
 
-Cryptocurrencies are a type of token. Their nativity is their defining factor: Other tokens are created using platforms and apps built on top of blockchains, while cryptocurrencies built into a blockchain's protocol.
+Cryptocurrencies are a type of token. Their nativity is their defining factor: other tokens are created using platforms and applications built on top of blockchains, while cryptocurrencies are built within a blockchain protocol.
+
 
 ### Consensus mechanism
 
@@ -25,25 +26,26 @@ A consensus mechanism is a fault-tolerant mechanism that is used in computer and
 
 ### Proof of work
 
-Proof of work is a consensus mechanism through which blocks are added to a blockchain. POW requires miners to solve complicated cryptographic puzzles, which demand large amounts of energy from powerful mining rigs, in order to validate new blockchain transactions. 
+Proof of work is a consensus mechanism through which blocks are added to a blockchain. PoW requires miners to solve complicated cryptographic puzzles, which demand large amounts of energy from powerful mining rigs in order to validate new blockchain transactions.
 
-POW is a safe and decentralized consensus mechanism, but it's notoriously inefficient. It's how bitcoin's and first versions of Ethereum's blockchains operate, although Ethereum will soon shift to the more efficient proof of stake. 
+PoW is a safe and decentralized consensus mechanism, but it's notoriously inefficient. This is how Bitcoin and the first version of Ethereum blockchains operate, although Ethereum will soon shift to the more efficient 'Proof of Stake’ protocol.
+
 
 ### Proof of stake
 
-Confronted with the huge energy demands of proof of work, proof of stake is an updated consensus mechanism that allows blocks to be mined much more efficiently. POS allows holders of a cryptocurrency to validate new blocks onto the relevant blockchain. 
+Confronted with the huge energy demands of PoW, proof of stake is an updated consensus mechanism that allows blocks to be mined much more efficiently. POS allows holders of a cryptocurrency to validate new blocks onto the relevant blockchain. 
 
-They do this by staking their cryptocurrency. Users of a network stake their cryptocurrency, and if their stake is chosen by a randomized algorithm, they get the opportunity to validate a new block for which they'll get a reward in the form of more cryptocurrency. The more cryptocurrency staked, the higher chance a user is to be chosen to validate a new block. 
+They do this by staking their cryptocurrency. In other words, they may have the opportunity to validate a new block, if their stake is chosen by a randomized algorithm, and they'll get a reward in cryptocurrency for it. The more cryptocurrency staked, the more chances the user has to be chosen to validate a new block.
 
-Where proof of work rewards those who have spent the most computational power to solve a cryptographic puzzle, proof of stake rewards those who invest their cryptocurrency over a long period of time. 
+Where PoW rewards those who have spent the most computational power to solve a cryptographic puzzle, proof of stake rewards those who invest their cryptocurrency over a long period of time. 
 
 ### Distributed Autonomous Organization (DAO)
 
-Can be defined as an ‘organization’ on a blockchain, represented by a set of rules encoded as a computer program (on a blockchain) that is transparent, controlled by the organization members and not influenced by a central government.
+Can be defined as an organization on a blockchain, represented by a set of rules encoded in a computer program on a blockchain, that is transparent, controlled by the organization members and not influenced by a central government.
 
 ### DAOs Treasury
 
-Anything in a DAO that can be automated should be. Anything that can’t be automated should be funded by the treasury. Treasuries help DAOs fund critical development, attract contributors, and grow their network.
+Treasuries help DAOs fund critical development, attract contributors and grow their network. Anything in a DAO that can be automated should be and anything that can’t be should be funded by the treasury. 
 
 #### Principles of Treasury Management:
 
@@ -55,7 +57,7 @@ Anything in a DAO that can be automated should be. Anything that can’t be auto
 
 ### Decentralized Finance (DeFi)  
 
-Decentralized finance (commonly known as DeFi) is a kind of finance created on the blockchain. It does not rely on financial institutions such as brokerages, exchanges or banks to provide financial tools, but uses smart contracts on the blockchain (such as Ethereum) for financial activities. DeFi platforms allow people to lend or borrow funds to others, trade cryptocurrencies, and earn interest in savings-like accounts.
+Decentralized finance (commonly known as DeFi) is a kind of finance created on the blockchain. It does not rely on financial institutions such as brokerages, exchanges or banks to provide financial tools, but uses smart contracts on the blockchain (such as Ethereum) for financial activities. DeFi platforms allow people to lend or borrow funds from others, trade cryptocurrencies and earn interest in savings-like accounts.
 
 ### Impermanent loss (IL)
 
@@ -73,7 +75,6 @@ A crypto dashboard is a digital platform that lives on a website or in an app (e
 ### Smart contract
 
  A smart contract is a self-executing contract with the terms of the agreement between buyer and seller being directly written into lines of code. The code and the agreements contained therein exist across a distributed, decentralized blockchain network. The code controls the execution, and transactions are trackable and irreversible. 
-
 
 ### Automated Market Maker (AMM)
 
@@ -93,7 +94,7 @@ Lending Protocol is a platform composed of lenders and borrowers. On the one han
 
 ### Collateral
 
-In DeFi, collateral refers to the offer of one cryptocurrency or token as ‘collateral’ to secure a borrowing a different cryptocurrency or token. 
+In DeFi, collateral refers to the offer of one cryptocurrency or token as "collateral" to secure a different cryptocurrency or token loan.
 
 ### Volume
 
@@ -175,13 +176,13 @@ Similar to a type of coin but with much greater functionality. Tokens can also b
 
 Governance refers to determining, maintaining, adapting and enforcing the rules of a blockchain ecosystem, product, project or DAO. It specifically refers to control and use of a Governance coin or token that carries the right to take part in governance processes.
 
-### Nested Tokens
+<!-- ### Nested Tokens
 
-A nested token is a signed token enclosed in an encrypted one. A token is encrypted to also provide secrecy between parties, we will focus on signed tokens. Signed tokens can verify the integrity of the claims contained within it, while encrypted tokens hide those claims from other parties. When tokens are signed using public/private key pairs, the signature also certifies that only the party holding the private key is the one that signed it.
+A nested token is a signed token enclosed in an encrypted one. A token is encrypted to also provide secrecy between parties, we will focus on signed tokens. Signed tokens can verify the integrity of the claims contained within it, while encrypted tokens hide those claims from other parties. When tokens are signed using public/private key pairs, the signature also certifies that only the party holding the private key is the one that signed it. -->
 
 ### Lego Combination
 
-A fundamental tenet of the DeFi space is building for interoperability. This allows the ecosystem to benefit from individual progress, pushing decentralized finance continually forward. As participants build useful things, they are able to be shared and combined in new ways, reminiscent of everyone’s favourite toy, Lego. When new people dive into the Lego ‘bin’, they find individual Legos or preassembled combinations of Legos that they too start building with, creating bigger and better things. 
+A fundamental tenet in DeFi is to build for interoperability. This allows the ecosystem to benefit from individual progress, continuously pushing decentralized finance. As participants build useful things, they can be shared and combined in new ways, reminiscent of everyone’s favourite toy, Lego. When new people dive into the Lego ‘bin’, they find individual Legos or preassembled combinations which they also start to build with, creating bigger and better things.
 
 <!-- ### aToken
 
@@ -228,6 +229,5 @@ A software application or hardware cryptocurrency wallet that can hold a variety
 | PoW         | Proof of Work                     |
 | PoS         | Proof of Stake                    |
 | PoSA        | Proof of Stake Authority          |
-| PoW         | Proof of Work                     |
 | TVL         | Total Value Locked                |
 | Tx          | Transaction                       |

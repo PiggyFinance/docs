@@ -10,7 +10,7 @@ sidebar_position: 4
 
 1. "Depositar" - El protocolo BOC permite a los usuarios `depositar` las tres principales stablecoins (USDT, USDC, DAI) en cualquier combinación y en cualquier cantidad, y acuñar USDi de valor correspondiente para devolver al usuario.<br />"Retirar" - Los usuarios pueden `retirar` USDi las tres principales stablecoins en cualquier momento a través del protocolo BOC. Por defecto, se devolverán según la proporción de las tres principales stablecoins en la [Bóveda](appendix#bóveda) en ese momento, o pueden especificar una determinada moneda a devolver.
 2. Después de que Vault reciba la stablecoin, `queryTokenPrice` consulta el precio de la transferencia del usuario de la [stablecoin](appendix#stablecoin) a través de un oráculo externo. Cuando el precio devuelto por el [oráculo](appendix#oráculo) es superior a 1 USD, se calcula a 1 USD, y cuando es inferior a 1 USD, se calcula al precio del [oráculo](appendix#oráculo).
-3. Basado en el valor calculado, `mint/burn` [mint/burn](appendix#burnmint) un valor equivalente a USDi.
+3. Basado en el valor calculado, `mint/burn` [mint/burn](appendix#burn) un valor equivalente a USDi.
 4. El módulo [Keeper](appendix#keeper) alcanza la condición de activación de `doHardWork` y activa `doHardWork`.
 5. Vault llama al módulo de intercambio agregado `swapTokenToWants`.
 6. El módulo de intercambio agregado `swapTokens` completa el intercambio.
@@ -72,7 +72,7 @@ Si se cumple alguna de las condiciones anteriores, el usuario puede realizar el 
 
 ## Rebase
 
-USDi es un token diseñado de manera que el suministro en circulación se ajusta automáticamente según las fluctuaciones de los precios, este proceso se llama [rebase](appendix#rebase). Al igual que las stablecoins, los tokens rebase suelen estar vinculados a otro activo. Pero en lugar de utilizar las reservas para mantener la vinculación, los tokens rebase automáticamente [queman](appendix#burnmint) tokens en circulación o [acuñan](appendix#burnmint) nuevos tokens. Cuando el total de activos de la Bóveda es mayor que el total de la emisión de USDi, significa que se han generado nuevos ingresos. Después de esto, se revisará el valor de los USDi en comparación con el dólar estadounidense. Cuando el número de USDi aumenta, el valor total de USDi es coherente con el valor total de los activos de la Bóveda, asegurando que 1 USDi está anclado a 1USD. Al mismo tiempo, el 20% de los USDi adicionales se transferirá a la tesorería como comisión de gestión.
+Cuando los activos totales de la Bóveda son mayores que la emisión total de USDi, significa que se han generado nuevos ingresos. En este momento, se revisará el valor de USDi en comparación con el dólar estadounidense y se aumentará la cantidad de USDi, de modo que el valor total de USDi sea consistente con el valor total de los activos de Vault, asegurando que 1 USDi esté anclado en 1 USD. Al mismo tiempo, el 20% del USDi adicional se transferirá a la tesorería de la DAO como comisión de gestión.
 
 ## Asignación de fondos
 

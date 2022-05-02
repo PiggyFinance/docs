@@ -9,7 +9,7 @@ sidebar_position: 8
 2. La versión BOC 1.5 se lanzará públicamente después de pasar la auditoría en el extranjero antes del 15 de mayo de 2022.
     1. [x] El diseño del logotipo se ha completado para el 4 de marzo de 2022.
     2. [x] Formulación de las normas de emisión de tokens de gobernanza completada para el 10 de marzo de 2022.
-    3. [ ] El whitepaper estará terminado para el 15 de abril de 2022.
+    3. [x] El whitepaper estará terminado para el 15 de abril de 2022.
     4. [ ] El leasing y deployment de servidores de AWS se completará antes del 15 de abril de 2022.
     5. [ ] El desarrollo del código y las pruebas se completarán antes del 10 de mayo de 2022.
     6. [ ] La auditoría de seguridad se completará antes del 15 de mayo de 2022.
