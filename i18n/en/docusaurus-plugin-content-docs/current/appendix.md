@@ -146,7 +146,7 @@ Truly overcoming the oracle problem necessitates decentralized oracles to preven
 
 ### Arbitrage
 
-Arbitrage involves buying and selling two related assets in two different markets in order to leverage the price or rate differential between the markets into risk-free profits. This, if not contemplated, can lead to asset losses in the vault. See more here.
+Arbitrage involves buying and selling two related assets in two different markets in order to leverage the price or rate differential between the markets into risk-free profits. This, if not contemplated, can lead to asset losses in the vault. See more [here](protocol-algorithm-design#mint--burn-rules).
 
 ### Burn
 

@@ -72,7 +72,7 @@ Risk control:
 Smart algorithm:
 
 1. Yields are regularly calibrated, weighing the cost and reward for funds reallocation.
-2. It makes continues searches for the best rate through exchange aggregators.
+2. It regularly searches for the best rate through exchange aggregators.
 3. BOC performs FX interest swap, adjusting FX synthesis based on exchange rate and yield.
 4. Parameters are automatically set for market-making and lending strategy.
 
