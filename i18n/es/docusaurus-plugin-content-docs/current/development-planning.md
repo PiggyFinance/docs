@@ -2,7 +2,7 @@
 sidebar_position: 8
 ---
 # Planificación del desarrollo
-
+ 
 ## Hoja de ruta
 
 1. [x] Las pruebas entre familiares y amigos se pusieron en marcha el 4 de marzo de 2022. En esta fase de pruebas del proyecto, la escala de capital era pequeña, y se realizó principalmente la verificación final antes de dar a conocer el producto.
