@@ -28,8 +28,8 @@ The maximum supply of BOC tokens is 1 billion. Tokenholders will receive a BOC m
 | Founders | 8% | 80M |
 | **Investors** | **20.00%** | **200M** |
 | **Community ** | **55.00%** | **550M** |
-| Liquidity (USD trading on Balancer for 12 months) | 5.00% | 50M |
-| Mining (increased returns for investors in the early stage, for a period of 12 months) | 50.00% | 500M 
+| Liquidity from DEX (USD trading on Balancer for 12 months) | 5.00% | 50M |
+| Liquidity Mining (increased returns for investors in the early stage, for a period of 12 months) | 50.00% | 500M 
 | **Future Development** | **5.00%** | **50M** |
 | Team (recruit new team members in the future) | 3.00% | 30M |
 | Consultants (important and influential people in the industry) | 2.00% | 20M |

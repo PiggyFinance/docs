@@ -35,7 +35,7 @@ BOC is a DeFi protocol that provides the best long-term "risk-free" return. Itâ€
 The existing DeFi protocols present the following problems:
 
 - [Impermanent losses](appendix#impermanent-loss) in decentralized exchanges from market makers. In 2021, UniswapV3â€™s market-making revenue was about $200 million, but [those pools have suffered impermanent losses of $260 million](https://cointelegraph.com/news/half-of-uniswap-v3-liquidity-providers-are-losing-money-new-research), resulting in a total net loss of $60 million. 
-- Circular dependencies for revenue aggregators.
+- Circular dependencies for yield aggregators.
 - High investment thresholds. 
 - Operating requires a high degree of sophistication from users and presents a complex user interface.
 - Require multiple different currencies
@@ -93,7 +93,7 @@ In summary, BOC Platform is the missing catalyst that will revolutionize the ind
    </tr>
    <tr>
     <td>Type</td>
-    <td>Yield Aggregator</td>
+    <td>DeFi Bank</td>
     <td>Yield Aggregator</td>
     <td>Stablecoin</td>
     <td>Yield Aggregator</td>

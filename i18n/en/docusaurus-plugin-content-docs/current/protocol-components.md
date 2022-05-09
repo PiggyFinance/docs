@@ -94,7 +94,7 @@ The following are selected protocols at present:
 
 ### Convex
 
-**[Convex](https://www.convexfinance.com/)** is a one-stop platform for CRV staking and liquidity mining on Ethereum that is dedicated to simplifying the use of Curve. As a revenue aggregator on the Ethereum chain, Convex aims to use the CVX token to simplify the process of locking and staking Curve and CRV through a simple and easy-to-use interface, and to improve the compensation of CRV token holders and liquidity providers. This facilitates the development of the CRV ecosystem. According to the data of [DeFi Pulse](https://www.defipulse.com/), as of March 30, 2022, Convex's total locked funds amounted to about $10.1 billion, ranking fourth in DeFi applications.
+**[Convex](https://www.convexfinance.com/)** is a one-stop platform for CRV staking and liquidity mining on Ethereum that is dedicated to simplifying the use of Curve. As a yield aggregator on the Ethereum chain, Convex aims to use the CVX token to simplify the process of locking and staking Curve and CRV through a simple and easy-to-use interface, and to improve the compensation of CRV token holders and liquidity providers. This facilitates the development of the CRV ecosystem. According to the data of [DeFi Pulse](https://www.defipulse.com/), as of March 30, 2022, Convex's total locked funds amounted to about $10.1 billion, ranking fourth in DeFi applications.
 
 ### Uniswap
 
