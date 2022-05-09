@@ -36,7 +36,7 @@ BOC es un protocolo DeFi que proporciona el mejor rendimiento "sin riesgo" a lar
 
 Los protocolos DeFi existentes tienen los siguientes problemas:
 - Hay casos de grandes pérdidas impermanentes (impermanent loss) en intercambios descentralizados de creación de mercado. En 2021, los ingresos de creación de mercado de UniswapV3 son solo de unos 200 millones de dólares, pero esos grupos sufrieron pérdidas impermanentes de 260 millones de dólares, lo que resultó en una pérdida neta total de 60 millones de dólares.
-- Es habitual que los agregadores de desempeño (yield aggregators) sufran dependencias circulares.
+- Es habitual que los agregadores de rendimiento (yield aggregators) sufran dependencias circulares.
 - Muchos acuerdos tienen altos umbrales de inversión.
 - En general, los protocolos DeFi tienen múltiples opciones de inversión, y los usuarios necesitan un nivel de conocimiento relativamente más alto para elegir en qué protocolos subyacentes invertir. Al mismo tiempo, muchos de estos productos necesitan invertir en una variedad de monedas diferentes, y los usuarios necesitan convertir en la moneda requerida por el producto.
 - El proceso de inversión es complicado. En el proceso de reequilibrio de inversiones, los usuarios deben implementar operaciones complejas como retiro, cambio de moneda e inversión.

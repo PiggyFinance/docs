@@ -66,9 +66,9 @@ The current price from Chainlink is:
 - 1 DAI = 0.99 USD                                                         
 - 1 USDC = 1.00 USD
 
-100 USDT = 100 x 1.00 = 100 USDi  (price of Chainlink > 1USD，fianl price = 1USD)       
-100 DAI = 100 x 0.99 = 99 USDi  (price of Chainlink < 1USD，fianl price = Chainlink price)      
-100 USDC = 100 x 1.00 = 100 USDi  (price of Chainlink = 1USD，fianl price = 1USD)
+100 USDT = 100 x 1.00 = 100 USDi (price of Chainlink > 1 USD final price = 1 USD)       
+100 DAI = 100 x 0.99 = 99 USDi (price of Chainlink < 1 USD final price = Chainlink price)      
+100 USDC = 100 x 1.00 = 100 USDi (price of Chainlink = 1 USD final price = 1 USD)
 
 ![mint](/images/mint.png)
 
@@ -84,9 +84,9 @@ Chainlink prices:
 - 1 DAI = 0.99 USD
 - 1 USDC = 1.01 USD
 
-100 USDi = 100/1.01 = 99 USDT  (price of Chainlink > 1USD，fianl price = Chainlink price)   
-100 USDi = 100/1.00 = 100 DAI  (price of Chainlink < 1USD，fianl price = 1USD)           
-100 USDi = 100/1.00 = 100 USDC  (price of Chainlink = 1USD，fianl price = 1USD)
+100 USDi = 100/1.01 = 99 USDT  (price of Chainlink > 1 USD final price = Chainlink price)   
+100 USDi = 100/1.00 = 100 DAI  (price of Chainlink < 1 USD final price = 1 USD)           
+100 USDi = 100/1.00 = 100 USDC  (price of Chainlink = 1 USD final price = 1 USD)
 
 
 ![burn](/images/burn.png)

@@ -44,17 +44,9 @@ El precio actual de Chainlink es:
 - 1 DAI = 0,99 USD                                                         
 - 1 USDC = 1.00 USD
 
-$$
-100 USDT  = 99 USDT \times 1.00 \frac {USDi}{USDT} = 100 USDi
-$$
-
-$$
-100 DAI  = 100 DAI \times 0.99 \frac {USDi}{DAI} = 99 USDi
-$$
-
-$$
-100 USDC  = 100 USDC  \times 1.00 \frac {USDi}{USDC} = 100 USDi
-$$
+100 USDT = 100 x 1.00 = 100 USDi (Chainlink > 1 USD，precio final = 1 USD)       
+100 DAI = 100 x 0.99 = 99 USDi (Chainlink < 1 USD，precio final = precio de Chainlink)      
+100 USDC = 100 x 1.00 = 100 USDi (Chainlink = 1 USD，precio final = 1 USD)
 
 ![mint](/images/mint.png)
 
@@ -76,21 +68,13 @@ La regla de la quema es opuesta a la de la acuñación: el precio de la transacc
 
 Por lo tanto, Alicia quema 299 USDi para retirar:
 
-$$
-100 USDi  = \frac{99 USDi} {1.01 \frac {USDi}{USDT}} = 98.01 USDT
-$$
-
-$$
-100  USDi  = \frac {100 (USDi)} {1.00 \frac {USDi}{DAI}} = 100 DAI
-$$
-
-$$
-100  USDi  = \frac {100 USDi} {1.00 \frac {USDi}{USDC}} = 100 USDC
-$$
+100 USDi = 100/1.01 = 99 USDT (Chainlink > 1 USD, precio final = precio de Chainlink)   
+100 USDi = 100/1.00 = 100 DAI (Chainlink < 1 USD, precio final = 1 USD)           
+100 USDi = 100/1.00 = 100 USDC (Chainlink = 1 USD, precio final = 1 USD)
 
 ![burn](/images/burn.png)
 
-Los numeros en el gráfico es sólo un ejemplo numérico para entender mejor las reglas de acuñación y quema en BOC. En el mundo real la fluctuación de USDi es mucho menor, lo que significa que los usuarios nunca se encontrarán con una posible pérdida como ésta. De hecho, la posible pérdida será inferior al 0,01%. El objetivo de estas reglas es evitar [arbitrajes](appendix#arbitraje) en nuestra plataforma y proteger el protocolo.
+Los números en el gráfico es solo un ejemplo numérico para entender mejor las reglas de acuñación y quema en BOC. En el mundo real la fluctuación de USDi es mucho menor, lo que significa que los usuarios nunca se encontrarán con una posible pérdida como esta. De hecho, la posible pérdida será inferior al 0,01%. El objetivo de estas reglas es evitar [arbitrajes](appendix#arbitraje) en nuestra plataforma y proteger el protocolo.
 
 ## Cosecha
 
