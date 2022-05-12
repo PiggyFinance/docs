@@ -29,9 +29,9 @@ En el futuro, BOC podrá soportar más redes de blockchains, como Fantom, Avalan
 
 En el futuro, BOC puede apoyar más estrategias de protocolo con un beneficio estable y competitivo.
 
-### Apoyo a los acuerdos de préstamo
+### Apoyo a los contratos de préstamo
 
-Al introducir un acuerdo de préstamo, se proporciona una reserva de capital para BOC, y se puede acceder al acuerdo de apalancamiento para la inversión estratégica en el futuro.
+Al introducir un contrato de préstamo, se proporciona una reserva de capital para BOC, y se puede acceder al contrato de apalancamiento para la inversión estratégica en el futuro.
 BOC introduce un protocolo de préstamo para añadir apalancamiento al acoplar la estrategia del protocolo, supervisar la relación entre el rendimiento de la creación de mercado, el rendimiento de la moneda minera y la tasa de préstamo en tiempo real, y ajustar dinámicamente el múltiplo de apalancamiento.
 
 ### Apoyo a los canales de depósito

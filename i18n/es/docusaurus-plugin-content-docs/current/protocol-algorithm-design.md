@@ -151,7 +151,7 @@ La entrada en el ajuste de la posición del algoritmo son el [APY](appendix#inte
 
 ### Asignación
 
-En comparación con `doHardWork`, `allocation` ha hecho un paso más: sacar los fondos de la estrategia de bajo APY, y luego utilizar el APY oficial del acuerdo de terceros, el gas requerido para la inversión de cada estrategia, el límite de deslizamiento de cambio, las reglas de asignación de fondos, el algoritmo de ajuste de posición como una entrada, y la salida es la estrategia y la cantidad de los fondos de inversión en espera.
+En comparación con `doHardWork`, `allocation` ha hecho un paso más: sacar los fondos de la estrategia de bajo APY, y luego utilizar el APY oficial del contrato de terceros, el gas requerido para la inversión de cada estrategia, el límite de deslizamiento de cambio, las reglas de asignación de fondos, el algoritmo de ajuste de posición como una entrada, y la salida es la estrategia y la cantidad de los fondos de inversión en espera.
 
 | Establecer parámetros | ETH | Cadena BNB | Polígono|
 | --------------------------------------------------------------------------------------------------------- | ----------------- | ----------------- | ----------------- |

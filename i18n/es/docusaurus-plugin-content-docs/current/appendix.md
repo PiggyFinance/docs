@@ -157,7 +157,7 @@ El parámetro "periodos" son los periodos de pago de intereses.
 
 ### Estrategia   
 
-La estrategia se refiere a los contratos inteligentes que interactúan con los acuerdos de terceros. La boveda de BOC tiene múltiples políticas, y la política es uno-a-uno con los acuerdos de terceros externos.
+La estrategia se refiere a los contratos inteligentes que interactúan con los acuerdos de terceros. La boveda de BOC tiene múltiples Eestrategias, y la política es uno-a-uno con los acuerdos de terceros externos.
 
 <!-- ### Vesting
 
