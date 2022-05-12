@@ -132,7 +132,7 @@ Parameter “periods” is the interest payment periods.
 
 ### Strategy  
 
-Strategy refers to smart contracts that interface with third-party agreements. BOC Vault has multiple policies, and the policy is one-to-one with external third-party protocols.
+Strategy refers to smart contracts that interface with third-party agreements. BOC Vault has multiple strategies, and the strategy is one-to-one with external third-party protocols.
 
 ### Oracle
 

@@ -31,7 +31,7 @@ In the future, BOC may support more protocol strategies with stable and competit
 
 ### Loan Protocol Support
 
-By introducing a loan protocol, a capital pool is provided for BOC, and the leverage agreement can be accessed for strategic investment in the future.
+By introducing a loan protocol, a liquidity pool is provided for BOC, and the leverage agreement can be accessed for strategic investment in the future.
 BOC introduces a lending protocol to add leverage when docking the protocol strategy, monitor the relationship between market-making yield, mining coin yield and lending rate in real time, and dynamically adjust the leverage multiple.
 
 ### Fiat Deposit Channels Support

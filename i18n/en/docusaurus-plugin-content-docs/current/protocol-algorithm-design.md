@@ -122,7 +122,7 @@ If any of the above conditions are met, user can do `harvest` work:
 <td>6:00 am every day</td>
 </tr>
 <tr>
-<td>Maximum time interval for triggering policy “harvest” (if the interval between current “harvest” and last “harvest” is greater than this value, “harvest” must be done) </td>
+<td>Maximum time interval for triggering strategie “harvest” (if the interval between current “harvest” and last “harvest” is greater than this value, “harvest” must be done) </td>
 <td>2.5 days</td>
 <td>2.5 days</td>
 <td>2.5 days</td>
@@ -331,7 +331,7 @@ $$
 
 The “periods” parameter is the interest payment period.
 
-#### Policy Actual APY Calculation Rules
+#### Strategy Actual APY Calculation Rules
 
 The actual APY of the strategy is calculated based on the standard return of the strategy currency.
 

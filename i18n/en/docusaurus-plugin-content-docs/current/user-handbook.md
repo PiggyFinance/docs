@@ -93,7 +93,7 @@ BOC subgraph:
 
 - POLYGON: <https://api.thegraph.com/subgraphs/name/bankofchain/boc-subgraph-matic>
 
-## Policy Details
+## Strategy Details
 
 Take SushiUsdcUsdtStrategy as an example, enter the strategy details page as shown in the figure:
 
@@ -101,8 +101,8 @@ Take SushiUsdcUsdtStrategy as an example, enter the strategy details page as sho
 
 Each data is described as follows:
 
-1. Policy Details
-      - Policy name
+1. Strategy Details
+      - Strategy name
       - Stablecoins accepted by the strategy
       - The current total assets of the strategy (valued in USDT)
       - The total assets of the strategy's historical investment (valued in USDT)
@@ -111,7 +111,7 @@ Each data is described as follows:
       - Historical weekly APY(blue line)
 3. Total Strategy Assets (Currency Standard)
 4. Strategy operation asset changes (currency standard)
-5. Policy Action Type
+5. Strategy Action Type
       - “harvest:: The strategy completes a mine sale and reinvestment, and reports the total asset valuation
       - “lend”: Vault puts funds into the strategy, and this action occurs in fund allocation (“doHardWork”, “allocation”)
       - “redeem”: Vault withdraws funds from the strategy, and this action occurs in the allocation of funds (“allocation”)

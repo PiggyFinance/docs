@@ -6,7 +6,7 @@ sidebar_position: 2
 
 ## What is BOC
 
-BOC (Bank Of Chain) is a new and innovative way to interact with decentralized financial ([DeFi](appendix#decentralized-finance-defi)) [protocols](appendix#protocol). It helps ordinary investors to obtain a "risk-free" capital-guaranteed wealth management tool on the [blockchain](appendix#blockchain-network).
+BOC (Bank Of Chain) is a new and innovative way to interact with decentralized financial ([DeFi](appendix#decentralized-finance-defi)) [protocols](appendix#protocol). It helps ordinary investors to obtain a "risk-free" asset-guaranteed wealth management tool on the [blockchain](appendix#blockchain-network).
 
 The BOC platform connects carefully selected protocols within the crypto ecosystem, including [Automatic Market Makers (AMMs)](appendix#automated-market-maker-amm), [lending protocols](appendix#lending-protocol), [yield aggregators](appendix#yield-aggregators), etc. (see [Dashboard](https://dashboard.bankofchain.io/#/) for details). 
 
@@ -26,10 +26,10 @@ BOC is a DeFi protocol that provides the best long-term "risk-free" return. Itâ€
 
 ## Fund Allocation Rules
 
-- Priority is allocated to [capital pools](appendix#liquidity-pool-or-capital-pool) that provide the higher yield.
-- The capital invested in a single capital pool cannot exceed 20% of the total assets under management.
-- The capital allocated to a single capital pool cannot exceed 50% of their existing lock-up amount.
-- Multiple capital pools in the same protocol cannot exceed 30% of the total assets under management.
+- Priority is allocated to [liquidity pools](appendix#liquidity-pool) that provide the higher yield.
+- The capital invested in a single liquidity  pool cannot exceed 20% of the total assets under management.
+- The capital allocated to a single liquidity  pool cannot exceed 50% of their existing lock-up amount.
+- Multiple liquidity  pools in the same protocol cannot exceed 30% of the total assets under management.
 - Funds allocation is adjusted automatically to ensure the most cost-efficient position.
 
 The existing DeFi protocols present the following problems:
