@@ -22,7 +22,7 @@ Ethereum también se conoce como la "plataforma blockchain de segunda generació
 
 El 15 de febrero de 2022, la bolsa de criptomonedas Binance anunció que la cadena inteligente original de Binance (BSC) pasará a llamarse cadena BNB. BNB es la criptodivisa de la plataforma de intercambio Binance que impulsa el ecosistema BNB Chain, y es uno de los tokens de utilidad más populares del mundo.
 
-### Polígono
+### Polygon
 
 **Polygon** es un protocolo para construir e interconectar redes de blockchain compatibles con Ethereum. El proyecto se lanzó en la India en 2017 con el nombre original de Matic Network. En febrero de 2021, el nombre del proyecto se cambió a Polygon. La criptodivisa del proyecto Polygon es MATIC, una de las 20 principales criptodivisas por capitalización de mercado negociada en los principales intercambios.
 
@@ -97,7 +97,7 @@ Los protocolos actualmente seleccionados son
 
 - Ethereum: Convex, DODO, SushiSwap, Balancer, etc.
 - Cadena BNB: DForce, Synapse, Venus, DODO, Belt, Pancakeswap, Alpaca, etc.
-- Polígono: DODO, Synapse, Quickswap, Balancer, Aave, Curve, SushiSwap, etc.
+- Polygon: DODO, Synapse, Quickswap, Balancer, Aave, Curve, SushiSwap, etc.
 
 ### Aave
 

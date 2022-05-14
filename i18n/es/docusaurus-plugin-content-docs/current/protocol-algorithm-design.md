@@ -105,7 +105,7 @@ Si se cumple alguna de las condiciones anteriores, el usuario puede realizar el 
 <td>6:00 am todos los días</td>
 </tr>
 <tr>
-<td>Intervalo de tiempo máximo para activar la política "cosecha" (si el intervalo entre la "cosecha" actual y la última "cosecha" es mayor que este valor, se debe realizar la "cosecha") </td>
+<td>Intervalo de tiempo máximo para activar la estrategia "cosecha" (si el intervalo entre la "cosecha" actual y la última "cosecha" es mayor que este valor, se debe realizar la "cosecha") </td>
 <td>2,5 días</td>
 <td>2,5 días</td>
 <td>2,5 días</td>
@@ -153,7 +153,7 @@ La entrada en el ajuste de la posición del algoritmo son el [APY](appendix#inte
 
 En comparación con `doHardWork`, `allocation` ha hecho un paso más: sacar los fondos de la estrategia de bajo APY, y luego utilizar el APY oficial del contrato de terceros, el gas requerido para la inversión de cada estrategia, el límite de deslizamiento de cambio, las reglas de asignación de fondos, el algoritmo de ajuste de posición como una entrada, y la salida es la estrategia y la cantidad de los fondos de inversión en espera.
 
-| Establecer parámetros | ETH | Cadena BNB | Polígono|
+| Establecer parámetros | ETH | Cadena BNB | Polygon|
 | --------------------------------------------------------------------------------------------------------- | ----------------- | ----------------- | ----------------- |
 | Ciclo de activación de informes de posición preajustado | 6:50 am todos los días | 6:50 am todos los días | 6:50 am todos los días | 6:50 am todos los días
 | Ciclo de activación de la tarea programada: 7 de la mañana todos los lunes.
@@ -265,7 +265,7 @@ Utilice el programa `optimize.minimize` de python para encontrar el esquema de r
 
 ### Configuración de los parámetros públicos
 
-| Establecer parámetros | ETH | Cadena BNB | Polígono |
+| Establecer parámetros | ETH | Cadena BNB | Polygon |
 | --------------------------------------------------------------------------------------------- | ---------- | ---------- | ---------- |
 | Cálculo de la asignación de fondos Configuración del deslizamiento de la bolsa | 0,25% | 0,25% | 0,25% | 0,25%| 
 | Configuración del gas (incluyendo el gas de depósito y retirada de la estrategia, el gas de intercambio, el coste de la cosecha) | | Gas real | Gas real | Gas real| 
