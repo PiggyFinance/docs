@@ -7,7 +7,7 @@ BOC es una innovación disruptiva que tiene como objetivo cambiar el ecosistema 
 
 ## Desarrollo DAO
 
-Por el momento, la gobernanza de BOC es lograr la co-gestión de los dueños de los tokens(tokenholders) de gobernanza a través de la multi-firma de Gnosis. En el futuro, los derechos de gobernanza se transferirán a la DAO.
+Por el momento, la gobernanza de BOC es lograr la cogestión de los dueños de los tokens(tokenholders) de gobernanza a través de la multi-firma de Gnosis. En el futuro, los derechos de gobernanza se transferirán a la DAO.
 
 El programa DAO:
 
@@ -30,8 +30,8 @@ El suministro máximo de tokens BOC es de mil millones. Los tenedores de tokens 
 | Fundadores | 8% | 80M |
 | **Inversores*** | **20.00%** | **200M** |
 | **Comunidad ** | **55.00%** | **550M** |
-| Liquidez (negociación de USD en Balancer durante 12 meses) | 5.00% | 50M |
-| Minería (mayores retornos para inversionistas en etapa temprana, por un período de 12 meses) | 50.00% | 500M |
+| Liquidez de DEXs (trading de USD en Balancer durante 12 meses) | 5.00% | 50M |
+| Minería de liquidez (mayores retornos para inversionistas en etapa temprana, por un período de 12 meses) | 50.00% | 500M |
 | **Futuro desarrollo ** | **5.00%** | **50M** |
 | Equipo (reclutamiento de nuevos miembros en el futuro) | 3.00% | 30M |
 | Consultores (personas importantes e influyentes en la industria) | 2.00% | 20M |

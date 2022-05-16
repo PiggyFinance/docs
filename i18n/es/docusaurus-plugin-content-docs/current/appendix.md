@@ -84,7 +84,7 @@ Para superar realmente el problema del oráculo se necesitan oráculos descentra
 
 ### Arbitraje
 
-El arbitraje implica la compra y venta de dos activos relacionados en dos mercados diferentes con el fin de aprovechar el diferencial de precios o tasas entre los mercados en beneficios libres de riesgo. Esto, si no se contempla, puede llevar a pérdidas de activos en la cámara. Vea más aquí.
+El arbitraje implica la compra y venta de dos activos relacionados en dos mercados diferentes con el fin de aprovechar el diferencial de precios o tasas entre los mercados en beneficios libres de riesgo. Esto, si no se contempla, puede llevar a pérdidas de activos en la cámara. Vea más [aquí](protocol-algorithm-design#reglas-de-acuñación-y-quema-burn--mint).
 
 ### Burn
 
@@ -157,7 +157,7 @@ El parámetro "periodos" son los periodos de pago de intereses.
 
 ### Estrategia   
 
-La estrategia se refiere a los contratos inteligentes que interactúan con los acuerdos de terceros. La boveda de BOC tiene múltiples políticas, y la política es uno-a-uno con los acuerdos de terceros externos.
+La estrategia se refiere a los contratos inteligentes que interactúan con los acuerdos de terceros. La boveda de BOC tiene múltiples estrategias, y la estrategia es uno-a-uno con los acuerdos de terceros externos.
 
 <!-- ### Vesting
 

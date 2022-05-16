@@ -22,7 +22,7 @@ Ethereum también se conoce como la "plataforma blockchain de segunda generació
 
 El 15 de febrero de 2022, la bolsa de criptomonedas Binance anunció que la cadena inteligente original de Binance (BSC) pasará a llamarse cadena BNB. BNB es la criptodivisa de la plataforma de intercambio Binance que impulsa el ecosistema BNB Chain, y es uno de los tokens de utilidad más populares del mundo.
 
-### Polígono
+### Polygon
 
 **Polygon** es un protocolo para construir e interconectar redes de blockchain compatibles con Ethereum. El proyecto se lanzó en la India en 2017 con el nombre original de Matic Network. En febrero de 2021, el nombre del proyecto se cambió a Polygon. La criptodivisa del proyecto Polygon es MATIC, una de las 20 principales criptodivisas por capitalización de mercado negociada en los principales intercambios.
 
@@ -97,7 +97,7 @@ Los protocolos actualmente seleccionados son
 
 - Ethereum: Convex, DODO, SushiSwap, Balancer, etc.
 - Cadena BNB: DForce, Synapse, Venus, DODO, Belt, Pancakeswap, Alpaca, etc.
-- Polígono: DODO, Synapse, Quickswap, Balancer, Aave, Curve, SushiSwap, etc.
+- Polygon: DODO, Synapse, Quickswap, Balancer, Aave, Curve, SushiSwap, etc.
 
 ### Aave
 
@@ -171,7 +171,7 @@ Los oráculos son fuentes de datos que conectan a Ethereum con información del 
 
 | Contrato BOC                                                     |  Contrato del protocolo de la tercera parte                                                  |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| [Vault](https://etherscan.io/address/0x008586B7f6768EDc269D9e5cd276316d33CECE6d)|                                                       |
+| [Vault](https://etherscan.io/address/0xd5C7A01E49ab534e31ABcf63bA5a394fF1E5EfAC)|                                                       |
 | [Balancer3CrvStrategy](https://etherscan.io/address/0xa4bc7002d89ef7966c5b2fd70963eaa7a632bb19) | [Balancer Vault](https://etherscan.io/address/0xBA12222222228d8Ba445958a75a0704d566BF2C8) |
 | [DodoUsdtUsdcStrategy](https://etherscan.io/address/0x88b7068a365a92fe648c6d6a99cc58a583756df5) | [DSP](https://etherscan.io/address/0xC9f93163c99695c6526b799EbcA2207Fdf7D61aD) [DODOMine](https://etherscan.io/address/0xaeD7384F03844Af886b830862FF0a7AFce0a632C) |
 | [DodoDaiUsdtStrategy](https://etherscan.io/address/0xcace5387e7154594e0e95aa82f7779b2a0d8c9dc) | [DSP](https://etherscan.io/address/0x3058EF90929cb8180174D74C507176ccA6835D73) [DODOMine](https://etherscan.io/address/0x1A4F8705E1C0428D020e1558A371b7E6134455A2) |
@@ -203,7 +203,7 @@ Los oráculos son fuentes de datos que conectan a Ethereum con información del 
 
 | Contrato BOC                                                     |  Contrato del protocolo de la tercera parte                                                  |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| [Vault](https://bscscan.com/address/0x699F86dd50224544E6c23670Af44682CAe9db3c5) |                                                              |
+| [Vault](https://bscscan.com/address/0x76609c83dD684F0D4c0F0c9849db0a1b5a96CAB2) |                                                              |
 | [PancakeDaiBusdStrategy](https://bscscan.com/address/0x3fa2b30bfa5816b115b648d42955d3c3cb7bc368) | [PancakeSwap Router v2](https://bscscan.com/address/0x10ED43C718714eb63d5aA57B78B54704E256024E) [PancakeSwap Main Staking Contract](https://bscscan.com/address/0x73feaa1eE314F8c655E354234017bE2193C9E24E) |
 | [PancakeTusdBusdStrategy](https://bscscan.com/address/0x3c87c8a62bc56b9663a256999c5aa333ce459857) | [PancakeSwap Router v2](https://bscscan.com/address/0x10ED43C718714eb63d5aA57B78B54704E256024E) [PancakeSwap Main Staking Contract](https://bscscan.com/address/0x73feaa1eE314F8c655E354234017bE2193C9E24E) |
 | [PancakeUsdcBusdStrategy](https://bscscan.com/address/0x05898f26ebfb39de28c55a7dc3d2ff062aa8defa) | [PancakeSwap Router v2](https://bscscan.com/address/0x10ED43C718714eb63d5aA57B78B54704E256024E) [PancakeSwap Main Staking Contract](https://bscscan.com/address/0x73feaa1eE314F8c655E354234017bE2193C9E24E) |
@@ -230,7 +230,7 @@ Los oráculos son fuentes de datos que conectan a Ethereum con información del 
 
 | Contrato BOC                                                     |  Contrato del protocolo de la tercera parte                                                  |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| [Vault](https://polygonscan.com/address/0xFB7f340A7DEfD3bB0072844db6D5EbdFAD765dea) |                                                              |
+| [Vault](https://polygonscan.com/address/0xd3feAe6c4fdfDE73Bd2fE99c8fE6944904DAA68A) |                                                              |
 | [Curve3CrvStrategy](https://polygonscan.com/address/0x1f84a8c8c31674b89a4723521ead5a48579b8bf7) | [Curve.fi Aave Pool](https://polygonscan.com/address/0x445FE580eF8d70FF569aB36e80c647af338db351) [Curve.fi Aave Gauge](https://polygonscan.com/address/0x19793B454D3AfC7b454F206Ffe95aDE26cA6912c) |
 | [AaveUsdtStrategy](https://polygonscan.com/address/0xb80a44d494acb8db24ff7047514a16bb554290e4 ) | [Aave Lending Pool V2](https://polygonscan.com/address/0x8dFf5E27EA6b7AC08EbFdf9eB090F32ee9a30fcf) [Aave Incentives Controller V2](https://polygonscan.com/address/0x357D51124f59836DeD84c8a1730D72B749d8BC23) |
 | [AaveUsdcStrategy](https://polygonscan.com/address/0x5c9a02f7a45c5407bef7e98d69ca324a29803b15 ) | [Aave Lending Pool V2](https://polygonscan.com/address/0x8dFf5E27EA6b7AC08EbFdf9eB090F32ee9a30fcf) [Aave Incentives Controller V2](https://polygonscan.com/address/0x357D51124f59836DeD84c8a1730D72B749d8BC23) |

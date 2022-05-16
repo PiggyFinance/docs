@@ -34,6 +34,6 @@ Los oráculos son el puente entre la cadena de bloques y el mundo real. Los orá
 
 El riesgo del oráculo BOC se divide en:
 
-- Si el Oraculo utilizado por la estrategia de protocolo de terceros conectada por BOC es atacada, los beneficios del protocolo ya no serán reales. Esto afectará al BOC para que tome decisiones de inversión incorrectas basadas en una cotización incorrecta, lo que a su vez afectará el APY del BOC.
+- Si el Oraculo utilizado por la estrategia de protocolo de terceros conectada por BOC es atacada, los beneficios del protocolo ya no serán reales. Esto afectará a que BOC tome decisiones de inversión incorrectas basadas en una cotización incorrecta, lo que a su vez afectará el APY del BOC.
 
 - Si se ataca el Oraculo utilizado por BOC (que actualmente utiliza Chainlink), la valoración de la estrategia dejará de ser precisa, lo que afectará a los depósitos y retiros de los usuarios.

@@ -66,17 +66,9 @@ The current price from Chainlink is:
 - 1 DAI = 0.99 USD                                                         
 - 1 USDC = 1.00 USD
 
-$$
-100 USDT  = 99 USDT \times 1.00 \frac {USDi}{USDT} = 100 USDi
-$$
-
-$$
-100 DAI  = 100 DAI \times 0.99 \frac {USDi}{DAI} = 99 USDi
-$$
-
-$$
-100 USDC  = 100 USDC  \times 1.00 \frac {USDi}{USDC} = 100 USDi
-$$
+100 USDT = 100 x 1.00 = 100 USDi (price of Chainlink > 1 USD final price = 1 USD)       
+100 DAI = 100 x 0.99 = 99 USDi (price of Chainlink < 1 USD final price = Chainlink price)      
+100 USDC = 100 x 1.00 = 100 USDi (price of Chainlink = 1 USD final price = 1 USD)
 
 ![mint](/images/mint.png)
 
@@ -92,18 +84,9 @@ Chainlink prices:
 - 1 DAI = 0.99 USD
 - 1 USDC = 1.01 USD
 
-$$
-100 USDi  = \frac{99 USDi} {1.01 \frac {USDi}{USDT}} = 98.01 USDT
-$$
-
-$$
-100  USDi  = \frac {100 (USDi)} {1.00 \frac {USDi}{DAI}} = 100 DAI
-$$
-
-$$
-100  USDi  = \frac {100 USDi} {1.00 \frac {USDi}{USDC}} = 100 USDC
-$$
-
+100 USDi = 100/1.01 = 99 USDT  (price of Chainlink > 1 USD final price = Chainlink price)   
+100 USDi = 100/1.00 = 100 DAI  (price of Chainlink < 1 USD final price = 1 USD)           
+100 USDi = 100/1.00 = 100 USDC  (price of Chainlink = 1 USD final price = 1 USD)
 
 
 ![burn](/images/burn.png)
@@ -139,7 +122,7 @@ If any of the above conditions are met, user can do `harvest` work:
 <td>6:00 am every day</td>
 </tr>
 <tr>
-<td>Maximum time interval for triggering policy “harvest” (if the interval between current “harvest” and last “harvest” is greater than this value, “harvest” must be done) </td>
+<td>Maximum time interval for triggering strategie “harvest” (if the interval between current “harvest” and last “harvest” is greater than this value, “harvest” must be done) </td>
 <td>2.5 days</td>
 <td>2.5 days</td>
 <td>2.5 days</td>
@@ -185,7 +168,7 @@ The input into the position adjustment of the algorithm are the official [APY](a
 
 #### Allocation
 
-Compared with `doHardWork`, `allocation` has done one more step: take out the funds of the low APY strategy, and then use the official APY of the third-party agreement, the gas required for investment of each strategy, the exchange slippage limit, fund allocation rules, the position adjustment algorithm as an input, and the output is the strategy and the amount of the awaiting investment funds.
+Compared with `doHardWork`, `allocation` has done one more step: take out the funds of the low APY strategy, and then use the official APY of the third-party protocols, the gas required for investment of each strategy, the exchange slippage limit, fund allocation rules, the position adjustment algorithm as an input, and the output is the strategy and the amount of the awaiting investment funds.
 
 | Set parameters                                                                                            | ETH               | BNB Chain         | Polygon           |
 | --------------------------------------------------------------------------------------------------------- | ----------------- | ----------------- | ----------------- |
@@ -348,7 +331,7 @@ $$
 
 The “periods” parameter is the interest payment period.
 
-#### Policy Actual APY Calculation Rules
+#### Strategy Actual APY Calculation Rules
 
 The actual APY of the strategy is calculated based on the standard return of the strategy currency.
 

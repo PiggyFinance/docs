@@ -6,7 +6,7 @@ sidebar_position: 2
 
 ## What is BOC
 
-BOC (Bank Of Chain) is a new and innovative way to interact with decentralized financial ([DeFi](appendix#decentralized-finance-defi)) [protocols](appendix#protocol). It helps ordinary investors to obtain a "risk-free" capital-guaranteed wealth management tool on the [blockchain](appendix#blockchain-network).
+BOC (Bank Of Chain) is a new and innovative way to interact with decentralized financial ([DeFi](appendix#decentralized-finance-defi)) [protocols](appendix#protocol). It helps ordinary investors to obtain a "risk-free" asset-guaranteed wealth management tool on the [blockchain](appendix#blockchain-network).
 
 The BOC platform connects carefully selected protocols within the crypto ecosystem, including [Automatic Market Makers (AMMs)](appendix#automated-market-maker-amm), [lending protocols](appendix#lending-protocol), [yield aggregators](appendix#yield-aggregators), etc. (see [Dashboard](https://dashboard.bankofchain.io/#/) for details). 
 
@@ -26,16 +26,16 @@ BOC is a DeFi protocol that provides the best long-term "risk-free" return. Itâ€
 
 ## Fund Allocation Rules
 
-- Priority is allocated to [capital pools](appendix#liquidity-pool-or-capital-pool) that provide the higher yield.
-- The capital invested in a single capital pool cannot exceed 20% of the total assets under management.
-- The capital allocated to a single capital pool cannot exceed 50% of their existing lock-up amount.
-- Multiple capital pools in the same protocol cannot exceed 30% of the total assets under management.
+- Priority is allocated to [liquidity pools](appendix#liquidity-pool) that provide the higher yield.
+- The capital invested in a single liquidity  pool cannot exceed 20% of the total assets under management.
+- The capital allocated to a single liquidity  pool cannot exceed 50% of their existing lock-up amount.
+- Multiple liquidity  pools in the same protocol cannot exceed 30% of the total assets under management.
 - Funds allocation is adjusted automatically to ensure the most cost-efficient position.
 
 The existing DeFi protocols present the following problems:
 
 - [Impermanent losses](appendix#impermanent-loss) in decentralized exchanges from market makers. In 2021, UniswapV3â€™s market-making revenue was about $200 million, but [those pools have suffered impermanent losses of $260 million](https://cointelegraph.com/news/half-of-uniswap-v3-liquidity-providers-are-losing-money-new-research), resulting in a total net loss of $60 million. 
-- Circular dependencies for revenue aggregators.
+- Circular dependencies for yield aggregators.
 - High investment thresholds. 
 - Operating requires a high degree of sophistication from users and presents a complex user interface.
 - Require multiple different currencies
@@ -72,7 +72,7 @@ Risk control:
 Smart algorithm:
 
 1. Yields are regularly calibrated, weighing the cost and reward for funds reallocation.
-2. It makes continues searches for the best rate through exchange aggregators.
+2. It regularly searches for the best rate through exchange aggregators.
 3. BOC performs FX interest swap, adjusting FX synthesis based on exchange rate and yield.
 4. Parameters are automatically set for market-making and lending strategy.
 
@@ -93,7 +93,7 @@ In summary, BOC Platform is the missing catalyst that will revolutionize the ind
    </tr>
    <tr>
     <td>Type</td>
-    <td>Yield Aggregator</td>
+    <td>DeFi Bank</td>
     <td>Yield Aggregator</td>
     <td>Stablecoin</td>
     <td>Yield Aggregator</td>

@@ -47,8 +47,6 @@ Después de conectar con éxito el monedero, podemos completar la retirada selec
 
 ![pic8](/images/pic-8.png)
 
-**Exchanged**: En el desplegable se encuentra la función de intercambio. Cada estrategia en el BOC utiliza diferentes stablecoins. Cuando retiremos dinero, lo haremos según el APY de la estrategia de menor a mayor. Si se obtiene una estrategia que no sea USDT, se devolverá la moneda estable de la estrategia correspondiente, por ejemplo, si se obtiene Yearn LUSD, se devolverá LUSD y si se cierra el intercambio, se devolverá a nuestra cuenta el valor correspondiente de LUSD. Si se habilita la redención, es necesario establecer el parámetro Slippage.
-
 ### Retirada Parámetros avanzados
 
 ![advancesetting](/images/advancesetting.png)
@@ -58,6 +56,12 @@ Los parámetros de las opciones avanzadas son:
 **Pérdida máxima**: La pérdida máxima en los retiros. Cuando especifiquemos la cuota de retirada, se mostrarán los activos totales con el valor neto actual, pero estos no son los fondos que podemos obtener finalmente, y pueden producirse pérdidas durante el proceso de retirada, incluidas las pérdidas por deslizamiento de cambio. Si nuestros activos totales se estiman en $1000 en este momento, y elegimos Max Loss=0,3%, entonces obtendremos no menos de $997.
 
 **Slippage**: [Slippage](appendix#slippage) (deslizamiento) entre diferentes monedas. Podemos especificar el deslizamiento que aceptamos.
+
+### Añadir USDi a tu monedero
+
+Si el USDi no aparece en su monedero, tiene que añadirlo manualmente, logramos hacerlo realmente facil, sólo hay que hacer clic en el `+` junto a su saldo de USDi dentro de la app y pulsar `Añadir Token`. Entonces verás tu saldo de USDi en tu monedero de Metamask.
+
+![addtoken](/images/addtoken.png)
 
 ## Dashboard (Tablero de mandos)
 
