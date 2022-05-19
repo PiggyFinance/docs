@@ -8,7 +8,7 @@ sidebar_position: 2
 
 BOC (Bank Of Chain) is a new and innovative way to interact with decentralized financial ([DeFi](appendix#decentralized-finance-defi)) [protocols](appendix#protocol). It helps ordinary investors to obtain a "risk-free" asset-guaranteed wealth management tool on the [blockchain](appendix#blockchain-network).
 
-The BOC platform connects carefully selected protocols within the crypto ecosystem, including [Automatic Market Makers (AMMs)](appendix#automated-market-maker-amm), [lending protocols](appendix#lending-protocol), [yield aggregators](appendix#yield-aggregators), etc. (see [Dashboard](https://dashboard.bankofchain.io/#/) for details). 
+The BOC platform connects carefully selected protocols within the crypto ecosystem, including [Automatic Market Makers (AMMs)](appendix#automated-market-maker-amm), [lending protocols](appendix#lending-protocol), [yield aggregators](appendix#yield-aggregators), among others. (see [Dashboard](https://dashboard.bankofchain.io/#/) for details). 
 
 By accessing high-quality [protocol](appendix#protocol) [strategies](appendix#strategy), BOC can provide for 300-500 basis points (3-5%) above other similar USD managed funds. 
 
@@ -18,18 +18,18 @@ For newcomers to the crypto industry, this is the best way to enter the DeFi eco
 
 BOC is a DeFi protocol that provides the best long-term "risk-free" return. It’s source of return includes:
 
-- The transaction fee charged for providing market-making funds to decentralized exchanges (DEX). 
+- The transaction fee charged for providing market-making funds to decentralized exchanges ((DEX))[appendix#decentralized-exchanges-dexs]. 
 
-- The interest charged on funds borrowed for over-collateralized loans.
+- The interest charged on funds borrowed for (over-collateralized loans)[appendix#Over-collateralized-loans].
 
 - Governance token rewards.
 
 ## Fund Allocation Rules
-
+<!-- TODO is correct liquidity for all? is not better to say strategie or just pool?-->
 - Priority is allocated to [liquidity pools](appendix#liquidity-pool) that provide the higher yield.
-- The capital invested in a single liquidity  pool cannot exceed 20% of the total assets under management.
-- The capital allocated to a single liquidity  pool cannot exceed 50% of their existing lock-up amount.
-- Multiple liquidity  pools in the same protocol cannot exceed 30% of the total assets under management.
+- The capital invested in a single liquidity pool cannot exceed 20% of the total assets under management.
+- The capital allocated to a single liquidity pool cannot exceed 50% of their existing lock-up amount.
+- Multiple liquidity pools in the same protocol cannot exceed 30% of the total assets under management.
 - Funds allocation is adjusted automatically to ensure the most cost-efficient position.
 
 The existing DeFi protocols present the following problems:
