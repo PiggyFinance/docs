@@ -171,11 +171,11 @@ A circular dependency is a relation between two or more modules which either dir
 
 ### Token
 
-Similar to a type of coin but with much greater functionality. Tokens can also be used as a method of payment like coins, but unlike coins, they can excel at other use cases such as the democratic governance of a protocol or system, or as a means to use underlying coins to make liquidity tokens from these coin deposits. s
+Similar to a type of coin but with much greater functionality. Tokens can also be used as a method of payment like coins, but unlike coins, they can excel at other use cases such as the democratic governance of a protocol or system, or as a means to use underlying coins to make liquidity tokens from these coin deposits.
 
 ### Governance Token
 
-Governance refers to determining, maintaining, adapting and enforcing the rules of a blockchain ecosystem, product, project or DAO. It specifically refers to control and use of a Governance coin or token that carries the right to take part in governance processes.
+Governance token are tokens that carries the right to take part in governance processes. Governance refers to determining, maintaining, adapting and enforcing the rules of a blockchain ecosystem, product, project or DAO.
 
 <!-- ### Nested Tokens
 

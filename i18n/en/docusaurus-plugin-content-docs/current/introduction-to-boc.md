@@ -6,7 +6,7 @@ sidebar_position: 2
 
 ## What is BOC
 
-BOC (Bank Of Chain) is a new and innovative way to interact with decentralized financial ([DeFi](appendix#decentralized-finance-defi)) [protocols](appendix#protocol). It helps ordinary investors to obtain a "risk-free" asset-guaranteed wealth management tool on the [blockchain](appendix#blockchain-network).
+BOC (Bank Of Chain) is a new and innovative way to interact with decentralized financial ([DeFi](appendix#decentralized-finance-defi)) [protocols](appendix#protocol). It helps ordinary investors to obtain a near "risk-free" wealth management tool on the [blockchain](appendix#blockchain-network).
 
 The BOC platform connects carefully selected protocols within the crypto ecosystem, including [Automatic Market Makers (AMMs)](appendix#automated-market-maker-amm), [lending protocols](appendix#lending-protocol), [yield aggregators](appendix#yield-aggregators), among others. (see [Dashboard](https://dashboard.bankofchain.io/#/) for details). 
 
@@ -22,7 +22,7 @@ BOC is a DeFi protocol that provides the best long-term "risk-free" return. Itâ€
 
 - The interest charged on funds borrowed for (over-collateralized loans)[appendix#Over-collateralized-loans].
 
-- Governance token rewards.
+- (Governance token's)[appendix#governance-token] rewards.
 
 ## Fund Allocation Rules
 <!-- TODO is correct liquidity for all? is not better to say strategie or just pool?-->
@@ -35,25 +35,50 @@ BOC is a DeFi protocol that provides the best long-term "risk-free" return. Itâ€
 The existing DeFi protocols present the following problems:
 
 - [Impermanent losses](appendix#impermanent-loss) in decentralized exchanges from market makers. In 2021, UniswapV3â€™s market-making revenue was about $200 million, but [those pools have suffered impermanent losses of $260 million](https://cointelegraph.com/news/half-of-uniswap-v3-liquidity-providers-are-losing-money-new-research), resulting in a total net loss of $60 million. 
-- Circular dependencies for yield aggregators.
+- (Circular dependencies)[appendix#circular-dependencies] for yield aggregators.
 - High investment thresholds. 
-- Operating requires a high degree of sophistication from users and presents a complex user interface.
-- Require multiple different currencies
-
+- Present high degree of sophistication and a complex user interface.
+- Requirement of multiple cryptocurrencies.
 
 ## What makes BOC Different
 
-BOC is an open platform performs decentralized investing by carefully running selected DeFi protocols to create long-term stable income avoiding risk.
+BOC is an open platform where you can deposit your crypto assets and performs decentralized investing by carefully running selected DeFi protocols to create long-term stable income avoiding risk.
 
 The main characteristics that make BOC a unique product are:
 
-User-friendliness:
+It's just like a bank:
+
+1. Bank-like user interface.
+
+   - Users can deposit and withdraw directly without considering the difficulties of implementing complex operations such as farming, exchange, and reallocation. BOC makes the best selection for them.
+   - Historical and dynamic returns are intuitively visible.
+
+2. Bank-like service.
+
+   - Wealth management tool on the blockchain.
+   - Lendings (to be implemented)
+
+3. Bank-deposit like tokens (USDi & ETHi):
+
+   - Fully liquid.
+   - Interest-bearing.
+   - Fully backed.
+   - 1:1 pegged.
+
+It's better than other DeFi protocols:
+
+   - The strategies and movement of funds has full transparency.
+   - Provides a sustainable yield.
+   - Perform a due diligence to all stakeholders before working with them.
+   - It's dummy-proof.
+
+<!-- User-friendliness:
 
 1. Users can deposit and withdraw directly without considering the difficulties of implementing complex operations such as farming, exchange, and reallocation. BOC makes the best selection for them.
 2. Profits are automatically reinvested with an immediate deposit and withdrawal process.
-3. Historical and dynamic returns are intuitively visible.
+3. Historical and dynamic returns are intuitively visible. -->
 
-Safety:
+Safety it's a priority:
 
 1. The market cap of qualified stablecoins exceeds 1 billion dollars.
 2. The TVL of qualified Blockchains exceeds 5 billion dollars.
@@ -61,7 +86,7 @@ Safety:
 4. BOC does not use unofficial third-party cross-chain bridges for transactions.
 5. The price quotation relies on Chainlink, a market-leading oracle.
 
-Risk control:
+Has risk control measures:
 
 1. It minimizes the de-anchoring risk of stablecoins.
 2. It plays down the risk of impermanent loss, BOC use market-making for [stablecoin](appendix#stablecoin) pairs only.
@@ -69,7 +94,7 @@ Risk control:
 4. The long-tail risk is really low, any yield are generated from risk servicing business, such as insurance underwriting, sell call options.
 5. There is no risk in leveraging, any leverage function is provided.
 
-Smart algorithm:
+Smart automation:
 
 1. Yields are regularly calibrated, weighing the cost and reward for funds reallocation.
 2. It regularly searches for the best rate through exchange aggregators.
