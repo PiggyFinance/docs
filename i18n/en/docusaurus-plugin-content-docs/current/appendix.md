@@ -110,7 +110,7 @@ Liquidity measures the circulating supply and how much trading activity there in
 
 ### Liquidity Pool
 
-A Liquidity Pool is a pool of deposited funds meant to provide liquidity to a currency, network, or Smart Contract. There are usually designed rewards or incentives given to those who provide liquidity to Liquidity Pools. See also Liquidity Mining. 
+A Liquidity Pool is a pool of funds meant to provide liquidity to a currency, network, or Smart Contract. There are usually designed rewards or incentives given to those who provide liquidity to Liquidity Pools. See also (Liquidity Mining)[]. 
 
 ### Yield Aggregators  
 

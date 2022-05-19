@@ -110,11 +110,11 @@ In summary, BOC Platform is the missing catalyst that will revolutionize the ind
     <td><a href="http://yearn.finance/">Yearn</a></td>
     <td><a href="https://www.ousd.com/">OUSD</a></td>
     <td><a href="https://aladdin.club/">Aladdin DAO</a></td>
-    <td><a href="https://enzyme.finance/">enzyme</a></td>
-    <td><a href="https://harvest.finance/">farming</a></td>
-    <td><a href="https://beefy.finance/">beefy</a></td>
-    <td><a href="https://alphafinance.io/">alpha</a></td>
-    <td><a href="https://www.yield.app/" >yield app</a></td>
+    <td><a href="https://enzyme.finance/">Enzyme</a></td>
+    <td><a href="https://harvest.finance/">Farming</a></td>
+    <td><a href="https://beefy.finance/">Beefy</a></td>
+    <td><a href="https://alphafinance.io/">Alpha</a></td>
+    <td><a href="https://www.yield.app/" >Yield app</a></td>
    </tr>
    <tr>
     <td>Type</td>

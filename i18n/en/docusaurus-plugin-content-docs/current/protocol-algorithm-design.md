@@ -250,7 +250,7 @@ $$
 harvestFee=harvestGas \times durationDays
 $$
 
-Find the maximum sum of deltaGain for all strategies:
+Find the maximum sum of `deltaGain` for all strategies:
 
 $$
 profitChange=MAX\sum_{i=1}^m(deltaGain_i -withdrawFee_i-lendFee_i - exchangeLoss_i-harvestFee_i)
