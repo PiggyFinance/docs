@@ -35,19 +35,31 @@ At the present, BOC works on Ethereum, BNB Chain and Polygon. If we need to swit
 
 ## Investment and Redemption
 
+### 
+
 ### Deposit
 
- Once the wallet has been successfully connected, we can complete the deposit by choosing the stablecoin to use and selecting the desired amount and then clicking on `DEPOSIT`.
+ Once the wallet has been successfully connected, we can complete the deposit by choosing the vault we what to use, on the `USDi Vault` we will have the stablecoin to use and selecting the desired amount and then clicking on `DEPOSIT`.
 
 ![pic7](/images/pic-7.png)
 
-**Exchanged**: Exchange function enablement. Each strategy in the BOC uses different stablecoins. When we withdraw money, we will do it according to the strategy APY from low to high. If a non-USDT strategy is obtained, the stable currency of the corresponding strategy will be returned, e.g. if Yearn LUSD is obtained, LUSD will be returned and if the exchange is closed, the corresponding value of LUSD will be returned to our account. If redemption is enabled, the Slippage parameter needs to be set.
+On the `ETHi Vault` we will have the possibility of investing ETH by selecting the desired amount and then clicking on `DEPOSIT`.
+
+![depositpage_eth](/images/depositpage_eth.png)
+
+The `ETHi Vault` differently to the `USDi Vault` has a gas fee estimation.
 
 ### Withdrawal
 
-After successfully connecting the wallet, we can complete the withdrawal by selecting the stablecoin or mix to withdraw and the desired USDi and clicking `WITHDRAW`.
+After successfully connecting the wallet, we can complete the withdrawal by selecting vault we what to do use, on the `USDi Vault` is the possibility to withdraw a single stablecoin or mix we complete with the desired USDi and clicking `WITHDRAW`.
 
 ![pic8](/images/pic-8.png)
+
+On the `ETHi Vault` there is the possibility to withdraw only ETH we complete with the desired ETHi and clicking `WITHDRAW`.
+
+![withdraw_eth](/images/withdraw_eth.png)
+
+**Exchanged**: Exchange function enablement. Each strategy in the BOC uses different stablecoins. When we withdraw money, we will do it according to the strategy APY from low to high. If a non-USDT strategy is obtained, the stable currency of the corresponding strategy will be returned, e.g. if Yearn LUSD is obtained, LUSD will be returned and if the exchange is closed, the corresponding value of LUSD will be returned to our account. If redemption is enabled, the Slippage parameter needs to be set.
 
 ### Withdrawal Advanced Parameters
 
@@ -64,6 +76,11 @@ The advanced setup parameters are:
 If the USDi is not shown on your wallet, you need to add it manually, we make it really easy you just to click on the `+` next to your USDi balance and press `Add Token`. Then you will see you USDi balance on your metamask wallet.
 
 ![addtoken](/images/addtoken.png)
+
+Analogously, ETHi can be added to the wallet in the same way.
+
+![addtoken_ethi](/images/addtoken_ethi.png)
+
 
 ## Dashboard
 
