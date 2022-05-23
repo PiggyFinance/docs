@@ -45,3 +45,6 @@
 
 {"rule":"MORFOLOGIK_RULE_EN_GB","sentence":"^\\QThe transaction fee charged for providing market-making funds to decentralized exchanges ((DEX))appendix/#decentralized-exchanges-dexs.\\E$"}
 {"rule":"MORFOLOGIK_RULE_EN_GB","sentence":"^\\QThe transaction fee charged for providing market-making funds to decentralized exchanges ((DEX))appendix#decentralized-exchanges-dexs.\\E$"}
+{"rule":"UPPERCASE_SENTENCE_START","sentence":"^\\Qdepositpage_eth\\E$"}
+{"rule":"UPPERCASE_SENTENCE_START","sentence":"^\\Qwithdraw_eth\\E$"}
+{"rule":"UPPERCASE_SENTENCE_START","sentence":"^\\Qaddtoken_ethi\\E$"}
