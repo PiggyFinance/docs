@@ -5,15 +5,18 @@ sidebar_position: 8
 
 ## Roadmap
 
-1. [x] Friend & Family Testing was launched by March 4, 2022. In this testing phase of the project, the capital scale was small, and the final verification before the product was publicized was mainly carried out.
+![roadmap](/images/roadmap.png)
+
+
+<!-- 1. [x] Friend & Family Testing was launched by March 4, 2022. In this testing phase of the project, the capital scale was small, and the final verification before the product was publicized was mainly carried out.
 2. BOC 1.5 version will be publicly released after passing the international audit by May 15, 2022.
     1. [x] Logo design completed by March 4, 2022.
     2. [x] Formulation of token issuance rules completed by March 10, 2022.
     3. [x] White paper will be completed by April 15, 2022.
     4. [x] AWS server leasing and deployment will be completed by April 15, 2022.
-    5. [ ] Code development and testing will be completed by May 10, 2022.
+    5. [x] Code development and testing will be completed by May 10, 2022.
     6. [ ] Security audit will be completed by May 15, 2022.
-3. [ ] Leveraging services will be provided by July 15, 2022 and publicly issued BOC Version 2.0 thereafter.
+3. [ ] Leveraging services will be provided by July 15, 2022 and publicly issued BOC Version 2.0 thereafter. -->
 
 ## Future Planning
 
@@ -23,7 +26,7 @@ At present, the adjustment algorithm only uses a function of scipy â€œminimizeâ€
 
 ### Additional Mainstream Blockchains
 
-In the future, BOC may support more blockchains newtworks, such as Fantom, Avalanche, Solana, Arbitrum, etc.
+In the future, BOC may support more blockchains networks, such as Fantom, Avalanche, Solana, Arbitrum, etc.
 
 ### Additional Protocol Strategy
 
@@ -39,6 +42,10 @@ BOC introduces a lending protocol to add leverage when docking the protocol stra
 1. Support bank account deposits and withdrawals;
 2. Support credit card deposit and withdrawal;
 3. Support payment software deposits and withdrawals;
+
+### BOC debit card.
+
+BOC will have its own Debit Card for all their users. 
 
 ### Non-stablecoin Financial Management
 
