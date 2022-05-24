@@ -1,7 +1,7 @@
 {
     "index_name": "dev_search_boc",
     "sitemap_urls": [
-      "https://bankofchain.io/sitemap.xml"
+      "https://docs.bankofchain.io/sitemap.xml"
     ],
     "sitemap_alternate_links": true,
     "stop_urls": [
