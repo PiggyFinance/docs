@@ -71,7 +71,7 @@ The advanced setup parameters are:
 
 **Slippage**: [Slippage](appendix#slippage) between different currencies. After enabling Exchanged, we need to specify the slippage that we accept.
 
-### Adding USDi to your wallet
+### Adding USDi and ETHi to your wallet
 
 If the USDi is not shown on your wallet, you need to add it manually, we make it really easy you just to click on the `+` next to your USDi balance and press `Add Token`. Then you will see you USDi balance on your metamask wallet.
 
@@ -80,7 +80,6 @@ If the USDi is not shown on your wallet, you need to add it manually, we make it
 Analogously, ETHi can be added to the wallet in the same way.
 
 ![addtoken_ethi](/images/addtoken_ethi.png)
-
 
 ## Dashboard
 
