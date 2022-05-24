@@ -61,7 +61,7 @@ const config = {
         apiKey:'7d13ef00b93a2a4c825c15463a350e49',
         indexName: 'dev_search_boc',
         contextualSearch: true,
-        okaceholder: "Search on our Docs",
+        placeholder: "Search on our Docs",
         appId: 'XXQAJL0NGW',
       },
       navbar: {
