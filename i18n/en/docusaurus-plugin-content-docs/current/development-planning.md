@@ -49,5 +49,7 @@ BOC will have its own Debit Card for all their users.
 
 ### Non-stablecoin Financial Management
 
-1. Support ETH farming and financial management
-2. Support non-mainstream currency farming and financial management
+1. Support ETH farming and financial management.
+2. Support non-mainstream currency farming and financial management.
+
+<!-- TODO explain the new thing on the roadmap -->
