@@ -10,13 +10,13 @@ BOC (Bank Of Chain) is a new and innovative way to interact with decentralized f
 
 The BOC platform connects carefully selected protocols within the crypto ecosystem, including [Automatic Market Makers (AMMs)](appendix#automated-market-maker-amm), [lending protocols](appendix#lending-protocol), [yield aggregators](appendix#yield-aggregators), among others. (see [Dashboard](https://dashboard.bankofchain.io/#/) for details). 
 
-By accessing high-quality [protocol](appendix#protocol) [strategies](appendix#strategy), BOC can provide for 300-500 basis points (3-5%) above other similar USD managed funds. 
+By accessing high-quality [protocol](appendix#protocol) and smart [strategies](appendix#strategy), BOC provides a 4-5% more APY than other similar USD managed funds. 
 
 For newcomers to the crypto industry, this is the best way to enter the DeFi ecosystem. As a one-click protocol BOC will bring a new revolution to the DeFi industry, attracting hundreds of millions of dollars of investment.
 
 ## BOC Source of Yield
 
-BOC is a DeFi protocol that provides the best long-term "risk-free" return. It’s source of return includes:
+BOC is a DeFi protocol that provides the best long-term near "risk-free" return. Depending on the strategy the sources of yield come from:
 
 - The transaction fee charged for providing market-making funds to decentralized exchanges ((DEX))[appendix#decentralized-exchanges-dexs]. 
 
@@ -25,24 +25,24 @@ BOC is a DeFi protocol that provides the best long-term "risk-free" return. It�
 - (Governance token's)[appendix#governance-token] rewards.
 
 ## Fund Allocation Rules
-<!-- TODO is correct liquidity for all? is not better to say strategie or just pool?-->
-- Priority is allocated to [liquidity pools](appendix#liquidity-pool) that provide the higher yield.
+
+- High-yield [liquidity pools](appendix#liquidity-pool) have allocation priority.
 - The capital invested in a single liquidity pool cannot exceed 20% of the total assets under management.
 - The capital allocated to a single liquidity pool cannot exceed 50% of their existing lock-up amount.
-- Multiple liquidity pools in the same protocol cannot exceed 30% of the total assets under management.
+- The total capital invested on different liquidity pools from the same protocol cannot exceed 30% of the total assets under management.
 - Funds allocation is adjusted automatically to ensure the most cost-efficient position.
 
 The existing DeFi protocols present the following problems:
 
 - [Impermanent losses](appendix#impermanent-loss) in decentralized exchanges from market makers. In 2021, UniswapV3’s market-making revenue was about $200 million, but [those pools have suffered impermanent losses of $260 million](https://cointelegraph.com/news/half-of-uniswap-v3-liquidity-providers-are-losing-money-new-research), resulting in a total net loss of $60 million. 
 - (Circular dependencies)[appendix#circular-dependencies] for yield aggregators.
-- High investment thresholds. 
+- High investment thresholds.
 - Present high degree of sophistication and a complex user interface.
 - Requirement of multiple cryptocurrencies.
 
 ## What makes BOC Different
 
-BOC is an open platform where you can deposit your crypto assets and performs decentralized investing by carefully running selected DeFi protocols to create long-term stable income avoiding risk.
+BOC is the first Decentralized Bank (DeB), where you can deposit your crypto assets and automatically BOC´s smart contracts will perform decentralized investing by carefully running selected strategies on different high-quality DeFi protocols to create long-term stable income near "risk-free".
 
 The main characteristics that make BOC a unique product are:
 
@@ -84,15 +84,17 @@ Safety it's a priority:
 2. The TVL of qualified Blockchains exceeds 5 billion dollars.
 3. It has third party auditing in place.
 4. BOC does not use unofficial third-party cross-chain bridges for transactions.
-5. The price quotation relies on Chainlink, a market-leading oracle.
+5. Its oracles attack proof, the price quotation relies on Chainlink, a market-leading oracle.
 
 Has risk control measures:
 
 1. It minimizes the de-anchoring risk of stablecoins.
 2. It plays down the risk of impermanent loss, BOC use market-making for [stablecoin](appendix#stablecoin) pairs only.
 3. The systemic risk is optimized by the very selective wrapped [tokens](appendix#token) and yield aggregators.
-4. The long-tail risk is really low, any yield are generated from risk servicing business, such as insurance underwriting, sell call options.
-5. There is no risk in leveraging, any leverage function is provided.
+4. Algorithmic stablecoin are NOT allowed.
+5. Any leverage function is provided.
+6. Circular dependency is constantly studied for being avoided.
+<!-- TODO no sure if this last bullet point makes sense-->
 
 Smart automation:
 

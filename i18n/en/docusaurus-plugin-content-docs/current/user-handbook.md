@@ -75,7 +75,11 @@ The advanced setup parameters are:
 
 If the USDi is not shown on your wallet, you need to add it manually, we make it really easy you just to click on the `+` next to your USDi balance and press `Add Token`. Then you will see you USDi balance on your metamask wallet.
 
-![addtoken](/images/addtoken.png)
+```mdx-code-block
+
+<iframe width="900" height="490" src="https://www.youtube.com/embed/53kB-HakZCk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+```
 
 Analogously, ETHi can be added to the wallet in the same way.
 
