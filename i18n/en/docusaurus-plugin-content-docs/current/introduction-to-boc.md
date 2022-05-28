@@ -6,13 +6,13 @@ sidebar_position: 2
 
 ## What is BOC
 
-BOC (Bank Of Chain) is a new and innovative way to interact with decentralized financial ([DeFi](appendix#decentralized-finance-defi)) [protocols](appendix#protocol). It helps ordinary investors to obtain a near "risk-free" wealth management tool on the [blockchain](appendix#blockchain-network).
+BOC (Bank Of Chain) is a new and innovative platform on the decentralized finance ([DeFi](appendix#decentralized-finance-defi)) ecosystem. It helps ordinary users to obtain a near "risk-free" wealth management tool on the [blockchain](appendix#blockchain-network).
 
 The BOC platform connects carefully selected protocols within the crypto ecosystem, including [Automatic Market Makers (AMMs)](appendix#automated-market-maker-amm), [lending protocols](appendix#lending-protocol), [yield aggregators](appendix#yield-aggregators), among others. (see [Dashboard](https://dashboard.bankofchain.io/#/) for details). 
 
 By accessing high-quality [protocol](appendix#protocol) and smart [strategies](appendix#strategy), BOC provides a 4-5% more APY than other similar USD managed funds. 
 
-For newcomers to the crypto industry, this is the best way to enter the DeFi ecosystem. As a one-click protocol BOC will bring a new revolution to the DeFi industry, attracting hundreds of millions of dollars of investment.
+For newcomers to the crypto industry, this is the best way to start on the DeFi ecosystem. As a one-click protocol BOC will bring a new revolution to the DeFi industry, attracting hundreds of millions of dollars of investment.
 
 ## BOC Source of Yield
 
@@ -35,12 +35,12 @@ BOC is a DeFi protocol that provides the best long-term near "risk-free" return.
 The existing DeFi protocols present the following problems:
 
 - [Impermanent losses](appendix#impermanent-loss) in decentralized exchanges from market makers. In 2021, UniswapV3’s market-making revenue was about $200 million, but [those pools have suffered impermanent losses of $260 million](https://cointelegraph.com/news/half-of-uniswap-v3-liquidity-providers-are-losing-money-new-research), resulting in a total net loss of $60 million. 
-- (Circular dependencies)[appendix#circular-dependencies] for yield aggregators.
+- [Circular dependencies](appendix#circular-dependencies) for yield aggregators.
 - High investment thresholds.
-- Present high degree of sophistication and a complex user interface.
+- Present a complex user interface and requires a high-expertice on DeFi investments.
 - Requirement of multiple cryptocurrencies.
 
-## What makes BOC Different
+## What makes BOC different?
 
 BOC is the first Decentralized Bank (DeB), where you can deposit your crypto assets and automatically BOC´s smart contracts will perform decentralized investing by carefully running selected strategies on different high-quality DeFi protocols to create long-term stable income near "risk-free".
 

@@ -149,4 +149,4 @@ Each data is described as follows:
 4. Unwithdrawn earnings (calculated in USDT).
 5. Withdrawn earnings (calculated in USDT).
 6. Historical personal total assets.
-7. Monthly income
+7. Monthly income.

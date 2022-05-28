@@ -140,13 +140,7 @@ Strategy refers to smart contracts that interface with third-party agreements. B
 
 ### Oracle
 
-Blockchain oracles are entities that connect blockchains to external systems, thereby enabling smart contracts to execute based upon inputs and outputs from the real world. In the case of BOC, it is where the USD value of stablecoins is consulted.
-
-### Oracle Attack
-
-Blockchain oracle mechanisms using a centralized entity to deliver data to a smart contract introduce a single point of failure, defeating the entire purpose of a decentralized blockchain application. If the single oracle is corrupted/attacked, then the data being delivered on-chain may be highly incorrect and lead to smart contracts executing very wrong outcomes. 
-
-Truly overcoming the oracle problem necessitates decentralized oracles to prevent data manipulation, inaccuracy, and downtime. A Decentralized Oracle Network, or DON for short, combines multiple independent oracle node operators and multiple reliable data sources to establish end-to-end decentralization. BOC actually uses [Chainlink Oracle](https://chain.link/)
+ Oracles are the bridge between the blockchain and the real world. Oracles act as on-chain APIs that can be queried for information to smart contracts including but not limited to price information. BOC uses [Chainlink](https://chain.link/) a top market decentralized oracle, making oracle attacks improbable.
 
 ### Arbitrage
 

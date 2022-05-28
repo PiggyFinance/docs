@@ -91,7 +91,7 @@ Chainlink prices:
 
 ![burn](/images/burn.png)
 
-The number in the chart here is only a numerical example for better understanding the rules of minting and burning in BOC. In the real world the fluctuation of USDi is much smaller, which means users will never encounter the possible lost like this. In fact, the possible lost here will be less than 0.01%. The objective of these rules is to avoid oracles attacks and protect the protocol.
+The numbers in the chart here are only a numerical example for a better understanding of the rules of minting and burning in BOC. In the real world, the fluctuation of USDi is much smaller, which means users will never encounter a possible loss like this. In fact, the possible loss here will be less than 0.01%. The objective of these rules is to avoid arbitrage and protect the protocol's vault.
 
 ### Harvest
 

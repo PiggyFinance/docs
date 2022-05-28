@@ -6,7 +6,7 @@ sidebar_position: 3
 
 ## Incorporated Blockchains
 
-BOC protocol is design to be compatible with [Ethereum Virtual Machine (EVM)](appendix#ethereum-virtual-machine-evm), actually BOC is connected with Ethereum, BNB Chain and Polygon chain.
+BOC protocol is designed to be compatible with [Ethereum Virtual Machine (EVM)](appendix#ethereum-virtual-machine-evm), actually BOC is connected with Ethereum, BNB Chain and Polygon chain.
 
 ### Ethereum
 
@@ -20,7 +20,7 @@ Ethereum is also known as the "second-generation blockchain platform", second on
 
 **[Binance Smart Chain](https://www.bnbchain.world/en)** (formerly called BSC) is a blockchain compatible with the Ethereum virtual machine in parallel to the Binance Chain. It is a cutting-edge project in the crypto asset industry. By introducing the Proof of Stake Authority (PoSA) consensus mechanism, BNB creates a validating ecosystem that allows nodes, token holders, developers and users to enjoy the full benefit of the blockchain, such as higher performance and abundance of innovation space.
 
-On February 15, 2022, the cryptocurrency exchange Binance announced that the original Binance Smart Chain (BSC) will be renamed to BNB Chain. BNB is the Binance Exchange platform cryptocurrency that powers the BNB Chain Ecosystem, and is one of the world’s most popular utility tokens.
+On February 15, 2022, the cryptocurrency exchange Binance announced that the original Binance Smart Chain (BSC) would be renamed to BNB Chain. BNB is the Binance Exchange platform cryptocurrency that powers the BNB Chain Ecosystem, and is one of the world’s most popular utility tokens.
 
 ### Polygon
 
@@ -28,12 +28,13 @@ On February 15, 2022, the cryptocurrency exchange Binance announced that the ori
 
 ## Incorporated Stablecoins
 
-In order to avoid the psychological fear caused by the fluctuations of digital currency value and the losses of market-making funds, the BOC protocol has selected only [stable currency assets](appendix#stablecoin), and is only limited to those with full [collateral](appendix#collateral) provided by legal currency or by stablecoins. 
+In order to avoid the psychological fear caused by the fluctuations of digital currency value and the losses of market-making funds, BOC has selected only stable currency assets([stablecoins](appendix#stablecoin)), and is only limited to those with full [collateral](appendix#collateral) provided by legal currency or by stablecoins. 
 
 Stablecoins need to meet the following conditions:
 
-- Pass audit
-- Insurance available
+- Pass audit.
+- Don't be an algorithmic stablecoin.
+- Insurance available.
 - Stablecoin quotes must be based on ChainLink rather than the protocol itself to reduce oracle attack.
 - Scale greater than $1 billion
 
