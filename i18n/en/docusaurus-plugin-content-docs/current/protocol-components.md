@@ -79,7 +79,7 @@ After the stablecoin is selected, its corresponding strategies should meet the f
 <!-- TODO ASK JAVA-->
 - Don't use protocols that obtaining/magnifying capital returns by providing risky services or leverage.
 - The first accessed DEX and lending protocol should be the preferred first-line protocols on every blockchain and also count with good safety operation records. 
-- The protocol should allocate their founds intelligently, which always obeys two rules: maximizing yields and decentralizing capital risks.
+- The protocol should allocate their funds intelligently, which always obeys two rules: maximizing yields and decentralizing capital risks.
 
 The following are selected protocols at present: 
 - in Ethereum: Convex, DODO, SushiSwap, Balancer, etc.
