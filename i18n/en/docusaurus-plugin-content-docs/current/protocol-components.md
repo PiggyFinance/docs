@@ -36,7 +36,7 @@ Stablecoins need to meet the following conditions:
 - Don't be an algorithmic stablecoin.
 - Insurance available.
 - Stablecoin quotes must be based on ChainLink.
-- Market capital greatter than $1 billion USD.
+- Market capital greater than $1 billion USD.
 
 The currently selected strategic stablecoins are: DAI, USDC, USDT, BUSD, USDP, TUSD, LUSD.
 
