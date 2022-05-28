@@ -35,6 +35,5 @@ Oracles are the bridge between the blockchain and the real world. Oracles act as
 
 An oracle attack is when an oracle is corrupted/attacked and then the data being delivered on-chain may be highly incorrect and lead to smart contracts executing very wrong outcomes. If the oracle used by the third-party protocol strategy connected by BOC is attacked, the benefits of the protocol will no longer be real. This will affect the BOC to make wrong investment decisions based on the wrong quotation, which in turn affects the APY of the BOC.
 
-Truly overcoming the oracle problem appear decentralized oracles to prevent data manipulation, inaccuracy, and downtime. A Decentralized Oracle Network, or DON for short, combines multiple independent oracle node operators and multiple reliable data sources to establish end-to-end decentralization. BOC uses [Chainlink](https://chain.link/) a top market oracle, making oracle attacks improbable.
-
+Truly overcoming the oracle problem appear decentralized oracles to prevent data manipulation, inaccuracy, and downtime. A Decentralized Oracle Network, or DON for short, combines multiple independent oracle node operators and multiple reliable data sources to establish end-to-end decentralization. BOC uses [Chainlink](https://chain.link/) a high-rated decentralized oracle, making oracle attacks really improbable.
 

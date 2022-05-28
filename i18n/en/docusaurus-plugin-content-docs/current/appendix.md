@@ -140,7 +140,7 @@ Strategy refers to smart contracts that interface with third-party agreements. B
 
 ### Oracle
 
- Oracles are the bridge between the blockchain and the real world. Oracles act as on-chain APIs that can be queried for information to smart contracts including but not limited to price information. BOC uses [Chainlink](https://chain.link/) a top market decentralized oracle, making oracle attacks improbable.
+ Oracles are the bridge between the blockchain and the real world. Oracles act as on-chain APIs that can be queried for information to smart contracts including but not limited to price information. BOC uses [Chainlink](https://chain.link/) a high-rated decentralized oracle, making oracle attacks really improbable.
 
 ### Arbitrage
 
