@@ -18,7 +18,7 @@ For newcomers to the crypto industry, this is the best way to start on the DeFi 
 
 BOC is a DeFi protocol that provides the best long-term near "risk-free" return. Depending on the strategy the sources of yield come from:
 
-- The transaction fee charged for providing market-making funds to decentralized exchanges ((DEX))[appendix#decentralized-exchanges-dexs]. 
+- The transaction fee charged for providing market-making funds to decentralized exchanges [(DEX)](appendix#decentralized-exchanges-dexs). 
 
 - The interest charged on funds borrowed for [over-collateralized loans](appendix#Over-collateralized-loans).
 
