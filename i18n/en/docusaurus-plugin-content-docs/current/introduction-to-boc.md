@@ -20,9 +20,9 @@ BOC is a DeFi protocol that provides the best long-term near "risk-free" return.
 
 - The transaction fee charged for providing market-making funds to decentralized exchanges ((DEX))[appendix#decentralized-exchanges-dexs]. 
 
-- The interest charged on funds borrowed for (over-collateralized loans)[appendix#Over-collateralized-loans].
+- The interest charged on funds borrowed for [over-collateralized loans](appendix#Over-collateralized-loans).
 
-- (Governance token's)[appendix#governance-token] rewards.
+- [Governance token's](appendix#governance-token) rewards.
 
 ## Fund Allocation Rules
 
