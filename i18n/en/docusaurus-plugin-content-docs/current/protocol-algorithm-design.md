@@ -84,14 +84,14 @@ Chainlink prices:
 - 1 DAI = 0.99 USD
 - 1 USDC = 1.01 USD
 
-100 USDi = 100/1.01 = 99 USDT  (price of Chainlink > 1 USD final price = Chainlink price)   
-100 USDi = 100/1.00 = 100 DAI  (price of Chainlink < 1 USD final price = 1 USD)           
-100 USDi = 100/1.00 = 100 USDC  (price of Chainlink = 1 USD final price = 1 USD)
+100 USDi = 100/1.01 = 99 USDT (price of Chainlink > 1 USD final price = Chainlink price)   
+100 USDi = 100/1.00 = 100 DAI (price of Chainlink < 1 USD final price = 1 USD)           
+100 USDi = 100/1.00 = 100 USDC (price of Chainlink = 1 USD final price = 1 USD)
 
 
 ![burn](/images/burn.png)
 
-The number in the chart here is only a numerical example for better understanding the rules of minting and burning in BOC. In the real world the fluctuation of USDi is much smaller, which means users will never encounter the possible lost like this. In fact, the possible lost here will be less than 0.01%. The objective of these rules is to avoid oracles attacks and protect the protocol.
+The numbers in the chart here are only a numerical example for a better understanding of the rules of minting and burning in BOC. In the real world, the fluctuation of USDi is much smaller, which means users will never encounter a possible loss like this. In fact, the possible loss here will be less than 0.01%. The objective of these rules is to avoid arbitrage and protect the protocol's vault.
 
 ### Harvest
 
@@ -103,7 +103,7 @@ $$
 Profit \times 20\%  > harvest cost
 $$
 
-If any of the above conditions are met, user can do `harvest` work:
+If any of the above conditions are met, the strategy can do `harvest` work:
 
 1. Execute the yield transfer Harvester (for the strategy with yield production and reach the yield selling threshold);
 2. Report the current asset from the strategy.
@@ -250,7 +250,7 @@ $$
 harvestFee=harvestGas \times durationDays
 $$
 
-Find the maximum sum of deltaGain for all strategies:
+Find the maximum sum of `deltaGain` for all strategies:
 
 $$
 profitChange=MAX\sum_{i=1}^m(deltaGain_i -withdrawFee_i-lendFee_i - exchangeLoss_i-harvestFee_i)
@@ -337,4 +337,12 @@ The actual APY of the strategy is calculated based on the standard return of the
 
 ## ETH Farming Mechanism
 
-The mechanism of ETH farming is exactly the same as that of the USD stablecoins farming at present. The only difference is that the collateral of USD stablecoins is USDi, thus, that of ETH is called ETHi. 
+The mechanism of ETH farming is exactly the same as that of the USD stablecoins farming at present. The only difference is that the collateral of USD stablecoins is USDi, thus, that of ETH is called ETHi.
+
+<!-- TODO that is not totally true we have some differences:
+-Fund allocation rules
+-Harvest frequency
+-
+Don't know if it's necessary to add, I think these parameters will be constantly changing the next days/weeks
+-->
+

@@ -6,7 +6,7 @@ sidebar_position: 3
 
 ## Incorporated Blockchains
 
-BOC protocol is design to be compatible with [Ethereum Virtual Machine (EVM)](appendix#ethereum-virtual-machine-evm), actually BOC is connected with Ethereum, BNB Chain and Polygon chain.
+BOC protocol is designed to be compatible with [Ethereum Virtual Machine (EVM)](appendix#ethereum-virtual-machine-evm), actually BOC is connected with Ethereum, BNB Chain and Polygon chain.
 
 ### Ethereum
 
@@ -20,7 +20,7 @@ Ethereum is also known as the "second-generation blockchain platform", second on
 
 **[Binance Smart Chain](https://www.bnbchain.world/en)** (formerly called BSC) is a blockchain compatible with the Ethereum virtual machine in parallel to the Binance Chain. It is a cutting-edge project in the crypto asset industry. By introducing the Proof of Stake Authority (PoSA) consensus mechanism, BNB creates a validating ecosystem that allows nodes, token holders, developers and users to enjoy the full benefit of the blockchain, such as higher performance and abundance of innovation space.
 
-On February 15, 2022, the cryptocurrency exchange Binance announced that the original Binance Smart Chain (BSC) will be renamed to BNB Chain. BNB is the Binance Exchange platform cryptocurrency that powers the BNB Chain Ecosystem, and is one of the world’s most popular utility tokens.
+On February 15, 2022, the cryptocurrency exchange Binance announced that the original Binance Smart Chain (BSC) would be renamed to BNB Chain. BNB is the Binance Exchange platform cryptocurrency that powers the BNB Chain Ecosystem, and is one of the world’s most popular utility tokens.
 
 ### Polygon
 
@@ -28,14 +28,15 @@ On February 15, 2022, the cryptocurrency exchange Binance announced that the ori
 
 ## Incorporated Stablecoins
 
-In order to avoid the psychological fear caused by the fluctuations of digital currency value and the losses of market-making funds, the BOC protocol has selected only [stable currency assets](appendix#stablecoin), and is only limited to those with full [collateral](appendix#collateral) provided by legal currency or by stablecoins. 
+In order to avoid the psychological fear caused by the fluctuations of digital currency value and the losses of market-making funds, BOC has selected only stable currency assets([stablecoins](appendix#stablecoin)), and is only limited to those with full [collateral](appendix#collateral) provided by legal currency or by stablecoins. 
 
 Stablecoins need to meet the following conditions:
 
-- Pass audit
-- Insurance available
-- Stablecoin quotes must be based on ChainLink rather than the protocol itself to reduce oracle attack.
-- Scale greater than $1 billion
+- Pass audit.
+- Don't be an algorithmic stablecoin.
+- Insurance available.
+- Stablecoin quotes must be based on ChainLink.
+- Market capital greater than $1 billion USD.
 
 The currently selected strategic stablecoins are: DAI, USDC, USDT, BUSD, USDP, TUSD, LUSD.
 
@@ -57,7 +58,7 @@ The currently selected strategic stablecoins are: DAI, USDC, USDT, BUSD, USDP, T
 
 ### USDP
 
-**[Pax Dollar](https://paxos.com/usdp/)** (USDP) is a fiat-collateralized stablecoin that is pegged 1:1 to the U.S. dollar.
+**[Pax Dollar](https://paxos.com/usdp/)** (USDP) is a fiat-collateralized stablecoin pegged 1:1 to the U.S. dollar.
 
 ### TUSD
 
@@ -70,14 +71,15 @@ The currently selected strategic stablecoins are: DAI, USDC, USDT, BUSD, USDP, T
 ## Protocol strategy selection
 
 After the stablecoin is selected, its corresponding strategies should meet the following conditions: 
-- Don't have a deposit or withdraw fees.
+- Don't have a deposit or withdrawal fees.
 - Don't have a lock-up period, so funds can be withdrawn rapidly. 
-- No limitation on amount of funds for an investor. 
-- All protocols should be audited to keep a way from potential losses caused by code vulnerabilities. 
-- The aggregated financial management protocol should count with a long-term safety operation record, also obtains the permission of communities via voting. Therefore, the cascading system risks caused by nested tokens and LEGO combinations can be circumvented. 
-- Don't use protocols of obtaining or magnifying capital returns by providing risky services or leverage, thus avoiding losses caused by market fluctuations. 
+- No limitation on the amount of funds for an investor. 
+- All protocols should be audited to keep away from potential losses caused by code vulnerabilities. 
+- The aggregated financial management protocol should count on a long-term safety operation record and obtains communities' permission via voting. Therefore, the risks caused by nested tokens and LEGO combinations can be circumvented.
+<!-- TODO ASK JAVA-->
+- Don't use protocols that obtaining/magnifying capital returns by providing risky services or leverage.
 - The first accessed DEX and lending protocol should be the preferred first-line protocols on every blockchain and also count with good safety operation records. 
-- The protocol should allocate capital chain intelligently, which always obeys two rules: maximizing yields and decentralizing capital risks.
+- The protocol should allocate their funds intelligently, which always obeys two rules: maximizing yields and decentralizing capital risks.
 
 The following are selected protocols at present: 
 - in Ethereum: Convex, DODO, SushiSwap, Balancer, etc.
@@ -86,7 +88,7 @@ The following are selected protocols at present:
 
 ### Aave
 
-**[Aave](https://app.aave.com/)** is an open source decentralized lending protocol that provides users with deposit and lending services. The deposit and loan interest rates of users on both sides of the borrower and lenders are calculated by algorithms based on the platform's borrowing volume and deposit volume, and the platform uses Chainlink's oracle to ensure the fairness of the collateral price. According to the data of [DeFi Pulse](https://www.defipulse.com/), as of March 30, 2022, Aave's total fund lock-up volume was approximately US$11.79 billion, ranking second in DeFi application lock-up volume.
+**[Aave](https://app.aave.com/)** is an open-source decentralized lending protocol that provides users with deposit and lending services. The deposit and loan interest rates of users on both sides of the borrower and lenders are calculated by algorithms based on the platform's borrowing volume and deposit volume, and the platform uses Chainlink's oracle to ensure the fairness of the collateral price. According to the data of [DeFi Pulse](https://www.defipulse.com/), as of March 30, 2022, Aave's total fund lock-up volume was approximately US$11.79 billion, ranking second in DeFi application lock-up volume.
 
 ### Curve
 
@@ -98,7 +100,7 @@ The following are selected protocols at present:
 
 ### Uniswap
 
-**[Uniswap](https://uniswap.org/)** is a decentralized exchange deployed on Ethereum. The Uniswap protocol facilitates automated transactions between cryptocurrency tokens on the Ethereum blockchain through the use of smart contracts. As of October 2020, Uniswap is estimated to be the largest decentralized exchange and the fourth largest cryptocurrency exchange by daily trading volume. According to the data of [DeFi Pulse](https://www.defipulse.com/), as of March 30, 2022, Uniswap's total locked funds amounted to about $7.04 billion, ranking sixth in DeFi applications.
+**[Uniswap](https://uniswap.org/)** is a decentralized exchange deployed on Ethereum. The Uniswap protocol facilitates automated transactions between cryptocurrency tokens on the Ethereum blockchain through smart contracts. As of October 2020, Uniswap is estimated to be the largest decentralized exchange and the fourth largest cryptocurrency exchange by daily trading volume. According to the data of [DeFi Pulse](https://www.defipulse.com/), as of March 30, 2022, Uniswap's total locked funds amounted to about $7.04 billion, ranking sixth in DeFi applications.
 
 ### Balancer
 

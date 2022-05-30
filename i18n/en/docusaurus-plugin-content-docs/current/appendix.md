@@ -84,6 +84,10 @@ An Automated Market Maker (AMM) is an autonomous trading mechanism that eliminat
 
 Essentially, the difference with AMM is that the algorithm checks the prices of assets allocating funds to proactively increase liquidity near the market price. An example of a DeFi that uses PMM is [DODO](https://dodoex.io/) 
 
+### Over-collateralized loans
+
+Over-collateralization is one technique that may be used for credit enhancement. In this case, the issuer backs a loan with assets or collateral which has a value that is in excess of the loan. That limits the credit risk for the creditor and enhances the credit rating assigned to the loan.
+
 ### Protocol  
 
 Protocol is a set of codes or requirements that regulate how a blockchain works. It sets out a broad set of rules, such as the interface of the blockchain, the interaction of participating computers, the types of data that should be shared, Incentives for developers participating in the network and more.
@@ -106,7 +110,7 @@ Liquidity measures the circulating supply and how much trading activity there in
 
 ### Liquidity Pool
 
-A Liquidity Pool is a pool of deposited funds meant to provide liquidity to a currency, network, or Smart Contract. There are usually designed rewards or incentives given to those who provide liquidity to Liquidity Pools. See also Liquidity Mining. 
+A Liquidity Pool is a pool of funds meant to provide liquidity to a currency, network, or Smart Contract. There are usually designed rewards or incentives given to those who provide liquidity to Liquidity Pools. See also (Liquidity Mining)[]. 
 
 ### Yield Aggregators  
 
@@ -136,13 +140,7 @@ Strategy refers to smart contracts that interface with third-party agreements. B
 
 ### Oracle
 
-Blockchain oracles are entities that connect blockchains to external systems, thereby enabling smart contracts to execute based upon inputs and outputs from the real world. In the case of BOC, it is where the USD value of stablecoins is consulted.
-
-### Oracle Attack
-
-Blockchain oracle mechanisms using a centralized entity to deliver data to a smart contract introduce a single point of failure, defeating the entire purpose of a decentralized blockchain application. If the single oracle is corrupted/attacked, then the data being delivered on-chain may be highly incorrect and lead to smart contracts executing very wrong outcomes. 
-
-Truly overcoming the oracle problem necessitates decentralized oracles to prevent data manipulation, inaccuracy, and downtime. A Decentralized Oracle Network, or DON for short, combines multiple independent oracle node operators and multiple reliable data sources to establish end-to-end decentralization. BOC actually uses [Chainlink Oracle](https://chain.link/)
+ Oracles are the bridge between the blockchain and the real world. Oracles act as on-chain APIs that can be queried for information to smart contracts including but not limited to price information. BOC uses [Chainlink](https://chain.link/) a high-rated decentralized oracle, making oracle attacks really improbable.
 
 ### Arbitrage
 
@@ -156,25 +154,22 @@ Burning assets (coins or tokens) means eliminating USDi by sending them to a nul
 
 In cryptocurrency, minting is a decentralized method that enables a person to generate a new token without the involvement of a central authority, such as the government or the bank. It can either be a non-fungible token or a crypto coin. In this case, in BOC through a smart contract the user mints USDi and that are transfer to their wallets when they deposit stablecoins.
 
-<!-- ### Vesting
-
-### Backing
-
-### Runway -->
 
 ### Stablecoin
 
 A stablecoin is a cryptocurrency that has its value pegged to the value of a stable asset. Stable coins are most commonly pegged to the US Dollar but can be pegged to other assets like gold or a basket of crypto assets. 
 
-<!-- ### Circular dependencies -->
+### Circular dependencies
+
+A circular dependency is a relation between two or more modules which either directly or indirectly depend on each other to function properly. On DeFi multi-strategies protocols this would be when "protocol A" invest on "protocol B", at the same "protocol B" invest on "protocol A" leading to a real big risk for the protocol's stability.
 
 ### Token
 
-Similar to a type of coin but with much greater functionality. Tokens can also be used as a method of payment like coins, but unlike coins, they can excel at other use cases such as the democratic governance of a protocol or system, or as a means to use underlying coins to make liquidity tokens from these coin deposits. 
+Similar to a type of coin but with much greater functionality. Tokens can also be used as a method of payment like coins, but unlike coins, they can excel at other use cases such as the democratic governance of a protocol or system, or as a means to use underlying coins to make liquidity tokens from these coin deposits.
 
 ### Governance Token
 
-Governance refers to determining, maintaining, adapting and enforcing the rules of a blockchain ecosystem, product, project or DAO. It specifically refers to control and use of a Governance coin or token that carries the right to take part in governance processes.
+Governance token are tokens that carries the right to take part in governance processes. Governance refers to determining, maintaining, adapting and enforcing the rules of a blockchain ecosystem, product, project or DAO.
 
 <!-- ### Nested Tokens
 
@@ -188,7 +183,7 @@ A fundamental tenet in DeFi is to build for interoperability. This allows the ec
 
 ### cToken
 
-### Basis points-->
+-->
 
 ### Decentralized exchanges (DEXs) 
 
@@ -201,8 +196,6 @@ Blockchain bridges work just like the bridges we know in the physical world. Jus
 ### Wallet
 
 A software application or hardware cryptocurrency wallet that can hold a variety of coins.
-
-<!-- ### Gnosis -->
 
 ## Acronym
 
